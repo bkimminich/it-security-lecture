@@ -10,37 +10,36 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 1 - Basics & Infrastructure Security
 
-> The list for Semester 1 is up for revision and might be changed drastically by Q4 2018!
-
-* Vulnerabilities & Exploits
-* Security Goals (Confidentiality, Integrity, Availability)
-* Threat Actors
-* Malware (Viruses, Worms, Trojan Horses)
-* Botnets
-* VPN, VLAN
-* WLAN
-* IPSec
-* SSL/TLS
-* PGP
-* Firewalls
-* Intrusion Detection Systems
-* Public Key Infrastructure (PKI)
-* Steganography
-* Copyright, Watermarking, DRM
+* Vulnerabilities & Exploits (:wrench:)
+* Security Goals (Confidentiality, Integrity, Availability) (:wrench:)
+* Threat Actors (:wrench:)
+* Malware (Viruses, Worms, Trojan Horses) (:wrench:)
+* Botnets (:wrench:)
+* VPN, VLAN (:wrench:)
+* WLAN (:wrench:)
+* IPSec (:scissors:)
+* SSL/TLS (:wrench:)
+* PGP (:wrench:)
+* Firewalls (:wrench:)
+* Intrusion Detection Systems (:scissors:)
+* Public Key Infrastructure (PKI) (:scissors:)
+* Steganography (:scissors:)
+* Copyright, Watermarking, DRM (:scissors:)
 
 ### Semester 2 - Application Security & SDLC
 
-* Enterprise Security Organizations
-* Open Web Application Security Project (OWASP)
+* Enterprise Security Organizations (:black_nib::arrow_up:)
+* Open Web Application Security Project (OWASP) (:black_nib:)
 * Common Attacks (Injection, XSS, CSRF, XXE, Deserialization)
-* Authentication & Authorization Flaws
-* Software Dependency Management
-* Sensitive Data
-* Security Logging & Monitoring
-* Secure Development Lifecycle
-* Threat Modelling
-* Web Application Firewalls
-* Security Automation & AppSec Pipeline
+  (:black_nib:)
+* Authentication & Authorization Flaws (:black_nib:)
+* Software Dependency Management (:black_nib:)
+* Sensitive Data (:black_nib:)
+* Security Logging & Monitoring (:black_nib::arrow_up:)
+* Secure Development Lifecycle (:black_nib:)
+* Threat Modelling (:black_nib::arrow_up:)
+* Web Application Firewalls (:black_nib:)
+* Security Automation & AppSec Pipeline (:black_nib:)
 
 ----
 
