@@ -65,13 +65,13 @@
 
 # System Requirements
 
-* Node.js 8.x or 9.x
+* [Node.js](https://nodejs.org) (8.x or 9.x)
 
   _or_
-* Docker
+* [Docker](https://www.docker.com/)
 
   _or_
-* Vagrant
+* [Vagrant](https://www.vagrantup.com/)
 
 ---
 
