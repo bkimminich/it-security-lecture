@@ -30,6 +30,31 @@
 
 ---
 
+# Principles
+
+* Free & Open
+* Governed by rough consensus & running code
+* Abide by a [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
+* Not-for-profit
+* Not driven by commercial interests
+* **Risk based approach**
+
+---
+
+# Application Security Risks (1/2)
+
+[![OWASP Risk Rating Methodology](images/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+
+---
+
+# Application Security Risks (2/2)
+
+[![OWASP Risk Rating Table](images/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+
+* Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)
+
+---
+
 # OWASP Top 10
 
 |   |                         |    |                                             |
@@ -40,3 +65,14 @@
 | 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
 | 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
 
+---
+
+# Risk Calculation Example
+
+[![Risk Calculation A6:2017-Security Misconfiguration](images/owasp-top10-risk-calculation.png)](https://www.owasp.org/index.php/Top_10-2017_Note_About_Risks)
+
+---
+
+# Top 10 Risk Factor Summary
+
+[![Top 10 Risk Factor Summary](images/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
