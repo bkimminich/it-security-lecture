@@ -45,13 +45,15 @@
 
 ---
 
+<!-- *footer: -->
+
 # [OWASP Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
 
 An OWASP project is a collection of related tasks that have a defined roadmap and team members.
 
 | Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                    |
 |:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DejectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)                                                              |
+| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)                                                              |
 | Code          | [ModSecurity Core Rule Set](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project), [Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer), [Security Logging Project](https://www.owasp.org/index.php/OWASP_Security_Logging_Project), [AppSensor](https://www.owasp.org/index.php/OWASP_AppSensor_Project)           |
 | Documentation | [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project), [OWASP 24/7 Podcast](https://www.owasp.org/index.php/OWASP_Podcast), [Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia) |
 
@@ -67,6 +69,8 @@ An OWASP project is a collection of related tasks that have a defined roadmap an
 
 
 ---
+
+<!-- *footer: -->
 
 # [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
 
@@ -158,9 +162,24 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 
 ---
 
+<!-- *footer: -->
+
 # Top 10 Risk Factor Summary
 
 [![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
+
+---
+
+<!-- *footer: -->
+
+# Additional Risks to Consider
+
+|                                                                                   |                                                                              |
+|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Cross-Site Request Forgery (CSRF)                                                 | Unvalidated Forward and Redirects                                            |
+| Uncontrolled Resource Consumption ('Resource Exhaustion', 'AppDoS')               | Improper Control of Interaction Frequency (Anti-Automation)                  |
+| Unrestricted Upload of File with Dangerous Type                                   | Inclusion of Functionality from Untrusted Control Sphere (3rd Party Content) |
+| User Interface (UI) Misrepresentation of Critical Information (Clickjacking etc.) | Server-Side Request Forgery (SSRF)                                           |
 
 ---
 
@@ -172,3 +191,35 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 
 * [**CWE** Common Weakness Enumeration](http://cwe.mitre.org)
   * Community-developed list of common software security weaknesses
+
+---
+
+# OWASP Juice Shop
+
+---
+
+# [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+
+OWASP Juice Shop is an intentionally insecure webapp for security trainings written entirely in JavaScript which encompasses the entire OWASP Top Ten and other severe security flaws.
+
+![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
+
+---
+
+# Installation
+
+* Individual local instance per student
+* Runs on node.js, Docker or Vagrant
+
+## :warning: Hacking Rules
+
+* Do **not** look at the source code on GitHub
+* Do **not** look at GitHub issues, PRs etc.
+* Do **not** read online tutorials or walkthroughs
+* Report problems during exercises immediately
+
+---
+
+# Exercise 1
+
+## Find the hidden Score Board
