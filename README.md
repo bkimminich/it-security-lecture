@@ -31,7 +31,7 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 2 - Application Security & SDLC
 
-* Open Web Application Security Project (OWASP) (:black_nib:)
+* Open Web Application Security Project (OWASP) (:heavy_check_mark:)
 * Common Attacks (Injection, XSS, CSRF, XXE, Deserialization) (:black_nib:)
 * Authentication & Authorization Flaws (:black_nib:)
 * Software Dependency Management (:black_nib:)
