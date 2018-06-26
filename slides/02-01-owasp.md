@@ -41,15 +41,100 @@
 
 ---
 
+# OWASP Projects
+
+---
+
+# [OWASP Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
+
+An OWASP project is a collection of related tasks that have a defined roadmap and team members.
+
+| Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                    |
+|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DejectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)                                                              |
+| Code          | [ModSecurity Core Rule Set](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project), [Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer), [Security Logging Project](https://www.owasp.org/index.php/OWASP_Security_Logging_Project), [AppSensor](https://www.owasp.org/index.php/OWASP_AppSensor_Project)           |
+| Documentation | [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project), [OWASP 24/7 Podcast](https://www.owasp.org/index.php/OWASP_Podcast), [Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia) |
+
+---
+
+# OWASP Communities
+
+| Community                                                                                               | Advancing the state of security in the area of...                                                                              |
+|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| [![Builders](images/02-01-owasp/Owasp-builders-small.png)](https://www.owasp.org/index.php/Builders)    | ...application development                                                                                                     |
+| [![Breakers](images/02-01-owasp/Owasp-breakers-small.png)](https://www.owasp.org/index.php/Breakers)    | ...security testing                                                                                                            |
+| [![Defenders](images/02-01-owasp/Owasp-defenders-small.png)](https://www.owasp.org/index.php/Defenders) | ...application defense, including the tools and techniques that enable the detection and response to application layer attacks |
+
+
+---
+
+# [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
+
+| Level     | Icon                                                          | Description                                                                                                                                                                 |
+|:----------|:--------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Incubator | ![Incubator](images/02-01-owasp/Owasp-incubator-trans-85.png) | OWASP Incubator projects represent the experimental playground where projects are still being fleshed out, ideas are still being proven, and development is still underway. |
+| Labs      | ![Labs](images/02-01-owasp/Owasp-labs-trans-85.png)           | OWASP Labs projects represent projects that have produced an OWASP reviewed deliverable of value.                                                                           |
+| Flagship  | ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png)   | The OWASP Flagship designation is given to projects that have demonstrated strategic value to OWASP and application security as a whole.                                    |
+
+---
+
+# [Determining Lab Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_LAB_status)
+
+It is essential for an OWASP Labs project to have:
+* A version number with a clear release schedule
+* GitHub source control and a public issue tracking system
+* Stable build and release
+* Instructions on how to use and build the project properly
+
+---
+
+# [Determining Flagship Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_Flagship_status)
+
+It is essential for a OWASP Flagship project to have:
+* Considerable number of users and contributors
+* Considerable number of commits and improvements in a time span of at least two years
+* A unique approach or proposition in application security
+* Exposure through security conferences
+* Use and acceptance by the community
+* Being used as reference in books and other resources
+
+---
+
+# OWASP Chapters
+
+---
+
+# [OWASP Chapters](https://www.owasp.org/index.php/OWASP_Chapter)
+
+OWASP Chapters exist to raise awareness of the OWASP mission, making application security visible, at the local level.
+
+---
+
+# [Mandatory Chapter Rules](https://www.owasp.org/index.php/Chapter_Handbook/Chapter_2:_Mandatory_Chapter_Rules)
+
+* Organize free and open meetings
+* Hold a minimum of 4 chapter meetings or events each year
+* Give official meeting notice through the wiki, chapter mailing list, and OWASP Calendar
+* Abide by OWASP principles and the code of ethics
+* Protect the privacy of the chapter’s local contacts
+* Maintain vendor neutrality (act independently)
+* Spend any chapter funds in accordance with the OWASP goals, code of ethics, and principles
+
+---
+
+# OWASP Top 10
+
+---
+
 # Application Security Risks (1/2)
 
-[![OWASP Risk Rating Methodology](images/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 ---
 
 # Application Security Risks (2/2)
 
-[![OWASP Risk Rating Table](images/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 * Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)
 
@@ -69,10 +154,21 @@
 
 # Risk Calculation Example
 
-[![Risk Calculation A6:2017-Security Misconfiguration](images/owasp-top10-risk-calculation.png)](https://www.owasp.org/index.php/Top_10-2017_Note_About_Risks)
+[![Risk Calculation A6:2017-Security Misconfiguration](images/02-01-owasp/owasp-top10-risk-calculation.png)](https://www.owasp.org/index.php/Top_10-2017_Note_About_Risks)
 
 ---
 
 # Top 10 Risk Factor Summary
 
-[![Top 10 Risk Factor Summary](images/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
+[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
+
+---
+
+# Other Resources on AppSec
+
+* [**SANS** Software Security Community](https://software-security.sans.org/)
+  * [CWE/SANS TOP 25 Most Dangerous Software Errors](http://www.sans.org/top25-software-errors)
+  * [Securing Web Application Technologies \[SWAT\] Checklist](https://software-security.sans.org/resources/swat)
+
+* [**CWE** Common Weakness Enumeration](http://cwe.mitre.org)
+  * Community-developed list of common software security weaknesses
