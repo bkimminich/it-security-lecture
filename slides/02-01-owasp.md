@@ -220,6 +220,30 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 ---
 
-# Exercise 1
+# Exercise 1.1
 
-## Find the hidden Score Board
+## Happy path shopping tour
+
+1. Register a user account at your local Juice Shop
+2. Browse the inventory and purchase some products
+3. Try out all other functionality you find in the application
+
+---
+
+# Exercise 1.2
+
+## Score Board
+
+1. Find the hidden Score Board in the Juice Shop (:star:)
+
+---
+
+# Exercise 1.3 _(optional)_
+
+## Transfer your hacking progress
+
+1. Open your browser's developer tools (`F12` in Chrome/Firefox)
+2. Find the cookie `continueCode` and copy its value to your other computer
+3. Install OWASP Juice Shop on your other computer and launch it
+4. `F12` into the developer tools and create the cookie `continueCode` with the value from your first computer
+5. Restart the Juice Shop server
