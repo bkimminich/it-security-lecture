@@ -112,3 +112,17 @@ _**Sidenote:** 800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wing
 [^4]: http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html
 
 ---
+
+# Equifax (September 2017)
+
+> If you have a credit report, there’s a good chance that you’re one of the 143 million American consumers whose sensitive personal information was exposed in a data breach at Equifax, one of the nation’s three major credit reporting agencies. [[^5]]
+
+![Equifax logo](images/01-01-motivation/281px-Equifax_Logo.svg.png)
+
+-------------------------------------------------------------------
+
+> Here are the facts, according to Equifax. The breach lasted from mid-May through July. The hackers accessed people’s names, Social Security numbers, birth dates, addresses and, in some instances, driver’s license numbers. They also stole credit card numbers for about 209,000 people and dispute documents with personal identifying information for about 182,000 people. And they grabbed personal information of people in the UK and Canada too. [[^5]]
+
+_**Sidenote:** Recommended steps for protection include "monitor your existing credit card and bank accounts closely" but also "consider placing a credit freeze" :icecream: or "placing a fraud alert on your files"._
+
+[^5]: https://www.consumer.ftc.gov/blog/2017/09/equifax-data-breach-what-do
