@@ -79,12 +79,36 @@
 
 ---
 
+<!-- *footer: -->
+
 # Data Breaches (by no. of records)
 
 [![Data Breaches by no. of records](images/01-01-motivation/worlds_biggest_data_breaches-by_no_records.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
 ---
 
+<!-- *footer: -->
+
 # Data Breaches (by data sensitivity)
 
 [![Data Breaches by data sensitivity](images/01-01-motivation/worlds_biggest_data_breaches-by_sensitivity.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
+
+---
+
+# Aadhaar (January 2018)
+
+> Today, The Tribune “purchased” a service being offered by anonymous sellers over WhatsApp that provided unrestricted access to details for any of the more than 1 billion Aadhaar numbers created in India thus far. [[^4]]
+
+![Aadhaar logo](images/01-01-motivation/300px-Aadhaar_Logo.svg.png)
+
+---
+
+> It took just Rs 500, paid through Paytm, and 10 minutes in which an “agent” of the group running the racket created a “gateway” for this correspondent and gave a login ID and password [...] and instantly get all particulars that an individual may have submitted to the UIDAI (Unique Identification Authority of India), including name, address, postal code (PIN), photo, phone number and email.
+>
+> What is more, The Tribune team paid another Rs 300, for which the agent provided “software” that could facilitate the printing of the Aadhaar card after entering the Aadhaar number of any individual. [[^4]]
+
+_**Sidenote:** 800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
+
+[^4]: http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html
+
+---
