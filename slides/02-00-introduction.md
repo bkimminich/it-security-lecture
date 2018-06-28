@@ -36,11 +36,18 @@
 
 # Course Material
 
+#### <https://github.com/bkimminich/it-security-lecture>
+
+---
+
+# Course Material
+
 * All slides and references are in :uk: language
 * The lecture can be held in :uk: or :de: language
-* All course material is available _only on GitHub_ at <https://github.com/bkimminich/it-security-lecture>
+* Latest course material is available only on GitHub
+* Content exists as `Markdown` files for use with [Marp](https://yhatt.github.io/marp/)
 * Slides can be [downloaded as PDF](https://github.com/bkimminich/it-security-lecture/tree/master/slides/pdf) from GitHub
-* All slides are published as [Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/) under an unrestrictive [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license
+* All slides are published as [OER](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license
 
 _You can help save a :deciduous_tree: by not :printer: all slides for the entire course in advance as content might change during the course!_
 
