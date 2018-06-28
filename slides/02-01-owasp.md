@@ -120,7 +120,7 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 * Hold a minimum of 4 chapter meetings or events each year
 * Give official meeting notice through the wiki, chapter mailing list, and OWASP Calendar
 * Abide by OWASP principles and the code of ethics
-* Protect the privacy of the chapter’s local contacts
+* Protect the privacy of the chapterâ€™s local contacts
 * Maintain vendor neutrality (act independently)
 * Spend any chapter funds in accordance with the OWASP goals, code of ethics, and principles
 
@@ -222,6 +222,19 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 # Exercise 1.1
 
+## Install the OWASP Juice Shop
+
+1. Open <https://github.com/bkimminich/juice-shop#setup>
+2. Follow the instructions for one method out of
+    * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
+    * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--)
+    * [Docker Container](https://github.com/bkimminich/juice-shop#docker-container-----)
+    * [Vagrant](https://github.com/bkimminich/juice-shop#vagrant)
+
+---
+
+# Exercise 1.2
+
 ## Happy path shopping tour
 
 1. Register a user account at your local Juice Shop
@@ -230,7 +243,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 ---
 
-# Exercise 1.2
+# Exercise 1.3
 
 ## Score Board
 
@@ -238,7 +251,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 ---
 
-# Exercise 1.3 _(optional)_
+# Exercise 1.4 _(optional)_
 
 ## Transfer your hacking progress
 

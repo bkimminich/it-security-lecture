@@ -34,22 +34,26 @@
 
 ---
 
-# Curriculum (1/2)
+# Course Material
 
-* Enterprise Security Organizations
+* All slides and references are in :uk: language
+* The lecture can be held in :uk: or :de: language
+* All course material is available _only on GitHub_ at <https://github.com/bkimminich/it-security-lecture>
+* Slides can be [downloaded as PDF](https://github.com/bkimminich/it-security-lecture/tree/master/slides/pdf) from GitHub
+* All slides are published as [Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/) under an unrestrictive [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license
+
+_You can help save a :deciduous_tree: by not :printer: all slides for the entire course in advance as content might change during the course!_
+
+---
+
+# Curriculum 2nd Semester
+
 * Open Web Application Security Project (OWASP)
 * Common Attacks (Injection, XSS, CSRF, XXE, Deserialization)
 * Authentication & Authorization Flaws
 * Software Dependency Management
 * Sensitive Data
-
----
-
-# Curriculum (2/2)
-
-* Security Logging & Monitoring
 * Secure Development Lifecycle
-* Threat Modelling
 * Web Application Firewalls
 * Security Automation & AppSec Pipeline
 
@@ -59,11 +63,22 @@
 
 * Tuesdays 9:15 - 11:45
 * 9 lectures (31.07. - 29.09.18)
-* Test exam (includes 1st semester topics)
+* **90min test exam** in last semester week
+  * Covers topics from **1st and 2nd semester**
+
+---
+
+# Rules
+
+* Physical presence at lectures is mandatory and will be logged
+* Exercises are mandatory (unless explicitly marked as _optional_)
+* Active participation is encouraged. Otherwise at least be quiet
 
 ---
 
 # System Requirements
+
+For most of the hands-on exercises you need _either_
 
 * [Node.js](https://nodejs.org) (8.x or 9.x)
 
