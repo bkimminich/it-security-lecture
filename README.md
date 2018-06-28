@@ -10,9 +10,9 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 1 - Basics & Infrastructure Security
 
-* Vulnerabilities & Exploits (:wrench:)
+* Vulnerabilities & Exploits (:heavy_check_mark:)
 * Security Goals (Confidentiality, Integrity, Availability) (:wrench:)
-* Threat Actors (:wrench:)
+* Threat Actors (:heavy_check_mark:)
 * Malware (Viruses, Worms, Trojan Horses) (:wrench:)
 * Botnets (:wrench:)
 * VPN, VLAN (:wrench:)
