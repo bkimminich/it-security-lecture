@@ -120,7 +120,7 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 * Hold a minimum of 4 chapter meetings or events each year
 * Give official meeting notice through the wiki, chapter mailing list, and OWASP Calendar
 * Abide by OWASP principles and the code of ethics
-* Protect the privacy of the chapterâ€™s local contacts
+* Protect the privacy of the chapter's local contacts
 * Maintain vendor neutrality (act independently)
 * Spend any chapter funds in accordance with the OWASP goals, code of ethics, and principles
 
@@ -172,7 +172,7 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 
 <!-- *footer: -->
 
-# Additional Risks to Consider
+# Some Additional Risks to Consider
 
 |                                                                                   |                                                                              |
 |:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
