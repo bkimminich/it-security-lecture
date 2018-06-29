@@ -30,7 +30,7 @@
 
 > **A zero day vulnerability** refers to a hole in software that **is unknown to the vendor**.
 >
-> This security hole is then **exploited by hackers before the vendor becomes aware** and hurries to fix it—this exploit is called a zero day attack. [...]
+> This security hole is then **exploited by hackers before the vendor becomes aware** and hurries to fix it—this exploit is called a zero day attack. \[...\]
 >
 > The term **“zero day” refers to the unknown nature** of the hole to those outside of the hackers, specifically, the developers. Once the vulnerability becomes known, a race begins for the developer, who must protect users. [[^3]]
 
@@ -103,11 +103,11 @@
 
 ---
 
-> It took just Rs 500, paid through Paytm, and 10 minutes in which an “agent” of the group running the racket created a “gateway” for this correspondent and gave a login ID and password [...] and instantly get all particulars that an individual may have submitted to the UIDAI (Unique Identification Authority of India), including name, address, postal code (PIN), photo, phone number and email.
+> It took just Rs 500, paid through Paytm, and 10 minutes in which an “agent” of the group running the racket created a “gateway” for this correspondent and gave a login ID and password \[...\] and instantly get all particulars that an individual may have submitted to the UIDAI (Unique Identification Authority of India), including name, address, postal code (PIN), photo, phone number and email.
 >
 > What is more, The Tribune team paid another Rs 300, for which the agent provided “software” that could facilitate the printing of the Aadhaar card after entering the Aadhaar number of any individual. [[^4]]
 
-_**Sidenote:** 800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
+_800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
 
 [^4]: http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html
 
@@ -119,10 +119,54 @@ _**Sidenote:** 800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wing
 
 ![Equifax logo](images/01-01-motivation/281px-Equifax_Logo.svg.png)
 
--------------------------------------------------------------------
+---
 
 > Here are the facts, according to Equifax. The breach lasted from mid-May through July. The hackers accessed people’s names, Social Security numbers, birth dates, addresses and, in some instances, driver’s license numbers. They also stole credit card numbers for about 209,000 people and dispute documents with personal identifying information for about 182,000 people. And they grabbed personal information of people in the UK and Canada too. [[^5]]
 
-_**Sidenote:** Recommended steps for protection include "monitor your existing credit card and bank accounts closely" but also "consider placing a credit freeze" :icecream: or "placing a fraud alert on your files"._
+_Recommended steps for protection include "monitor your existing credit card and bank accounts closely" but also "consider placing a credit freeze" :icecream: or "placing a fraud alert on your files"._
 
 [^5]: https://www.consumer.ftc.gov/blog/2017/09/equifax-data-breach-what-do
+
+---
+
+# VTech (November 2015)
+
+> \[...\] When it comes to our identities being leaked all over the place, it’s just another day on the web. **Unless it’s our children’s identities, that’s a whole new level.** When it’s hundreds of thousands of children including their names, genders and birthdates, that’s off the charts. [[^6]]
+
+![VTech logo](images/01-01-motivation/VTechLogo.png)
+
+---
+
+> When it includes their parents as well – along with their home address – and you can link the two and emphatically say “Here is 9 year old Mary, I know where she lives and I have other personally identifiable information about her parents (including their password and security question)”, I start to run out of superlatives to even describe how bad that is. [[^6]]
+
+_It later came out that head shots :camera: of kids and private chat messages were also exposed. The total number of children exposed in the incident is over 6.3 million._
+
+[^6]: https://www.troyhunt.com/when-children-are-breached-inside
+
+---
+
+# CloudPets (February 2017)
+
+> Only a couple of weeks ago, there were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. [[^7]]
+
+![CloudPets logo](images/01-01-motivation/CloudPets_LogoNew.png)
+
+---
+
+> \[...\] Put yourself in the shoes of the average parent, that is one who's technically literate enough to know the wifi password but not savvy enough to understand how the "magic" of daddy talking to the kids through the bear (and vice versa) actually works. They don't necessarily realise that every one of those recordings – those intimate, heartfelt, extremely personal recordings – between a parent and their child is stored as an audio file on the web. They certainly wouldn't realise that in CloudPets' case, that data was stored in a MongoDB that was in a publicly facing network segment without any authentication required and had been indexed by Shodan (a popular search engine for finding connected things). [[^7]]
+
+_Impacted parents were never notified by CloudPets. :scream:_
+
+[^7]: https://www.troyhunt.com/data-from-connected-cloudpets-teddy-bears-leaked-and-ransomed-exposing-kids-voice-messages
+
+---
+
+# Exercise 1.2 _(optional)_
+
+## Have I been pwned?
+
+1. Visit <https://haveibeenpwned.com/>
+2. Type in your email address
+3. Hit the `pwned?` button
+
+![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png) ![Oh no - pwned!](images/01-01-motivation/haveibeenpwned-red.png)
