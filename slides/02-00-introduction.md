@@ -70,7 +70,8 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 * Tuesdays 9:15 - 11:45
 * 9 lectures (31.07. - 29.09.18)
-* **90min test exam** in last semester week
+* **Test exam** Thursday 04.10.18 (90min)
+  * 11:30 - 13:00 / Audimax
   * Covers topics from **1st and 2nd semester**
 
 ---
