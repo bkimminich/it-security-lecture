@@ -37,7 +37,7 @@
 * Abide by a [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
 * Not-for-profit
 * Not driven by commercial interests
-* **Risk based approach**
+* Risk based approach
 
 ---
 
@@ -112,6 +112,12 @@ It is essential for a OWASP Flagship project to have:
 
 OWASP Chapters exist to raise awareness of the OWASP mission, making application security visible, at the local level.
 
+#### [OWASP German Chapter](https://www.owasp.org/index.php/Germany)
+
+There is one Chapter for Germany in total which is complemented by a so-called [OWASP Stammtisch](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative) each in several metropolitan areas such as [Hamburg](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative/Hamburg), Munich, Frankfurt, Stuttgart or Karlsruhe.
+
+![OWASP German Chapter Logo](images/02-01-owasp/OWASP_German_Chapter_WHITE_PNG.png)
+
 ---
 
 # [Mandatory Chapter Rules](https://www.owasp.org/index.php/Chapter_Handbook/Chapter_2:_Mandatory_Chapter_Rules)
@@ -172,7 +178,7 @@ OWASP Chapters exist to raise awareness of the OWASP mission, making application
 
 <!-- *footer: -->
 
-# Some Additional Risks to Consider
+# Some(!) Additional Risks to Consider
 
 |                                                                                   |                                                                              |
 |:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
