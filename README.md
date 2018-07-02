@@ -32,7 +32,7 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 2 - Application Security & SDLC
 
 * Open Web Application Security Project (OWASP) (:heavy_check_mark:)
-* Common Attacks (Injection, XSS, CSRF, XXE, Deserialization) (:black_nib:)
+* Common Attacks (Injection, XSS:heavy_check_mark:, CSRF, XXE, Deserialization) (:black_nib:)
 * Authentication & Authorization Flaws (:black_nib:)
 * Software Dependency Management (:black_nib:)
 * Sensitive Data (:black_nib:)
@@ -42,10 +42,10 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ----
 
-[![CC BY 4.0](cc_by_4.0.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY SA 4.0](cc_by-sa_4.0.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 This work is licensed under a
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 OER Logo 2012 J. Mello, used under Creative Commons Attribution 3.0
 License.
