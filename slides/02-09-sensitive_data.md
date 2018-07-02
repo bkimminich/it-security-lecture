@@ -4,7 +4,7 @@
 
 <!-- page_number: true -->
 
-<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY 4.0 -->
+<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
 
 # Sensitive Data
 
