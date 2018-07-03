@@ -42,23 +42,10 @@
 
 ## Brainstorming Attackers
 
-1. Identify and :crayon: a mind map of possible **Attackers** and their motivation
+1. Identify and describe possible **Attackers** and their motivation
 2. Rate the danger posed by each attacker type (:skull: to :skull::skull::skull:)
 3. Estimate the risk of your own employer being targeted by each identified attacker type (in %)
 4. Which attacker types are likely to work together and how does this impact their danger rating?
-
----
-
-# Attacker Stereotypes
-
-| Name                | Characteristics / Motivation                                                 | Danger                  |
-|:--------------------|:-----------------------------------------------------------------------------|:------------------------|
-| **Script Kiddie**   | Bragging rights & wreaking havoc                                             | :skull:                 |
-| **Hacktivists**     | (Pseudo-)political & social goals                                            | :skull::skull:          |
-| **Competitors**     | Defamation & industrial espionage                                            | :skull::skull:          |
-| **Organized Crime** | Monetization, e.g. extortion & fraud<br>(Providing Cyber-Crime-as-a-Service) | :skull::skull:(:skull:) |
-| **Evil Employees**  | Revenge & corruption<br>Dangerous insider knowledge                          | :skull::skull::skull:   |
-| **Nation States**   | Power! Unlimited resources & budget                                          | :skull:x100             |
 
 ---
 
