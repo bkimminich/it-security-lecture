@@ -12,7 +12,7 @@
 
 # Vulnerability
 
-> A **flaw or weakness in system** security procedures, design, implementation, or internal controls **that could […] result in a security breach** or a violation of the system's security policy [[^1]]
+> A **flaw or weakness in system** security procedures, design, implementation, or internal controls **that could […] result in a security breach** or a violation of the system's security policy \[[^1]\]
 
 [^1]: http://csrc.nist.gov/publications/nistpubs/800-30/sp800-30.pdf
 
@@ -20,7 +20,7 @@
 
 # Exploit
 
-> A piece of software, a chunk of data, or a sequence of commands that **takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior** to occur on computer software, hardware, or something electronic (usually computerized) [[^2]]
+> A piece of software, a chunk of data, or a sequence of commands that **takes advantage of a bug or vulnerability to cause unintended or unanticipated behavior** to occur on computer software, hardware, or something electronic (usually computerized) \[[^2]\]
 
 [^2]: https://en.wikipedia.org/wiki/Exploit_(computer_security)
 
@@ -32,7 +32,7 @@
 >
 > This security hole is then **exploited by hackers before the vendor becomes aware** and hurries to fix it—this exploit is called a zero day attack. \[...\]
 >
-> The term **“zero day” refers to the unknown nature** of the hole to those outside of the hackers, specifically, the developers. Once the vulnerability becomes known, a race begins for the developer, who must protect users. [[^3]]
+> The term **“zero day” refers to the unknown nature** of the hole to those outside of the hackers, specifically, the developers. Once the vulnerability becomes known, a race begins for the developer, who must protect users. \[[^3]\]
 
 [^3]: https://web.archive.org/web/20170704035927/http://www.pctools.com/security-news/zero-day-vulnerability/
 
@@ -92,7 +92,7 @@
 
 > It took just Rs 500, paid through Paytm, and 10 minutes in which an “agent” of the group running the racket created a “gateway” for this correspondent and gave a login ID and password \[...\] and instantly get all particulars that an individual may have submitted to the UIDAI (Unique Identification Authority of India), including name, address, postal code (PIN), photo, phone number and email.
 >
-> What is more, The Tribune team paid another Rs 300, for which the agent provided “software” that could facilitate the printing of the Aadhaar card after entering the Aadhaar number of any individual. [[^4]]
+> What is more, The Tribune team paid another Rs 300, for which the agent provided “software” that could facilitate the printing of the Aadhaar card after entering the Aadhaar number of any individual. \[[^4]\]
 
 _800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
 
@@ -108,7 +108,7 @@ _800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
 
 ---
 
-> Here are the facts, according to Equifax. The breach lasted from mid-May through July. The hackers accessed people’s names, Social Security numbers, birth dates, addresses and, in some instances, driver’s license numbers. They also stole credit card numbers for about 209,000 people and dispute documents with personal identifying information for about 182,000 people. And they grabbed personal information of people in the UK and Canada too. [[^5]]
+> Here are the facts, according to Equifax. The breach lasted from mid-May through July. The hackers accessed people’s names, Social Security numbers, birth dates, addresses and, in some instances, driver’s license numbers. They also stole credit card numbers for about 209,000 people and dispute documents with personal identifying information for about 182,000 people. And they grabbed personal information of people in the UK and Canada too. \[[^5]\]
 
 _Recommended steps for protection include "monitor your existing credit card and bank accounts closely" but also "consider placing a credit freeze" :icecream: or "placing a fraud alert on your files"._
 
@@ -124,7 +124,7 @@ _Recommended steps for protection include "monitor your existing credit card and
 
 ---
 
-> When it includes their parents as well – along with their home address – and you can link the two and emphatically say “Here is 9 year old Mary, I know where she lives and I have other personally identifiable information about her parents (including their password and security question)”, I start to run out of superlatives to even describe how bad that is. [[^6]]
+> When it includes their parents as well – along with their home address – and you can link the two and emphatically say “Here is 9 year old Mary, I know where she lives and I have other personally identifiable information about her parents (including their password and security question)”, I start to run out of superlatives to even describe how bad that is. \[[^6]\]
 
 _It later came out that head shots :camera: of kids and private chat messages were also exposed. The total number of children exposed in the incident is over 6.3 million._
 
@@ -134,7 +134,7 @@ _It later came out that head shots :camera: of kids and private chat messages we
 
 # CloudPets (February 2017)
 
-> Only a couple of weeks ago, there were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. [[^7]]
+> Only a couple of weeks ago, there were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. \[[^7]\]
 
 ![CloudPets logo](images/01-01-motivation/CloudPets_LogoNew.png)
 
