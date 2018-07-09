@@ -4,7 +4,7 @@ University lecture on "IT Security" as
 [Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
 material by [Björn Kimminich](http://kimminich.de)
 
-[![OER Logo 2012 J. Mello, used under Creative Commons Attribution 3.0 License](oer_logo.png)](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
+[![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
 
 ## Covered Topics
 
@@ -32,7 +32,7 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 2 - Application Security & SDLC
 
 * Open Web Application Security Project (OWASP) (:heavy_check_mark:)
-* Common Attacks (Injection, XSS:heavy_check_mark:, CSRF, XXE, Deserialization) (:black_nib:)
+* Common Attacks (Injection:heavy_check_mark:, XSS:heavy_check_mark:, CSRF, XXE:heavy_check_mark:, Deserialization) (:black_nib:)
 * Authentication & Authorization Flaws (:black_nib:)
 * Software Dependency Management (:black_nib:)
 * Sensitive Data (:black_nib:)
@@ -47,5 +47,4 @@ material by [Björn Kimminich](http://kimminich.de)
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-OER Logo 2012 J. Mello, used under Creative Commons Attribution 3.0
-License.
+OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License.
