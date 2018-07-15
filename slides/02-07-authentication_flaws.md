@@ -97,13 +97,37 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 
 #### [Secure Password Recovery Mechanism](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet)
 
-:wrench: **TODO**
+1. Gather Identity Data or Security Questions
+2. Verify Security Questions
+3. Lock account immediately
+4. Send a Token Over a Side-Channel
+5. Allow user to change password in the existing session
+6. Logging
 
 ---
 
 #### [Secure Password Storage](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
 
-:wrench: **TODO**
+* Do not limit character set and set long max lengths
+* Use cryptographically strong credential-specific salt
+* [Impose infeasible verification on attacker](https://crackstation.net/hashing-security.htm)
+  * Aaptive one-way function ([Argon2](https://github.com/p-h-c/phc-winner-argon2), PBKDF2, bcrypt or scrypt)
+  * Keyed functions (e.g. HMAC)
+* Design password storage assuming eventual compromise
+* [Upgrading your existing password hashing solution](https://veggiespam.com/painless-password-hash-upgrades/)
+
+---
+
+##### [Design for Failure](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Design_password_storage_assuming_eventual_compromise)
+
+Having detected theft, a credential storage scheme must support continued operation by marking credential data as compromised:
+
+1. Invalidate authentication shortcuts (e.g. login only with 2FA)
+2. Disallow changes to security settings of user accounts
+3. [Load a new, stronger credential protection scheme](https://veggiespam.com/painless-password-hash-upgrades/)
+4. Set `tainted`/`compromised` bit until user resets credentials
+6. Prompt for credential change & conduct out-of-band confirmation
+7. Convert stored credentials to new scheme as user successfully log in
 
 ---
 
@@ -147,4 +171,9 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 
 # Exercise 7.3
 
-:wrench: **TODO**
+1. Log in with the admin's user account (:star::star:)
+2. Log in with MC SafeSearch's user account (:star::star:)
+3. Reset Jim's password by answering his secret question (:star::star::star:)
+4. Log in with Bjoern's user account (:star::star::star::star:)
+
+_:warning: Do **not** use SQL Injection for authentication bypass!_
