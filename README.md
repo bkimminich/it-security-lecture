@@ -10,41 +10,52 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 1 - Basics & Infrastructure Security
 
-* Vulnerabilities & Exploits (:heavy_check_mark:)
-* Security Goals (Confidentiality, Integrity, Availability) (:wrench:)
-* Threat Actors (:heavy_check_mark:)
-* Malware (Viruses, Worms, Trojan Horses) (:wrench:)
-* Botnets (:wrench:)
-* VPN, VLAN (:wrench:)
-* WLAN (:wrench:)
-* IPSec (:scissors:)
-* SSL/TLS (:wrench:)
-* PGP (:wrench:)
-* Firewalls (:wrench:)
-* Enterprise Security Organizations (:black_nib:)
-* Threat Modelling (:black_nib:)
-* Security Logging & Monitoring (:black_nib:)
-* Intrusion Detection Systems (:scissors:)
-* Public Key Infrastructure (PKI) (:scissors:)
-* Steganography (:scissors:)
-* Copyright, Watermarking, DRM (:scissors:)
+1. [Motivation](slides/01-01-motivation.md)
+  * Vulnerabilities
+  * Exploits
+  * Threat Actors
+  * Case Studies
+2. Security Goals
+  * Confidentiality
+  * Integrity
+  * Availability
+3. Threat Modelling
+4. Malware
+  * Viruses
+  * Worms
+  * Trojan Horses
+  * Botnets
+5. Network Security
+  * VPN
+  * VLAN
+  * WLAN
+  * Firewalls
+6. Encryption
+  * SSL/TLS
+  * PGP
+7. Security Management & Organization
+8. Security Logging & Monitoring
+9. Security Automation
 
 ### Semester 2 - Application Security & SDLC
 
-* Open Web Application Security Project (OWASP) (:heavy_check_mark:)
-* Common Attacks
-  * Injection (:heavy_check_mark:)
-  * XSS (:heavy_check_mark:)
-  * CSRF (:black_nib:)
-  * XXE (:heavy_check_mark:)
-  * Deserialization (:heavy_check_mark:)
-* Authentication Flaws (:heavy_check_mark:)
-* Authorization Flaws (:black_nib:)
-* Software Dependency Management (:black_nib:)
-* Sensitive Data (:black_nib:)
-* Secure Development Lifecycle (:black_nib:)
-* Web Application Firewalls (:black_nib:)
-* Security Automation & AppSec Pipeline (:black_nib:)
+1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP)
+2. [XSS](slides/02-02-xss.md)
+3. [Injection](slides/02-03-injection.md)
+4. [Authentication Flaws](slides/02-04-authentication_flaws.md)
+5. [XXE](slides/02-05-xxe.md)
+6. [Deserialization](slides/02-06-deserialization.md)
+7. Sensitive Data
+8. Authorization Flaws
+9. Secure Development Lifecycle
+  * Security Requirements
+  * Secure Design Principles
+  * Threat Modelling
+  * Secure Coding Guidelines
+  * Software Dependency Management
+  * Security Testing (SAST, DAST)
+  * Web Application Firewalls (WAF)
+  * AppSec Pipeline
 
 ----
 
