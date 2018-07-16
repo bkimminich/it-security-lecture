@@ -43,9 +43,9 @@ material by [Björn Kimminich](http://kimminich.de)
 2. [XSS](slides/02-02-xss.md)
 3. [Injection](slides/02-03-injection.md)
 4. [Authentication Flaws](slides/02-04-authentication_flaws.md)
-5. [XXE](slides/02-05_1-xxe.md) & [Deserialization](slides/02-05_2-deserialization.md)
+5. Authorization Flaws
 6. Sensitive Data
-7. Authorization Flaws
+7. [XXE & Deserialization](slides/02-07-xxe_and_deserialization.md)
 8. Secure Development Lifecycle
   * Security Requirements
   * Secure Design Principles

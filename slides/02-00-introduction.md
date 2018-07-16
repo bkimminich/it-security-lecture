@@ -20,9 +20,9 @@
 2. [XSS](02-02-xss.md)
 3. [Injection](02-03-injection.md)
 4. [Authentication Flaws](02-04-authentication_flaws.md)
-5. [XXE](02-05_1-xxe.md) & [Deserialization](02-05_2-deserialization.md)
+5. Authorization Flaws
 6. Sensitive Data
-7. Authorization Flaws
+7. [XXE & Deserialization](02-07-xxe_and_deserialization.md)
 8. Secure Development Lifecycle
 
 ---

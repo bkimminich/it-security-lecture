@@ -36,7 +36,7 @@
 
 ---
 
-# Exercise 7.1
+# Exercise 4.1
 
 1. Identify all flaws in the generator of the following session IDs
 
@@ -53,7 +53,7 @@
 
 <!-- *footer: -->
 
-# Exercise 7.2
+# Exercise 4.2
 
 1. Pick one Security Question and explain how :muscle: it is against attacks.
 2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
@@ -169,7 +169,7 @@ Having detected theft, a credential storage scheme must support continued operat
 
 ---
 
-# Exercise 7.3
+# Exercise 4.3
 
 1. Log in with the admin's user account (:star::star:)
 2. Log in with MC SafeSearch's user account (:star::star:)

