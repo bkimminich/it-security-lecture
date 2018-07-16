@@ -8,7 +8,7 @@
 
 # IT Security
 
-## Basics & Infrastructure Security
+## Information & Network Security
 
 ###### by Bjoern Kimminich
 
@@ -72,9 +72,10 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 3. Threat Modelling
 4. Malware
 5. Network Security
-6. Security Management & Organization
-7. Security Logging & Monitoring
-8. Security Automation
+6. Encryption
+7. Security Management & Organization
+8. Security Logging & Monitoring
+9. Security Automation
 
 ---
 
@@ -84,10 +85,10 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 2. [XSS](02-02-xss.md)
 3. [Injection](02-03-injection.md)
 4. [Authentication Flaws](02-04-authentication_flaws.md)
-5. Authorization Flaws
-6. Sensitive Data
+5. [Authorization Flaws](02-05-authorization_flaws.md)
+6. [Sensitive Data](02-06-sensitive_data.md)
 7. [XXE & Deserialization](02-07-xxe_and_deserialization.md)
-8. Secure Development Lifecycle
+8. [Secure Development Lifecycle](02-08-sdlc.md)
 
 ---
 

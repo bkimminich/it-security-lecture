@@ -8,9 +8,9 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ## Covered Topics
 
-### Semester 1 - Basics & Infrastructure Security
+### Semester 1 - Information & Network Security
 
-1. [Motivation](slides/01-01-motivation.md)
+1. [Motivation](slides/01-01-motivation.md) (:heavy_check_mark:)
   * Vulnerabilities
   * Exploits
   * Threat Actors
@@ -39,14 +39,14 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 2 - Application Security & SDLC
 
-1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP)
-2. [XSS](slides/02-02-xss.md)
-3. [Injection](slides/02-03-injection.md)
-4. [Authentication Flaws](slides/02-04-authentication_flaws.md)
-5. Authorization Flaws
-6. Sensitive Data
-7. [XXE & Deserialization](slides/02-07-xxe_and_deserialization.md)
-8. Secure Development Lifecycle
+1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP) (:heavy_check_mark:)
+2. [XSS](slides/02-02-xss.md) (:heavy_check_mark:)
+3. [Injection](slides/02-03-injection.md) (:heavy_check_mark:)
+4. [Authentication Flaws](slides/02-04-authentication_flaws.md) (:heavy_check_mark:)
+5. [Authorization Flaws](slides/02-05-authorization_flaws.md)
+6. [Sensitive Data](slides/02-06-sensitive_data.md)
+7. [XXE & Deserialization](slides/02-07-xxe_and_deserialization.md) (:heavy_check_mark:)
+8. [Secure Development Lifecycle](slides/02-08-sdlc.md)
   * Security Requirements
   * Secure Design Principles
   * Threat Modelling
