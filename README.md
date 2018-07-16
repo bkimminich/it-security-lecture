@@ -11,28 +11,28 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 1 - Information & Network Security
 
 1. [Motivation](slides/01-01-motivation.md) (:heavy_check_mark:)
-  * Vulnerabilities
-  * Exploits
-  * Threat Actors
-  * Case Studies
+    * Vulnerabilities
+    * Exploits
+    * Threat Actors
+    * Case Studies
 2. Security Goals
-  * Confidentiality
-  * Integrity
-  * Availability
+    * Confidentiality
+    * Integrity
+    * Availability
 3. Threat Modelling
 4. Malware
-  * Viruses
-  * Worms
-  * Trojan Horses
-  * Botnets
+    * Viruses
+    * Worms
+    * Trojan Horses
+    * Botnets
 5. Network Security
-  * VPN
-  * VLAN
-  * WLAN
-  * Firewalls
+    * VPN
+    * VLAN
+    * WLAN
+    * Firewalls
 6. Encryption
-  * SSL/TLS
-  * PGP
+    * SSL/TLS
+    * PGP
 7. Security Management & Organization
 8. Security Logging & Monitoring
 9. Security Automation
@@ -48,14 +48,14 @@ material by [Björn Kimminich](http://kimminich.de)
 7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md)
 8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
-  * Security Requirements
-  * Secure Design Principles
-  * Threat Modelling
-  * Secure Coding Guidelines
-  * Software Dependency Management
-  * Security Testing (SAST, DAST)
-  * Web Application Firewalls (WAF)
-  * AppSec Pipeline
+    * Security Requirements
+    * Secure Design Principles
+    * Threat Modelling
+    * Secure Coding Guidelines
+    * Software Dependency Management
+    * Security Testing (SAST, DAST)
+    * Web Application Firewalls (WAF)
+    * AppSec Pipeline
 
 ----
 
