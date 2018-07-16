@@ -12,17 +12,18 @@
 
 ###### by Bjoern Kimminich
 
+---
+
 # Curriculum 2nd Semester
 
 1. [Open Web Application Security Project](02-01-owasp.md) (OWASP)
 2. [XSS](02-02-xss.md)
 3. [Injection](02-03-injection.md)
 4. [Authentication Flaws](02-04-authentication_flaws.md)
-5. [XXE](02-05-xxe.md)
-6. [Deserialization](02-06-deserialization.md)
-7. Sensitive Data
-8. Authorization Flaws
-9. Secure Development Lifecycle
+5. [XXE](02-05_1-xxe.md) & [Deserialization](02-05_2-deserialization.md)
+6. Sensitive Data
+7. Authorization Flaws
+8. Secure Development Lifecycle
 
 ---
 
