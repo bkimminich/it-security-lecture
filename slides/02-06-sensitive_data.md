@@ -18,6 +18,17 @@
 
 ---
 
+## [GDPR](https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en)
+
+> Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+
+## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
+
+> PCI DSS is the global data security standard adopted by the payment card brands for all entities that
+process, store or transmit cardholder data and/or sensitive authentication data.
+
+---
+
 ## [Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) as defined in GDPR
 
 * Name and surname
@@ -41,6 +52,21 @@ _**§** Articles 2, 4(1) and(5) and Recitals (14), (15), (26), (27), (29) and (3
 * Data concerning a person's sex life or sexual orientation
 
 _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to (56)_
+
+---
+
+<!-- *footer: -->
+
+## [PCI DSS Requirements](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
+
+| <small>Goals</small>                      | <small>Requirements</small>                                                  |
+|:------------------------------------------|:-----------------------------------------------------------------------------|
+| <small>Secure Network and Systems</small> | <small>Firewall; No default credentials</small>                              |
+| <small>Protect Cardholder Data</small>    | <small>Protect stored data; encrypt transmissions</small>                    |
+| <small>Vulnerability Management</small>   | <small>Anti-Malware/-Virus; Secure Development</small>                       |
+| <small>Strong Access Controls</small>     | <small>Need-to-know access; Authentication; Restrict physical access</small> |
+| <small>Monitoring & Testing</small>       | <small>Monitor network and data access; Test systems/processes</small>       |
+| <small>Security Policy</small>            | <small>Maintain Information Security policy for all personnel</small>        |
 
 ---
 
@@ -109,14 +135,14 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ### [Best Practices](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
 
-| Scenario                | Practice                       | Key Length |
-|:------------------------|:-------------------------------|:-----------|
-| Key exchange            | Diffie–Hellman                 | 2048+ bits |
-| Message Integrity       | HMAC-SHA2                      |            |
-| Message Hash            | SHA2                           | 256 bits   |
-| Asymetric encryption    | RSA                            | 2048 bits  |
-| Symmetric-key algorithm | AES                            | 128 bits   |
-| Password Hashing        | Argon2, PBKDF2, Scrypt, Bcrypt |            |
+| Scenario                | Practice                                      | :key: Length |
+|:------------------------|:----------------------------------------------|:-------------|
+| Key exchange            | Diffie-Hellman                                | 2048+ bits   |
+| Message Integrity       | HMAC-SHA2                                     | -            |
+| Message Hash            | SHA2                                          | 256 bits     |
+| Asymetric encryption    | RSA                                           | 2048 bits    |
+| Symmetric-key algorithm | AES                                           | 128 bits     |
+| Password Hashing        | <small>Argon2, PBKDF2, Scrypt, Bcrypt</small> | -            |
 
 ---
 
@@ -124,10 +150,10 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 1. Access a confidential document (:star:)
 2. Retrieve as many clear text user passwords as you can (:interrobang:)
+3. Visit the Token Sale page before it officially goes live (:star::star::star:)
 
 ##### Bonus exercises on cryptography (_optional_)
 
-3. Visit the Token Sale page before it officially goes live (:star::star::star:)
 4. Retrieve both the :rabbit2: easter eggs (:star::star::star::star:)
 5. Solve the steganography challenge (:star::star::star::star:)
 6. Solve the non-existent challenge \#99 (:star::star::star::star::star::star:)
