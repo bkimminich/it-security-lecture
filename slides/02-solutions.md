@@ -32,7 +32,7 @@
 
 <!-- *footer: -->
 
-# Exercise 4.1 (Session ID Generator)
+# Exercise 4.2 (Session ID Generator)
 
 The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predictable patterns** indicating at least partial non-randomness.
 

@@ -38,6 +38,15 @@
 
 # Exercise 4.1
 
+1. Watch [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/) :tv:
+2. Log in with MC SafeSearch's user account (:star::star:)
+
+_:warning: Do **not** use SQL Injection for authentication bypass!_
+
+---
+
+# Exercise 4.2
+
 1. Identify all flaws in the generator of the following session IDs
 
 | # | Session ID      | #   | Session ID      |
@@ -53,7 +62,7 @@
 
 <!-- *footer: -->
 
-# Exercise 4.2
+# Exercise 4.3
 
 1. Pick one Security Question and explain how :muscle: it is against attacks.
 2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
@@ -87,7 +96,7 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 * Maximum length should allow 64 characters or more
 * **No periodic password resets** as users rely on predictable patterns
 * Avoid password complexity rules as _all of them_ are predictable
-* Ban bad passwords or ones which have appeared in data breaches
+* Ban bad passwords ([:tv:](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)) or ones which have appeared in data breaches
   * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords) or [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)  
 * Allow convenience features on password fields
   * Offer _Show Password while typing_ option
@@ -169,11 +178,10 @@ Having detected theft, a credential storage scheme must support continued operat
 
 ---
 
-# Exercise 4.3
+# Exercise 4.4
 
 1. Log in with the admin's user account (:star::star:)
-2. Log in with MC SafeSearch's user account (:star::star:)
-3. Reset Jim's password by answering his secret question (:star::star::star:)
-4. Log in with Bjoern's user account (:star::star::star::star:)
+2. Reset Jim's password by answering his secret question (:star::star::star:)
+3. Log in with Bjoern's user account (:star::star::star::star:)
 
 _:warning: Do **not** use SQL Injection for authentication bypass!_
