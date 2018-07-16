@@ -58,7 +58,7 @@
 1. Pick one Security Question and explain how :muscle: it is against attacks.
 2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
 
-![Security Questions](images/02-07-authentication_flaws/secret_questions.png)
+![Security Questions](images/02-04-authentication_flaws/secret_questions.png)
 
 ---
 
@@ -152,7 +152,7 @@ Having detected theft, a credential storage scheme must support continued operat
 
 > Password managers are programs, browser plugins or web services that automate management of large number of different credentials, including memorizing and filling-in, generating random passwords on different sites etc. \[[^1]\]
 
-| [![KeePass Logo](images/02-07-authentication_flaws/keepass_322x132.png)](https://keepass.info/) | [![LastPass Logo](images/02-07-authentication_flaws/LastPass-Logo-Color.png)](https://www.lastpass.com) | [![1Password Logo](images/02-07-authentication_flaws/1password-logo-awesome%402x.png)](https://1password.com/) |
+| [![KeePass Logo](images/02-04-authentication_flaws/keepass_322x132.png)](https://keepass.info/) | [![LastPass Logo](images/02-04-authentication_flaws/LastPass-Logo-Color.png)](https://www.lastpass.com) | [![1Password Logo](images/02-04-authentication_flaws/1password-logo-awesome%402x.png)](https://1password.com/) |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
 | Open Source (GPLv2)                                                                             | Proprietary / Freemium                                                                                  | Proprietary                                                                                                    |
 | Local installation, optional file or cloud sync                                                 | Cloud-based                                                                                             | Local installation with Cloud sync                                                                             |
