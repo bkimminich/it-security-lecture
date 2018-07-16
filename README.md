@@ -45,8 +45,9 @@ material by [Björn Kimminich](http://kimminich.de)
 4. [Authentication Flaws](slides/02-04-authentication_flaws.md) (:heavy_check_mark:)
 5. [Authorization Flaws](slides/02-05-authorization_flaws.md)
 6. [Sensitive Data](slides/02-06-sensitive_data.md)
-7. [XXE & Deserialization](slides/02-07-xxe_and_deserialization.md) (:heavy_check_mark:)
-8. [Secure Development Lifecycle](slides/02-08-sdlc.md)
+7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md)
+8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
+9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
   * Security Requirements
   * Secure Design Principles
   * Threat Modelling

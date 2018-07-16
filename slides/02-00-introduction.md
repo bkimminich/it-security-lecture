@@ -22,8 +22,9 @@
 4. [Authentication Flaws](02-04-authentication_flaws.md)
 5. [Authorization Flaws](02-05-authorization_flaws.md)
 6. [Sensitive Data](02-06-sensitive_data.md)
-7. [XXE & Deserialization](02-07-xxe_and_deserialization.md)
-8. [Secure Development Lifecycle](02-08-sdlc.md)
+7. [Insecure Dependencies & Configuration](02-07-insecure_dependencies_and_configuration.md)
+8. [XXE & Deserialization](02-08-xxe_and_deserialization.md)
+9. [Secure Development Lifecycle](02-09-sdlc.md)
 
 ---
 

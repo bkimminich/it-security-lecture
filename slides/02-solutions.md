@@ -47,7 +47,7 @@ The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predicta
 
 ---
 
-# Exercise 7.2 (ArrayList Deserialization)
+# Exercise 8.2 (ArrayList Deserialization)
 
 ```java
 /**

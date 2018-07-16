@@ -6,11 +6,7 @@
 
 <!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
 
-# Secure Development Lifecycle
-
----
-
-# Software Dependency Management
+# Insecure Dependencies
 
 ---
 
@@ -25,8 +21,18 @@
 
 ---
 
-# Web Application Firewalls
+# Insecure Configuration
 
 ---
 
-# Application Security Pipeline
+# Risk Rating
+
+## Security Misconfiguration
+
+| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                           |
+|:------------------|:------------------------|:------------------|:--------------------------------|:-------------------------------------------------------------------------------|
+| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A6](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration) |
+| ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                      |
+
+---
+

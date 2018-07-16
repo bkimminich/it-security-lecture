@@ -94,7 +94,7 @@
 
 ---
 
-# Exercise 7.1
+# Exercise 8.1
 
 1. Identify the weak point of the application that accepts arbitrary XML data as input (:star::star:)
 2. Retrieve the content of your local system‘s `C:\Windows\system.ini` (or `/etc/passwd` if you are using Linux) via an XEE attack (:star::star::star:)
@@ -155,7 +155,7 @@ _:warning: Most Java XML parsers have insecure parser settings by default!_
 
 > Object serialization transforms an object's data to a bytestream that represents the state of the data. The serialized form of the data contains enough information to recreate the object with its data in a similar state to what it was when saved. \[[^1]\]
 
-![Български: Схема на сериализация и десериализация, 2016 WnbKrumov, used under CC-BY-SA 4.0](images/02-07-xxe_and_deserialization/serialization.jpg)
+![Български: Схема на сериализация и десериализация, 2016 WnbKrumov, used under CC-BY-SA 4.0](images/02-08-xxe_and_deserialization/serialization.jpg)
 
 [^1]: http://www.oracle.com/technetwork/java/serial-137074.html
 
@@ -212,7 +212,7 @@ public class JFrame {
 
 ---
 
-# Exercise 7.2
+# Exercise 8.2
 
 1. What happens when the `root` object would be deserialized?
 
@@ -224,7 +224,7 @@ ArrayList<Object> root = new ArrayList<>(Integer.MAX_VALUE);
 
 <!-- *footer:  -->
 
-# Exercise 7.3
+# Exercise 8.3
 
 1. What happens when the `root` object would be deserialized?
 
@@ -301,7 +301,7 @@ _:warning: The affected version `0.0.4` of `node-serialize` is also the latest v
 
 ---
 
-# Exercise 7.4
+# Exercise 8.4
 
 1. Perform a DoS-like Attack using XXE (:star::star::star::star::star:)
 
