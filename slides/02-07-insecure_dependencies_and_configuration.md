@@ -10,6 +10,35 @@
 
 ---
 
+# [Common Mistakes](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+
+* Not knowing used version of dependencies (client- and server-side)
+  * Includes directly used components _and_ nested dependencies
+* **Used software is vulnerable, unsupported, or out of date**
+  * Includes OS, Web/Application server, DBMS, Applications, APIs, runtime environments and libraries
+* Lack of regular scans and bulletin subscriptions for vulnerabilities
+* **Patch Management Process insufficient** or missing
+* Component configuration not secured (see [Insecure Configuration](#insecure-configuration))
+
+---
+
+<!-- *footer: -->
+
+## Variable Exploitability
+
+* Already-written exploits for many known vulnerabilities exist
+* Other vulnerabilities require a custom exploit (e.g. [Zero Day](01-01-motivation.md#zero-day)s)
+
+## Variable Impact
+
+* Full range of weaknesses is possible
+  * RCE, Injection, Broken Access Control, XSS, etc.
+* Impact could be minimal, up to host takeover and data compromise
+
+_:information_source: Some of the largest breaches to date have relied on exploiting known vulnerabilities in components (e.g. [Equifax](01-01-motivation.md#equifax-september-2017))_
+
+---
+
 # Risk Rating
 
 ## Using Components with Known Vulnerabilities
@@ -18,6 +47,49 @@
 |:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------|
 | :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
 | ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                   
+
+---
+
+# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+
+* **Remove unused dependencies**, unnecessary features, components, files, and documentation
+* Continuously inventory component versions and sub-dependencies
+* **Continuously monitor** [CVE](https://cve.mitre.org/)/[NVD](http://web.nvd.nist.gov/view/vuln/search) etc. **for vulnerabilities**
+    * e.g. with OWASP Dependency-Check, [Retire.js](https://retirejs.github.io/retire.js/) or [`npm audit`](https://docs.npmjs.com/getting-started/running-a-security-audit)
+* Subscribe to email alerts for security vulnerabilities related to components you use (especially when using commercial products)
+* **Only obtain components from official sources** over secure links
+
+---
+
+* Prefer signed packages to avoid including a modified, malicious component
+* Monitor for unmaintained libraries and components
+* Monitor for components that do not create security patches for older versions
+* If patching is not possible, consider deploying a virtual patch
+* **Ensure ongoing** monitoring, triaging, and applying **updates for the lifetime of the application** or portfolio
+
+<!-- -->
+
+* **Define and enforce** the above in a **Patch Management Process**
+
+---
+
+# [OWASP Dependency-Check](https://wiki.int.kn/display/gscgiak/OWASP+Dependency+Check)
+
+> **Dependency-Check is a utility that identifies project dependencies and checks if there are any known, publicly disclosed, vulnerabilities.** Currently, Java and .NET are supported; additional experimental support has been added for Ruby, Node.js, Python, and limited support for C/C++ build systems (autoconf and cmake). The tool can be part of a solution to the OWASP Top 10 2017 A9:2017-Using Components with Known Vulnerabilities.
+
+![Dependency Check Logo](images/02-07-insecure_dependencies_and_configuration/dc.svg)
+
+---
+
+# Exercise 7.1
+
+1. Open the [Sample Report](https://jeremylong.github.io/DependencyCheck/general/SampleReport.html) of OWASP Dependency-Check
+2. Recommend an action plan for the assessed application
+    * Distinguish between _short term_ and _long term_ actions
+4. Collect potential risks for a corporate-wide rollout of OWASP Dependency-Check in your company
+5. Collect possible mitigations for those risks
+
+_:bulb: If your company does not use any technology that could be assessed by OWASP Dependency-Check, simply perform the exercise pretending it actually could._
 
 ---
 
