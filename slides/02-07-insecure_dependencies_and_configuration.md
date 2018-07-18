@@ -17,7 +17,7 @@
 | Exploitability                 | Prevalence              | Detecability                   | Impact                          | Risk                                                                                             |
 |:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------|
 | :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
-| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                                                        |
+| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                   
 
 ---
 
@@ -102,13 +102,85 @@ _:information_source: Especially information leakage from error message can ofte
 
 ---
 
-## Shodan Query Syntax
+<!-- *footer: -->
 
-:wrench: **TODO**
+## Shodan Query Examples
+
+##### :x: Search in Banner Data ("Google-style")
+
+```bash
+nordakademie
+# = results with "nordakademie" in banner text
+```
+
+##### Search in Meta Data with `filtername:value`
+
+```bash
+hostname:nordakademie
+# = results with "nordakademie" in host name
+
+hostname:nordakademie product:apache -hash:0
+# = Apache servers answering with non-empty banners
+
+hostname:nordakademie http.component:php http.status:200
+# = available (200 "OK") servers running PHP
+```
+---
+
+
+
+##### Filtering for known vulnerabilities by CVE-ID
+
+```bash
+http.component:php vuln:CVE-2018-10547
+# = Servers running PHP vulnerable to Reflected XSS on some error pages
+```
+
+_:warning: The `vuln` filter is only available to academic users or Small Business API subscription and higher._
+
+#### REST and Streaming API
+
+see **https://developer.shodan.io/api**
+
+#### Literature Recommendations _(optional)_
+
+* Matherly: [Complete Guide to Shodan](https://leanpub.com/shodan), 2017
 
 ---
 
 # Exercise 7.2
 
-1. Perform some Shodan searches for Internet-connected devices related to your own university (e.g. nordakademie.de)
-2. Perform Shodan research on your current employer
+1. Get an idea of the available Shodan query filters on https://developer.shodan.io/api/banner-specification
+2. Perform some Shodan searches for Internet-connected devices associated with your current employer (e.g. by `hostname` or `ip`)
+
+<hr>
+
+3. Use an [online test](https://www.ssllabs.com/ssltest/index.html) to check the rating of at least one SSL configuration of your employer's hosts
+
+_:information_source: Please consider ticking the "Do not show the results on the boards" checkbox before running the online scan!_ 
+
+---
+
+# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration)
+
+* **Repeatable hardening process**
+* Development, QA & Production environments configured identically
+  * but with different credentials used in each environment
+* No unnecessary features, components, documentation, and samples
+* Segmented application architecture
+* Sending security directives to clients, e.g. Security Headers
+* **Regularly review and update configurations as part of the Patch Management Process** (see [Insecure Dependencies](#insecure-dependencies))
+
+---
+
+# Exercise 7.3
+
+1. Persist a Stored XSS attack via the _Contact Us_ page (:star::star::star::star:)
+2. Report the vulnerability which makes this XSS possible (:star::star::star::star:)
+ 
+<!-- -->
+
+3. Report another vulnerability that could be exploited in a [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf) (:star::star::star::star::star:)
+
+_:information_source: To report anything to the shop, you can use the "Contact Us" page. You have to supply as detailed information as possible._
+
