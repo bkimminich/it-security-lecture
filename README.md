@@ -11,10 +11,10 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 1 - Information & Network Security
 
 1. [Motivation](slides/01-01-motivation.md) (:heavy_check_mark:)
-    * Vulnerabilities
-    * Exploits
-    * Threat Actors
-    * Case Studies
+    * Vulnerabilities (:heavy_check_mark:)
+    * Exploits (:heavy_check_mark:)
+    * Threat Actors (:heavy_check_mark:)
+    * Case Studies (:heavy_check_mark:)
 2. Security Goals
     * Confidentiality
     * Integrity
@@ -34,8 +34,7 @@ material by [Björn Kimminich](http://kimminich.de)
     * SSL/TLS
     * PGP
 7. Security Management & Organization
-8. Security Logging & Monitoring
-9. Security Automation
+8. Security Automation
 
 ### Semester 2 - Application Security & SDLC
 
@@ -47,13 +46,12 @@ material by [Björn Kimminich](http://kimminich.de)
 6. [Sensitive Data](slides/02-06-sensitive_data.md) (:heavy_check_mark:)
 7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md) (:heavy_check_mark:)
 8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
-9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
+9. [Secure Development Lifecycle](slides/02-09-sdlc.md) (:heavy_check_mark:)
     * Security Requirements
-    * Secure Design Principles
-    * Threat Modelling
+    * Secure Design Principles (:heavy_check_mark:)
     * Secure Coding Guidelines
-    * Software Dependency Management
     * Security Testing (SAST, DAST)
+    * Security Logging & Monitoring (:heavy_check_mark:)
     * Web Application Firewalls (WAF)
     * AppSec Pipeline
 

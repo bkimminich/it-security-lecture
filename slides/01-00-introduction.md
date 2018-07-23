@@ -74,8 +74,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 5. Network Security
 6. Encryption
 7. Security Management & Organization
-8. Security Logging & Monitoring
-9. Security Automation
+8. Security Automation
 
 ---
 
