@@ -78,6 +78,8 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 ---
 
+<!-- *footer: -->
+
 # Curriculum 2nd Semester
 
 1. [Open Web Application Security Project](02-01-owasp.md) (OWASP)
