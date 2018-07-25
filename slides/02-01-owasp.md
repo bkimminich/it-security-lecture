@@ -233,7 +233,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of
     * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
-    * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--)
+    * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--) (:blue_heart: on university PCs)
     * [Docker Container](https://github.com/bkimminich/juice-shop#docker-container-----)
     * [Vagrant](https://github.com/bkimminich/juice-shop#vagrant)
 
