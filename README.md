@@ -29,7 +29,7 @@ material by [Björn Kimminich](http://kimminich.de)
     * VPN
     * VLAN
     * WLAN
-    * Firewalls
+    * Firewalls/IDS/IPS/WAF
 6. Encryption
     * SSL/TLS
     * PGP
@@ -52,7 +52,6 @@ material by [Björn Kimminich](http://kimminich.de)
     * Secure Coding Guidelines
     * Security Testing (SAST, DAST)
     * Security Logging & Monitoring (:heavy_check_mark:)
-    * Web Application Firewalls (WAF)
     * AppSec Pipeline
 
 ----
