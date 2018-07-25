@@ -47,7 +47,7 @@ material by [Björn Kimminich](http://kimminich.de)
 7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md) (:heavy_check_mark:)
 8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md) (:heavy_check_mark:)
-    * Security Requirements
+    * Security Requirements (:heavy_check_mark:)
     * Secure Design Principles (:heavy_check_mark:)
     * Secure Coding Guidelines
     * Security Testing (SAST, DAST)

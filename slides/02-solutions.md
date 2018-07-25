@@ -78,3 +78,18 @@ i=8, root=[[[[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [
 ```
 
 _:boom: With its members recursively linked to each other, when deserializing `root`, the JVM will begin creating a recursive object graph. It will never complete, and consume CPU indefinitely._
+
+---
+
+# Exercise 9.1 (Protection Req. Calc.)
+
+| Aspect / Application       | Website                  | VCS                      | Webshop                  | B2B API                  |
+|:---------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|
+| Business criticality       | 2 :large_orange_diamond: | 1 :small_orange_diamond: | 5 :red_circle:           | 2 :large_orange_diamond: |
+| Information classification | 0 :green_heart:          | 2 :large_orange_diamond: | 2 :large_orange_diamond: | 2 :large_orange_diamond: |
+| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond: | 1 :small_orange_diamond: |
+| Exposure to threats        | 5 :red_circle:           | 1 :small_orange_diamond: | 5 :red_circle:           | 5 :red_circle:           |
+| Authentication mechanism   | 0 :small_blue_diamond:   | -2 :blue_heart:          | -1 :large_blue_diamond:  | -1 :large_blue_diamond:  |
+|                            |                          |                          |                          |                          |
+| **Total Score**            | 7                        | 2                        | 13                       | 9                        |
+| **Rating**                 | Medium                   | Low                      | High                     | Medium                   |
