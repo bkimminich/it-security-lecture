@@ -228,7 +228,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop
+## Install the OWASP Juice Shop `v7.x`
 
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of
