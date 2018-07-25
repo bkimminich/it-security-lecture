@@ -48,7 +48,7 @@ To perform the exercises on your private computer you need
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
-_:information_source: On the university computers Node.js should already be available through `nvm`. You can verify this by running `node -v` on the command line. It should display an 8.x (or 9.x) version. If it shows any older or newer version please run `nvm install 8.11.3` and then `nvm use 8.11.3` to install and switch to that version._
+_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 8.x (or 9.x) version._
 
 ---
 
