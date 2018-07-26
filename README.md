@@ -49,8 +49,8 @@ material by [Björn Kimminich](http://kimminich.de)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md) (:heavy_check_mark:)
     * Security Requirements (:heavy_check_mark:)
     * Secure Design Principles (:heavy_check_mark:)
-    * Secure Coding Guidelines
-    * Security Testing (SAST, DAST)
+    * Secure Coding Guidelines (:heavy_check_mark:)
+    * Security Testing (:heavy_check_mark:)
     * Security Logging & Monitoring (:heavy_check_mark:)
     * AppSec Pipeline (:heavy_check_mark:)
 
