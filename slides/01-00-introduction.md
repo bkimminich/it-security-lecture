@@ -28,7 +28,7 @@
 # Contact Information
 
 #### Email
-* <bjoern.kimminich@nordakademie.de> ([062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda))
+* <bjoern.kimminich@nordakademie.de> <small>([062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda))</small>
 
 #### Miscellaneous
 
@@ -50,13 +50,13 @@
 * Latest course material is available only on GitHub
 * Content exists as `Markdown` files for use with [Marp](https://yhatt.github.io/marp/)
 * Slides can be [downloaded as PDF](https://github.com/bkimminich/it-security-lecture/tree/master/slides/pdf) from GitHub
-* All slides are published as [OER](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license
+* All slides are published as [OER](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/) under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
 
 _You can help save a :deciduous_tree: by not :printer: all slides for the entire course in advance as content might change during the course!_
 
 ---
 
-# Rules
+# :tophat: Rules
 
 * Physical presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)

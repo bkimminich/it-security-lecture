@@ -94,7 +94,7 @@ It is essential for an OWASP Labs project to have:
 
 # [Determining Flagship Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_Flagship_status)
 
-It is essential for a OWASP Flagship project to have:
+It is essential for an OWASP Flagship project to have:
 * Considerable number of users and contributors
 * Considerable number of commits and improvements in a time span of at least two years
 * A unique approach or proposition in application security
@@ -136,17 +136,17 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 
 ---
 
-# Application Security Risks (1/2)
+# Application Security Risks
 
 [![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 ---
 
-# Application Security Risks (2/2)
+## Risk Rating Table
 
 [![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
-* Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)
+_:information_source: Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
 
 ---
 

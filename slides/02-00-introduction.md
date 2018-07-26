@@ -61,5 +61,5 @@ _:information_source: On the university computers Node.js should already be avai
 
 #### Literature Recommendations _(optional)_
 
-* Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
 * Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop), 2018
+* Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
