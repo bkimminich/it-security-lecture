@@ -52,7 +52,7 @@ material by [Björn Kimminich](http://kimminich.de)
     * Secure Coding Guidelines
     * Security Testing (SAST, DAST)
     * Security Logging & Monitoring (:heavy_check_mark:)
-    * AppSec Pipeline
+    * AppSec Pipeline (:heavy_check_mark:)
 
 ----
 
