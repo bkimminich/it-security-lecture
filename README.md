@@ -10,31 +10,15 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 1 - Information & Network Security
 
-1. [Motivation](slides/01-01-motivation.md) (:heavy_check_mark:)
-    * Vulnerabilities (:heavy_check_mark:)
-    * Exploits (:heavy_check_mark:)
-    * Threat Actors (:heavy_check_mark:)
-    * Case Studies (:heavy_check_mark:)
-2. Security Goals
-    * Confidentiality
-    * Integrity
-    * Availability
-3. Threat Modelling
-4. Malware
-    * Viruses
-    * Worms
-    * Trojan Horses
-    * Botnets
-5. Network Security
-    * VPN
-    * VLAN
-    * WLAN
-    * Firewalls/IDS/IPS/WAF
-6. Encryption
-    * SSL/TLS
-    * PGP
-7. Security Management & Organization
-8. Security Automation
+1. [Motivation](slides/01-01-motivation.md) (Vulnerabilities, Exploits, Threat Actors, Case Studies) (:heavy_check_mark:)
+2. Security Goals (Confidentiality, Integrity, Availability)
+3. Malware (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptominers)
+4. Network Security (VPN, WLAN, Firewalls/IDS/IPS/WAF)
+5. Encryption (SSL/TLS, PGP)
+6. Security Management & Organization
+7. Threat Modelling
+8. Risk Assessments
+9. Penetration Tests & Security Automation
 
 ### Semester 2 - Application Security & SDLC
 
@@ -47,12 +31,6 @@ material by [Björn Kimminich](http://kimminich.de)
 7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md) (:heavy_check_mark:)
 8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md) (:heavy_check_mark:)
-    * Security Requirements (:heavy_check_mark:)
-    * Secure Design Principles (:heavy_check_mark:)
-    * Secure Coding Guidelines (:heavy_check_mark:)
-    * Security Testing (:heavy_check_mark:)
-    * Security Logging & Monitoring (:heavy_check_mark:)
-    * AppSec Pipeline (:heavy_check_mark:)
 
 ----
 

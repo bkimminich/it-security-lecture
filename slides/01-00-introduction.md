@@ -69,12 +69,13 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 1. [Motivation](01-01-motivation.md)
 2. Security Goals
-3. Threat Modelling
-4. Malware
-5. Network Security
-6. Encryption
-7. Security Management & Organization
-8. Security Automation
+3. Malware
+4. Network Security
+5. Encryption
+6. Security Management & Organization
+7. Threat Modelling
+8. Risk Assessments
+9. Penetration Tests & Security Automation
 
 ---
 
