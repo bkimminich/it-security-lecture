@@ -28,6 +28,7 @@
 # Contact Information
 
 #### Email
+
 * <bjoern.kimminich@nordakademie.de> <small>([062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda))</small>
 
 #### Miscellaneous
@@ -65,6 +66,8 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 ---
 
+<!-- *footer: -->
+
 # Curriculum 1st Semester
 
 1. [Motivation](01-01-motivation.md)
@@ -100,6 +103,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 :wrench: **TODO**
 
 #### Test Exam
+
 * At the end of 2nd semester (90min)
 * :warning: Covers topics from both semesters
 
@@ -112,3 +116,17 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 #### Optional Literature Recommendations
 
 :wrench: **TODO**
+
+---
+
+<!-- *footer: -->
+
+### Prerequisites @ [Angewandte Informatik (B.Sc.)](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/profil-des-studiengangs/)
+
+| <small>Information & Network Security</small>                                                                                                                                                                                                                                                                                                                                       | <small>S5</small>   | <small>Application Security & SDLC</small>                                                                                                                                                                                                                                                                                                                                    | <small>S6</small>   |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
+| <small>[Diskrete Mathematik 2](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=777&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=a66f54188c7c0b870c7e6bea00875fed)</small>                  | <small>S2</small>   | <small>[Datenbanksysteme](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=362&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=8c34972a1162bec4b2a830abf497721d)</small>                 | <small>S2+3</small> |
+| <small>[Technische Grundlagen der Informatik 2](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=352&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=49faa9a950a1c7f9584e860140930247)</small> | <small>S3+4</small> | <small>[Praxis der Softwareentwicklung](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=355&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=afcbdfc3b76f2bd603e75af99d55a395)</small>   | <small>S3+4</small> |
+| <small>[Gestaltung von Informationssystemen](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=687&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=4fdfc7d45f77fbab6762fc9b21d25113)</small>    | <small>S3+4</small> | <small>[Softwarequalitaet](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=686&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=f0a18932b5c53b961d5ffd82ec93a828)</small>                | <small>S4</small>   |
+| <small>[IT-Organisation und Projektmanagement](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=365&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=0972188cffd7c1f82712f2a3bcf1402d)</small>  | <small>S3+4</small> | <small>[Software Engineering](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=896&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=a9814d05a115dad8d83d1c6460c8bc7f)</small>             | <small>S5+6</small> |
+| <small>[Informatik und Gesellschaft](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=691&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=51eac57861fcb436d696b15cfb5365a3)</small>            | <small>S1</small>   | <small>[Internet Anwendungsarchitekturen](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=363&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=6b8564b01760a85bd3946ebec3a1cae1)</small> | <small>S5+6</small> |
