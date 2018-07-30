@@ -82,7 +82,7 @@ An OWASP project is a collection of related tasks that have a defined roadmap an
 
 ---
 
-# [Determining Lab Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_LAB_status)
+# ![Labs](images/02-01-owasp/Owasp-labs-trans-85.png) [Determining Lab Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_LAB_status)
 
 It is essential for an OWASP Labs project to have:
 * A version number with a clear release schedule
@@ -92,7 +92,7 @@ It is essential for an OWASP Labs project to have:
 
 ---
 
-# [Determining Flagship Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_Flagship_status)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [Determining Flagship Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_Flagship_status)
 
 It is essential for an OWASP Flagship project to have:
 * Considerable number of users and contributors
@@ -136,6 +136,18 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 
 ---
 
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+
+|   |                         |    |                                             |
+|:--|:------------------------|:---|:--------------------------------------------|
+| 1 | Injection               | 6  | Security Misconfiguration                   |
+| 2 | Broken Authorization    | 7  | Cross-Site-Scripting (XSS)                  |
+| 3 | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
+| 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
+| 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
+
+---
+
 # Application Security Risks
 
 [![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
@@ -147,18 +159,6 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 [![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
-
----
-
-# OWASP Top 10
-
-|   |                         |    |                                             |
-|:--|:------------------------|:---|:--------------------------------------------|
-| 1 | Injection               | 6  | Security Misconfiguration                   |
-| 2 | Broken Authorization    | 7  | Cross-Site-Scripting (XSS)                  |
-| 3 | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
-| 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
-| 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
 
 ---
 
@@ -204,7 +204,7 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 
 ---
 
-# [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
 
 OWASP Juice Shop is an intentionally insecure webapp for security trainings written entirely in JavaScript which encompasses the entire OWASP Top Ten and other severe security flaws.
 
