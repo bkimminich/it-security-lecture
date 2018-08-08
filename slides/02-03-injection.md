@@ -175,7 +175,7 @@ returning all records with "owasp" somewhere in the title.
 
 Static values are useful to probe for the right number of result set columns:
 
-```
+```sql
 ' UNION SELECT 1 FROM users--
 ```
 
