@@ -106,7 +106,7 @@ String query = "SELECT id FROM users " +
 | 5 |            |                | `SELECT id FROM users WHERE name = 'admin'` | `1`           |
 | 6 |            |                | `SELECT id FROM users`                      | `1`, `2`, ... |
 
-_:information_source: Valid options for Query Result are only numbers, nothing or an error._
+<small>_:information_source: Valid options for Query Result are only numbers, nothing or an error._</small>
 
 ---
 
