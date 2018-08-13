@@ -11,14 +11,14 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 1 - Information & Network Security
 
 1. [Motivation](slides/01-01-motivation.md) (Vulnerabilities, Exploits, Threat Actors, Case Studies) (:heavy_check_mark:)
-2. Security Goals (Confidentiality, Integrity, Availability)
-3. Malware (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptominers)
-4. Network Security (VPN, WLAN, Firewalls/IDS/IPS/WAF)
-5. Encryption (SSL/TLS, PGP)
-6. Security Management & Organization
-7. Threat Modelling
-8. Risk Assessments
-9. Penetration Tests & Security Automation
+2. [Security Goals](slides/01-02-security_goals.md) (Confidentiality, Integrity, Availability)
+3. [Malware](slides/01-03-malware.md) (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptominers)
+4. [Network Security](slides/01-04-network_security.md) (VPN, WLAN, Firewalls/IDS/IPS/WAF)
+5. [Encryption](slides/01-05-encryption.md) (SSL/TLS, PGP)
+6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md)
+7. [Threat Modelling](slides/01-07-threat_modelling.md)
+8. [Risk Assessments](slides/01-08-risk_assessments.md)
+9. [Penetration Tests & Security Automation](slides/01-09-pentests_and_automation.md)
 
 ### Semester 2 - Application Security & SDLC
 
