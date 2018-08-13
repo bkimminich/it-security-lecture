@@ -4,9 +4,7 @@ University lecture on "IT Security" as
 [Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
 material by [Björn Kimminich](http://kimminich.de)
 
-[![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
-
-<small><small><small>(OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License)</small></small></small>
+[![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/ "OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
 
 ## Covered Topics
 
