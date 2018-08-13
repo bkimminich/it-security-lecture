@@ -225,16 +225,16 @@ ResultSet results = pstmt.executeQuery();
 # [Prevention](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet)
 
 * **Avoid the Interpreter** entirely if possible! :100:
+  * e.g. use tech. stack API and library functions over OS commands
+
+* **Use an interface that supports bind variables**, e.g.
+  * `java.sql.PreparedStatement` with bind variables in plain Java
+  * `SqlCommand()` or `OleDbCommand()` with bind variables in .NET
+  * Named parameters in `createQuery()` of Hibernate
 
 <!-- -->
 
-* **Use an interface that supports bind variables**
-  * java.sql.PreparedStatement
-  * Hibernate Parameter Binding
-
-<!-- -->
-
-* Perform **White List Input Validation** on all user supplied input
+* Perform White List Input Validation on all user supplied input
 * Enforce Least Privileges for the application's DB user
 
 ---
@@ -244,3 +244,14 @@ ResultSet results = pstmt.executeQuery();
 1. Log in as any existing user using SQL Injection (:star::star:)
 2. Order the special :christmas_tree: offer that was only avaiable in 2014 (:star::star:)
 3. Spy out all user account credentials from the database (:star::star::star::star:)
+
+---
+
+# Exercise 3.3 _(optional)_
+
+#### NoSQL Injection
+
+Apply the concept of _Injection_ attacks to the NoSQL database being used for the _User Reviews_ of products in the Juice Shop.
+
+1. Let the server (literally) sleep for some time (:star::star::star::star:)
+2. Update multiple product reviews at the same time (:star::star::star::star:)
