@@ -115,7 +115,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 #### Optional Literature Recommendations
 
-:wrench: **TODO**
+* Andress: The Basics of Information Security (2nd Edition), 2014
 
 ---
 
