@@ -114,7 +114,7 @@ String query = "SELECT id FROM users " +
 
 ## Bypassing Authentication
 
-* `admin' --`
+* `admin'--`
 * `admin'/*`
 * `' OR 1=1--`
 * `' OR 1=1/*`
@@ -130,7 +130,7 @@ String query = "SELECT id FROM users " +
 
 #### Examples
 
-* Injecting boolean conditions (e.g. ` AND 1 = 2` or `AND 1 = 1`)  to determine injection vulnerability based on returned content
+* Injecting boolean conditions (e.g. `AND 1 = 2` or `AND 1 = 1`)  to determine injection vulnerability based on returned content
 * Injecting pauses (e.g. `WAITFOR DELAY '00:00:10'--`)  to determine injection vulnerability based on response time
 
 ---
@@ -242,7 +242,7 @@ ResultSet results = pstmt.executeQuery();
 # Exercise 3.2
 
 1. Log in as any existing user using SQL Injection (:star::star:)
-2. Order the special :christmas_tree: offer that was only avaiable in 2014 (:star::star:)
+2. Order the special :christmas_tree: offer that was only available in 2014 (:star::star:)
 3. Spy out all user account credentials from the database (:star::star::star::star:)
 
 ---
