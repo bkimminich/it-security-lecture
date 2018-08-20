@@ -56,8 +56,8 @@ _:information_source: On the university computers Node.js should already be avai
 
 # Recommended Resources
 
-* OWASP: [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf), 2017
-* OWASP: [OWASP Cheat Sheet Series](https://github.com/righettod/owasp-cs-book/releases/download/CI_BUILD_RELEASE/owasp-cs-book.pdf), 2018
+* OWASP: [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
+* OWASP: [OWASP Cheat Sheet Series](https://github.com/righettod/owasp-cs-book/releases/download/CI_BUILD_RELEASE/owasp-cs-book.pdf)
 
 #### Literature Recommendations _(optional)_
 
