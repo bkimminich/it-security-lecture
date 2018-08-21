@@ -32,8 +32,8 @@
 
 # Confidentiality
 
-* **Access** to information, assets, etc. **should be granted only on a _need to know_ basis**
-* Information which is only meant to be accessed by for _some_ should not be accessible by _everyone_
+* Access to information, assets, etc. should be granted only on a **need-to-know basis**
+* Information which is only meant to be accessed by for some should not be accessible by everyone
 * A data classification policy is required to manage & maintain who has access to what
 
 ---
