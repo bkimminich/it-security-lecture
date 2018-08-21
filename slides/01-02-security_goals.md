@@ -70,11 +70,11 @@
 
 | Objective       | C | I | A |
 |:----------------|:--|:--|:--|
-| Authentication  |   |   |   |
 | Authorization   |   |   |   |
 | Accountability  |   |   |   |
 | Non-Repudiation |   |   |   |
 | Utility         |   |   |   |
-| Possession      |   |   |   |
+| Anonymity       |   |   |   |
+| Authenticity    |   |   |   |
 
 
