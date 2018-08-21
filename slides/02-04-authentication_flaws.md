@@ -96,7 +96,7 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 * Maximum length should allow 64 characters or more
 * **No periodic password resets** as users rely on predictable patterns
 * Avoid password complexity rules as _all of them_ are predictable
-* Ban bad passwords ([:tv:](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)) or ones which have appeared in data breaches
+* Ban bad passwords or ones which have appeared in data breaches
   * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords) or [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)  
 * Allow convenience features on password fields
   * Offer _Show Password while typing_ option
@@ -155,11 +155,35 @@ Having detected theft, a credential storage scheme must support continued operat
 
 ---
 
+# Two-Factor Authentication
+
+> Two-factor authentication adds a second level of authentication to an account log-in. When you have to enter only your username and one password, that's considered a single-factor authentication. 2FA requires the user to have two out of three types of credentials before being able to access an account. The three types are:
+>
+> * **Something you know**, such as a personal identification number (PIN), password or a pattern
+> * **Something you have**, such as an ATM card, phone, or fob
+> * **Something you are**, such as a biometric like a fingerprint or voice print \[[^1]\]
+
+[^1]: https://www.cnet.com/news/two-factor-authentication-what-you-need-to-know-faq/
+
+---
+
+# [2FA Method Comparison](https://www.expressvpn.com/blog/best-two-factor-authentication)
+
+| Method            | Security        | Privacy                              | Access             |
+|:------------------|:----------------|:-------------------------------------|:-------------------|
+| SMS               | :key:           | :sunglasses:                         | :door::door::door: |
+| Authenticator App | :key::key:      | :sunglasses::sunglasses::sunglasses: | :door:             |
+| Hardware Key      | :key::key::key: | :sunglasses::sunglasses::sunglasses: | :door::door:       |
+
+> <small>Hardware keys win from a security perspective, they are private and unaffected by a dying or out of range phone. However, only a few services (Google, Dropbox, Facebook, Github and a few others) support the standard so far. Unless you trust your phone provider (and few providers are trustworthy), **an authenticator app is the best option**.</small>
+
+---
+
 <!-- *footer: -->
 
 # Password Managers
 
-> Password managers are programs, browser plugins or web services that automate management of large number of different credentials, including memorizing and filling-in, generating random passwords on different sites etc. \[[^1]\]
+> Password managers are programs, browser plugins or web services that automate management of large number of different credentials, including memorizing and filling-in, generating random passwords on different sites etc. \[[^2]\]
 
 | [![KeePass Logo](images/02-04-authentication_flaws/keepass_322x132.png)](https://keepass.info/) | [![LastPass Logo](images/02-04-authentication_flaws/LastPass-Logo-Color.png)](https://www.lastpass.com) | [![1Password Logo](images/02-04-authentication_flaws/1password-logo-awesome%402x.png)](https://1password.com/) |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
@@ -174,7 +198,7 @@ Having detected theft, a credential storage scheme must support continued operat
 > * do not artificially prevent copy and paste on username and password fields,
 > * avoid plugin-based login pages (Flash, Silverlight etc) \[[^1]\]
 
-[^1]: https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Password_Managers
+[^2]: https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Password_Managers
 
 ---
 
@@ -185,3 +209,21 @@ Having detected theft, a credential storage scheme must support continued operat
 3. Log in with Bjoern's user account (:star::star::star::star:)
 
 _:warning: Do **not** use SQL Injection for authentication bypass!_
+
+---
+
+# Exercise 4.5
+
+#### ![SQRL Logo](images/02-04-authentication_flaws/SQRL_Logo_80x80.png) Secure Quick Reliable Login (SQRL)
+
+1. Read https://www.grc.com/sqrl/sqrl.htm
+2. Prepare a convincing "sales pitch" (max. 5min) to convince your classmates and co-workers to use SQRL for secure authentication  
+
+---
+
+# Exercise 4.6 (_optional_)
+
+1. Install a 2FA app on your phone (e.g. [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator) or [Authy](https://authy.com/))
+2. Visit <https://twofactorauth.org> and find out what services you use offer 2FA
+3. Turn 2FA on wherever possible
+4. Do not forget to print (=:printer:!) the backup codes and keep them safe
