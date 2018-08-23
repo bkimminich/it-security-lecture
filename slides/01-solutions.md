@@ -22,3 +22,19 @@
 | **Organized Crime** | Monetization, e.g. extortion & fraud<br>(Providing Cyber-Crime-as-a-Service) | :skull::skull:(:skull:) |
 | **Evil Employees**  | Revenge & corruption<br>Dangerous insider knowledge                          | :skull::skull::skull:   |
 | **Nation States**   | Power! Unlimited resources & budget                                          | :skull:x100             |
+
+---
+
+# Exercise 2.1 (Threats to Security Goals)
+
+| Threat                      | C                  | I                  | A                  |
+|:----------------------------|:-------------------|:-------------------|:-------------------|
+| Network Sniffing            | :heavy_check_mark: |                    |                    |
+| DDoS Attack                 |                    |                    | :heavy_check_mark: |
+| Rogue WiFi Access Point     | :heavy_check_mark: | :heavy_check_mark: |                    |
+| Electromagnetic Pulse (EMP) |                    |                    | :heavy_check_mark: |
+| Social Engineering          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Whistleblower               | :heavy_check_mark: |                    |                    |
+
+---
+
