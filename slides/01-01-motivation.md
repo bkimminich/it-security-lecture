@@ -134,7 +134,7 @@ _It later came out that head shots :camera: of kids and private chat messages we
 
 # CloudPets (February 2017)
 
-> Only a couple of weeks ago, there were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. \[[^7]\]
+> \[...\] There were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. \[[^7]\]
 
 ![CloudPets logo](images/01-01-motivation/CloudPets_LogoNew.png)
 

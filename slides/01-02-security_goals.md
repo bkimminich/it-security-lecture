@@ -10,19 +10,17 @@
 
 ---
 
-:wrench: **TODO** Add pick-up slide
+<!-- *footer: -->
 
----
+# Information Security <small>([44 U.S. Code § 3542](https://www.law.cornell.edu/uscode/text/44/3542))</small>
 
-# Information Security Definitions
-
-#### from [44 U.S. Code § 3542](https://www.law.cornell.edu/uscode/text/44/3542)
-
+> <small>(1) The term “information security” means protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide—
+>
 > (A) integrity, which means guarding against improper information modification or destruction, and includes ensuring information nonrepudiation and authenticity;
 >
 > (B) confidentiality, which means preserving authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information; and
 >
-> (C) availability, which means ensuring timely and reliable access to and use of information.
+> (C) availability, which means ensuring timely and reliable access to and use of information.</small>
 
 ---
 
@@ -36,23 +34,36 @@
 
 # :dart: Confidentiality
 
-* Access to information, assets, etc. should be granted only on a **need-to-know basis**
-* Information which is only meant to be accessed by for some should not be accessible by everyone
-* **Categorize data** according to the amount and type of possible damage should it fall into unintended hands
+* **Protecting information from disclosure** to unauthorized parties
+* Access to information should be granted only on a **need-to-know basis**
+* **Data categorization** according to the amount and type of possible damage should it fall into wrong hands
+
+#### Supporting Principles (:closed_lock_with_key:)
+
+* Authentication, Authorization, Encryption, Anonymity, Secrecy
 
 ---
 
 # :dart: Integrity
 
-:wrench: **TODO**
+* **Protecting information from being modified** by unauthorized parties
+* Being correct or **consistent with the intended state** of information
+* Ensuring that the **information is not tampered** whenever it travels from source to destination or even stored at rest
+
+#### Supporting Principles (:lock_with_ink_pen:)
+
+* Hashing, Digital Signatures, Non-repudiation, Tamper-evident packaging
 
 ---
 
 # :dart: Availability
 
-* Assurance that **systems and data are accessible by authorized users** when needed
+* Ensuring that authorized parties are **able to access information** when needed
+* Ensuring that the services of an organization are available
 
-:wrench: **TODO**
+#### Supporting Principles (:atm:)
+
+* Accessibility, Fault Tolerance, Redundancy, Backup, Testing
 
 ---
 
@@ -66,8 +77,8 @@
 | DDoS Attack                 |   |   |   |
 | Rogue WiFi Access Point     |   |   |   |
 | Electromagnetic Pulse (EMP) |   |   |   |
-| Social Engineering          |   |   |   |
 | Whistleblower               |   |   |   |
+| Social Engineering          |   |   |   |
 
 ---
 
@@ -84,19 +95,38 @@
 
 ## :dart: Possession / Control
 
-:wrench: **TODO**
+* Protecting against the idea that **confidential data can be possessed/controlled by an unauthorized individual or party**
+* Loss of control or possession of information should not automatically lead to the breach of confidentiality
+
+#### Supporting Principles (:left_luggage:)
+
+* Encryption, Authentication
 
 ---
 
 ## :dart: Authenticity
 
-:wrench: **TODO**
+* Assurance that **a message or transaction is from the source it claims to be from**
+
+#### Supporting Principles (:memo:)
+
+* Identification, Digital Certificates
 
 ---
 
 ## :dart: Utility
 
-:wrench: **TODO**
+* **Usefulness** of data or information
+
+#### Supporting Principles (:floppy_disk::pager:)
+
+* Compatibility, Accessibility
+
+<hr>
+
+> Information may be available and therefore usable but it doesn't necessarily have to be in a useful form to be defined as available. \[[^1]\]
+
+[^1]: http://cs.lewisu.edu/mathcs/msisprojects/papers/georgiependerbey.pdf
 
 ---
 
@@ -114,13 +144,24 @@
 
 ## :dart: Accountability
 
-:wrench: **TODO**
+* Allowing to answer questions like _"Who did it?"_ or _"Who is accountable?"_
+* Considering **legal consequences** and contractual obligations
+* Encompassing **segregation of duties** and awareness training
+
+#### Supporting Principles (:see_no_evil::hear_no_evil::speak_no_evil:)
+
+* **Integrity**, Non-repudiation, Authenticity, Design, Governance, Policy
 
 ---
 
 ## :dart: Assurance
 
-:wrench: **TODO**
+* Introduces **control activities** for the aforementioned security goals
+* Periodic controls **assuring that all security measures** (both technical and operational) **work as intended**
+
+#### Supporting Principles (:bar_chart::chart_with_upwards_trend:)
+
+* Auditing, Measuring, Monitoring, Continuous Improvement
 
 ---
 
