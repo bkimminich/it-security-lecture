@@ -173,7 +173,7 @@
 
 ---
 
-# Exercise 2.2
+# Exercise 2.2 (:pushpin:)
 
 1. Define at least three supporting measures for each CIA³ security goal, distinguishing between technical and organizational measures
 

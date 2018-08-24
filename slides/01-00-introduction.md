@@ -61,6 +61,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 * Physical presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
+* Exercises marked with ":pushpin:" might be done in the plenum
 * Active participation is encouraged. Otherwise at least be quiet
 * If you are done with the last exercise of the day, you may leave
 

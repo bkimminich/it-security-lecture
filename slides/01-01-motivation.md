@@ -38,7 +38,7 @@
 
 ---
 
-# Exercise 1.1
+# Exercise 1.1 (:pushpin:)
 
 ## Brainstorming Attackers
 

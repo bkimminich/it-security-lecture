@@ -36,7 +36,7 @@
 
 ---
 
-# Exercise 4.1
+# Exercise 4.1 (:pushpin:)
 
 1. Watch [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/) :tv:
 2. Log in with MC SafeSearch's user account (:star::star:)
@@ -45,7 +45,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 ---
 
-# Exercise 4.2
+# Exercise 4.2 (:pushpin:)
 
 1. Identify all flaws in the generator of the following session IDs
 
@@ -62,7 +62,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 <!-- *footer: -->
 
-# Exercise 4.3
+# Exercise 4.3 (:pushpin:)
 
 1. Pick one Security Question and explain how :muscle: it is against attacks.
 2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
