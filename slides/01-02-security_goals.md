@@ -170,3 +170,17 @@
 # Dependency Model of CIA³
 
 ![CIA³ Model 2016, http://www.cia-cubed.org, used under CC-BY-SA 4.0](images/01-02-security_goals/CIA-cubed-relation.png)
+
+---
+
+# Exercise 2.2
+
+1. Define at least three supporting measures for each CIA³ security goal, distinguishing between technical and organizational measures
+
+| Security Goal   | Technical Measures | Organizational Measures |
+|:----------------|:-------------------|:------------------------|
+| Confidentiality |                    |                         |
+| Integrity       |                    |                         |
+| Availability    |                    |                         |
+| Accountability  |                    |                         |
+| Assurance       |                    |                         |

@@ -11,7 +11,7 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 1 - Information & Network Security
 
 1. [Motivation](slides/01-01-motivation.md) (Vulnerabilities, Exploits, Threat Actors, Case Studies) (:heavy_check_mark:)
-2. [Security Goals](slides/01-02-security_goals.md) (Confidentiality, Integrity, Availability)
+2. [Security Goals](slides/01-02-security_goals.md) (Confidentiality, Integrity, Availability) (:heavy_check_mark:)
 3. [Malware](slides/01-03-malware.md) (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptominers)
 4. [Network Security](slides/01-04-network_security.md) (VPN, WLAN, Firewalls/IDS/IPS/WAF)
 5. [Encryption](slides/01-05-encryption.md) (SSL/TLS, PGP)
@@ -23,7 +23,7 @@ material by [Björn Kimminich](http://kimminich.de)
 ### Semester 2 - Application Security & SDLC
 
 1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP) (:heavy_check_mark:)
-2. [XSS](slides/02-02-xss.md) (:heavy_check_mark:)
+2. [Cross-Site Scripting (XSS)](slides/02-02-xss.md) (:heavy_check_mark:)
 3. [Injection](slides/02-03-injection.md) (:heavy_check_mark:)
 4. [Authentication Flaws](slides/02-04-authentication_flaws.md) (:heavy_check_mark:)
 5. [Authorization Flaws](slides/02-05-authorization_flaws.md) (:heavy_check_mark:)
