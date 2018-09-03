@@ -106,7 +106,52 @@ _:warning: External Internet traffic is especially dangerous!_
   * Standard algorithms
   * Protocols
   * Keys
-* Encrypt data in transit (e.g. [TLS](01-06-encryption.md)) and enforce encryption (e.g. HSTS)
+* Encrypt data in transit (e.g. [TLS](01-05-encryption.md)) and enforce encryption (e.g. HSTS)
+
+---
+
+<!-- *footer: -->
+
+## Information Classification
+
+| Class            | Description                                                                                                              | Examples                                                                                              |
+|:-----------------|:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
+| **Public**       | <small><small>Information without any confidentiality requirements.</small></small>                                      | <small><small>User documentation, news, press releases, lunch menus</small></small>                   |
+| **Internal**     | <small><small>Common information inside an organization.</small></small>                                                 | <small><small>Memos, system documentation or meeting minutes</small></small>                          |
+| **Confidential** | <small><small>Information or compartmental data with restricted access. Disclosure might induce damage.</small></small>  | <small><small>Customer, HR, financial or PII data; source code, credentials, logfiles</small></small> |
+| **Secret**       | <small><small>Highest confidentiality and integrity requirements. Damaging to organization if disclosed.</small></small> | <small><small>Business secrets, secret formulae, planned mergers/acquisitions</small></small>         |
+
+---
+
+<!-- *footer: -->
+
+# Exercise 6.1
+
+1. For each classification level decide if the listed practices should be allowed (:heavy_check_mark:) or strictly forbidden (:x:).
+2. Use footnotes to describe preconditions (if necessary).
+
+| Practice                 | Public | Internal | Confidential | Secret |
+|:-------------------------|:-------|:---------|:-------------|:-------|
+| Publish on Internet      |        |          |              |        |
+| Publish on Intranet      |        |          |              |        |
+| Print on :printer:       |        |          |              |        |
+| Share with third parties |        |          |              |        |
+| Copy to USB key          |        |          |              |        |
+
+---
+
+<!-- *footer: -->
+
+# Exercise 6.2
+
+1. For each classification level define restrictions (:red_circle:) and/or recommendations (:o:) for the listed lifecycle phases.
+
+| Phase                               | Public | Internal | Confidential | Secret |
+|:------------------------------------|:-------|:---------|:-------------|:-------|
+| Permanent storage<br><br>           |        |          |              |        |
+| Transfer (internal network)<br><br> |        |          |              |        |
+| Transfer (public network)<br><br>   |        |          |              |        |
+| Disposal<br><br>                    |        |          |              |        |
 
 ---
 
@@ -146,7 +191,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-# Exercise 6.1
+# Exercise 6.3
 
 1. Access a confidential document (:star:)
 2. Retrieve as many clear text user passwords as you can (:interrobang:)
