@@ -216,7 +216,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 #### ![SQRL Logo](images/02-04-authentication_flaws/SQRL_Logo_80x80.png) Secure Quick Reliable Login (SQRL)
 
-1. Read https://www.grc.com/sqrl/sqrl.htm
+1. Read https://www.grc.com/sqrl/sqrl.htm and http://sqrl.pl/guide to learn how SQRL works
 2. Prepare a convincing "sales pitch" (max. 5min) to convince your classmates and co-workers to use SQRL for secure authentication  
 
 ---
