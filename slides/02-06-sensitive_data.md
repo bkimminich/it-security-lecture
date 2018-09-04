@@ -151,7 +151,7 @@ _:warning: External Internet traffic is especially dangerous!_
 | Permanent storage<br><br>           |        |          |              |        |
 | Transfer (internal network)<br><br> |        |          |              |        |
 | Transfer (public network)<br><br>   |        |          |              |        |
-| Disposal<br><br>                    |        |          |              |        |
+| Disposal                            |        |          |              |        |
 
 ---
 
