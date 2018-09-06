@@ -157,3 +157,20 @@ _Impacted parents were never notified by CloudPets. :scream:_
 3. Hit the `pwned?` button
 
 ![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png) ![Oh no - pwned!](images/01-01-motivation/haveibeenpwned-red.png)
+
+---
+
+# Exercise 1.3
+
+1. Mark potentially malicious items in the Press Kit from the _Trump-Kim Summit_ (2018) in the image on the next slide (:arrow_right:)
+2. Explain possible ways how these items might actually be malicious
+3. Reason about potential attackers behind this and explain their most likely motivations
+4. Come up with a least two more additions to the Press Kit and explain how they could be used maliciously
+
+:information_source: _Speculation is allowed, but still be as specific as possible!_
+
+---
+
+<!-- *footer: -->
+
+![Press kit from Trump-Kim Summit in Singapore 2018](images/01-01-motivation/TrumpKimSummit_PressKit.png)
