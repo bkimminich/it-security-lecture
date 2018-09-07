@@ -191,7 +191,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-# Exercise 6.3
+# Exercise 6.3 (:house:)
 
 1. Access a confidential document (:star:)
 2. Retrieve as many clear text user passwords as you can (:interrobang:)

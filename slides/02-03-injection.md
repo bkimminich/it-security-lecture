@@ -239,7 +239,7 @@ ResultSet results = pstmt.executeQuery();
 
 ---
 
-# Exercise 3.2
+# Exercise 3.2 (:house:)
 
 1. Log in as any existing user using SQL Injection (:star::star:)
 2. Order the special :christmas_tree: offer that was only available in 2014 (:star::star:)

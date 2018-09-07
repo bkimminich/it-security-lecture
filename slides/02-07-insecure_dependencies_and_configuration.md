@@ -245,7 +245,7 @@ _:information_source: Please consider ticking the "Do not show the results on th
 
 ---
 
-# Exercise 7.3
+# Exercise 7.3 (:house:)
 
 1. Persist a Stored XSS attack via the _Contact Us_ page (:star::star::star::star:)
 2. Report the vulnerability which makes this XSS possible (:star::star::star::star:)

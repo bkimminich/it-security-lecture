@@ -184,3 +184,17 @@
 | Availability    |                    |                         |
 | Accountability  |                    |                         |
 | Assurance       |                    |                         |
+
+---
+
+# Exercise 2.3 (:house:)
+
+1. Which of the "classic" CIA security goals could have been compromised in each of the [Motivation: Case Studies](01-01-motivation.md#case-studies)?
+2. Explain each :heavy_check_mark: briefly
+
+| Case Study                                               | C | I | A |
+|:---------------------------------------------------------|:--|:--|:--|
+| [Aadhaar](01-01-motivation.md#aadhaar-january-2018)      |   |   |   |
+| [Equifax](01-01-motivation.md#equifax-september-2017)    |   |   |   |
+| [VTech](01-01-motivation.md#vtech-november-2015)         |   |   |   |
+| [CloudPets](01-01-motivation.md#cloudpets-february-2017) |   |   |   |

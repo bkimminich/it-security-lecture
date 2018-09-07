@@ -301,7 +301,7 @@ _:warning: The affected version `0.0.4` of `node-serialize` is also the latest v
 
 ---
 
-# Exercise 8.4
+# Exercise 8.4 (:house:)
 
 1. Perform a DoS-like Attack using XXE (:star::star::star::star::star:)
 

@@ -160,8 +160,7 @@ _Impacted parents were never notified by CloudPets. :scream:_
 
 ---
 
-# Exercise 1.3
-
+# Exercise 1.3 (:house:)
 1. Mark potentially malicious items in the Press Kit from the _Trump-Kim Summit_ (2018) in the image on the next slide (:arrow_right:)
 2. Explain possible ways how these items might actually be malicious
 3. Reason about potential attackers behind this and explain their most likely motivations

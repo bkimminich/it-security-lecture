@@ -202,7 +202,7 @@ Having detected theft, a credential storage scheme must support continued operat
 
 ---
 
-# Exercise 4.4
+# Exercise 4.4 (:house:)
 
 1. Log in with the admin's user account (:star::star:)
 2. Reset Jim's password by answering his secret question (:star::star::star:)
@@ -212,7 +212,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 ---
 
-# Exercise 4.5
+# Exercise 4.5 (:house:)
 
 #### ![SQRL Logo](images/02-04-authentication_flaws/SQRL_Logo_80x80.png) Secure Quick Reliable Login (SQRL)
 
