@@ -46,7 +46,7 @@ _:information_source: Some of the largest breaches to date have relied on exploi
 | Exploitability                 | Prevalence              | Detecability                   | Impact                          | Risk                                                                                             |
 |:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------|
 | :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
-| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                   
+| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                                                        |
 
 ---
 
@@ -130,6 +130,7 @@ _:information_source: Especially information leakage from error message can ofte
 |:------------------|:------------------------|:------------------|:--------------------------------|:-------------------------------------------------------------------------------|
 | :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A6](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration) |
 | ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                      |
+
 ---
 
 # Web Shells
@@ -141,7 +142,7 @@ _:information_source: Especially information leakage from error message can ofte
 ---
 
 > Using network reconnaissance tools, **an adversary can identify vulnerabilities that can be exploited and result in the installation of a web shell.** For example, these vulnerabilities can exist in content management systems (CMS) or web server software.
-> 
+>
 > Once successfully uploaded, **an adversary can use the web shell to leverage other exploitation techniques to escalate privileges and to issue commands remotely.** These commands are directly linked to the privilege and functionality available to the web server and may include the ability to add, delete, and execute files as well as the ability to run shell commands, further executables, or scripts. \[[^1]\]
 
 [^1]: https://www.us-cert.gov/ncas/alerts/TA15-314A
@@ -197,9 +198,8 @@ hostname:nordakademie product:apache -hash:0
 hostname:nordakademie http.component:php http.status:200
 # = available (200 "OK") servers running PHP
 ```
+
 ---
-
-
 
 ##### Filtering for known vulnerabilities by CVE-ID
 
@@ -229,7 +229,7 @@ see **https://developer.shodan.io/api**
 
 3. Use an [online test](https://www.ssllabs.com/ssltest/index.html) to check the rating of at least one SSL configuration of your employer's hosts
 
-_:information_source: Please consider ticking the "Do not show the results on the boards" checkbox before running the online scan!_ 
+_:information_source: Please consider ticking the "Do not show the results on the boards" checkbox before running the online scan!_
 
 ---
 
@@ -249,7 +249,7 @@ _:information_source: Please consider ticking the "Do not show the results on th
 
 1. Persist a Stored XSS attack via the _Contact Us_ page (:star::star::star::star:)
 2. Report the vulnerability which makes this XSS possible (:star::star::star::star:)
- 
+
 <!-- -->
 
 3. Report another vulnerability that could be exploited in a [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf) (:star::star::star::star::star:)
