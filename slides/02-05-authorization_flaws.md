@@ -101,7 +101,7 @@ Assuming no access control is in place, which privilege escalations are possible
 
 ---
 
-# Exercise 5.3
+# Exercise 5.3 (:house:)
 
 1. Place an order with a negative total (:star::star::star:)
 2. Access one or more misplaced files (:star: - :star::star::star::star::star:)
