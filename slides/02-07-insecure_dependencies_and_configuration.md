@@ -81,7 +81,7 @@ _:information_source: Some of the largest breaches to date have relied on exploi
 
 ---
 
-# Exercise 7.1
+# Exercise 7.1 (:house:)
 
 1. Open the [Sample Report](https://jeremylong.github.io/DependencyCheck/general/SampleReport.html) of OWASP Dependency-Check
 2. Recommend an action plan for the assessed application
@@ -227,9 +227,9 @@ see **https://developer.shodan.io/api**
 
 <hr>
 
-3. Use an [online test](https://www.ssllabs.com/ssltest/index.html) to check the rating of at least one SSL configuration of your employer's hosts
+3. Use [Mozilla Observatory](https://observatory.mozilla.org/) to check the rating of at least one SSL configuration of your employer's hosts
 
-_:information_source: Please consider ticking the "Do not show the results on the boards" checkbox before running the online scan!_ 
+_:information_source: Please consider ticking the "Don't include my site in the public results" checkbox before running the online scan!_ 
 
 ---
 
