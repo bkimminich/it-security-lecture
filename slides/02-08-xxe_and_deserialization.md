@@ -14,7 +14,7 @@
 
 # XML Entities
 
-* In the DTD you specify shortcuts as `ENTITY`...
+* In the Document Type Definition (DTD) you specify shortcuts as `ENTITY`...
   * `<!ENTITY author "Bjoern Kimminich">`
   * `<!ENTITY copyright "(C) 2018">`
 
