@@ -142,7 +142,7 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 |   |                         |    |                                             |
 |:--|:------------------------|:---|:--------------------------------------------|
 | 1 | Injection               | 6  | Security Misconfiguration                   |
-| 2 | Broken Authorization    | 7  | Cross-Site-Scripting (XSS)                  |
+| 2 | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
 | 3 | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
 | 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
 | 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
