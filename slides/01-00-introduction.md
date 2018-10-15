@@ -72,14 +72,14 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 # Curriculum 1st Semester
 
 1. [Motivation](01-01-motivation.md)
-2. Security Goals
-3. Malware
-4. Network Security
-5. Encryption
-6. Security Management & Organization
-7. Threat Modelling
-8. Risk Assessments
-9. Penetration Tests & Security Automation
+2. [Security Goals](01-02-security_goals.md)
+3. [Malware](01-03-malware.md)
+4. [Network Security](01-04-network_security.md)
+5. [Encryption](01-05-encryption.md)
+6. [Security Management & Organization](01-06-security_mgmt_and_org.md)
+7. [Threat Modelling](01-07-threat_modelling.md)
+8. [Risk Assessments](01-08-risk_assessments.md)
+9. [Penetration Tests & Security Automation](01-09-pentests_and_automation.md)
 
 ---
 
@@ -101,7 +101,13 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 # Schedule
 
-:wrench: **TODO**
+* **Thursdays, 9:15 - 11:45**
+* 9 lectures (18.10. - 20.12.18)
+
+<!-- -->
+
+* :x: Lectures from 25.10. and 29.11.
+* :heavy_check_mark: have been moved to 27.11. and 14.12.
 
 #### Test Exam
 
