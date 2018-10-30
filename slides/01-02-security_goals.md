@@ -67,7 +67,7 @@
 
 ---
 
-# Exercise 2.1
+# Exercise 2.1 (:pushpin:)
 
 1. Which security goals are at risk by the following threats?
 
