@@ -84,10 +84,10 @@
 
 # Attacker Behavior vs. Security Goals
 
-|           |        Active        |      Passive       |        Threatened Security Goals         |
-|:---------:|:--------------------:|:------------------:|:----------------------------------------:|
-| Observing | (:heavy_check_mark:) | :heavy_check_mark: |             Confidentiality              |
-| Altering  |  :heavy_check_mark:  |        :x:         | Confidentiality, Integrity, Availability |
+|               |        Active        |      Passive       |        Threatened Security Goals         |
+|:-------------:|:--------------------:|:------------------:|:----------------------------------------:|
+| **Observing** | (:heavy_check_mark:) | :heavy_check_mark: |             Confidentiality              |
+| **Altering**  |  :heavy_check_mark:  |        :x:         | Confidentiality, Integrity, Availability |
 
 ---
 
