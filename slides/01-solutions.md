@@ -38,15 +38,20 @@
 
 ---
 
-# Exercise 2.2 (CIA³ Measures)
+### Exercise 2.2 (CIA³ Measures)
 
-| Security Goal   | Technical Measures                                                                                                            | Organizational Measures                                                      |
-|:----------------|:------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| Confidentiality | e.g. AES/RSA, HTTPS, [Tor](https://www.torproject.org/), 2FA                                                                  | e.g. Anonymous Payment Systems, Access Restrictions, Data Classification     |
-| Integrity       | e.g. SHA2, HSTS, MACs, PGP/GPG, Blockchain                                                                                    | e.g. Version Control, Access Logs                                            |
-| Availability    | e.g. Load Balancer, [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html), Heartbeat Monitoring, RAID | e.g. 24/7 Support, On-Call-Duty, SLAs                                        |
-| Accountability  | :interrobang:                                                                                                                 | e.g. Security Policies, Risk Assessments, RACI Matrix, Segregation of Duties |
-| Assurance       | e.g. Vulnerability Scanner                                                                                                    | e.g. KPIs, Customer/Supplier Audits, Penetration Test, Red Team              |
+| Security Goal   | Technical Measures                                                                                                            | Organizational Measures                                                  |
+|:----------------|:------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
+| Confidentiality | e.g. AES/RSA, HTTPS, [Tor](https://www.torproject.org/), 2FA                                                                  | e.g. Anonymous Payment Systems, Access Restrictions, Data Classification |
+| Integrity       | e.g. SHA2, HSTS, MACs, PGP/GPG, Blockchain                                                                                    | e.g. Version Control, Access Logs                                        |
+| Availability    | e.g. Load Balancer, [Circuit Breaker Pattern](https://martinfowler.com/bliki/CircuitBreaker.html), Heartbeat Monitoring, RAID | e.g. 24/7 Support, On-Call-Duty, SLAs                                    |
+
+---
+
+| Security Goal  | Technical Measures         | Organizational Measures                                                      |
+|:---------------|:---------------------------|:-----------------------------------------------------------------------------|
+| Accountability | :interrobang:              | e.g. Security Policies, Risk Assessments, RACI Matrix, Segregation of Duties |
+| Assurance      | e.g. Vulnerability Scanner | e.g. KPIs, Customer/Supplier Audits, Penetration Test, Red Team              |
 
 ---
 
