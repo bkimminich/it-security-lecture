@@ -38,6 +38,8 @@
 
 ---
 
+<!-- *footer: -->
+
 ### Exercise 2.2 (CIA³ Measures)
 
 | Security Goal   | Technical Measures                                                                                                            | Organizational Measures                                                  |
@@ -54,4 +56,16 @@
 | Assurance      | e.g. Vulnerability Scanner | e.g. KPIs, Customer/Supplier Audits, Penetration Test, Red Team              |
 
 ---
+
+### Exercise 3.2 (Javascript Virus)
+
+1. Default Internet browser is opened (as it is probably bound to open `.html` files on most computers)
+2. The JavaScript is executed resulting in the effective code `document["location"]=http://enjoyyourhaircut.com/5.html;` being run
+3. The browser is redirected to <http://enjoyyourhaircut.com/5.html> (which does not exist any more)
+
+---
+
+![Relevant code sections of the JavaScript virus](images/01-03-malware/enjoy-your-haircut.png)
+
+_:information_source: Only the yellow code sections are relevant as the payload. The rest is merely obfuscation to prevent detection by AV software!_
 
