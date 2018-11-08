@@ -57,7 +57,7 @@
 
 ---
 
-### Exercise 3.2 (Javascript Virus)
+### Exercise 3.2 (Javascript Trojan)
 
 1. Default Internet browser is opened (as it is probably bound to open `.html` files on most computers)
 2. The JavaScript is executed resulting in the effective code `document["location"]=http://enjoyyourhaircut.com/5.html;` being run
