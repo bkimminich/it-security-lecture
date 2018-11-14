@@ -189,29 +189,7 @@ _:information_source: You might be better off performing this exercise on a priv
 >
 > <small>Though the threat of a security compromise is small, users should not purchase new equipment which supports only WPA with TKIP. Only devices supporting WPA2 and **WPA3** security should be purchased and used. \[[^4]\]</small>
 
----
-
-# WEP
-
-:wrench: **TODO**
-
----
-
-# WPA2
-
-:wrench: **TODO**
-
----
-
-# WPA3
-
-> * Use the latest security methods
-> * Disallow outdated legacy protocols
-> * Require use of [Protected Management Frames (PMF)](https://www.wi-fi.org/knowledge-center/faq/what-are-protected-management-frames)
->
-> Since Wi-Fi networks differ in usage purpose and security needs, WPA3 includes additional capabilities specifically for personal and enterprise networks. Users of **WPA3-Personal** receive increased protections from password guessing attempts, while **WPA3-Enterprise** users can now take advantage of higher grade security protocols for sensitive data networks. \[[^4]\]
-
-[^4]: https://www.wi-fi.org/discover-wi-fi/security
+_:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01-05_encryption.md) lecture!_
 
 ---
 
@@ -229,9 +207,13 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-# WiGLE
+# ![WiGLE Logo](images/01-04-network_security/planet-bubble.png) WiGLE
 
-:wrench: **TODO**
+> WiGLE, or (Wireless Geographic Logging Engine), is a website for collecting information about the different wireless hotspots around the world. Users can register on the website and upload hotspot data like GPS coordinates, SSID, MAC address and the encryption type used on the hotspots discovered. In addition, cell tower data is uploaded and displayed.
+>
+> By obtaining information about the encryption of the different hotspots, WiGLE tries to create an awareness of the need for security by running a wireless network. \[[^3]\]
+
+[^3]: https://en.wikipedia.org/wiki/WiGLE
 
 ---
 
@@ -274,7 +256,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-# Exercise 4.4 (:house:_optional_)
+# Exercise 4.4 (:house:<small>_optional for iPhone users_</small>)
 
 1. Install [Wigle WiFi Wardriving](https://play.google.com/store/apps/details?id=net.wigle.wigleandroid) app for Android
 2. Let the app scan for networks on your way home
@@ -305,23 +287,132 @@ _:information_source: You might be better off performing this exercise on a priv
 > 6. Wire your cameras
 > 7. Pair Bluetooth devices at home
 > 8. Put your cards in your wallet
-> 9. Keep work logos and ID cards hidden \[[^3]\]
+> 9. Keep work logos and ID cards hidden \[[^4]\]
 
-[^3]: https://obvi.us/presentation/rf-sig/
+[^4]: https://obvi.us/presentation/rf-sig/
+
+---
+
+# Exercise 4.6 (:house:)
+
+1. Install any popular NFC reader app on your smartphone
+2. Scan a few of your credit cards, health insurance cards, ID cards etc. and document what personal information you can retrieve from each
+3. Consider getting a Blocking Card or RFID-protected purse to prevent [RFID skimming](https://en.wikipedia.org/wiki/RFID_skimming)
+
+---
+
+# Data Center Security
 
 ---
 
 # Network Firewall
 
-:wrench: **TODO**
+> A firewall is a system that provides network security by **filtering incoming and outgoing network traffic based on a set of user-defined rules**. In general, the purpose of a firewall is to **reduce or eliminate the occurrence of unwanted network communications** while allowing all legitimate communication to flow freely. In most server infrastructures, firewalls provide an essential layer of security that, combined with other measures, prevent attackers from accessing your servers in malicious ways. \[[^5]\]
+
+---
+
+# Types of Firewalls
+
+> * <small>**Packet filtering**, or stateless, **firewalls** work by inspecting individual packets in isolation. As such, they are unaware of connection state and can only allow or deny packets based on individual packet headers.</small>
+>
+> * <small>**Stateful firewalls** are able to determine the connection state of packets, which makes them much more flexible than stateless firewalls. They work by collecting related packets until the connection state can be determined before any firewall rules are applied to the traffic.</small>
+>
+> * <small>**Application firewalls** go one step further by analyzing the data being transmitted, which allows network traffic to be matched against firewall rules that are specific to individual services or applications. These are also known as proxy-based firewalls. \[[^5]\]</small> 
+
+[^5]: https://www.digitalocean.com/community/tutorials/what-is-a-firewall-and-how-does-it-work
+
+---
+
+# Firewall Rules
+
+A simple firewall could have rules defined like this:
+
+* `FROM` _source_ `TO` _destination_ `ALLOW|BLOCK` _protocol_ `PORT` _port(s)_
+
+Example policy for incoming traffic using above rule syntax:
+
+1. `FROM` _external_ `TO` _internal_ `ALLOW` _tcp_ `PORT` _80|443_ 
+2. `FROM` _194.94.98.\*_ `TO` _internal_ `BLOCK` _tcp_ `PORT` _22_
+3. `FROM` _194.94.98.42_ `TO` _internal_ `ALLOW` _tcp_ `PORT` _22_
+4. `FROM` _any_ `TO` _any_ `BLOCK` _any_ `PORT` _any_
+
+---
+
+# Default Policy
+
+To keep configuration effort and complexity low, Firewalls fall back to a default policy when no explicitly defined rule matches the traffic.
+
+* `FROM` _any_ `TO` _any_ `BLOCK` _any_ `PORT` _any_ 
+= Block everything by default ("White List")
+
+<!-- -->
+
+* `FROM` _any_ `TO` _any_ `ALLOW` _any_ `PORT` _any_ 
+= Allow everything by default ("Black List")
+
+:information_source: For all incoming traffic a White List is recommended to maximize security. A Black List would suffice for outgoing traffic adding blocks only for some sites, e.g. <small>`FROM` _194.94.98.\*_ `TO` _youtube.\*_ `BLOCK` _tcp_ `PORT` _80|443_</small>
+
+---
+
+<!-- *footer: Traditional Single Layer DMZ with two flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
+
+#### DMZ with two Firewalls
+
+![2-Layer DMZ with 3 Firewalls](images/01-04-network_security/Traditional_Single_Layer_DMZ_with_two_flanking_firewalls.png)
+
+---
+
+<!-- *footer: Inner-Outer Two layer DMZ with three or more flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
+
+#### Two-Layer DMZ with three Firewalls
+
+![2-Layer DMZ with 3 Firewalls](images/01-04-network_security/Inner-Outer_Two_layer_DMZ_with_three_or_more_flanking_firewalls.png)
 
 ---
 
 # IDS/IPS
 
-## (Intrusion Detection/Prevention System)
+## (Intrusion Detection / Prevention System)
 
-:wrench: **TODO**
+---
+
+# Definition
+
+> An **intrusion detection system (IDS)** is a device or software application that **monitors a network or systems for malicious activity or policy violations**. Any malicious activity or violation is typically **reported either to an administrator or collected centrally**  \[...\]. 
+
+> **Intrusion prevention systems** are considered extensions of intrusion detection systems because they both monitor network traffic and/or system activities for malicious activity. The main differences are, unlike intrusion detection systems, **intrusion prevention systems are placed in-line and are able to actively prevent or block intrusions** that are detected. \[[^6]\]
+
+---
+
+# Network-based IDS
+
+> Network intrusion detection systems (NIDS) are placed at a strategic point or points within the network to monitor traffic to and from all devices on the network. It performs an analysis of passing traffic on the entire subnet, and matches the traffic that is passed on the subnets to the library of known attacks. Once an attack is identified, or abnormal behavior is sensed, the alert can be sent to the administrator. \[[^6]\]
+
+---
+
+<!-- *footer: DIFFERENCE BETWEEN IPS AND IDS IN NETWORK SECURITY, 2017, https://ipwithease.com/ -->
+
+# IDS vs. IPS <small>(both Network-based)</small>
+
+![IDS vs. IPS](images/01-04-network_security/difference-between-ips-and-ids-in-network-security.png)
+
+---
+
+## Limitations
+
+* Noise (e.g. from software bugs or corrupt DNS data) can severely limit an intrusion detection system's effectiveness
+* Number of real attacks is often so far below the number of false-alarms that the real attacks are often missed and ignored
+* Lag between a new threat discovery and its signature being applied to the IDS
+* Cannot compensate for weak identification and authentication mechanisms or for weaknesses in network protocols
+* Encrypted packets are not processed by most intrusion detection devices \[[^6]\]
+
+[^6]: https://en.wikipedia.org/wiki/Intrusion_detection_system
+
+---
+
+# Host-based IDS
+
+> Host intrusion detection systems (HIDS) run on individual hosts or devices on the network. A HIDS **monitors the inbound and outbound packets from the device only** and will alert the user or administrator if suspicious activity is detected. It **takes a snapshot of existing system files and matches it to the previous snapshot**. If the critical system files were modified or deleted, an alert is sent to the administrator to investigate. An example of HIDS usage can be seen on mission critical machines, which are not expected to change their configurations. \[[^6]\]
 
 ---
 
@@ -339,9 +430,9 @@ _:information_source: You might be better off performing this exercise on a priv
 >
 > While proxies generally protect clients, WAFs protect servers. A WAF is deployed to protect a specific web application or set of web applications. A WAF can be considered a reverse proxy.
 >
-> WAFs may come in the form of an appliance, server plugin, or filter, and may be customized to an application. The effort to perform this customization can be significant and needs to be maintained as the application is modified. \[[^8]\]
+> WAFs may come in the form of an appliance, server plugin, or filter, and may be customized to an application. The effort to perform this customization can be significant and needs to be maintained as the application is modified. \[[^7]\]
 
-[^8]: https://www.owasp.org/index.php/Web_Application_Firewall
+[^7]: https://www.owasp.org/index.php/Web_Application_Firewall
 
 ---
 
@@ -351,7 +442,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ![Simple Web Application Firewall Architecture](images/02-09-sdlc/WAF_Archi.png)
 
-<small>:bulb: _An application should be able to protect itself! Use a WAF only as a secondary defense mechanism to achieve [Defense in Depth](#principle-of-defense-in-depth)! For legacy systems (with no feasible way to patch directly) a WAF can be the main protection mechanism._</small>
+<small>:bulb: _An application should be able to protect itself! Use a WAF only as a secondary defense mechanism to achieve [Defense in Depth](02-09-sdlc.md#principle-of-defense-in-depth)! For legacy systems (with no feasible way to patch directly) a WAF can be the main protection mechanism._</small>
 
 ---
 
@@ -381,7 +472,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-# Exercise 4.5 (:house:)
+# Exercise 4.7 (:house:)
 
 1. Find out if your university uses a Web Application Firewall
 2. Find out which product/vendor is being used
