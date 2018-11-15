@@ -189,7 +189,15 @@ _:information_source: You might be better off performing this exercise on a priv
 >
 > <small>Though the threat of a security compromise is small, users should not purchase new equipment which supports only WPA with TKIP. Only devices supporting WPA2 and **WPA3** security should be purchased and used. \[[^4]\]</small>
 
-_:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01-05_encryption.md) lecture!_
+_:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01-05-encryption.md) lecture!_
+
+---
+
+# Exercise 4.4 (:pushpin:)
+
+1. Read the BSides Perth 2018 presentation [What Your RF Signature Says About You](https://obvi.us/presentation/rf-sig/)
+2. Identify devices you own that could become a privacy risk
+3. Consider changing some habits to reduce this risk, e.g. by following the [All Privacy Suggestions](#all-privacy-suggestions)
 
 ---
 
@@ -200,7 +208,7 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 > Wardriving is the act of searching for Wi-Fi networks from a moving vehicle. It involves **slowly driving around an area with the goal of locating Wi-Fi signals**. This may be accomplished by an individual or by two or more people, with one person driving and others searching for wireless networks.
 >
 > Wardriving may be as simple as searching for free Wi-Fi using a smartphone inside an automobile. However, the definition usually applies to a **hardware and software configuration specifically designed for locating and recording Wi-Fi networks**. \[...\]
-> 
+>
 > "Warbiking," "warwalking," and "warrailing" are variations of wardriving. \[[^2]\]
 
 [^2]: https://techterms.com/definition/wardriving
@@ -256,7 +264,7 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-# Exercise 4.4 (:house:<small>_optional for iPhone users_</small>)
+# Exercise 4.5 (:house:<small>_optional for iPhone users_</small>)
 
 1. Install [Wigle WiFi Wardriving](https://play.google.com/store/apps/details?id=net.wigle.wigleandroid) app for Android
 2. Let the app scan for networks on your way home
@@ -267,11 +275,11 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-# Exercise 4.5 (:pushpin:)
+<!-- *footer: -->
 
-1. Read the BSides Perth 2018 presentation [What Your RF Signature Says About You](https://obvi.us/presentation/rf-sig/)
-2. Identify devices you own that could become a privacy risk
-3. Consider changing some habits to reduce this risk, e.g. by following the _All Privacy Suggestions_ from the presentation (see next slide)
+## WiGLE Run from train station to university
+
+![](images/01-04-network_security/wigle_app-unencrypted.png) ![](images/01-04-network_security/wigle_app-run.png) ![](images/01-04-network_security/wigle_app-connect.png)
 
 ---
 
@@ -482,4 +490,4 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 	* protected by a WAF
 4. Repeat steps 1-3 for the company you work at (if applicable)
 
-<small>_:soon: Web Application Security will make up most of the next semester's curriculum!_</small>
+<small>_:soon: Web Application Security will make up most of [next semester's curriculum](02-00-introduction.md)!_</small>
