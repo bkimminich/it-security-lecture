@@ -340,8 +340,8 @@ A simple firewall could have rules defined like this:
 Example policy for incoming traffic using above rule syntax:
 
 1. `FROM` _external_ `TO` _internal_ `ALLOW` _tcp_ `PORT` _80|443_ 
-2. `FROM` _194.94.98.\*_ `TO` _internal_ `BLOCK` _tcp_ `PORT` _22_
-3. `FROM` _194.94.98.42_ `TO` _internal_ `ALLOW` _tcp_ `PORT` _22_
+2. `FROM` _194.94.98.42_ `TO` _internal_ `ALLOW` _tcp_ `PORT` _22_
+3. `FROM` _194.94.98.\*_ `TO` _internal_ `BLOCK` _tcp_ `PORT` _22_
 4. `FROM` _any_ `TO` _any_ `BLOCK` _any_ `PORT` _any_
 
 ---
