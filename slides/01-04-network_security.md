@@ -450,44 +450,4 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ![Simple Web Application Firewall Architecture](images/02-09-sdlc/WAF_Archi.png)
 
-<small>:bulb: _An application should be able to protect itself! Use a WAF only as a secondary defense mechanism to achieve [Defense in Depth](02-09-sdlc.md#principle-of-defense-in-depth)! For legacy systems (with no feasible way to patch directly) a WAF can be the main protection mechanism._</small>
-
----
-
-<!-- *footer: -->
-
-## [Risk in the use of WAFs](https://www.owasp.org/index.php?title=Category:OWASP_Best_Practices:_Use_of_Web_Application_Firewalls)
-
-* "Yet-another-proxy" (increased complexity of the IT infrastructure)
-* Organisational tasks
-* Training the WAF on each new release of the web application
-* Testing
-* False positives (which may have a significant business impact)
-* More complex troubleshooting
-* WAFs also have/generate errors
-* Responsibility for system-wide error situations
-* Cost-effectiveness
-
----
-
-# WAF Modes
-
-* **Blocking Mode**: Normal operational mode where the WAF blocks requests it identified as malicious.
-* **Monitoring Mode**: The WAF logs alerts but does not block the corresponding requests.
-* **Learning Mode**: The WAF learns from good traffic (e.g. by whitelisted IPs) what the normal use cases and input are.
-
-:bulb: _Learning Mode might lead to false positives on new application releases when the WAF did not learn any traffic for new functionality._
-
----
-
-# Exercise 4.7 (:house:)
-
-1. Find out if your university uses a Web Application Firewall
-2. Find out which product/vendor is being used
-3. Find out the number of web applications in your university
-	* in total
-	* accessible from public Internet (i.e. without VPN)
-	* protected by a WAF
-4. Repeat steps 1-3 for the company you work at (if applicable)
-
-<small>_:soon: Web Application Security will make up most of [next semester's curriculum](02-00-introduction.md)!_</small>
+_:eyes: WAF benefits and limitations will be covered in detail at the end of [next semester](02-09-sdlc.md#web-application-firewall)!_
