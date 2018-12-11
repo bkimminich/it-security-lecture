@@ -60,9 +60,9 @@
 
 ## Cyber Incident Response Team (CIRT)
 
-> Also known as a “computer incident response team,” this group is responsible for responding to security breaches, viruses and other potentially catastrophic incidents in enterprises that face significant security risks. In addition to technical specialists capable of dealing with specific threats, it should include experts who can guide enterprise executives on appropriate communication in the wake of such incidents. The CIRT normally operates in conjunction with other enterprise groups, such as site security, public-relations and disaster recovery teams. \[[^2]\]
+> Also known as a “computer incident response team,” this group is responsible for responding to security breaches, viruses and other potentially catastrophic incidents in enterprises that face significant security risks. In addition to technical specialists capable of dealing with specific threats, it should include experts who can guide enterprise executives on appropriate communication in the wake of such incidents. The CIRT normally operates in conjunction with other enterprise groups, such as site security, public-relations and disaster recovery teams. \[[^1]\]
 
-[^2]: https://www.gartner.com/it-glossary/cirt-cyber-incident-response-team
+[^1]: https://www.gartner.com/it-glossary/cirt-cyber-incident-response-team
 
 ---
 
@@ -86,29 +86,9 @@
 
 ## Security Operations Center (SOC)
 
-> A security operations center (SOC) is a facility that houses an information security team responsible for monitoring and analyzing an organization’s security posture on an ongoing basis. The SOC team’s goal is to detect, analyze, and respond to cybersecurity incidents using a combination of technology solutions and a strong set of processes. Security operations centers are typically staffed with security analysts and engineers as well as managers who oversee security operations. SOC staff work close with [organizational incident response teams](#cyber-incident-response-team-cirt) to ensure security issues are addressed quickly upon discovery. \[[^3]\]
+> A security operations center (SOC) is a facility that houses an information security team responsible for monitoring and analyzing an organization’s security posture on an ongoing basis. The SOC team’s goal is to detect, analyze, and respond to cybersecurity incidents using a combination of technology solutions and a strong set of processes. Security operations centers are typically staffed with security analysts and engineers as well as managers who oversee security operations. SOC staff work close with [organizational incident response teams](#cyber-incident-response-team-cirt) to ensure security issues are addressed quickly upon discovery. \[[^2]\]
 
-[^3]: https://digitalguardian.com/blog/what-security-operations-center-soc
-
----
-
-<!-- *footer: red vs blue, 2014 Robert Couse-Baker, used under CC-BY 2.0 -->
-
-# Red vs. Blue
-
-![Red vs. Blue](images/01-06-security_mgmt_and_org/red-vs-blue.jpg)
-
----
-
-## [Red Team](https://danielmiessler.com/study/red-blue-purple-teams/)
-
-> **Red Teams** are external entities brought in to test the effectiveness of a security program. This is accomplished by emulating the behaviors and techniques of likely attackers in the most realistic way possible. The practice is similar, but not identical to, penetration testing, and involves the pursuit of one or more objectives.
-
----
-
-## [Blue Team](https://danielmiessler.com/study/red-blue-purple-teams/)
-
-> **Blue Teams** refer to the internal security team that defends against both real attackers and Red Teams. Blue Teams should be distinguished from standard security teams in most organizations, as most security operations teams do not have a mentality of constant vigilance against attack, which is the mission and perspective of a true Blue Team.
+[^2]: https://digitalguardian.com/blog/what-security-operations-center-soc
 
 ---
 
