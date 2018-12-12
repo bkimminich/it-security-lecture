@@ -15,10 +15,9 @@ material by [Björn Kimminich](http://kimminich.de)
 3. [Malware](slides/01-03-malware.md) (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptojackers) (:heavy_check_mark:)
 4. [Network Security](slides/01-04-network_security.md) (VPN, Wireless Security, Firewalls/IDS/IPS/WAF) (:heavy_check_mark:)
 5. [Encryption](slides/01-05-encryption.md) (WEP/WPA2, SSL/TLS, PGP, Disk Encryption) (:heavy_check_mark:)
-6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md)
-7. [Threat Modelling](slides/01-07-threat_modelling.md)
-8. [Risk Assessments](slides/01-08-risk_assessments.md)
-9. [Penetration Tests & Security Automation](slides/01-09-pentests_and_automation.md)
+6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md) (:heavy_check_mark:)
+7. [Threat Modeling](slides/01-07-threat_modeling.md)
+8. [Penetration Tests & Security Automation](slides/01-09-pentests_and_automation.md)
 
 ### Semester 2 - Application Security & SDLC
 

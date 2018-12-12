@@ -78,7 +78,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 4. [Network Security](01-04-network_security.md)
 5. [Encryption](01-05-encryption.md)
 6. [Security Management & Organization](01-06-security_mgmt_and_org.md)
-7. [Threat Modelling](01-07-threat_modelling.md)
+7. [Threat Modeling](01-07-threat_modeling.md)
 8. [Risk Assessments](01-08-risk_assessments.md)
 9. [Penetration Tests & Security Automation](01-09-pentests_and_automation.md)
 

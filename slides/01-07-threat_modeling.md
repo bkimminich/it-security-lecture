@@ -6,7 +6,7 @@
 
 <!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
 
-# Threat Modelling
+# Threat Modeling
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Attack Tree Example: Open Safe
 
-![Attack Nodes](images/01-07-threat_modelling/paper-attacktrees-fig1.gif)
+![Attack Nodes](images/01-07-threat_modeling/paper-attacktrees-fig1.gif)
 
 * The goal: Opening the safe
 * Each node becomes a subgoal, and children of that node are ways to achieve that subgoal. Parent nodes can be either `OR` or `AND` nodes
@@ -31,7 +31,7 @@
 
 ## Possible vs. Impossible Attacks
 
-![Possible Attacks](images/01-07-threat_modelling/paper-attacktrees-fig2.gif)
+![Possible Attacks](images/01-07-threat_modeling/paper-attacktrees-fig2.gif)
 
 * Dotted lines show possible attacks (=paths only over **P**-nodes)
   * Cutting open the safe
@@ -41,7 +41,7 @@
 
 ## Assigning Boolean values to nodes
 
-![Special Equipment Required](images/01-07-threat_modelling/paper-attacktrees-fig3.gif)
+![Special Equipment Required](images/01-07-threat_modeling/paper-attacktrees-fig3.gif)
 
 * Any Boolean value can be assigned to the leaf nodes and then propagated up the tree structure
 * Example: Which attacks require **Special Equipment** (which is probably expensive to retrieve for the attacker)?
@@ -50,7 +50,7 @@
 
 ## Assigning continuous values to nodes
 
-![Cost of Attack](images/01-07-threat_modelling/paper-attacktrees-fig4.gif)
+![Cost of Attack](images/01-07-threat_modeling/paper-attacktrees-fig4.gif)
 
 * Costs were assigned to the leaf nodes and propagated up the tree
   * `OR` nodes have the value of their cheapest child
@@ -59,7 +59,7 @@
 
 ## Determine vulnerability of the system
 
-![All Attacks Less than $100,000](images/01-07-threat_modelling/paper-attacktrees-fig5.gif)
+![All Attacks Less than $100,000](images/01-07-threat_modeling/paper-attacktrees-fig5.gif)
 
 * Dotted lines show attacks that cost less than $100,000
 * Assumption: The contents of the safe are only worth $100,000
@@ -69,7 +69,7 @@
 
 ## Assigning different values to nodes
 
-![Cheapest Attack Requiring No Special Equipment](images/01-07-threat_modelling/paper-attacktrees-fig6.gif)
+![Cheapest Attack Requiring No Special Equipment](images/01-07-threat_modeling/paper-attacktrees-fig6.gif)
 
 * Dotted line = The cheapest attack requiring no special equipment
 * Querying the attack tree about a certain characteristic of attack lets you learn more about the system's security
