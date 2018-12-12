@@ -238,9 +238,6 @@ _:moneybag: Security certifications typically come with an exam cost and an annu
   * [Secure DevOps Toolchain and SWAT Checklist](https://www.sans.org/security-resources/posters/appsec/secure-devops-toolchain-swat-checklist-60) (:telescope:)
 * [Information Security Policy Templates](https://www.sans.org/security-resources/policies/)
 * [Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/paper/33901)
-
-<!-- -->
-
 * **[Internet Storm Center](https://isc.sans.edu/)**
 
 ![Internet Storm Center (Logo)](images/01-06-security_mgmt_and_org/Internet_Storm_Center_%28logo%29.png)
