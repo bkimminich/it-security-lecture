@@ -69,3 +69,47 @@
 
 _:information_source: Only the yellow code sections are relevant as the payload. The rest is merely obfuscation to prevent detection by AV software!_
 
+---
+
+### Exercise 7.1 (Attack Tree: Access Building)
+
+<!-- *footer: -->
+
+```md
+1. Go through a door
+  a. When it’s unlocked:
+    i. Get lucky.
+    ii. Obstruct the latch plate (the “Watergate Classic”).
+    iii. Distract the person who locks the door at night.
+  b. Drill the lock.
+  c. Pick the lock.
+  d. Use the key.
+    i. Find a key.
+    ii. Steal a key.
+    iii. Photograph and reproduce the key.
+    iv. Social engineer a key from someone.
+      1. Borrow the key.
+      2. Convince someone to post a photo of their key ring.
+  e. Social engineer your way in.
+    i. Act like you’re authorized and follow someone in.
+    ii. Make friends with an authorized person.
+    iii. Carry a box, a cup of coffee in each hand, etc.
+```
+
+---
+
+<!-- *footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+
+```md
+2. Go through a window.
+  a. Break a window.
+  b. Lift the window.
+3. Go through a wall.
+  a. Use a sledgehammer or axe.
+  b. Use a truck to go through the wall.
+4. Gain access via other means.
+  a. Use a fi re escape.
+  b. Use roof access from a helicopter (preferably black) or adjacent
+     building.
+  c. Enter another part of the building, using another tenant’s access.
+```
