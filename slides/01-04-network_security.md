@@ -450,4 +450,4 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ![Simple Web Application Firewall Architecture](images/02-09-sdlc/WAF_Archi.png)
 
-_:eyes: WAF benefits and limitations will be covered in detail at the end of [next semester](02-09-sdlc.md#web-application-firewall)!_
+_:telescope: WAF benefits and limitations will be covered in detail at the end of [next semester](02-09-sdlc.md#web-application-firewall)!_

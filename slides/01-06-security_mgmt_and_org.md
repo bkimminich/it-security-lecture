@@ -235,7 +235,7 @@ _:moneybag: Security certifications typically come with an exam cost and an annu
 * [Posters](https://www.sans.org/security-resources/posters), e.g.
   * [Security Leadership Poster](https://www.sans.org/security-resources/posters/leadership/security-leadership-poster-135)
   * [Security Awareness Roadmap](https://www.sans.org/security-resources/posters/securing-the-human/security-awareness-roadmap-95)
-  * [Secure DevOps Toolchain and SWAT Checklist](https://www.sans.org/security-resources/posters/appsec/secure-devops-toolchain-swat-checklist-60) (:eyes:)
+  * [Secure DevOps Toolchain and SWAT Checklist](https://www.sans.org/security-resources/posters/appsec/secure-devops-toolchain-swat-checklist-60) (:telescope:)
 * [Information Security Policy Templates](https://www.sans.org/security-resources/policies/)
 * [Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/paper/33901)
 
@@ -251,4 +251,4 @@ _:moneybag: Security certifications typically come with an exam cost and an annu
 
 > <small>The **Open Web Application Security Project (OWASP)** is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software. Our mission is to make software security visible, so that individuals and organizations are able to make informed decisions. OWASP is in a unique position to provide impartial, practical information about AppSec to individuals, corporations, universities, government agencies and other organizations worldwide. Operating as a community of like-minded professionals, OWASP issues software tools and knowledge-based documentation on application security.</small>
 
-_:eyes: OWASP will be covered in detail [next semester](02-01-owasp.md). The [AppSec lectures of this course](02-00-introduction.md#curriculum-2nd-semester) will be largely based on OWASP resources._
+_:telescope: OWASP will be covered in detail [next semester](02-01-owasp.md). The [AppSec lectures of this course](02-00-introduction.md#curriculum-2nd-semester) will be largely based on OWASP resources._
