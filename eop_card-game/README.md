@@ -4,4 +4,4 @@
 
 ----
 
-Elevation of Privilege (EoP) Threat Modeling Card Game, 2013 Microsoft, used under CC BY 3.0 US
+Elevation of Privilege (EoP) Threat Modeling Card Game, 2009 Microsoft, used under CC BY 3.0 US
