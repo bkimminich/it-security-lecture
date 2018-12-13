@@ -123,6 +123,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 #### Optional Literature Recommendations
 
 * Andress: The Basics of Information Security (2nd Edition), 2014
+* Shostack: Threat Modeling: Designing for Security, 2014
 * Paar/Pelzl: Understanding Cryptography: A Textbook for Students and Practitioners, 2010
   * [Introduction to Cryptography by Christof Paar](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg) <small>(24 recorded lectures)</small>
 

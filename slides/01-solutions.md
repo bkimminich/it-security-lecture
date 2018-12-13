@@ -113,3 +113,9 @@ _:information_source: Only the yellow code sections are relevant as the payload.
      building.
   c. Enter another part of the building, using another tenant’s access.
 ```
+
+---
+
+### Exercise 7.2 (Threat Boundaries)
+
+![Sample Web Application Threat Boundaries](images/01-solutions/sample_webapp_threat-boundaries.png)
