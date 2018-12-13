@@ -92,15 +92,50 @@
 
 ---
 
+# Security Awareness
+
+---
+
+## Security Awareness
+
+> Security awareness is a formal process for training and educating employees about IT protection. It involves:
+>
+> * Programs to educate employees
+> * Individual responsibility for company security policies
+> * Measures to audit these efforts \[[^3]\]
+
+---
+
+## Stages of Security Awareness
+
+> 1. Determining the current status
+> 2. Developing and crafting a security awareness program
+> 3. Deploying said program to employees
+> 4. Measuring the progress made by the program and revising as necessary \[[^3]\]
+
+[^3]: https://resources.infosecinstitute.com/category/enterprise/securityawareness/
+
+---
+
+# Exercise 6.2 (:pushpin:)
+
+1. Does you employer and/or university have a Security Awareness program?
+2. What kinds of activities or trainings are employed?
+3. How are these trainings conducted with the employees?
+4. Are there dedicated employee groups who receive any special trainings?
+5. Read take a stand Bruce Schneier's article [On Security Awareness Training](https://www.darkreading.com/risk/on-security-awareness-training/d/d-id/1139381)
+
+---
+
 # Security Standards & Regulations
 
 ---
 
 ## ISO 27001
 
-> ISO 27001 is an international standard published by the International Standardization Organization (ISO), and it describes how to manage information security in a company. The latest revision of this standard was published in 2013, and its full title is now ISO/IEC 27001:2013. The first revision of the standard was published in 2005, and it was developed based on the British standard BS 7799-2. \[[^3]\]
+> ISO 27001 is an international standard published by the International Standardization Organization (ISO), and it describes how to manage information security in a company. The latest revision of this standard was published in 2013, and its full title is now ISO/IEC 27001:2013. The first revision of the standard was published in 2005, and it was developed based on the British standard BS 7799-2. \[[^4\]
 
-[^3]: https://advisera.com/27001academy/what-is-iso-27001/
+[^4]: https://advisera.com/27001academy/what-is-iso-27001/
 
 ---
 
@@ -109,38 +144,38 @@
 > * A.5 **Information security policies** – controls on how the policies are written and reviewed
 > * A.6 **Organization of information security** – controls on how the responsibilities are assigned; also includes the controls for mobile devices and teleworking
 > * A.7 **Human resources security** – controls prior to employment, during, and after the employment
-> * A.8 **Asset management** – controls related to inventory of assets and acceptable use, also for information classification and media handling \[[^4]\]
+> * A.8 **Asset management** – controls related to inventory of assets and acceptable use, also for information classification and media handling \[[^5]\]
 
 ---
 
 > * A.9 **Access control** – controls for Access control policy, user access management, system and application access control, and user responsibilities
 > * A.10 **Cryptography** – controls related to encryption and key management
 > * A.11 **Physical and environmental security** – controls defining secure areas, entry controls, protection against threats, equipment security, secure disposal, clear desk and clear screen policy, etc.
-> * A.12 **Operational security** – lots of controls related to management of IT production: change management, capacity management, malware, backup, logging, monitoring, installation, vulnerabilities, etc. \[[^4]\]
+> * A.12 **Operational security** – lots of controls related to management of IT production: change management, capacity management, malware, backup, logging, monitoring, installation, vulnerabilities, etc. \[[^5]\]
 
 ---
 
 > * A.13 **Communications security** – controls related to network security, segregation, network services, transfer of information, messaging, etc.
 > * A.14 **System acquisition, development and maintenance** – controls defining security requirements and security in development and support processes
 > * A.15 **Supplier relationships** – controls on what to include in agreements, and how to monitor the suppliers
-> * A.16 **Information security incident management** – controls for reporting events and weaknesses, defining responsibilities, response procedures, and collection of evidence \[[^4]\]
+> * A.16 **Information security incident management** – controls for reporting events and weaknesses, defining responsibilities, response procedures, and collection of evidence \[[^5]\]
 
 ---
 
 > * A.17 **Information security aspects of business continuity management** – controls requiring the planning of business continuity, procedures, verification and reviewing, and IT redundancy
-> * A.18 **Compliance** – controls requiring the identification of applicable laws and regulations, intellectual property protection, personal data protection, and reviews of information security \[[^4]\]
+> * A.18 **Compliance** – controls requiring the identification of applicable laws and regulations, intellectual property protection, personal data protection, and reviews of information security \[[^5]\]
 
-_:warning: \[...\] while IT is certainly important, IT alone cannot protect information. Physical security, legal protection, human resources management, organizational issues – all of them together are required to secure the information._ \[[^4]\]
+_:warning: \[...\] while IT is certainly important, IT alone cannot protect information. Physical security, legal protection, human resources management, organizational issues – all of them together are required to secure the information._ \[[^5]\]
 
-[^4]: https://advisera.com/27001academy/knowledgebase/overview-of-iso-270012013-annex-a/
+[^5]: https://advisera.com/27001academy/knowledgebase/overview-of-iso-270012013-annex-a/
 
 ---
 
 ### ISO 27002
 
-> ISO/IEC 27002 provides best practice recommendations on information security controls for use by those responsible for initiating, implementing or maintaining information security management systems (ISMS). Information security is defined within the standard in the context of the C-I-A triad. \[[^5]\]
+> ISO/IEC 27002 provides best practice recommendations on information security controls for use by those responsible for initiating, implementing or maintaining information security management systems (ISMS). Information security is defined within the standard in the context of the C-I-A triad. \[[^6]\]
 
-[^5]: https://en.wikipedia.org/wiki/ISO/IEC_27002
+[^6]: https://en.wikipedia.org/wiki/ISO/IEC_27002
 
 ---
 
@@ -167,14 +202,6 @@ _:information_source: An overview with regulatory framework mappings is availabl
 * [PCI DSS](https://www.pcisecuritystandards.org/)
 * [BSI IT-Grundschutz-Standards](https://www.bsi.bund.de/EN/Publications/BSIStandards/BSIStandards_node.html)
 * [BSI-Kritisverordnung](https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/bevoelkerungsschutz/kritis.html) (:de:)
-
----
-
-# Exercise 6.2 (:house:)
-
-1. Download the [Thresholds of the BSI-Kritis Ordinance](https://www.bmi.bund.de/SharedDocs/downloads/EN/themen/it-digital-policy/bsi-kritis-ordiance-poster.pdf?__blob=publicationFile&v=4)
-2. Check if your employer's industry is affected by BSI-Kritis at all
-3. Calculate (or estimate) if your employer is above or below the defined threshold for BSI-Kritis for your industry
 
 ---
 
@@ -249,3 +276,11 @@ _:moneybag: Security certifications typically come with an exam cost and an annu
 > <small>The **Open Web Application Security Project (OWASP)** is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software. Our mission is to make software security visible, so that individuals and organizations are able to make informed decisions. OWASP is in a unique position to provide impartial, practical information about AppSec to individuals, corporations, universities, government agencies and other organizations worldwide. Operating as a community of like-minded professionals, OWASP issues software tools and knowledge-based documentation on application security.</small>
 
 _:telescope: OWASP will be covered in detail [next semester](02-01-owasp.md). The [AppSec lectures of this course](02-00-introduction.md#curriculum-2nd-semester) will be largely based on OWASP resources._
+
+---
+
+# Exercise 6.3 (:house:)
+
+1. Download the [Thresholds of the BSI-Kritis Ordinance](https://www.bmi.bund.de/SharedDocs/downloads/EN/themen/it-digital-policy/bsi-kritis-ordiance-poster.pdf?__blob=publicationFile&v=4)
+2. Check if your employer's industry is affected by BSI-Kritis at all
+3. Calculate (or estimate) if your employer is above or below the defined threshold for BSI-Kritis for your industry
