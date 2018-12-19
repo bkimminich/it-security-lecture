@@ -17,7 +17,7 @@ material by [Björn Kimminich](http://kimminich.de)
 5. [Encryption](slides/01-05-encryption.md) (WEP/WPA2, SSL/TLS, PGP, Disk Encryption) (:heavy_check_mark:)
 6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md) (:heavy_check_mark:)
 7. [Threat Modeling](slides/01-07-threat_modeling.md) (:heavy_check_mark:)
-8. [Penetration Tests & Security Automation](slides/01-08-pentests_and_automation.md)
+8. [Penetration Tests & Security Automation](slides/01-08-penetration_testing.md)
 
 ### Semester 2 - Application Security & SDLC
 
