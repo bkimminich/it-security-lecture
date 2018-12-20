@@ -1,3 +1,4 @@
+
 <!-- $theme: gaia -->
 
 <!-- $size: 16:9 -->
@@ -37,10 +38,12 @@
 # [1. Pre-engagement Interactions](http://www.pentest-standard.org/index.php/Pre-engagement)
 
 * [Scoping Meeting](http://www.pentest-standard.org/index.php/Pre-engagement#Scoping_Meeting)
-* [Questionaires](http://www.pentest-standard.org/index.php/Pre-engagement#Questionnaires) for different scopes (Network, Web Application, WiFi, Physical, Social Engineering)
-* Framing conditions ([Start & end date](http://www.pentest-standard.org/index.php/Pre-engagement#Specify_Start_and_End_Dates), [IP ranges & domains](http://www.pentest-standard.org/index.php/Pre-engagement#Specify_IP_Ranges_and_Domains), [dealing with 3rd parties](http://www.pentest-standard.org/index.php/Pre-engagement#Dealing_with_Third_Parties) etc.)
+* [Questionaires](http://www.pentest-standard.org/index.php/Pre-engagement#Questionnaires) for different scopes
+  * <small>Network, Web Application, WiFi, Physical, Social Engineering</small>
+* Framing conditions
+  * <small>[Start & end date](http://www.pentest-standard.org/index.php/Pre-engagement#Specify_Start_and_End_Dates), [IP ranges & domains](http://www.pentest-standard.org/index.php/Pre-engagement#Specify_IP_Ranges_and_Domains), [dealing with 3rd parties](http://www.pentest-standard.org/index.php/Pre-engagement#Dealing_with_Third_Parties) etc.</small>
 * [Emergency Contact Information](http://www.pentest-standard.org/index.php/Pre-engagement#Emergency_Contact_Information)
-* **[Rules of Engagement](http://www.pentest-standard.org/index.php/Pre-engagement#Rules_of_Engagement)**
+* :scroll: **[Rules of Engagement](http://www.pentest-standard.org/index.php/Pre-engagement#Rules_of_Engagement)**
 
 ---
 
@@ -92,29 +95,70 @@
 
 ---
 
-# 5. Exploitation
+# [5. Exploitation](http://www.pentest-standard.org/index.php/Exploitation)
 
-:wrench: **TODO**
+> <small>The exploitation phase of a penetration test focuses solely on establishing access to a system or resource by bypassing security restrictions. If the prior phase, vulnerability analysis was performed properly, this phase should be well planned and a precision strike.</small>
+
+* [Avoid or bypass countermeasures](http://www.pentest-standard.org/index.php/Exploitation#Countermeasures) (e.g. AV, ASLR or WAF)
+* Escape detection (e.g. evade IDS/IPS or avoid cameras)
+* Precision Strike
+* Tailored Exploits
+* Zero-Day Angle
 
 ---
 
-# 6. Post Exploitation
+# [6. Post Exploitation](http://www.pentest-standard.org/index.php/Post_Exploitation)
 
-:wrench: **TODO**
+> <small>The purpose of the Post-Exploitation phase is to determine the value of the machine compromised and to maintain control of the machine for later use. The value of the machine is determined by the sensitivity of the data stored on it and the machines usefulness in further compromising the network.</small>
+
+* Infrastructure Analysis (for potential targets deeper in the network)
+* Pillaging <small><small>(e.g. personal information, credit card information, passwords, etc.)</small></small>
+* Data Exfiltration
+* Persistence <small><small>(e.g. installation of backdoor or creating an alternate user account)</small></small>
+* Cleanup (after the penetration test has been completed)
 
 ---
 
-# 7. Reporting
+<!-- *footer: -->
 
-:wrench: **TODO**
+# [7. Reporting](http://www.pentest-standard.org/index.php/Reporting)
+
+<small>A typical pentest reports consists of two major sections in order to communicate the objectives, methods, and results of the testing conducted to various audiences.</small>
+
+1. **Executive Summary**: <small>Specific goals of the Penetration Test and the high level findings of the testing exercise. The intended audience will be those who are in charge of the oversight and strategic vision of the security program as well as any members of the organization which may be impacted by the identified/confirmed threats.</small>
+2. **Technical Report**: <small>Technical details of the test and all of the aspects/components agreed upon as key success indicators within the pre engagement exercise. The technical report section will describe in detail the scope, information, attack path, impact and remediation suggestions of the test.</small>
+
+---
+
+## Risk Rating Scale
+
+![Reporting Risk Scale](images/01-08-penetration_testing/Reporting-risk-scale.png)
 
 ---
 
 <!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
 
+# Awesome Penetration Testing
+
+> A collection of awesome penetration testing resources.
+
+### https://github.com/enaqx/awesome-pentest
+
+[![Awesome List Logo](images/01-08-penetration_testing/logo.png)](https://github.com/sindresorhus/awesome)
+
+---
+
 # Bug Bounty Programs
 
-:wrench: **TODO**
+> A bug bounty program is a deal offered by many websites and software developers by which individuals can **receive recognition and compensation for reporting bugs, especially** those pertaining to **exploits and vulnerabilities**. These programs allow the developers to discover and resolve bugs before the general public is aware of them, preventing incidents of widespread abuse. \[[^2]\]
+
+### HackerOne's list of known Bug Bounty Programs
+
+* https://hackerone.com/bug-bounty-programs
+
+_:moneybag: Bounties may range from recognition over swag up to >100.000$!_
+
+[^2]: https://en.wikipedia.org/wiki/Bug_bounty_program
 
 ---
 
@@ -149,18 +193,35 @@ Example: <https://securitytxt.org/.well-known/security.txt>
 
 ---
 
-## [Red Team](https://danielmiessler.com/study/red-blue-purple-teams/)
+# :triangular_flag_on_post: [Red Team](https://danielmiessler.com/study/red-blue-purple-teams/) 
 
 > **Red Teams** are external entities brought in to test the effectiveness of a security program. This is accomplished by emulating the behaviors and techniques of likely attackers in the most realistic way possible. The practice is similar, but not identical to, penetration testing, and involves the pursuit of one or more objectives.
 
+#### Exercise 8.1 (:house:)
+
+1. In a fight between pirates and ninjas, who would win? (:thought_balloon:)
+2. Read [Penetration Test vs. Red Team Assessment](https://blog.rapid7.com/2016/06/23/penetration-testing-vs-red-teaming-the-age-old-debate-of-pirates-vs-ninja-continues/)
+
 ---
 
-## [Blue Team](https://danielmiessler.com/study/red-blue-purple-teams/)
+# :cop: [Blue Team](https://danielmiessler.com/study/red-blue-purple-teams/)
 
 > **Blue Teams** refer to the internal security team that defends against both real attackers and Red Teams. Blue Teams should be distinguished from standard security teams in most organizations, as most security operations teams do not have a mentality of constant vigilance against attack, which is the mission and perspective of a true Blue Team.
+
+> <small>A team of highly skilled individuals who conduct systematic examinations of IS or products to determine adequacy of security measures, to identify security deficiencies, to predict effectiveness of proposed security measures, and to confirm adequacy of such measures after implementation.</small> \[[^3]\]
+
+[^3]: https://static1.squarespace.com/static/5606c039e4b0392b97642a02/t/57375967ab48de6e3b4d0015/1463245159237/dodd85701.pdf
 
 ---
 
 # Project Zero (Google)
 
-:wrench: **TODO**
+> Project Zero is the name of a team of security analysts employed by Google tasked with finding zero-day vulnerabilities.
+>
+> <small>After finding a number of flaws in software used by many end-users \[...\] Google decided to form a full-time team dedicated to finding such vulnerabilities, not only in Google software but any software used by its users.
+> 
+> Bugs found by the Project Zero team are reported to the manufacturer and only made publicly visible once a patch has been released or if 90 days have passed without a patch being released.</small> \[[^4]\]
+
+#### https://googleprojectzero.blogspot.com/
+
+[^4]: https://en.wikipedia.org/wiki/Project_Zero

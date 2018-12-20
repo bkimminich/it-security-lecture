@@ -42,15 +42,19 @@
 
 ---
 
+<!-- *footer: -->
+
 # System Requirements
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (8.x or 9.x)
+* _either_ [Node.js](https://nodejs.org) (8.x, 9.x or 10.x)
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
-_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 8.x (or 9.x) version._
+_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 8.x (or higher) version._
+
+_:computer: You can always fall back to your personal laptop for the exercises as it should be free from virtualization, proxying or installation hurdles!_
 
 ---
 
@@ -63,3 +67,13 @@ _:information_source: On the university computers Node.js should already be avai
 
 * Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop), 2018
 * Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
+
+---
+
+# Awesome Web Security
+
+> Curated list of Web Security materials and resources.
+
+#### https://github.com/bkimminich/awesome-web-security
+
+[![Awesome List Logo](images/01-08-penetration_testing/logo.png)](https://github.com/sindresorhus/awesome)
