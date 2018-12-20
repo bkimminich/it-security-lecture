@@ -181,7 +181,17 @@ _:moneybag: Bounties may range from recognition over swag up to >100.000$!_
 * **Signature**: Full URI of an external signature file that can be used to check the authenticity of a `security.txt` file
 * **Hiring**: Linking to the vendor's security-related job positions
 
+<hr>
+
 Example: <https://securitytxt.org/.well-known/security.txt>
+
+```
+# If you would like to report a security issue
+# you may report it to us on HackerOne.
+Contact: https://hackerone.com/ed
+Encryption: https://keybase.pub/edoverflow/pgp_key.asc
+Acknowledgements: https://hackerone.com/ed/thanks
+```
 
 ---
 
