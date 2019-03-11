@@ -48,7 +48,7 @@
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (8.x, 9.x or 10.x)
+* _either_ [Node.js](https://nodejs.org) (8.x, **10.x**, 11.x)
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
@@ -65,7 +65,7 @@ _:computer: You can always fall back to your personal laptop for the exercises a
 
 #### Literature Recommendations _(optional)_
 
-* Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop), 2018
+* Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop), 2019
 * Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
 
 ---
@@ -74,6 +74,6 @@ _:computer: You can always fall back to your personal laptop for the exercises a
 
 > Curated list of Web Security materials and resources.
 
-#### https://github.com/bkimminich/awesome-web-security
+#### https://github.com/qazbnm456/awesome-web-security
 
 [![Awesome List Logo](images/01-08-penetration_testing/logo.png)](https://github.com/sindresorhus/awesome)
