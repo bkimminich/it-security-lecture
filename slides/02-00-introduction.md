@@ -32,11 +32,11 @@
 
 # Schedule
 
-* **xxxxxxxxxx, xx:xx - xx:xx**
-* 9 lectures (xx.xx. - xx.xx.19)
+* **Thursdays, 09:15 - 12:00**
+* 9 lectures (01.08. - 26.09.19)
 
 #### Test Exam
-* **xxxxxxxx, xx.xx.19** (90min)
+* **xxxxxxxx, xx.xx.2019 (90min)
 * **xx:xx - xx:xx** / Audimax
 * :warning: Covers topics from both semesters
 
