@@ -208,7 +208,7 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 
 # ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
 
-OWASP Juice Shop is an intentionally insecure webapp for security trainings written entirely in JavaScript which encompasses the entire OWASP Top Ten and other severe security flaws.
+OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
 
@@ -234,7 +234,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 # Installation
 
 * Individual local instance per student
-* Runs on node.js, Docker or Vagrant
+* Runs on node.js, Docker, Vagrant and in the :cloud:
 
 ## :warning: Hacking Rules
 
@@ -257,7 +257,7 @@ OWASP Juice Shop is an intentionally insecure webapp for security trainings writ
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v7.x`
+## Install the OWASP Juice Shop `v8.x`
 
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of
