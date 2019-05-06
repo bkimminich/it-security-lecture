@@ -307,7 +307,7 @@ _:warning: The affected version `0.0.4` of `node-serialize` is also the latest v
 
 <!-- -->
 
-2. Find the „NextGen“ successor to the half-heartedly deprecated XML-based B2B API in the Juice Shop (:star::star:)
+2. Find the „NextGen“ successor to the half-heartedly deprecated XML-based B2B API in the Juice Shop (:interrobang:)
 3. Exploit this API with at least one successful DoS-like Remote Code Exeution (:star::star::star::star::star: - :star::star::star::star::star::star:)
 
 _:information_source: If the server would need >2sec to process your attack request, it is considered „DoS-like“ enough._

@@ -66,7 +66,7 @@ Assuming no access control is in place, which privilege escalations are possible
 
 # Exercise 5.2
 
-1. Access the administration section of the store (:star:)
+1. Access the administration section of the store (:star::star:)
 2. Access another user's basket (:star::star:)
 3. Get rid of all 5-star customer feedback (:star::star:)
 4. Post some feedback for another user but without previously logging in as that user (:star::star::star:)
@@ -104,5 +104,5 @@ Assuming no access control is in place, which privilege escalations are possible
 # Exercise 5.3 (:house:)
 
 1. Place an order with a negative total (:star::star::star:)
-2. Access one or more misplaced files (:star: - :star::star::star::star::star:)
+2. Access one or more misplaced files (:star::star::star::star: - :star::star::star::star::star::star:)
 

@@ -195,7 +195,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 1. Access a confidential document (:star:)
 2. Retrieve as many clear text user passwords as you can (:interrobang:)
-3. Visit the Token Sale page before it officially goes live (:star::star::star:)
+3. Visit the Token Sale page before it officially goes live (:star::star::star::star::star:)
 
 ##### Bonus exercises on cryptography (_optional_)
 
