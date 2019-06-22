@@ -1,5 +1,3 @@
-<!-- $theme: gaia -->
-
 <!-- $size: 16:9 -->
 
 <!-- page_number: true -->
