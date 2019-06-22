@@ -39,8 +39,6 @@
 1. Watch [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/) :tv:
 2. Log in with MC SafeSearch's user account (:star::star:)
 
-_:warning: Do **not** use SQL Injection for authentication bypass!_
-
 ---
 
 <!-- *footer: -->
