@@ -54,22 +54,13 @@ _:information_source: Obtaining a higher level of access is also referred to as 
 
 ---
 
-# Exercise 5.1
+# Exercise
 
 Assuming no access control is in place, which privilege escalations are possible by tampering with the following URLs?
 
 1. `http://logistics-worldwi.de/showShipment?id=40643108`
 2. `http://my-universi.ty/api/students/6503/exams/view`
 3. `http://document-warehou.se/landingpage?content=index.html`
-
----
-
-# Exercise 5.2
-
-1. Access the administration section of the store (:star::star:)
-2. Access another user's basket (:star::star:)
-3. Get rid of all 5-star customer feedback (:star::star:)
-4. Post some feedback for another user but without previously logging in as that user (:star::star::star:)
 
 ---
 
@@ -90,19 +81,11 @@ Assuming no access control is in place, which privilege escalations are possible
 
 ---
 
-## [Access Control Design Principles](https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf)
+# Exercise
 
-1. Design Access Control thoroughly up front
-2. Force all Requests to go through Access Control checks
-3. Deny by Default
-4. Principle of Least Privilege
-5. Don't hardcode roles
-6. Log all Access Control events
-
----
-
-# Exercise 5.3 (:house:)
-
-1. Place an order with a negative total (:star::star::star:)
-2. Access one or more misplaced files (:star::star::star::star: - :star::star::star::star::star::star:)
-
+1. Access the administration section of the store (:star::star:)
+2. Access another user's basket (:star::star:)
+3. Get rid of all 5-star customer feedback (:star::star:)
+4. Post some feedback for another user but without previously logging in as that user (:star::star::star:)
+5. Place an order with a negative total (:star::star::star:)
+6. Access one or more misplaced files (:star::star::star::star:)
