@@ -14,11 +14,16 @@
 
 # Timo Pagel
 
-* :wrench: TODO Bio
+* Self employeed DevSecOps Consultant and Trainer
+* Lecturer for _Security in Web Applications_ at [University of Applied Sciences Wedel](https://www.fh-wedel.de)
+* Open Source / Open Knowledge Enthusiast
+  - Project lead of the [OWASP DevSecOps Maturity Model](https://dsomm.timo-pagel.de)
+  - [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) Collaborator 
+  - Project lead of the [OWASP Security Pins Project](https://www.owasp.org/index.php/OWASP_Security_Pins_Project)
 
 <hr>
 
-* :wrench: TODO Contact
+* juice-shop19@pagel.pro
 
 ---
 
