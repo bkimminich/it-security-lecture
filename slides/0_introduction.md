@@ -30,7 +30,7 @@
 # Bjoern Kimminich
 
 * IT Architect / AppSec Officer at [Kuehne + Nagel](http://kuehne-nagel.com/)
-* Lecturer for IT Security at [Nordakademie](https://www.nordakademie.de/)
+* Lecturer for _IT Security_ at [Nordakademie](https://www.nordakademie.de/)
 * Board Member of the [German OWASP Chapter](https://www.owasp.org/index.php/Germany)
 * Project Lead of the [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
 
