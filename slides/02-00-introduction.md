@@ -36,8 +36,8 @@
 * 9 lectures (01.08. - 26.09.19)
 
 #### Test Exam
-* **xxxxxxxx, xx.xx.2019 (90min)
-* **xx:xx - xx:xx** / Audimax
+* **Monday, 30.09.2019 (90min)
+* **09:15 - 10:45** / Audimax
 * :warning: Covers topics from both semesters
 
 ---
@@ -48,7 +48,7 @@
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (8.x, **10.x**, 11.x)
+* _either_ [Node.js](https://nodejs.org) (8.x, 10.x or **12.x**)
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
