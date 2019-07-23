@@ -30,13 +30,17 @@
 
 ---
 
+<!-- *footer: -->
+
 # Schedule
 
 * **Thursdays, 09:15 - 12:00**
 * 9 lectures (01.08. - 26.09.19)
+* <small>Exceptions ~~12.09.~~ and ~~26.09.~~ have been moved to</small>
+  * <small>Tuesday, 30.07. (12:30 - 15:00) and Friday, 13.09. (09:15 - 12:00)</small>
 
 #### Test Exam
-* **Monday, 30.09.2019 (90min)
+* **Monday, 30.09.2019** (90min)
 * **09:15 - 10:45** / Audimax
 * :warning: Covers topics from both semesters
 
