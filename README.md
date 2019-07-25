@@ -1,6 +1,6 @@
-# JavaScript-Security - "Pwn" den Juice Shop
+# Hands-on Hacking Workshop: Elbsides vs. Juice Shop
 
-Slides for the enterJS 2019 workshop with Timo Pagel & Bjoern Kimminich
+Slides for the Elbsides 2019 workshop with Bjoern Kimminich
 
 ----
 

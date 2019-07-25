@@ -55,6 +55,14 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 
 ---
 
+<!-- *footer: -->
+
+# Top 10 Risk Factor Summary
+
+[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
+
+---
+
 # ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
 # OWASP Juice Shop
 
