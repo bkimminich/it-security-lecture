@@ -93,6 +93,17 @@ _:bulb: If your company does not use any technology that could be assessed by OW
 
 ---
 
+# Exercise 7.2
+
+1. Download the `/ftp/package.json.bak` from your local Juice Shop
+2. Rename it into `package.json` and run `npm audit`. Follow the advise given in case of an error and then rerun it
+3. Check any subsequent error messages and get their root cause out of the way so you can run the audit successfully.
+4. After `npm audit` succeeds, read up on the listed vulnerabilities and use the most promising findings during Exercise 7.4
+
+_:bulb: After completing Exercise 7.4 your could also run `npm audit` on the (normally off-limits) `package.json` and `/frontend/package.json` files..._
+
+---
+
 # Insecure Configuration
 
 ---
@@ -220,7 +231,7 @@ see **https://developer.shodan.io/api**
 
 ---
 
-# Exercise 7.2
+# Exercise 7.3
 
 1. Get an idea of the available Shodan query filters on https://developer.shodan.io/api/banner-specification
 2. Perform some Shodan searches for Internet-connected devices associated with your current employer (e.g. by `hostname` or `ip`)
@@ -245,7 +256,7 @@ _:information_source: Please consider ticking the "Don't include my site in the 
 
 ---
 
-# Exercise 7.3 (:house:)
+# Exercise 7.4 (:house:)
 
 1. Persist a Stored XSS attack via the _Contact Us_ page (:star::star::star::star:)
 2. Report the vulnerability which makes this XSS possible (:star::star::star::star:)
@@ -255,4 +266,12 @@ _:information_source: Please consider ticking the "Don't include my site in the 
 3. Report another vulnerability that could be exploited in a [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf) (:star::star::star::star::star:)
 
 _:information_source: To report anything to the shop, you can use the "Contact Us" page. You have to supply as detailed information as possible._
+
+---
+
+# Exercise 7.5 _(optional)_
+
+1. Read up on all vulnerabilities associated with JWT from the `npm audit` of the Juice Shop's leaked `/ftp/package.json.bak`
+2. Forge an essentially unsigned JWT token (:star::star::star::star::star:)
+3. Forge an almost properly RSA-signed JWT token (:star::star::star::star::star::star:)
 
