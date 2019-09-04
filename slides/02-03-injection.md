@@ -239,17 +239,17 @@ ResultSet results = pstmt.executeQuery();
 
 ---
 
-# Exercise 3.2 (:house:)
+# Exercise 3.2
 
 1. Log in as any existing user using SQL Injection (:star::star: - :star::star::star:)
-2. Order the special :christmas_tree: offer that was only available in 2014 (:star::star::star::star:)
+2. Order the :christmas_tree: offer that was only available in 2014 (:star::star::star::star:)
 3. Spy out all user account credentials from the database (:star::star::star::star:)
 
 ---
 
-# Exercise 3.3 _(optional)_
+# Exercise 3.3 (:house:)
 
-#### NoSQL Injection
+#### [NoSQL Injection](https://www.owasp.org/index.php/Testing_for_NoSQL_injection)
 
 Apply the concept of _Injection_ attacks to the NoSQL database being used for the _User Reviews_ of products in the Juice Shop.
 
