@@ -73,7 +73,7 @@ _:information_source: Some of the largest breaches to date have relied on exploi
 
 ---
 
-# [OWASP Dependency-Check](https://wiki.int.kn/display/gscgiak/OWASP+Dependency+Check)
+# [OWASP Dependency-Check](https://jeremylong.github.io/DependencyCheck)
 
 > **Dependency-Check is a utility that identifies project dependencies and checks if there are any known, publicly disclosed, vulnerabilities.** Currently, Java and .NET are supported; additional experimental support has been added for Ruby, Node.js, Python, and limited support for C/C++ build systems (autoconf and cmake). The tool can be part of a solution to the OWASP Top 10 2017 A9:2017-Using Components with Known Vulnerabilities.
 
