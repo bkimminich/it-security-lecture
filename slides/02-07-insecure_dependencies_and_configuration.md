@@ -275,3 +275,7 @@ _:information_source: To report anything to the shop, you can use the "Contact U
 2. Forge an essentially unsigned JWT token (:star::star::star::star::star:)
 3. Forge an almost properly RSA-signed JWT token (:star::star::star::star::star::star:)
 
+<!-- -->
+
+4. Report at least one of two [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) dependencies that the Juice Shop fell for (:star::star::star::star: - :star::star::star::star::star:)
+
