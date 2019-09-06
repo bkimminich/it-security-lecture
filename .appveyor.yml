@@ -1,0 +1,24 @@
+version: '{build}'
+init:
+  - 'git config --global core.autocrlf true'
+branches:
+  only:
+    - master
+skip_commits:
+  files:
+    - LICENSE
+    - README.md
+environment:
+  nodejs_version: 12
+platform:
+  - x64
+install:
+  - ps: 'Install-Product node $env:nodejs_version $env:platform'
+  - 'node --version && npm --version'
+  - 'npm i -g @marp-team/marp-cli'
+  - 'marp slides/01-00-introduction.md -o slides/pdf/01-00-introduction.pdf'
+  - 'marp slides/02-00-introduction.md -o slides/pdf/02-00-introduction.pdf'
+build: off
+test: off
+artifacts:
+  - path: 'slides/pdf/*.pdf'
