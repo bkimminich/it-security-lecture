@@ -1,7 +1,7 @@
 
-<!-- $theme: gaia -->
+<!-- theme: gaia -->
 
-<!-- $size: 16:9 -->
+<!-- size: 16:9 -->
 
 <!-- page_number: true -->
 

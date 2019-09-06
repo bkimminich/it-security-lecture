@@ -16,9 +16,8 @@ install:
   - ps: 'Install-Product node $env:nodejs_version $env:platform'
   - 'node --version && npm --version'
   - 'npm i -g @marp-team/marp-cli'
-  - 'marp slides/01-00-introduction.md -o slides/pdf/01-00-introduction.pdf'
-  - 'marp slides/02-00-introduction.md -o slides/pdf/02-00-introduction.pdf'
+  - 'marp slides/*.md --html --pdf'
 build: off
 test: off
 artifacts:
-  - path: 'slides/pdf/*.pdf'
+  - path: 'slides/*.pdf'
