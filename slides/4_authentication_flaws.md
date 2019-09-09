@@ -43,17 +43,6 @@
 
 <!-- *footer: -->
 
-# Exercise
-
-1. Pick one Security Question and explain how :muscle: it is against attacks.
-2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
-
-![Security Questions](images/02-04-authentication_flaws/secret_questions.png)
-
----
-
-<!-- *footer: -->
-
 #### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
 * **Enforce minimum password length** of at least 10 characters
@@ -80,18 +69,6 @@
 #### Enterprise Controls
 
 * Use centralized corporate authentication system (if in place)
-
----
-
-# Two-Factor Authentication
-
-> Two-factor authentication adds a second level of authentication to an account log-in. When you have to enter only your username and one password, that's considered a single-factor authentication. 2FA requires the user to have two out of three types of credentials before being able to access an account. The three types are:
->
-> * **Something you know**, such as a personal identification number (PIN), password or a pattern
-> * **Something you have**, such as an ATM card, phone, or fob
-> * **Something you are**, such as a biometric like a fingerprint or voice print \[[^1]\]
-
-[^1]: https://www.cnet.com/news/two-factor-authentication-what-you-need-to-know-faq/
 
 ---
 

