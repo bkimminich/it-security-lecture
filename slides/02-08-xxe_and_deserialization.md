@@ -26,8 +26,8 @@
 # External Entities
 
 * DTD changed to use External Entities...
-  * `<!ENTITY author SYSTEM "http://owasp-juice.shop/entities.dtd">`
-  * `<!ENTITY copyright	SYSTEM http://owasp-juice.shop/entities.dtd">`
+  * `<!ENTITY author SYSTEM "https://raw.githubusercontent.com/bkimminich/juice-shop/gh-pages/entities.dtd">`
+  * `<!ENTITY copyright	SYSTEM "https://raw.githubusercontent.com/bkimminich/juice-shop/gh-pages/entities.dtd">`
 
 * ...whereas the XML stays the same
   * `<author>&author; &copyright;</author>`
@@ -97,7 +97,7 @@
 # Exercise 8.1
 
 1. Identify the weak point of the application that accepts arbitrary XML data as input (:star::star:)
-2. Retrieve the content of your local system‘s `C:\Windows\system.ini` (or `/etc/passwd` if you are using Linux) via an XEE attack (:star::star::star:)
+2. Retrieve the content of your local system‘s `C:\Windows\system.ini` (or `/etc/passwd` if you are using Linux) via an XXE attack (:star::star::star:)
 
 ---
 
