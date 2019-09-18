@@ -124,11 +124,11 @@ _:boom: With its members recursively linked to each other, when deserializing `r
 
 | Aspect / Application       | Website                  | VCS                      | Webshop                  | B2B API                  |
 |:---------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|
-| Business criticality       | 2 :large_orange_diamond: | 1 :small_orange_diamond: | 5 :red_circle:           | 2 :large_orange_diamond: |
+| Business criticality       | 2 :large_orange_diamond: | 1 :yellow_heart: | 5 :red_circle:           | 2 :large_orange_diamond: |
 | Information classification | 0 :green_heart:          | 2 :large_orange_diamond: | 2 :large_orange_diamond: | 2 :large_orange_diamond: |
-| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond: | 1 :small_orange_diamond: |
-| Exposure to threats        | 5 :red_circle:           | 1 :small_orange_diamond: | 5 :red_circle:           | 5 :red_circle:           |
-| Authentication mechanism   | 0 :small_blue_diamond:   | -2 :blue_heart:          | -1 :large_blue_diamond:  | -1 :large_blue_diamond:  |
+| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond: | 1 :yellow_heart: |
+| Exposure to threats        | 5 :red_circle:           | 1 :yellow_heart: | 5 :red_circle:           | 5 :red_circle:           |
+| Authentication mechanism   | 0 :large_blue_circle:   | -2 :yellow_heart:          | -1 :large_orange_diamond:  | -1 :large_orange_diamond:  |
 |                            |                          |                          |                          |                          |
-| **Total Score**            | 7                        | 2                        | 13                       | 9                        |
+| **Total Score**            | 7 :large_orange_diamond:                       | 2 :green_heart:                       | 13 :red_circle:                      | 9 :large_orange_diamond:                       |
 | **Rating**                 | Medium                   | Low                      | High                     | Medium                   |
