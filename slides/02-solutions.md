@@ -132,3 +132,11 @@ _:boom: With its members recursively linked to each other, when deserializing `r
 |                            |                          |                          |                          |                          |
 | **Total Score**            | 7 :large_orange_diamond:                       | 2 :green_heart:                       | 13 :red_circle:                      | 9 :large_orange_diamond:                       |
 | **Rating**                 | Medium                   | Low                      | High                     | Medium                   |
+
+---
+
+<!-- *footer: -->
+
+##### Exercise 9.2 (OWASP Benchmark)
+
+[![OWASP Benchmark Guide](images/02-09-sdlc/benchmark_guide.png)](https://rawgit.com/OWASP/Benchmark/master/scorecard/OWASP_Benchmark_Guide.html)
