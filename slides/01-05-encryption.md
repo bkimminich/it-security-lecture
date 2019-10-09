@@ -14,9 +14,9 @@
 
 1. Split into working groups of 3 or 4 students
 2. Each group is assigned one of the topics (by consensus or randomization) described on the following slides
-3. Until the next lecture, every group prepares a digital presentation of 15-20min on their topic
-4. At least _2 days before_ the next lecture a PDF export of their presentation is sent to <bjoern.kimminich@nordakademie.de>
-5. During the next lecture all groups present their topic to their classmates
+3. Every group prepares a digital presentation of 15-20min on their topic
+4. At least _4 days before_ the presentation a PDF export of their slides is sent to <bjoern.kimminich@nordakademie.de>
+5. All groups present their topic to all their classmates who can ask questions afterwards
 
 ---
 
@@ -55,10 +55,10 @@ _:information_source: Please provide a list of sources referred to in the presen
 
 # Timeline
 
-* Thu, 22.11.2018 _(today)_
-  * Group building, topic assignment & initial research
-* Tue, 04.12.2018 _(+12d)_
+* Thu, 17.10.2019 _(today)_
+  * Group building & topic assignment
+* Sun, 17.11.2019 _(+1 month)_
   * All PDF-exported presentations delivered to <bjoern.kimminich@nordakademie.de>
-* **Thu, 06.12.2018** _(+2d)_
-  * **All groups present their topics** between 09:15 and 13:00
+* **Thu, 21.11.2019** _(+4 days)_
+  * **All groups present their topics** between 09:15 and 11:45
 

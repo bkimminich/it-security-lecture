@@ -102,12 +102,12 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 # Schedule
 
 * **Thursdays, 9:15 - 11:45**
-* 9 lectures (18.10. - 20.12.18)
+* 9 lectures (17.10. - 19.12.19)
 
 <!-- -->
 
-* :x: Lectures from 25.10. and 29.11.
-* :heavy_check_mark: have been moved to 27.11. and 14.12.
+* Lecture from :x: 24.10. has been moved to :heavy_check_mark: 05.11.
+* Lecture on :x: 31.10. is dropped due to :jack_o_lantern: public holiday
 
 #### Test Exam
 
