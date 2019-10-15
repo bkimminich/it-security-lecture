@@ -28,7 +28,7 @@
 
 # Vulnerability
 
-> A **flaw or weakness in system** security procedures, design, implementation, or internal controls **that could […] result in a security breach** or a violation of the system's security policy \[[^2]\]
+> A **flaw or weakness in system** security procedures, design, implementation, or internal controls **that could \[…\] result in a security breach** or a violation of the system's security policy \[[^2]\]
 
 [^2]: http://csrc.nist.gov/publications/nistpubs/800-30/sp800-30.pdf
 
@@ -106,27 +106,27 @@
 
 ---
 
-# Aadhaar (January 2018)
+# Marriot (November 2018)
 
-> Today, The Tribune “purchased” a service being offered by anonymous sellers over WhatsApp that provided unrestricted access to details for any of the more than 1 billion Aadhaar numbers created in India thus far. [[^4]]
+> The hotel chain asked guests checking in for a treasure trove of personal information: credit cards, addresses and sometimes passport numbers. On Friday, consumers learned the risk. Marriott International revealed that hackers had breached its Starwood reservation system and had stolen the personal data of up to 500 million guests. [[^5]]
 
-![Aadhaar logo](images/01-01-motivation/300px-Aadhaar_Logo.svg.png)
+![Marriot logo](images/01-01-motivation/200px-Marriot_Logo.svg.png)
 
 ---
 
-> It took just Rs 500, paid through Paytm, and 10 minutes in which an “agent” of the group running the racket created a “gateway” for this correspondent and gave a login ID and password \[...\] and instantly get all particulars that an individual may have submitted to the UIDAI (Unique Identification Authority of India), including name, address, postal code (PIN), photo, phone number and email.
+> \[...\] Starwood’s data has not popped up on the so-called dark web, according to Recorded Future, a cybersecurity firm, and Coalition, a cyber insurance provider, which suggested that the hotel attackers weren’t looking to sell what they took.
 >
-> What is more, The Tribune team paid another Rs 300, for which the agent provided “software” that could facilitate the printing of the Aadhaar card after entering the Aadhaar number of any individual. \[[^5]\]
+> “Usually when stolen data doesn’t appear, it’s a state actor collecting it for intelligence purposes,” \[...\] information could be fed, for example, into an analysis program run by a country’s state security apparatus \[...\]. Using “big data” technology similar to what marketers use in targeted advertising, the country could try to pinpoint the comings and going of intelligence agents from other nations. Did they stay, for example, in the same hotel as a potential source for that country? \[[^5]\]
 
-_800 Indian Rupee equals 10.04 Euro (28.06.2018)_ :money_with_wings:
+_The intrusion went unnoticed for four years by Starwood._ :calendar:
 
-[^5]: http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html
+[^5]: https://www.nytimes.com/2018/11/30/business/marriott-data-breach.html
 
 ---
 
 # Equifax (September 2017)
 
-> If you have a credit report, there’s a good chance that you’re one of the 143 million American consumers whose sensitive personal information was exposed in a data breach at Equifax, one of the nation’s three major credit reporting agencies. [[^5]]
+> If you have a credit report, there’s a good chance that you’re one of the 143 million American consumers whose sensitive personal information was exposed in a data breach at Equifax, one of the nation’s three major credit reporting agencies. [[^6]]
 
 ![Equifax logo](images/01-01-motivation/281px-Equifax_Logo.svg.png)
 
@@ -158,7 +158,11 @@ _It later came out that head shots :camera: of kids and private chat messages we
 
 # CloudPets (February 2017)
 
-> \[...\] There were a lot of news headlines about how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children. One of their primary concerns was the potential risk to the privacy of children \[because\] conversations between the child and others can be recorded and forwarded. \[[^8]\]
+> \[...\] There were a lot of news headlines about [how Germany had banned an internet-connected doll called "Cayla" over fears hackers could target children](http://www.telegraph.co.uk/news/2017/02/17/germany-bans-internet-connected-dolls-fears-hackers-could-target/).
+> 
+>  \[...\] Just before that, we had the [VTech data breach](#vtech-november-2015) which exposed a huge amount of very personal information.
+>  
+> Which brings us to CloudPets \[...\] which is a toy that represents the nexus of both the problems discussed above. \[[^8]\]
 
 ![CloudPets logo](images/01-01-motivation/CloudPets_LogoNew.png)
 
