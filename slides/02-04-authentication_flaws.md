@@ -227,3 +227,5 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 2. Visit <https://twofactorauth.org> and find out what services you use offer 2FA
 3. Turn 2FA on wherever possible
 4. Do not forget to print (=:printer:!) the backup codes and keep them safe
+
+:bulb: _Pro tip: Print hard copies of the originally displayed QR codes for easy setup on any new phone! Just store them very securely!_
