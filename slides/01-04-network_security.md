@@ -14,13 +14,13 @@
 
 ---
 
-<!-- *footer: Shqip: Zbatimi i Niveleve OSI, 2010 Rexhep-bunjaku, used under CC-BY-SA 3.0 -->
+<!-- _footer: Shqip: Zbatimi i Niveleve OSI, 2010 Rexhep-bunjaku, used under CC-BY-SA 3.0 -->
 
 ![OSI Network Layer Model](images/01-04-network_security/Wwww2.jpg)
 
 ---
 
-<!-- *footer: OSI User Layers, 2013 Gvseostud, used under CC-BY-SA 3.0 -->
+<!-- _footer: OSI User Layers, 2013 Gvseostud, used under CC-BY-SA 3.0 -->
 
 # OSI User Layers
 
@@ -68,8 +68,6 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer:  -->
-
 ![Wireshark found a password](images/01-04-network_security/wireshark-found-password.png)
 
 ---
@@ -93,7 +91,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
+<!-- _footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
 
 # Remote Client to a Private Intranet
 
@@ -107,7 +105,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
+<!-- _footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
 
 # Two Remote Sites Across the Internet
 
@@ -117,7 +115,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
+<!-- _footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
 
 # Remote Access to a Secured Network over an Intranet
 
@@ -133,7 +131,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
+<!-- _footer: How VPN Works, Windows Server 2003 Technical Reference, (c) 2009 Microsoft -->
 
 # Connecting Two Networks over an Intranet
 
@@ -169,7 +167,7 @@ _:information_source: You might be better off performing this exercise on a priv
 
 # "I'm never gonna move"
 
-<!-- *footer: "I'm never gonna move", 2012, http://weknowmemes.com/2012/09/im-never-gonna-move/ -->
+<!-- _footer: "I'm never gonna move", 2012, http://weknowmemes.com/2012/09/im-never-gonna-move/ -->
 
 ![Free WiFi](images/01-04-network_security/success-kid-free-wifi.jpg)
 
@@ -340,7 +338,7 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ---
 
-<!-- *footer: Traditional Single Layer DMZ with two flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
+<!-- _footer: Traditional Single Layer DMZ with two flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
 
 #### DMZ with two Firewalls
 
@@ -348,7 +346,7 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ---
 
-<!-- *footer: Inner-Outer Two layer DMZ with three or more flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
+<!-- _footer: Inner-Outer Two layer DMZ with three or more flanking firewalls, 2014 Dgondim, used under CC-BY-SA 4.0 -->
 
 #### Two-Layer DMZ with three Firewalls
 
@@ -376,7 +374,7 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ---
 
-<!-- *footer: DIFFERENCE BETWEEN IPS AND IDS IN NETWORK SECURITY, 2017, https://ipwithease.com/ -->
+<!-- _footer: DIFFERENCE BETWEEN IPS AND IDS IN NETWORK SECURITY, 2017, https://ipwithease.com/ -->
 
 # IDS vs. IPS <small>(both Network-based)</small>
 
@@ -420,7 +418,7 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 
 ---
 
-<!-- *footer: Simple Web Application Firewall Architecture, 2018 M2farah, used under CC-BY-SA 4.0 -->
+<!-- _footer: Simple Web Application Firewall Architecture, 2018 M2farah, used under CC-BY-SA 4.0 -->
 
 # WAF Deployment in the Network
 

@@ -20,7 +20,7 @@
 
 ---
 
-<!-- *footer: The Information Security triad: CIA. Second version, 2009 John M. Kennedy T., used under CC-BY-SA 3.0 -->
+<!-- _footer: The Information Security triad: CIA. Second version, 2009 John M. Kennedy T., used under CC-BY-SA 3.0 -->
 
 # Information Security Triad: CIA
 
@@ -174,7 +174,7 @@
 
 ---
 
-<!-- *footer: CIA3 model (anno 2016), http://www.cia-cubed.org, used under CC-BY-SA 4.0 -->
+<!-- _footer: CIA3 model (anno 2016), http://www.cia-cubed.org, used under CC-BY-SA 4.0 -->
 
 # Dependency Model of CIA³
 

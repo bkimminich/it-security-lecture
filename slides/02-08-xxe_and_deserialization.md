@@ -145,7 +145,7 @@ _:warning: Most Java XML parsers have insecure parser settings by default!_
 
 ---
 
-<!-- *footer: Български: Схема на сериализация и десериализация, 2016 WnbKrumov, used under CC-BY-SA 4.0 -->
+<!-- _footer: Български: Схема на сериализация и десериализация, 2016 WnbKrumov, used under CC-BY-SA 4.0 -->
 
 # Serialization
 
@@ -217,8 +217,6 @@ ArrayList<Object> root = new ArrayList<>(Integer.MAX_VALUE);
 ```
 
 ---
-
-<!-- *footer:  -->
 
 # Exercise 8.3
 

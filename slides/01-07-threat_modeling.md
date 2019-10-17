@@ -137,7 +137,7 @@
 
 ---
 
-<!-- *footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+<!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
 
 # Four-Step <small>Threat Modeling</small> Framework
 
@@ -164,7 +164,7 @@
 
 ---
 
-<!-- *footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+<!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
 
 # Trust Boundaries
 
@@ -185,8 +185,6 @@
 
 ---
 
-<!-- *footer:  -->
-
 ## STRIDE _(What Can Go Wrong?)_
 
 | Threat                     | Description                                                                                                                                                              |
@@ -199,8 +197,6 @@
 | <small>**E**levation&nbsp;of&nbsp;Privilege</small> | <small><small>When a program or user is technically able to do things that they’re not supposed to do</small></small>                                                                   |
 
 ---
-
-<!-- *footer:  -->
 
 ## Threats vs. Security Goals/Principle
 

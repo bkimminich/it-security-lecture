@@ -92,7 +92,7 @@ _:information_source: Only the yellow code sections are relevant as the payload.
 
 ---
 
-<!-- *footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+<!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
 
 ```md
 2. Go through a window.

@@ -191,7 +191,7 @@ Acknowledgements: https://hackerone.com/ed/thanks
 
 ---
 
-<!-- *footer: red vs blue, 2014 Robert Couse-Baker, used under CC-BY 2.0 -->
+<!-- _footer: red vs blue, 2014 Robert Couse-Baker, used under CC-BY 2.0 -->
 
 # Red vs. Blue
 

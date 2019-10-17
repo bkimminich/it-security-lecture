@@ -183,7 +183,7 @@ _:information_source: An overview with regulatory framework mappings is availabl
 
 ---
 
-<!-- *footer: Copyright © 2017 CIS® (Center for Internet Security) -->
+<!-- _footer: Copyright © 2017 CIS® (Center for Internet Security) -->
 
 ![CIS Controls](images/01-06-security_mgmt_and_org/cis_controls_v7.png)
 
