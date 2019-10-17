@@ -91,7 +91,7 @@ String query = "SELECT id FROM users " +
 ```
 
 1. Fill out all the gaps in the table on the following page
-2. If there are multiple solutions, ~~do not pick an unncessary complicated one~~ pick a simple one
+2. If there are multiple solutions, <strike>do not pick an unncessary complicated one</strike> pick a simple one
 
 ---
 
@@ -103,7 +103,7 @@ String query = "SELECT id FROM users " +
 | 2 | `'`        | `qwertz`       |                                             |               |
 | 3 | `'--`      | `abc123`       |                                             | nothing       |
 | 4 | `horst'--` | `qwertz`       |                                             |               |
-| 5 |            |                | `SELECT id FROM users WHERE name = 'admin'` | `1`           |
+| 5 |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
 | 6 |            |                | `SELECT id FROM users`                      | `1`, `2`, ... |
 
 <small>_:information_source: Valid options for Query Result are only numbers, nothing or an error._</small>
