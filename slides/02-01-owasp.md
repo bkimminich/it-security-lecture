@@ -54,7 +54,7 @@ An OWASP project is a collection of related tasks that have a defined roadmap an
 
 | Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                    |
 |:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)                                                              |
+| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://owasp-juice.shop)                                                              |
 | Code          | [ModSecurity Core Rule Set](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project), [Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer), [Security Logging Project](https://www.owasp.org/index.php/OWASP_Security_Logging_Project), [AppSensor](https://www.owasp.org/index.php/OWASP_AppSensor_Project)           |
 | Documentation | [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project), [OWASP 24/7 Podcast](https://www.owasp.org/index.php/OWASP_Podcast), [Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia) |
 
@@ -206,7 +206,7 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://owasp-juice.shop) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
 
@@ -247,7 +247,7 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 # Official Companion Guide
 
-> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is published under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is available **for free** as work-in-progress in [HTML, PDF, Kindle and ePub format on GitBook](https://www.gitbook.com/book/bkimminich/pwning-owasp-juice-shop). The latest officially released edition is [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
+> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is published under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is available **for free** [online-readable](https://pwning.owasp-juice.shop). The latest officially released edition is [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
 
 ---
 

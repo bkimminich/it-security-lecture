@@ -21,7 +21,7 @@
 * Lecturer at [Nordakademie](https://www.nordakademie.de/) since 2009
 * Volunteer in the [Open Web Application Security Project](https://owasp.org/)
 * Board Member of the [German OWASP Chapter](https://www.owasp.org/index.php/Germany)
-* Project Lead of the [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+* Project Lead of the [OWASP Juice Shop](https://owasp-juice.shop)
 
 ---
 
