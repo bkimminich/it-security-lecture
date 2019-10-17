@@ -1,9 +1,6 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # Authentication Flaws
 
 ---
@@ -12,7 +9,8 @@
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords
-* Uses weak or ineffective credential recovery and forgot-password processes (e.g. "knowledge-based answers")
+* Uses weak or ineffective credential recovery and forgot-password
+  processes (e.g. "knowledge-based answers")
 * Uses plain text, encrypted, or weakly hashed passwords
 * Has missing or ineffective multi-factor authentication
 * Exposes Session IDs in the URL
@@ -34,7 +32,9 @@
 
 # Exercise 4.1 (:pushpin:)
 
-1. Watch [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/) :tv:
+1. Watch
+   [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)
+   :tv:
 2. Log in with MC SafeSearch's user account (:star::star:)
 
 _:warning: Do **not** use SQL Injection for authentication bypass!_
@@ -58,8 +58,10 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 # Exercise 4.3 (:pushpin:)
 
-1. Pick one Security Question and explain how :muscle: it is against attacks.
-2. What would you recommend to pick as an answer? Assume that the risk of compromise is full takeover of your user account.
+1. Pick one Security Question and explain how :muscle: it is against
+   attacks.
+2. What would you recommend to pick as an answer? Assume that the risk
+   of compromise is full takeover of your user account.
 
 ![Security Questions](images/02-04-authentication_flaws/secret_questions.png)
 
@@ -70,13 +72,15 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 #### User IDs
 
 * Use case insensitive and unique usernames/userids
-* If using Email addresses as usernames, ensure [RFC 5321](https://tools.ietf.org/html/rfc5321) validity
+* If using Email addresses as usernames, ensure
+  [RFC 5321](https://tools.ietf.org/html/rfc5321) validity
   1. Check for presence of at least one `@` symbol in the address
   2. Ensure the local-part is no longer than 64 octets
   3. Ensure the domain is no longer than 255 octets
   4. Ensure the address is deliverable
 
-_:x: Do **not** try to invent your own RegEx to validate email addresses!_
+_:x: Do **not** try to invent your own RegEx to validate email
+addresses!_
 
 ---
 
@@ -87,7 +91,9 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 * **No periodic password resets** as users rely on predictable patterns
 * Avoid password complexity rules as _all of them_ are predictable
 * Ban bad passwords or ones which have appeared in data breaches
-  * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords) or [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)  
+  * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords)
+    or
+    [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
 * Allow convenience features on password fields
   * Offer _Show Password while typing_ option
   * Allow pasting from clipboard into password fields
@@ -110,7 +116,9 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 * Do not limit character set and set long max lengths
 * Use cryptographically strong credential-specific salt
 * [Impose infeasible verification on attacker](https://crackstation.net/hashing-security.htm)
-  * Aaptive one-way function ([Argon2](https://github.com/p-h-c/phc-winner-argon2), PBKDF2, bcrypt or scrypt)
+  * Aaptive one-way function
+    ([Argon2](https://github.com/p-h-c/phc-winner-argon2), PBKDF2,
+    bcrypt or scrypt)
   * Keyed functions (e.g. HMAC)
 * Design password storage assuming eventual compromise
 * [Upgrading your existing password hashing solution](https://veggiespam.com/painless-password-hash-upgrades/)
@@ -119,14 +127,15 @@ _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 
 ##### [Design for Failure](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Design_password_storage_assuming_eventual_compromise)
 
-Having detected theft, a credential storage scheme must support continued operation by marking credential data as compromised:
+Having detected theft, a credential storage scheme must support
+continued operation by marking credential data as compromised:
 
 1. Invalidate authentication shortcuts (e.g. login only with 2FA)
 2. Disallow changes to security settings of user accounts
 3. [Load a new, stronger credential protection scheme](https://veggiespam.com/painless-password-hash-upgrades/)
 4. Set `tainted`/`compromised` bit until user resets credentials
-6. Prompt for credential change & conduct out-of-band confirmation
-7. Convert stored credentials to new scheme as user successfully log in
+5. Prompt for credential change & conduct out-of-band confirmation
+6. Convert stored credentials to new scheme as user successfully log in
 
 ---
 
@@ -147,11 +156,17 @@ Having detected theft, a credential storage scheme must support continued operat
 
 # Two-Factor Authentication
 
-> Two-factor authentication adds a second level of authentication to an account log-in. When you have to enter only your username and one password, that's considered a single-factor authentication. 2FA requires the user to have two out of three types of credentials before being able to access an account. The three types are:
+> Two-factor authentication adds a second level of authentication to an
+> account log-in. When you have to enter only your username and one
+> password, that's considered a single-factor authentication. 2FA
+> requires the user to have two out of three types of credentials before
+> being able to access an account. The three types are:
 >
-> * **Something you know**, such as a personal identification number (PIN), password or a pattern
+> * **Something you know**, such as a personal identification number
+>   (PIN), password or a pattern
 > * **Something you have**, such as an ATM card, phone, or fob
-> * **Something you are**, such as a biometric like a fingerprint or voice print \[[^1]\]
+> * **Something you are**, such as a biometric like a fingerprint or
+>   voice print \[[^1]\]
 
 [^1]: https://www.cnet.com/news/two-factor-authentication-what-you-need-to-know-faq/
 
@@ -165,13 +180,21 @@ Having detected theft, a credential storage scheme must support continued operat
 | Authenticator App | :key::key:      | :sunglasses::sunglasses::sunglasses: | :door:             |
 | Hardware Key      | :key::key::key: | :sunglasses::sunglasses::sunglasses: | :door::door:       |
 
-> <small>Hardware keys win from a security perspective, they are private and unaffected by a dying or out of range phone. However, only a few services (Google, Dropbox, Facebook, Github and a few others) support the standard so far. Unless you trust your phone provider (and few providers are trustworthy), **an authenticator app is the best option**.</small>
+> <small>Hardware keys win from a security perspective, they are private
+> and unaffected by a dying or out of range phone. However, only a few
+> services (Google, Dropbox, Facebook, Github and a few others) support
+> the standard so far. Unless you trust your phone provider (and few
+> providers are trustworthy), **an authenticator app is the best
+> option**.</small>
 
 ---
 
 # Password Managers
 
-> Password managers are programs, browser plugins or web services that automate management of large number of different credentials, including memorizing and filling-in, generating random passwords on different sites etc. \[[^2]\]
+> Password managers are programs, browser plugins or web services that
+> automate management of large number of different credentials,
+> including memorizing and filling-in, generating random passwords on
+> different sites etc. \[[^2]\]
 
 | [![KeePass Logo](images/02-04-authentication_flaws/keepass_322x132.png)](https://keepass.info/) | [![LastPass Logo](images/02-04-authentication_flaws/LastPass-Logo-Color.png)](https://www.lastpass.com) | [![1Password Logo](images/02-04-authentication_flaws/1password-logo-awesome%402x.png)](https://1password.com/) |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
@@ -180,10 +203,14 @@ Having detected theft, a credential storage scheme must support continued operat
 
 ---
 
-> Web applications should at least not make password managers job more difficult than necessary by observing the following recommendations:
-> * use standard HTML forms for username and password input with appropriate `type` attributes,
-> * do not artificially limit user passwords to a length "reasonable for humans" and allow passwords lengths up to 128 characters,
-> * do not artificially prevent copy and paste on username and password fields,
+> Web applications should at least not make password managers job more
+> difficult than necessary by observing the following recommendations:
+> * use standard HTML forms for username and password input with
+>   appropriate `type` attributes,
+> * do not artificially limit user passwords to a length "reasonable for
+>   humans" and allow passwords lengths up to 128 characters,
+> * do not artificially prevent copy and paste on username and password
+>   fields,
 > * avoid plugin-based login pages (Flash, Silverlight etc) \[[^1]\]
 
 [^2]: https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Password_Managers
@@ -193,7 +220,8 @@ Having detected theft, a credential storage scheme must support continued operat
 # Exercise 4.4 (:house:)
 
 1. Log in with the admin's user account (:star::star:)
-2. Reset Jim's password by answering his secret question (:star::star::star:)
+2. Reset Jim's password by answering his secret question
+   (:star::star::star:)
 3. Log in with Bjoern's user account (:star::star::star::star:)
 
 _:warning: Do **not** use SQL Injection for authentication bypass!_
@@ -204,16 +232,23 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 #### ![SQRL Logo](images/02-04-authentication_flaws/SQRL_Logo_80x80.png) Secure Quick Reliable Login (SQRL)
 
-1. Read https://www.grc.com/sqrl/sqrl.htm and http://sqrl.pl/guide to learn how SQRL works
-2. Prepare a convincing "sales pitch" (max. 5min) to convince your classmates and co-workers to use SQRL for secure authentication  
+1. Read https://www.grc.com/sqrl/sqrl.htm and http://sqrl.pl/guide to
+   learn how SQRL works
+2. Prepare a convincing "sales pitch" (max. 5min) to convince your
+   classmates and co-workers to use SQRL for secure authentication
 
 ---
 
 # Exercise 4.6 (_optional_)
 
-1. Install a 2FA app on your phone (e.g. [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator) or [Authy](https://authy.com/))
-2. Visit <https://twofactorauth.org> and find out what services you use offer 2FA
+1. Install a 2FA app on your phone (e.g.
+   [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator)
+   or [Authy](https://authy.com/))
+2. Visit <https://twofactorauth.org> and find out what services you use
+   offer 2FA
 3. Turn 2FA on wherever possible
-4. Do not forget to print (=:printer:!) the backup codes and keep them safe
+4. Do not forget to print (=:printer:!) the backup codes and keep them
+   safe
 
-:bulb: _Pro tip: Print hard copies of the originally displayed QR codes for easy setup on any new phone! Just store them very securely!_
+:bulb: _Pro tip: Print hard copies of the originally displayed QR codes
+for easy setup on any new phone! Just store them very securely!_

@@ -1,9 +1,6 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # IT Security
 
 ## Application Security & SDLC
@@ -30,10 +27,13 @@
 
 * **Thursdays, 09:15 - 12:00**
 * 9 lectures (01.08. - 26.09.19)
-* <small>Exceptions <strike>12.09.</strike> and <strike>26.09.</strike> have been moved to</small>
-  * <small>Tuesday, 30.07. (12:30 - 15:00) and Friday, 13.09. (09:15 - 12:00)</small>
+* <small>Exceptions <strike>12.09.</strike> and <strike>26.09.</strike>
+  have been moved to</small>
+  * <small>Tuesday, 30.07. (12:30 - 15:00) and Friday, 13.09. (09:15 -
+    12:00)</small>
 
 #### Test Exam
+
 * **Monday, 30.09.2019** (90min)
 * **09:15 - 10:45** / Audimax
 * :warning: Covers topics from both semesters
@@ -48,20 +48,26 @@ To perform the exercises on your private computer you need
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
-_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 10.x (or higher) version._
+_:information_source: On the university computers Node.js should already
+be available. You can verify this by running `node -v` on the command
+line. It should display an 10.x (or higher) version._
 
-_:computer: You can always fall back to your personal laptop for the exercises as it should be free from virtualization, proxying or installation hurdles!_
+_:computer: You can always fall back to your personal laptop for the
+exercises as it should be free from virtualization, proxying or
+installation hurdles!_
 
 ---
 
 # Recommended Resources
 
-* OWASP: [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
+* OWASP:
+  [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
 * OWASP: [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 
 #### Literature Recommendations _(optional)_
 
-* Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop), 2019
+* Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop),
+  2019
 * Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
 
 ---

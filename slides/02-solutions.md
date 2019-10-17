@@ -1,9 +1,6 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # Solutions
 
 ## Exercises 2nd Semester
@@ -30,7 +27,8 @@
 
 ### Exercise 4.2 (Session ID Generator)
 
-The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predictable patterns** indicating at least partial non-randomness.
+The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain
+**predictable patterns** indicating at least partial non-randomness.
 
 | # | Session ID          | #   | Session ID          |
 |:--|:--------------------|:----|:--------------------|
@@ -58,7 +56,9 @@ The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predicta
 | Share with third parties | :heavy_check_mark: | :heavy_check_mark: with NDA | :heavy_check_mark: with NDA + permission        | :heavy_check_mark: with NDA + permission        |
 | Copy to USB key          | :heavy_check_mark: | :heavy_check_mark:          | :heavy_check_mark: with encryption + permission | :heavy_check_mark: with encryption + permission |
 
-:warning: _Many organizations do not allow the use of USB keys **in general**. This kind of restriction would obviously **overrule** any of the above "Copy to USB" assessments with :x:._
+:warning: _Many organizations do not allow the use of USB keys **in
+general**. This kind of restriction would obviously **overrule** any of
+the above "Copy to USB" assessments with :x:._
 
 ---
 
@@ -71,12 +71,13 @@ The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predicta
 
 ---
 
-| Phase                     | Internal                                 | Confidential                                                      | Secret                                                                                                              |
-|:--------------------------|:-----------------------------------------|:------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| Transfer (public network) | <small>:o: Encryption (e.g. VPN)</small> | <small>:o: Encryption (e.g. VPN, TLS)</small>                     | <small>:red_circle: Encryption (e.g. VPN, TLS)<br>:o:/:red_circle: End-to-end encryption (e.g. PGP, Signal)</small> |
-| Disposal                  | <small>No restrictions</small>           | <small>:red_circle: Shredding, secure deletion, data wipe</small> | <small>:red_circle: Shredding, secure deletion, data wipe<br>:o:/:red_circle: Destroy medium physically (:hammer:, :fire:)</small>     |
+| Phase                     | Internal                                 | Confidential                                                      | Secret                                                                                                                             |
+|:--------------------------|:-----------------------------------------|:------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
+| Transfer (public network) | <small>:o: Encryption (e.g. VPN)</small> | <small>:o: Encryption (e.g. VPN, TLS)</small>                     | <small>:red_circle: Encryption (e.g. VPN, TLS)<br>:o:/:red_circle: End-to-end encryption (e.g. PGP, Signal)</small>                |
+| Disposal                  | <small>No restrictions</small>           | <small>:red_circle: Shredding, secure deletion, data wipe</small> | <small>:red_circle: Shredding, secure deletion, data wipe<br>:o:/:red_circle: Destroy medium physically (:hammer:, :fire:)</small> |
 
-:information_source: _For "Public" data no restrictions for any lifecycle phases apply._
+:information_source: _For "Public" data no restrictions for any
+lifecycle phases apply._
 
 ---
 
@@ -92,7 +93,8 @@ The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predicta
 private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
 ```
 
-_:boom: Whenever an `OutOfMemoryError` occurs, the affected JVM crashes._
+_:boom: Whenever an `OutOfMemoryError` occurs, the affected JVM
+crashes._
 
 ---
 
@@ -110,24 +112,30 @@ i=7, root=[[[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [f
 i=8, root=[[[[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]], [[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], foo, [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]]], [[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]], foo, [[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], foo, [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]]]], [[[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]], [[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], foo, [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]]], foo, [[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]], foo, [[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]], foo, [[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]], foo, [[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [foo]]]], foo, [[[[], [foo]], [[], foo, [foo]]], foo, [[[], [foo]], foo, [[], foo, [foo]]]]]]]]]]
 ```
 
-_:boom: With its members recursively linked to each other, when deserializing `root`, the JVM will begin creating a recursive object graph. It will never complete, and consume CPU indefinitely._
+_:boom: With its members recursively linked to each other, when
+deserializing `root`, the JVM will begin creating a recursive object
+graph. It will never complete, and consume CPU indefinitely._
 
-_:mag: If you view this as a PDF, zoom in as much as possible on the above code snippet to get an idea what is going on. You might want to look at [the original Markdown](https://github.com/bkimminich/it-security-lecture/blob/master/slides/02-solutions.md#exercise-83-hashset-deserialization) file to actually be able to read something._
+_:mag: If you view this as a PDF, zoom in as much as possible on the
+above code snippet to get an idea what is going on. You might want to
+look at
+[the original Markdown](https://github.com/bkimminich/it-security-lecture/blob/master/slides/02-solutions.md#exercise-83-hashset-deserialization)
+file to actually be able to read something._
 
 ---
 
 # Exercise 9.1 (Protection Req. Calc.)
 
-| Aspect / Application       | Website                  | VCS                      | Webshop                  | B2B API                  |
-|:---------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|
-| Business criticality       | 2 :large_orange_diamond: | 1 :yellow_heart: | 5 :red_circle:           | 2 :large_orange_diamond: |
-| Information classification | 0 :green_heart:          | 2 :large_orange_diamond: | 2 :large_orange_diamond: | 2 :large_orange_diamond: |
-| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond: | 1 :yellow_heart: |
-| Exposure to threats        | 5 :red_circle:           | 1 :yellow_heart: | 5 :red_circle:           | 5 :red_circle:           |
-| Authentication mechanism   | 0 :large_blue_circle:   | -2 :yellow_heart:          | -1 :large_orange_diamond:  | -1 :large_orange_diamond:  |
-|                            |                          |                          |                          |                          |
-| **Total Score**            | 7 :large_orange_diamond:                       | 2 :green_heart:                       | 13 :red_circle:                      | 9 :large_orange_diamond:                       |
-| **Rating**                 | Medium                   | Low                      | High                     | Medium                   |
+| Aspect / Application       | Website                  | VCS                      | Webshop                   | B2B API                   |
+|:---------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------------|
+| Business criticality       | 2 :large_orange_diamond: | 1 :yellow_heart:         | 5 :red_circle:            | 2 :large_orange_diamond:  |
+| Information classification | 0 :green_heart:          | 2 :large_orange_diamond: | 2 :large_orange_diamond:  | 2 :large_orange_diamond:  |
+| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond:  | 1 :yellow_heart:          |
+| Exposure to threats        | 5 :red_circle:           | 1 :yellow_heart:         | 5 :red_circle:            | 5 :red_circle:            |
+| Authentication mechanism   | 0 :large_blue_circle:    | -2 :yellow_heart:        | -1 :large_orange_diamond: | -1 :large_orange_diamond: |
+|                            |                          |                          |                           |                           |
+| **Total Score**            | 7 :large_orange_diamond: | 2 :green_heart:          | 13 :red_circle:           | 9 :large_orange_diamond:  |
+| **Rating**                 | Medium                   | Low                      | High                      | Medium                    |
 
 ---
 

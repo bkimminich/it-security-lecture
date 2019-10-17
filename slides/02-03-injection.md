@@ -1,16 +1,14 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # Injection
 
 ---
 
 # Injection
 
-1. Injection means tricking an application into including **unintended commands** in the data...
+1. Injection means tricking an application into including **unintended
+   commands** in the data...
 2. ...sent to an **Interpreter** which then executes these commands
 
 ##### Interpreter Examples
@@ -24,7 +22,9 @@
 
 # Easy Explanation
 
-> You go to court and write your name as "Michael, you are now free to go". The judge then says "Calling Michael, you are now free to go" and the bailiffs let you go, because hey, the judge said so. \[[^1]\]
+> You go to court and write your name as "Michael, you are now free to
+> go". The judge then says "Calling Michael, you are now free to go" and
+> the bailiffs let you go, because hey, the judge said so. \[[^1]\]
 
 [^1]: https://news.ycombinator.com/item?id=4951003
 
@@ -54,7 +54,9 @@
 * Manipulating data
 * Complete system takeover
 
-_:information_source: Attackers use error messages or codes to verify the success of an attack and gather information about type and structure of the database._
+_:information_source: Attackers use error messages or codes to verify
+the success of an attack and gather information about type and structure
+of the database._
 
 ---
 
@@ -74,7 +76,8 @@ For `username=bjoern` and `password=secret` this query would be created:
 SELECT id FROM users WHERE name = 'bjoern' AND password = 'secret'
 ```
 
-returning the `id` of a matching record or nothing if no such record exists.
+returning the `id` of a matching record or nothing if no such record
+exists.
 
 ---
 
@@ -89,22 +92,24 @@ String query = "SELECT id FROM users " +
 ```
 
 1. Fill out all the gaps in the table on the following page
-2. If there are multiple solutions, <strike>do not pick an unncessary complicated one</strike> pick a simple one
+2. If there are multiple solutions, <strike>do not pick an unncessary
+   complicated one</strike> pick a simple one
 
 ---
 
 ###### Exercise 3.1
 
-| # | Username   | Password       | Created SQL Query                           | Query Result  |
-|:--|:-----------|:---------------|:--------------------------------------------|:--------------|
-| 1 | `horst`    | `n0Rd4kAD3m!E` |                                             | `42`          |
-| 2 | `'`        | `qwertz`       |                                             |               |
-| 3 | `'--`      | `abc123`       |                                             | nothing       |
-| 4 | `horst'--` | `qwertz`       |                                             |               |
+| # | Username   | Password       | Created SQL Query                                          | Query Result  |
+|:--|:-----------|:---------------|:-----------------------------------------------------------|:--------------|
+| 1 | `horst`    | `n0Rd4kAD3m!E` |                                                            | `42`          |
+| 2 | `'`        | `qwertz`       |                                                            |               |
+| 3 | `'--`      | `abc123`       |                                                            | nothing       |
+| 4 | `horst'--` | `qwertz`       |                                                            |               |
 | 5 |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
-| 6 |            |                | `SELECT id FROM users`                      | `1`, `2`, ... |
+| 6 |            |                | `SELECT id FROM users`                                     | `1`, `2`, ... |
 
-<small>_:information_source: Valid options for Query Result are only numbers, nothing or an error._</small>
+<small>_:information_source: Valid options for Query Result are only
+numbers, nothing or an error._</small>
 
 ---
 
@@ -123,13 +128,17 @@ String query = "SELECT id FROM users " +
 
 # [Blind SQL Injection](https://www.owasp.org/index.php/Blind_SQL_Injection)
 
-* If error messages do not give away clues to the attacker he can still "take a stab in the dark"
-* The application behavior upon Injection attempts might give away their success/failure
+* If error messages do not give away clues to the attacker he can still
+  "take a stab in the dark"
+* The application behavior upon Injection attempts might give away their
+  success/failure
 
 #### Examples
 
-* Injecting boolean conditions (e.g. `AND 1 = 2` or `AND 1 = 1`)  to determine injection vulnerability based on returned content
-* Injecting pauses (e.g. `WAITFOR DELAY '00:00:10'--`)  to determine injection vulnerability based on response time
+* Injecting boolean conditions (e.g. `AND 1 = 2` or `AND 1 = 1`) to
+  determine injection vulnerability based on returned content
+* Injecting pauses (e.g. `WAITFOR DELAY '00:00:10'--`) to determine
+  injection vulnerability based on response time
 
 ---
 
@@ -157,13 +166,15 @@ returning all records with "owasp" somewhere in the title.
 
 ## Spying out Data
 
-:-1: This will **not** work unless both result sets coincidentally have an equal number of columns:
+:-1: This will **not** work unless both result sets coincidentally have
+an equal number of columns:
 
 ```sql
 ' UNION SELECT * FROM users--
 ```
 
-:point_up: Additional closing braces might be needed depending on the original query:
+:point_up: Additional closing braces might be needed depending on the
+original query:
 
 ```sql
 ') UNION SELECT * FROM users--
@@ -171,7 +182,8 @@ returning all records with "owasp" somewhere in the title.
 
 ---
 
-Static values are useful to probe for the right number of result set columns:
+Static values are useful to probe for the right number of result set
+columns:
 
 ```sql
 ' UNION SELECT 1 FROM users--
@@ -188,6 +200,7 @@ Static values are useful to probe for the right number of result set columns:
 1=:-1:, 2=:-1:, 3=:+1:!
 
 Now only some actual column names have to be guessed or inferred:
+
 ```sql
 ' UNION SELECT email,username,passwd FROM users--
 ```
@@ -237,9 +250,12 @@ ResultSet results = pstmt.executeQuery();
 
 # Exercise 3.2
 
-1. Log in as any existing user using SQL Injection (:star::star: - :star::star::star:)
-2. Order the :christmas_tree: offer that was only available in 2014 (:star::star::star::star:)
-3. Spy out all user account credentials from the database (:star::star::star::star:)
+1. Log in as any existing user using SQL Injection (:star::star: -
+   :star::star::star:)
+2. Order the :christmas_tree: offer that was only available in 2014
+   (:star::star::star::star:)
+3. Spy out all user account credentials from the database
+   (:star::star::star::star:)
 
 ---
 
@@ -247,7 +263,10 @@ ResultSet results = pstmt.executeQuery();
 
 #### [NoSQL Injection](https://www.owasp.org/index.php/Testing_for_NoSQL_injection)
 
-Apply the concept of _Injection_ attacks to the NoSQL database being used for the _User Reviews_ of products in the Juice Shop.
+Apply the concept of _Injection_ attacks to the NoSQL database being
+used for the _User Reviews_ of products in the Juice Shop.
 
-1. Let the server (literally) sleep for some time (:star::star::star::star:)
-2. Update multiple product reviews at the same time (:star::star::star::star:)
+1. Let the server (literally) sleep for some time
+   (:star::star::star::star:)
+2. Update multiple product reviews at the same time
+   (:star::star::star::star:)

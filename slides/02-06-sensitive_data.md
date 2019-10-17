@@ -1,16 +1,18 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # Sensitive Data
 
 ---
 
 # Sensitive Data
 
-> Sensitive data such as **passwords, credit card numbers, health records, personal information and business secrets** require extra protection, particularly if that data falls under privacy laws (EU's General Data Protection Regulation GDPR), financial data protection rules such as PCI Data Security Standard (PCI DSS) or other regulations. \[[^1]\]
+> Sensitive data such as **passwords, credit card numbers, health
+> records, personal information and business secrets** require extra
+> protection, particularly if that data falls under privacy laws (EU's
+> General Data Protection Regulation GDPR), financial data protection
+> rules such as PCI Data Security Standard (PCI DSS) or other
+> regulations. \[[^1]\]
 
 [^1]: https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf
 
@@ -18,12 +20,16 @@
 
 ## [GDPR](https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en)
 
-> Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
+> Regulation (EU) 2016/679 of the European Parliament and of the Council
+> of 27 April 2016 on the protection of natural persons with regard to
+> the processing of personal data and on the free movement of such data,
+> and repealing Directive 95/46/EC (General Data Protection Regulation)
 
 ## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
 
-> PCI DSS is the global data security standard adopted by the payment card brands for all entities that
-process, store or transmit cardholder data and/or sensitive authentication data.
+> PCI DSS is the global data security standard adopted by the payment
+> card brands for all entities that process, store or transmit
+> cardholder data and/or sensitive authentication data.
 
 ---
 
@@ -37,19 +43,23 @@ process, store or transmit cardholder data and/or sensitive authentication data.
 * Internet Protocol (IP) address
 * ...
 
-_**§** Articles 2, 4(1) and(5) and Recitals (14), (15), (26), (27), (29) and (30)_
+_**§** Articles 2, 4(1) and(5) and Recitals (14), (15), (26), (27), (29)
+and (30)_
 
 ---
 
 ## [Sensitive Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en) as defined in GDPR
 
-* Personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs
+* Personal data revealing racial or ethnic origin, political opinions,
+  religious or philosophical beliefs
 * Trade-union membership
-* Genetic data, biometric data processed solely to identify a human being
+* Genetic data, biometric data processed solely to identify a human
+  being
 * Health-related data
 * Data concerning a person's sex life or sexual orientation
 
-_**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to (56)_
+_**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
+(56)_
 
 ---
 
@@ -100,7 +110,8 @@ _:warning: External Internet traffic is especially dangerous!_
   * Standard algorithms
   * Protocols
   * Keys
-* Encrypt data in transit (e.g. [TLS](01-05-encryption.md)) and enforce encryption (e.g. HSTS)
+* Encrypt data in transit (e.g. [TLS](01-05-encryption.md)) and enforce
+  encryption (e.g. HSTS)
 
 ---
 
@@ -117,7 +128,9 @@ _:warning: External Internet traffic is especially dangerous!_
 
 # Exercise 6.1
 
-For each classification level decide if the listed practices should be allowed (:heavy_check_mark:) or strictly forbidden (:x:). Use footnotes to describe preconditions (if necessary).
+For each classification level decide if the listed practices should be
+allowed (:heavy_check_mark:) or strictly forbidden (:x:). Use footnotes
+to describe preconditions (if necessary).
 
 | Practice                 | Public | Internal | Confidential | Secret |
 |:-------------------------|:-------|:---------|:-------------|:-------|
@@ -131,7 +144,8 @@ For each classification level decide if the listed practices should be allowed (
 
 # Exercise 6.2
 
-For each classification level define restrictions (:red_circle:) and/or recommendations (:o:) for the listed lifecycle phases.
+For each classification level define restrictions (:red_circle:) and/or
+recommendations (:o:) for the listed lifecycle phases.
 
 | Phase                           | Public | Internal | Confidential | Secret |
 |:--------------------------------|:-------|:---------|:-------------|:-------|
@@ -144,7 +158,13 @@ For each classification level define restrictions (:red_circle:) and/or recommen
 
 ## [HTTP Strict Transport Security (HSTS)](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 
-> HTTP Strict Transport Security (HSTS) is an opt-in security enhancement that is specified by a web application through the use of a special response header. Once a supported browser receives this header that browser will prevent any communications from being sent over HTTP to the specified domain and will instead send all communications over HTTPS. It also prevents HTTPS click through prompts on browsers.
+> HTTP Strict Transport Security (HSTS) is an opt-in security
+> enhancement that is specified by a web application through the use of
+> a special response header. Once a supported browser receives this
+> header that browser will prevent any communications from being sent
+> over HTTP to the specified domain and will instead send all
+> communications over HTTPS. It also prevents HTTPS click through
+> prompts on browsers.
 
 ##### Example
 
@@ -159,7 +179,8 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 * Only store sensitive data that you need
 * Use strong approved Authenticated Encryption
 * Store a one-way and salted value of passwords
-* Ensure that the cryptographic protection remains secure even if access controls fail
+* Ensure that the cryptographic protection remains secure even if access
+  controls fail
 * Ensure that any secret key is protected from unauthorized access
 * Follow applicable regulations on use of cryptography
 
@@ -182,10 +203,12 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 1. Access a confidential document (:star:)
 2. Retrieve as many clear text user passwords as you can (:interrobang:)
-3. Visit the Token Sale page before it officially goes live (:star::star::star::star::star:)
+3. Visit the Token Sale page before it officially goes live
+   (:star::star::star::star::star:)
 
 ##### Bonus exercises on cryptography (_optional_)
 
 4. Retrieve both the :rabbit2: easter eggs (:star::star::star::star:)
 5. Solve the steganography challenge (:star::star::star::star:)
-6. Solve the non-existent challenge \#999 (:star::star::star::star::star::star:)
+6. Solve the non-existent challenge \#999
+   (:star::star::star::star::star::star:)

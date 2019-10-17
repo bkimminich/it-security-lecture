@@ -1,10 +1,8 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # ![OWASP Logo](images/02-01-owasp/owasp-logo.png)
+
 # OWASP
 
 ---
@@ -16,16 +14,21 @@
   * 501(c)(3) Nonprofit organization
 
 * Core purpose
-  * Be the thriving global community that drives visibility and evolution in the safety and security of the world's software
+  * Be the thriving global community that drives visibility and
+    evolution in the safety and security of the world's software
 
 ---
 
 # Core Values
 
-* **OPEN** Everything at OWASP is radically transparent from our finances to our code.
-* **INNOVATION** OWASP encourages and supports innovation and experiments for solutions to software security challenges.
-* **GLOBAL** Anyone around the world is encouraged to participate in the OWASP community.
-* **INTEGRITY** OWASP is an honest and truthful, vendor neutral, global community.
+* **OPEN** Everything at OWASP is radically transparent from our
+  finances to our code.
+* **INNOVATION** OWASP encourages and supports innovation and
+  experiments for solutions to software security challenges.
+* **GLOBAL** Anyone around the world is encouraged to participate in the
+  OWASP community.
+* **INTEGRITY** OWASP is an honest and truthful, vendor neutral, global
+  community.
 
 ---
 
@@ -33,7 +36,8 @@
 
 * Free & Open
 * Governed by rough consensus & running code
-* Abide by a [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
+* Abide by a
+  [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
 * Not-for-profit
 * Not driven by commercial interests
 * Risk based approach
@@ -46,11 +50,12 @@
 
 # [OWASP Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
 
-An OWASP project is a collection of related tasks that have a defined roadmap and team members.
+An OWASP project is a collection of related tasks that have a defined
+roadmap and team members.
 
 | Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                    |
 |:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://owasp-juice.shop)                                                              |
+| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://owasp-juice.shop)                                                                                              |
 | Code          | [ModSecurity Core Rule Set](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project), [Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer), [Security Logging Project](https://www.owasp.org/index.php/OWASP_Security_Logging_Project), [AppSensor](https://www.owasp.org/index.php/OWASP_AppSensor_Project)           |
 | Documentation | [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project), [OWASP 24/7 Podcast](https://www.owasp.org/index.php/OWASP_Podcast), [Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia) |
 
@@ -91,7 +96,8 @@ It is essential for an OWASP Labs project to have:
 
 It is essential for an OWASP Flagship project to have:
 * Considerable number of users and contributors
-* Considerable number of commits and improvements in a time span of at least two years
+* Considerable number of commits and improvements in a time span of at
+  least two years
 * A unique approach or proposition in application security
 * Exposure through security conferences
 * Use and acceptance by the community
@@ -105,11 +111,17 @@ It is essential for an OWASP Flagship project to have:
 
 # [OWASP Chapters](https://www.owasp.org/index.php/OWASP_Chapter)
 
-OWASP Chapters exist to raise awareness of the OWASP mission, making application security visible, at the local level.
+OWASP Chapters exist to raise awareness of the OWASP mission, making
+application security visible, at the local level.
 
 #### [OWASP German Chapter](https://www.owasp.org/index.php/Germany)
 
-There is one Chapter for Germany in total which is complemented by a so-called [OWASP Stammtisch](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative) each in several metropolitan areas such as [Hamburg](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative/Hamburg), Munich, Frankfurt, Stuttgart or Karlsruhe.
+There is one Chapter for Germany in total which is complemented by a
+so-called
+[OWASP Stammtisch](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative)
+each in several metropolitan areas such as
+[Hamburg](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative/Hamburg),
+Munich, Frankfurt, Stuttgart or Karlsruhe.
 
 ![OWASP German Chapter Logo](images/02-01-owasp/OWASP_German_Chapter_WHITE_PNG.png)
 
@@ -119,11 +131,13 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 
 * Organize free and open meetings
 * Hold a minimum of 4 chapter meetings or events each year
-* Give official meeting notice through the wiki, chapter mailing list, and OWASP Calendar
+* Give official meeting notice through the wiki, chapter mailing list,
+  and OWASP Calendar
 * Abide by OWASP principles and the code of ethics
 * Protect the privacy of the chapter's local contacts
 * Maintain vendor neutrality (act independently)
-* Spend any chapter funds in accordance with the OWASP goals, code of ethics, and principles
+* Spend any chapter funds in accordance with the OWASP goals, code of
+  ethics, and principles
 
 ---
 
@@ -153,7 +167,8 @@ There is one Chapter for Germany in total which is complemented by a so-called [
 
 [![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
-_:information_source: Based on the [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
+_:information_source: Based on the
+[OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
 
 ---
 
@@ -192,13 +207,18 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 ---
 
 # ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
+
 # OWASP Juice Shop
 
 ---
 
 # ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://owasp-juice.shop) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
 
-OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
+OWASP Juice Shop is probably the most modern and sophisticated insecure
+web application! It can be used in security trainings, awareness demos,
+CTFs and as a guinea pig for security tools! Juice Shop encompasses
+vulnerabilities from the entire OWASP Top Ten along with many other
+security flaws found in real-world applications!
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
 
@@ -206,16 +226,23 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 ## Main Selling Points
 
-* **Easy-to-install**: Choose between node.js, Docker and Vagrant to run on Windows/Mac/Linux
-* **Self-contained**: Additional dependencies are pre-packaged or will be resolved and downloaded automatically
-* **Self-healing**: The simple SQLite database is wiped and regenerated from scratch on every server startup
-* **Gamification**: The application notifies you on solved challenges and keeps track of successfully exploited vulnerabilities on a Score Board
+* **Easy-to-install**: Choose between node.js, Docker and Vagrant to run
+  on Windows/Mac/Linux
+* **Self-contained**: Additional dependencies are pre-packaged or will
+  be resolved and downloaded automatically
+* **Self-healing**: The simple SQLite database is wiped and regenerated
+  from scratch on every server startup
+* **Gamification**: The application notifies you on solved challenges
+  and keeps track of successfully exploited vulnerabilities on a Score
+  Board
 
 ---
 
-* **CTF-support**: Challenge notifications contain a customizable flag code for your own Capture-The-Flag events
+* **CTF-support**: Challenge notifications contain a customizable flag
+  code for your own Capture-The-Flag events
 * **Re-branding**: Fully customizable business context and look & feel
-* **Free and Open source**: Licensed under the MIT license with no hidden costs or caveats
+* **Free and Open source**: Licensed under the MIT license with no
+  hidden costs or caveats
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
 
@@ -237,11 +264,23 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 # Official Companion Guide
 
-> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is published under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is available **for free** [online-readable](https://pwning.owasp-juice.shop). The latest officially released edition is [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
+> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will
+> give you a complete overview of the vulnerabilities found in the
+> application including hints how to spot and exploit them. In the
+> appendix you will even find complete step-by-step solutions to every
+> challenge. The ebook is published under
+> [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+> and is available **for free**
+> [online-readable](https://pwning.owasp-juice.shop). The latest
+> officially released edition is
+> [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
 
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Pwning OWASP Juice Shop front cover](images/02-01-owasp/ebook-cover.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Pwning OWASP Juice Shop back cover](images/02-01-owasp/ebook-back.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Pwning OWASP Juice Shop front cover](images/02-01-owasp/ebook-cover.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Pwning OWASP Juice Shop back cover](images/02-01-owasp/ebook-back.jpg)
 
 ---
 
@@ -251,10 +290,11 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of
-    * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
-    * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--) (:blue_heart: on university PCs)
-    * [Docker Container](https://github.com/bkimminich/juice-shop#docker-container-----)
-    * [Vagrant](https://github.com/bkimminich/juice-shop#vagrant)
+   * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
+   * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--)
+     (:blue_heart: on university PCs)
+   * [Docker Container](https://github.com/bkimminich/juice-shop#docker-container-----)
+   * [Vagrant](https://github.com/bkimminich/juice-shop#vagrant)
 
 ---
 
@@ -281,7 +321,9 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 ## Transfer your hacking progress
 
 1. Open your browser's developer tools (`F12` in Chrome/Firefox)
-2. Find the cookie `continueCode` and copy its value to your other computer
+2. Find the cookie `continueCode` and copy its value to your other
+   computer
 3. Install OWASP Juice Shop on your other computer and launch it
-4. `F12` into the developer tools and create the cookie `continueCode` with the value from your first computer
+4. `F12` into the developer tools and create the cookie `continueCode`
+   with the value from your first computer
 5. Restart the Juice Shop server

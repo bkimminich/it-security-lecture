@@ -1,9 +1,6 @@
 <!-- theme: default -->
-
 <!-- paginate: true -->
-
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-
 # Solutions
 
 ## Exercises 1st Semester
@@ -55,15 +52,20 @@
 
 ### Exercise 3.2 (Javascript Trojan)
 
-1. Default Internet browser is opened (as it is probably bound to open `.html` files on most computers)
-2. The JavaScript is executed resulting in the effective code `document["location"]=http://enjoyyourhaircut.com/5.html;` being run
-3. The browser is redirected to <http://enjoyyourhaircut.com/5.html> (which does not exist any more)
+1. Default Internet browser is opened (as it is probably bound to open
+   `.html` files on most computers)
+2. The JavaScript is executed resulting in the effective code
+   `document["location"]=http://enjoyyourhaircut.com/5.html;` being run
+3. The browser is redirected to <http://enjoyyourhaircut.com/5.html>
+   (which does not exist any more)
 
 ---
 
-![Relevant code sections of the JavaScript virus](images/01-03-malware/enjoy-your-haircut.png)
+![Relevant code sections of the JavaScript virus](images/01-03-malware/enjoy-your-haircut.png)
 
-_:information_source: Only the yellow code sections are relevant as the payload. The rest is merely obfuscation to prevent detection by AV software!_
+_:information_source: Only the yellow code sections are relevant as the
+payload. The rest is merely obfuscation to prevent detection by AV
+software!_
 
 ---
 
@@ -93,7 +95,6 @@ _:information_source: Only the yellow code sections are relevant as the payload.
 ---
 
 <!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
-
 ```md
 2. Go through a window.
   a. Break a window.
