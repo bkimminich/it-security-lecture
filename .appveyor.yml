@@ -22,11 +22,9 @@ install:
 build_script:
   - 'marp'
 test: off
-artifacts:
-  - path: 'slides/pdf/*.pdf'
 on_success:
   - 'git config --global credential.helper store'
-  - 'ps: Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com\n"'
+  - ps: 'Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com\n"'
   - 'git config --global user.email "bjoern.kimminich@nordakademie.de"'
   - 'git config --global user.name "Björn Kimminich"'
   - 'git checkout $(APPVEYOR_REPO_BRANCH)'
