@@ -207,7 +207,7 @@
 
 | Case Study                                               | C | I | A |
 |:---------------------------------------------------------|:--|:--|:--|
-| [Aadhaar](01-01-motivation.md#aadhaar-january-2018)      |   |   |   |
+| [Marriot](01-01-motivation.md#marriot-november-2018)     |   |   |   |
 | [Equifax](01-01-motivation.md#equifax-september-2017)    |   |   |   |
 | [VTech](01-01-motivation.md#vtech-november-2015)         |   |   |   |
 | [CloudPets](01-01-motivation.md#cloudpets-february-2017) |   |   |   |
