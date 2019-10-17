@@ -32,7 +32,7 @@
 
 <!-- *footer: -->
 
-# Exercise 4.2 (Session ID Generator)
+### Exercise 4.2 (Session ID Generator)
 
 The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predictable patterns** indicating at least partial non-randomness.
 
@@ -117,6 +117,8 @@ i=8, root=[[[[[[[[[[], [foo]], [[], foo, [foo]]], [[[], [foo]], foo, [[], foo, [
 ```
 
 _:boom: With its members recursively linked to each other, when deserializing `root`, the JVM will begin creating a recursive object graph. It will never complete, and consume CPU indefinitely._
+
+_:mag: If you view this as a PDF, zoom in as much as possible on the above code snippet to get an idea what is going on. You might want to look at [the original Markdown](https://github.com/bkimminich/it-security-lecture/blob/master/slides/02-solutions.md#exercise-83-hashset-deserialization) file to actually be able to read something._
 
 ---
 
