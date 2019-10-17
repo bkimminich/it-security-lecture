@@ -118,7 +118,7 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 # Recommended Resources
 
-* [Berkley Information Security and Policy - Best Practices & How-To Articles](https://security.berkeley.edu/resources/best-practices-how-to-articles)
+* [Berkley Information Security and Policy - Best Practices & How-To Articles](https://security.berkeley.edu/education-awareness/cybersecurity-best-practices-how-tos)
 
 #### Optional Literature Recommendations
 
