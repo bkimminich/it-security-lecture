@@ -265,7 +265,7 @@ _:information_source: Please consider ticking the "Don't include my site in the 
 
 3. Report another vulnerability that could be exploited in a [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf) (:star::star::star::star::star:)
 
-_:information_source: To report anything to the shop, you can use the "Contact Us" page. You have to supply as detailed information as possible._
+_:information_source: To report anything to the shop, you can use the "Customer Feedback" page. You have to supply as detailed information as possible._
 
 ---
 
