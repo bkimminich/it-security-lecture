@@ -127,8 +127,7 @@ _:warning: External Internet traffic is especially dangerous!_
 
 # Exercise 6.1
 
-1. For each classification level decide if the listed practices should be allowed (:heavy_check_mark:) or strictly forbidden (:x:).
-2. Use footnotes to describe preconditions (if necessary).
+For each classification level decide if the listed practices should be allowed (:heavy_check_mark:) or strictly forbidden (:x:). Use footnotes to describe preconditions (if necessary).
 
 | Practice                 | Public | Internal | Confidential | Secret |
 |:-------------------------|:-------|:---------|:-------------|:-------|
@@ -144,14 +143,14 @@ _:warning: External Internet traffic is especially dangerous!_
 
 # Exercise 6.2
 
-1. For each classification level define restrictions (:red_circle:) and/or recommendations (:o:) for the listed lifecycle phases.
+For each classification level define restrictions (:red_circle:) and/or recommendations (:o:) for the listed lifecycle phases.
 
-| Phase                               | Public | Internal | Confidential | Secret |
-|:------------------------------------|:-------|:---------|:-------------|:-------|
-| Permanent storage<br><br>           |        |          |              |        |
-| Transfer (internal network)<br><br> |        |          |              |        |
-| Transfer (public network)<br><br>   |        |          |              |        |
-| Disposal                            |        |          |              |        |
+| Phase                           | Public | Internal | Confidential | Secret |
+|:--------------------------------|:-------|:---------|:-------------|:-------|
+| Permanent storage<br>           |        |          |              |        |
+| Transfer (internal network)<br> |        |          |              |        |
+| Transfer (public network)<br>   |        |          |              |        |
+| Disposal<br>                    |        |          |              |        |
 
 ---
 
@@ -201,4 +200,4 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 4. Retrieve both the :rabbit2: easter eggs (:star::star::star::star:)
 5. Solve the steganography challenge (:star::star::star::star:)
-6. Solve the non-existent challenge \#99 (:star::star::star::star::star::star:)
+6. Solve the non-existent challenge \#999 (:star::star::star::star::star::star:)
