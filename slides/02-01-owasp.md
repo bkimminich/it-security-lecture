@@ -44,8 +44,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # [OWASP Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
 
 An OWASP project is a collection of related tasks that have a defined roadmap and team members.
@@ -68,8 +66,6 @@ An OWASP project is a collection of related tasks that have a defined roadmap an
 
 
 ---
-
-<!-- *footer: -->
 
 # [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
 
@@ -167,15 +163,11 @@ _:information_source: Based on the [OWASP Risk Rating Methodology](https://www.o
 
 ---
 
-<!-- *footer: -->
-
 # Top 10 Risk Factor Summary
 
 [![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
 
 ---
-
-<!-- *footer: -->
 
 # Some(!) Additional Risks to Consider
 

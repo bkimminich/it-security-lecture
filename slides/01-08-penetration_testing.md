@@ -117,8 +117,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # [7. Reporting](http://www.pentest-standard.org/index.php/Reporting)
 
 <small>A typical pentest reports consists of two major sections in order to communicate the objectives, methods, and results of the testing conducted to various audiences.</small>

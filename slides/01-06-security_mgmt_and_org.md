@@ -20,8 +20,6 @@
 
 ---
 
-<!-- *footer: -->
-
 ## [Job Titles/Description Summaries](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 * **Security Analyst**: <small>analyzes and assesses vulnerabilities in the infrastructure (software, hardware, networks), investigates available tools and countermeasures to remedy the detected vulnerabilities, and recommends solutions and best practices. Analyzes and assesses damage to the data/infrastructure as a result of security incidents, examines available recovery tools and processes, and recommends solutions. Tests for compliance with security policies and procedures. May assist in the creation, implementation, and/or management of security solutions.</small>
@@ -63,8 +61,6 @@
 [^1]: https://www.gartner.com/it-glossary/cirt-cyber-incident-response-team
 
 ---
-
-<!-- *footer: -->
 
 ### [Six steps for effective Incident Response](https://digitalguardian.com/blog/what-incident-response)
 
@@ -229,8 +225,6 @@ _:information_source: An overview with regulatory framework mappings is availabl
 
 ---
 
-<!-- *footer: -->
-
 # [Computer Security Certifications](https://en.wikipedia.org/wiki/List_of_computer_security_certifications)
 
 | Abbr. | Title                                                              | Issuer             |
@@ -244,8 +238,6 @@ _:information_source: An overview with regulatory framework mappings is availabl
 _:moneybag: Security certifications typically come with an exam cost and an annual renewal fee._
 
 ---
-
-<!-- *footer: -->
 
 ## [SANS Institute](https://www.sans.org)
 

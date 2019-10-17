@@ -36,8 +36,6 @@
 
 ---
 
-<!-- *footer: -->
-
 ### Exercise 2.2 (CIA³ Measures)
 
 | Security Goal   | Technical Measures                                                                                                            | Organizational Measures                                                  |
@@ -70,8 +68,6 @@ _:information_source: Only the yellow code sections are relevant as the payload.
 ---
 
 ### Exercise 7.1 (Attack Tree: Access Building)
-
-<!-- *footer: -->
 
 ```md
 1. Go through a door

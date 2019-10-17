@@ -120,8 +120,6 @@ _:information_source: Starting with release `2.9` entity expansion is disabled b
 
 ---
 
-<!-- *footer: -->
-
 #### `org.dom4j.io.SAXReader` (Java)
 
 ```java

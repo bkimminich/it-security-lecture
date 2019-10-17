@@ -125,8 +125,6 @@ _:information_source: You might be better off performing this exercise on a priv
 
 ---
 
-<!-- *footer: -->
-
 # Remote Access to a Secured Network over an Intranet
 
 > In some organization intranets, the data of a department, such as human resources, is so sensitive that the network segment of the department is physically disconnected from the rest of the intranet. While this protects the data of the human resources department, it creates information accessibility problems for authorized users not physically connected to the separate network segment.
@@ -144,8 +142,6 @@ _:information_source: You might be better off performing this exercise on a priv
 [^1]: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc779919(v=ws.10)
 
 ---
-
-<!-- *footer: -->
 
 # Connecting Two Networks over an Intranet
 
@@ -199,8 +195,6 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-<!-- *footer: -->
-
 # Wardriving
 
 > Wardriving is the act of searching for Wi-Fi networks from a moving vehicle. It involves **slowly driving around an area with the goal of locating Wi-Fi signals**. This may be accomplished by an individual or by two or more people, with one person driving and others searching for wireless networks.
@@ -223,15 +217,11 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-<!-- *footer: -->
-
 # WiGLE Map (World)
 
 ![WiGLE Map (World)](images/01-04-network_security/wigle_world.png)
 
 ---
-
-<!-- *footer: -->
 
 # WiGLE Map (Germany)
 
@@ -239,23 +229,17 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-<!-- *footer: -->
-
 # WiGLE Map (Elmshorn, Germany)
 
 ![WiGLE Map Elmshorn](images/01-04-network_security/wigle_elmshorn.png)
 
 ---
 
-<!-- *footer: -->
-
 # WiGLE Statistics
 
 ![WiGLE Stats](images/01-04-network_security/wigle_stats.png)
 
 ---
-
-<!-- *footer: -->
 
 ![WiGLE Stats (Encryption)](images/01-04-network_security/wigle_stats2.png)
 ![WiGLE Stats (Encryption over time)](images/01-04-network_security/wigle_stats3.png)
@@ -273,15 +257,11 @@ _:bookmark_tabs: Details on each protocol will be covered in the [Encryption](01
 
 ---
 
-<!-- *footer: -->
-
 ## WiGLE Run from train station to university
 
 ![](images/01-04-network_security/wigle_app-unencrypted.png) ![](images/01-04-network_security/wigle_app-run.png) ![](images/01-04-network_security/wigle_app-connect.png)
 
 ---
-
-<!-- *footer: -->
 
 #### All Privacy Suggestions
 
@@ -427,8 +407,6 @@ To keep configuration effort and complexity low, Firewalls fall back to a defaul
 ## (Web Application Firewall)
 
 ---
-
-<!-- *footer: -->
 
 # Web Application Firewall
 

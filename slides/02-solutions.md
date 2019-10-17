@@ -28,8 +28,6 @@
 
 ---
 
-<!-- *footer: -->
-
 ### Exercise 4.2 (Session ID Generator)
 
 The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predictable patterns** indicating at least partial non-randomness.
@@ -63,8 +61,6 @@ The IDs are short (15 chars), have low entropy (a-z, 0-9) and contain **predicta
 :warning: _Many organizations do not allow the use of USB keys **in general**. This kind of restriction would obviously **overrule** any of the above "Copy to USB" assessments with :x:._
 
 ---
-
-<!-- *footer: -->
 
 # Exercise 6.2 (Data Lifecycle Phases)
 
@@ -134,8 +130,6 @@ _:mag: If you view this as a PDF, zoom in as much as possible on the above code 
 | **Rating**                 | Medium                   | Low                      | High                     | Medium                   |
 
 ---
-
-<!-- *footer: -->
 
 ##### Exercise 9.2 (OWASP Benchmark)
 

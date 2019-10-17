@@ -12,8 +12,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # Curriculum 2nd Semester
 
 1. [Open Web Application Security Project](02-01-owasp.md) (OWASP)
@@ -28,8 +26,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # Schedule
 
 * **Thursdays, 09:15 - 12:00**
@@ -43,8 +39,6 @@
 * :warning: Covers topics from both semesters
 
 ---
-
-<!-- *footer: -->
 
 # System Requirements
 

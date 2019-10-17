@@ -88,15 +88,11 @@
 
 ---
 
-<!-- *footer: -->
-
 # Data Breaches (by no. of records)
 
 [![Data Breaches by no. of records](images/01-01-motivation/worlds_biggest_data_breaches-by_no_records.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
 ---
-
-<!-- *footer: -->
 
 # Data Breaches (by data sensitivity)
 
@@ -195,7 +191,5 @@ _Impacted parents were never notified by CloudPets. :scream:_
 :information_source: _Speculation is allowed, but still be as specific as possible!_
 
 ---
-
-<!-- *footer: -->
 
 ![Press kit from Trump-Kim Summit in Singapore 2018](images/01-01-motivation/TrumpKimSummit_PressKit.png)

@@ -8,8 +8,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # Information Security <small>([44 U.S. Code § 3542](https://www.law.cornell.edu/uscode/text/44/3542))</small>
 
 > <small>(1) The term “information security” means protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide—

@@ -20,8 +20,6 @@
 
 ---
 
-<!-- *footer: -->
-
 ## Variable Exploitability
 
 * Already-written exploits for many known vulnerabilities exist
@@ -183,8 +181,6 @@ _:information_source: Especially information leakage from error message can ofte
 [^2]: https://help.shodan.io/the-basics/what-is-shodan
 
 ---
-
-<!-- *footer: -->
 
 ## Shodan Query Examples
 

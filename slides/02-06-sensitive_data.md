@@ -53,8 +53,6 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to (56)_
 
 ---
 
-<!-- *footer: -->
-
 ## [PCI DSS Requirements](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
 
 | <small>Goals</small>                      | <small>Requirements</small>                                                  |
@@ -67,8 +65,6 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to (56)_
 | <small>Security Policy</small>            | <small>Maintain Information Security policy for all personnel</small>        |
 
 ---
-
-<!-- *footer: -->
 
 # [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure)
 
@@ -108,8 +104,6 @@ _:warning: External Internet traffic is especially dangerous!_
 
 ---
 
-<!-- *footer: -->
-
 ## Information Classification
 
 | Class            | Description                                                                                                              | Examples                                                                                              |
@@ -120,8 +114,6 @@ _:warning: External Internet traffic is especially dangerous!_
 | **Secret**       | <small><small>Highest confidentiality and integrity requirements. Damaging to organization if disclosed.</small></small> | <small><small>Business secrets, secret formulae, planned mergers/acquisitions</small></small>         |
 
 ---
-
-<!-- *footer: -->
 
 # Exercise 6.1
 
@@ -136,8 +128,6 @@ For each classification level decide if the listed practices should be allowed (
 | Copy to USB key          |        |          |              |        |
 
 ---
-
-<!-- *footer: -->
 
 # Exercise 6.2
 

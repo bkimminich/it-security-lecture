@@ -8,8 +8,6 @@
 
 ---
 
-<!-- *footer: -->
-
 # :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
 
 * Permits brute force or other automated attacks
@@ -58,8 +56,6 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 ---
 
-<!-- *footer: -->
-
 # Exercise 4.3 (:pushpin:)
 
 1. Pick one Security Question and explain how :muscle: it is against attacks.
@@ -68,8 +64,6 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 ![Security Questions](images/02-04-authentication_flaws/secret_questions.png)
 
 ---
-
-<!-- *footer: -->
 
 # [Prevention](https://www.owasp.org/index.php/Authentication_Cheat_Sheet)
 
@@ -85,8 +79,6 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 _:x: Do **not** try to invent your own RegEx to validate email addresses!_
 
 ---
-
-<!-- *footer: -->
 
 #### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
@@ -176,8 +168,6 @@ Having detected theft, a credential storage scheme must support continued operat
 > <small>Hardware keys win from a security perspective, they are private and unaffected by a dying or out of range phone. However, only a few services (Google, Dropbox, Facebook, Github and a few others) support the standard so far. Unless you trust your phone provider (and few providers are trustworthy), **an authenticator app is the best option**.</small>
 
 ---
-
-<!-- *footer: -->
 
 # Password Managers
 

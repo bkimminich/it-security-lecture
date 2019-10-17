@@ -194,8 +194,6 @@ Now only some actual column names have to be guessed or inferred:
 
 ---
 
-<!-- *footer: -->
-
 # :x: Root Cause of SQL Injection
 
 ```java

@@ -66,8 +66,6 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 
 ---
 
-<!-- *footer: -->
-
 # Curriculum 1st Semester
 
 1. [Motivation](01-01-motivation.md)
@@ -80,8 +78,6 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
 8. [Penetration Testing](01-08-penetration_testing.md)
 
 ---
-
-<!-- *footer: -->
 
 # Curriculum 2nd Semester
 
@@ -126,8 +122,6 @@ _You can help save a :deciduous_tree: by not :printer: all slides for the entire
   * [Introduction to Cryptography by Christof Paar](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg) <small>(24 recorded lectures)</small>
 
 ---
-
-<!-- *footer: -->
 
 ### Prerequisites @ [Angewandte Informatik (B.Sc.)](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/profil-des-studiengangs/)
 
