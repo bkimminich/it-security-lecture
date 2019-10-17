@@ -257,7 +257,7 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v8.x`
+## Install the OWASP Juice Shop `v9.x`
 
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of

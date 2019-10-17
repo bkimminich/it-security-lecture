@@ -36,7 +36,7 @@
 
 * **Thursdays, 09:15 - 12:00**
 * 9 lectures (01.08. - 26.09.19)
-* <small>Exceptions ~~12.09.~~ and ~~26.09.~~ have been moved to</small>
+* <small>Exceptions <strike>12.09.</strike> and <strike>26.09.</strike> have been moved to</small>
   * <small>Tuesday, 30.07. (12:30 - 15:00) and Friday, 13.09. (09:15 - 12:00)</small>
 
 #### Test Exam
@@ -52,11 +52,11 @@
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (8.x, 10.x or **12.x**)
+* _either_ [Node.js](https://nodejs.org) (10.x or **12.x**)
 * _or_ [Docker](https://www.docker.com/)
 * _or_ [Vagrant](https://www.vagrantup.com/)
 
-_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 8.x (or higher) version._
+_:information_source: On the university computers Node.js should already be available. You can verify this by running `node -v` on the command line. It should display an 10.x (or higher) version._
 
 _:computer: You can always fall back to your personal laptop for the exercises as it should be free from virtualization, proxying or installation hurdles!_
 
@@ -65,7 +65,7 @@ _:computer: You can always fall back to your personal laptop for the exercises a
 # Recommended Resources
 
 * OWASP: [OWASP Top 10 - 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
-* OWASP: [OWASP Cheat Sheet Series](https://github.com/righettod/owasp-cs-book/releases/download/CI_BUILD_RELEASE/owasp-cs-book.pdf)
+* OWASP: [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 
 #### Literature Recommendations _(optional)_
 
