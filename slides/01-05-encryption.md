@@ -57,8 +57,8 @@ _:information_source: Please provide a list of sources referred to in the presen
 
 * Thu, 17.10.2019 _(today)_
   * Group building & topic assignment
-* Sun, 17.11.2019 _(+1 month)_
+* Sun, 24.11.2019 _(+5 weeks)_
   * All PDF-exported presentations delivered to <bjoern.kimminich@nordakademie.de>
-* **Thu, 21.11.2019** _(+4 days)_
+* **Thu, 28.11.2019** _(+4 days)_
   * **All groups present their topics** between 09:15 and 11:45
 
