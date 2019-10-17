@@ -196,9 +196,9 @@
 | **S**poofing               | <small>Pretending to be something or someone you’re not</small>                                                                                                          |
 | **T**ampering              | <small><small>Modifying something you’re not supposed to modify. It can include packets on the wire (or wireless), bits on disk, or the bits in memory</small></small>   |
 | **R**epudiation            | <small><small>Claiming you didn’t do something (regardless of whether you did or not)</small></small>                                                                    |
-| **I**nformation Disclosure | <small>Exposing information to people who are not authorized to see it</small>                                                                                           |
-| **D**enial of Service      | <small><small>Attacks designed to prevent a system from providing service, including by crashing it, making it unusably slow, or filling all its storage</small></small> |
-| **E**levation of Privilege | <small>When a program or user is technically able to do things that they’re not supposed to do</small>                                                                   |
+| <small>**I**nformation Disclosure</small> | <small>Exposing information to people who are not authorized to see it</small>                                                                                           |
+| <small>**D**enial of Service</small>      | <small><small>Attacks designed to prevent a system from providing service, including by crashing it, making it unusably slow, or filling all its storage</small></small> |
+| <small>**E**levation of Privilege</small> | <small>When a program or user is technically able to do things that they’re not supposed to do</small>                                                                   |
 
 ---
 
