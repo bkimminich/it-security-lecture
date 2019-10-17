@@ -10,26 +10,26 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ### Semester 1 - Information & Network Security
 
-1. [Motivation](slides/01-01-motivation.md) (Vulnerabilities, Exploits, Threat Actors, Case Studies) (:heavy_check_mark:)
-2. [Security Goals](slides/01-02-security_goals.md) (Confidentiality, Integrity, Availability) (:heavy_check_mark:)
-3. [Malware](slides/01-03-malware.md) (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptojackers) (:heavy_check_mark:)
-4. [Network Security](slides/01-04-network_security.md) (VPN, Wireless Security, Firewalls/IDS/IPS/WAF) (:heavy_check_mark:)
-5. [Encryption](slides/01-05-encryption.md) (WEP/WPA2, SSL/TLS, PGP, Disk Encryption) (:heavy_check_mark:)
-6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md) (:heavy_check_mark:)
-7. [Threat Modeling](slides/01-07-threat_modeling.md) (:heavy_check_mark:)
-8. [Penetration Testing](slides/01-08-penetration_testing.md) (:heavy_check_mark:)
+1. [Motivation](slides/01-01-motivation.md) (Vulnerabilities, Exploits, Threat Actors, Case Studies)
+2. [Security Goals](slides/01-02-security_goals.md) (Confidentiality, Integrity, Availability)
+3. [Malware](slides/01-03-malware.md) (Viruses, Worms, Trojans, Botnets, Ransomware, Cryptojackers)
+4. [Network Security](slides/01-04-network_security.md) (VPN, Wireless Security, Firewalls/IDS/IPS/WAF)
+5. [Encryption](slides/01-05-encryption.md) (WEP/WPA2, SSL/TLS, PGP, Disk Encryption)
+6. [Security Management & Organization](slides/01-06-security_mgmt_and_org.md)
+7. [Threat Modeling](slides/01-07-threat_modeling.md)
+8. [Penetration Testing](slides/01-08-penetration_testing.md)
 
 ### Semester 2 - Application Security & SDLC
 
-1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP) (:heavy_check_mark:)
-2. [Cross-Site Scripting (XSS)](slides/02-02-xss.md) (:heavy_check_mark:)
-3. [Injection](slides/02-03-injection.md) (:heavy_check_mark:)
-4. [Authentication Flaws](slides/02-04-authentication_flaws.md) (:heavy_check_mark:)
-5. [Authorization Flaws](slides/02-05-authorization_flaws.md) (:heavy_check_mark:)
-6. [Sensitive Data](slides/02-06-sensitive_data.md) (:heavy_check_mark:)
-7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md) (:heavy_check_mark:)
-8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md) (:heavy_check_mark:)
-9. [Secure Development Lifecycle](slides/02-09-sdlc.md) (:heavy_check_mark:)
+1. [Open Web Application Security Project](slides/02-01-owasp.md) (OWASP)
+2. [Cross-Site Scripting (XSS)](slides/02-02-xss.md)
+3. [Injection](slides/02-03-injection.md)
+4. [Authentication Flaws](slides/02-04-authentication_flaws.md)
+5. [Authorization Flaws](slides/02-05-authorization_flaws.md)
+6. [Sensitive Data](slides/02-06-sensitive_data.md)
+7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md)
+8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md)
+9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
 
 ----
 
