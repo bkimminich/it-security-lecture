@@ -1,5 +1,9 @@
 # IT Security Lecture
 
+[![OER Commons](https://img.shields.io/badge/OER-Commons-yellowgreen)](https://www.oercommons.org/courses/university-lecture-on-it-security)
+[![AppVeyor](https://img.shields.io/appveyor/ci/bkimminich/it-security-lecture)](https://ci.appveyor.com/project/bkimminich/it-security-lecture)
+![GitHub repo size](https://img.shields.io/github/repo-size/bkimminich/it-security-lecture)
+
 University lecture on "IT Security" as
 [Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
 material by [Björn Kimminich](http://kimminich.de)
@@ -33,7 +37,7 @@ material by [Björn Kimminich](http://kimminich.de)
 
 ----
 
-[![CC BY SA 4.0](cc_by-sa_4.0.png)](https://creativecommons.org/licenses/by-sa/4.0/) [![OER Commons](https://img.shields.io/badge/OER-Commons-yellowgreen)](https://www.oercommons.org/courses/university-lecture-on-it-security)
+[![CC BY SA 4.0](cc_by-sa_4.0.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
