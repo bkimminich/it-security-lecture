@@ -18,7 +18,7 @@ platform:
 install:
   - ps: 'Install-Product node $env:nodejs_version $env:platform'
   - 'node --version && npm --version'
-  - 'npm i -g @marp-team/marp-cli'
+  - 'npm i -g @marp-team/marp-cli@0.14.1'
 build_script:
   - 'marp'
 test: off
