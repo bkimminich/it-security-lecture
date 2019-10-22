@@ -174,11 +174,11 @@ continued operation by marking credential data as compromised:
 
 # [2FA Method Comparison](https://www.expressvpn.com/blog/best-two-factor-authentication)
 
-| Method            | Security        | Privacy                              | Access             |
-|:------------------|:----------------|:-------------------------------------|:-------------------|
-| SMS               | :key:           | :sunglasses:                         | :door::door::door: |
-| Authenticator App | :key::key:      | :sunglasses::sunglasses::sunglasses: | :door:             |
-| Hardware Key      | :key::key::key: | :sunglasses::sunglasses::sunglasses: | :door::door:       |
+| Method            | Security        | Privacy                              | Access             | Prevalence                                             |
+|:------------------|:----------------|:-------------------------------------|:-------------------|:-------------------------------------------------------|
+| SMS               | :key:           | :sunglasses:                         | :door::door::door: | :department_store::department_store::department_store: |
+| Authenticator App | :key::key:      | :sunglasses::sunglasses::sunglasses: | :door:             | :department_store::department_store:                   |
+| Hardware Key      | :key::key::key: | :sunglasses::sunglasses::sunglasses: | :door::door:       | :department_store:                                     |
 
 > <small>Hardware keys win from a security perspective, they are private
 > and unaffected by a dying or out of range phone. However, only a few
