@@ -528,39 +528,3 @@ _194.94.98.\*_ `TO` _youtube.\*_ `BLOCK` _tcp_ `PORT` _80|443_</small>
 > alert is sent to the administrator to investigate. An example of HIDS
 > usage can be seen on mission critical machines, which are not expected
 > to change their configurations. \[[^6]\]
-
----
-
-# WAF
-
-## (Web Application Firewall)
-
----
-
-# Web Application Firewall
-
-> A web application firewall (WAF) is an application firewall for HTTP
-> applications. It applies a set of rules to an HTTP conversation.
-> Generally, these rules cover common attacks such as cross-site
-> scripting (XSS) and SQL injection.
->
-> While proxies generally protect clients, WAFs protect servers. A WAF
-> is deployed to protect a specific web application or set of web
-> applications. A WAF can be considered a reverse proxy.
->
-> WAFs may come in the form of an appliance, server plugin, or filter,
-> and may be customized to an application. The effort to perform this
-> customization can be significant and needs to be maintained as the
-> application is modified. \[[^7]\]
-
-[^7]: https://www.owasp.org/index.php/Web_Application_Firewall
-
----
-
-<!-- _footer: Simple Web Application Firewall Architecture, 2018 M2farah, used under CC-BY-SA 4.0 -->
-# WAF Deployment in the Network
-
-![Simple Web Application Firewall Architecture](images/02-09-sdlc/WAF_Archi.png)
-
-_:telescope: WAF benefits and limitations will be covered in detail at
-the end of [next semester](02-09-sdlc.md#web-application-firewall)!_
