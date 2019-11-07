@@ -285,7 +285,7 @@
 
 # Exercise 7.3 (:flower_playing_cards:)
 
-1. Split into 3 groups of 3-6 students
+1. Split into groups of 3-6 students
 2. If not provided to you, :printer: a
    [set of EoP cards](../eop_card-game/EoP_Card%20Game%20Images.pdf) and
    one [Score Card](../eop_card-game/EoP_Score%20Card.pdf)
