@@ -80,6 +80,25 @@ installation of Wireshark._
 
 ---
 
+# Go hack yourself!(?)
+
+Capturing traffic from others requires a WiFi adapter that can be put
+into `monitoring` mode. Most built-in adapters in laptops only support
+`managed` to act as clients towards a router.
+
+Current chipsets \[[^7]\] supporting `monitoring` mode are:
+
+* ATHEROS AR9271
+* RALINK RT3070
+* RALINK RT3572
+
+They are included in cheap <10$ dongles but also in better adapters with
+external antennas for higher range.
+
+[^7]: https://www.ceos3c.com/hacking/best-wireless-network-adapter-for-wifi-hacking-in-2019/
+
+---
+
 # VPN
 
 ## (Virtual Private Network)
