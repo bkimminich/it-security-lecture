@@ -13,7 +13,6 @@
 
 <!-- _footer: Shqip: Zbatimi i Niveleve OSI, 2010 Rexhep-bunjaku, used under CC-BY-SA 3.0 -->
 ![OSI Network Layer Model](images/01-04-network_security/Wwww2.jpg)
-
 ---
 
 <!-- _footer: OSI User Layers, 2013 Gvseostud, used under CC-BY-SA 3.0 -->
@@ -69,8 +68,9 @@ installation of Wireshark._
 
 1. Open your previously saved `.pcapng` file
 2. Set `http` as a filter
-3. Use _Find a packet_ to search for the _String_ `password` within the
-   _Packet details_ (see screenshot below)
+3. Use _Find a packet_ to search for potentially interesting _String_s
+   (such as `password`) within the _Packet details_ (see screenshot
+   below)
 
 ![Wireshark Filter for HTTP requests containing "password"](images/01-04-network_security/wireshark-filter.png)
 
@@ -471,7 +471,7 @@ _194.94.98.\*_ `TO` _youtube.\*_ `BLOCK` _tcp_ `PORT` _80|443_</small>
 > activity or policy violations**. Any malicious activity or violation
 > is typically **reported either to an administrator or collected
 > centrally** \[...\].
-
+>
 > **Intrusion prevention systems** are considered extensions of
 > intrusion detection systems because they both monitor network traffic
 > and/or system activities for malicious activity. The main differences
@@ -528,3 +528,4 @@ _194.94.98.\*_ `TO` _youtube.\*_ `BLOCK` _tcp_ `PORT` _80|443_</small>
 > alert is sent to the administrator to investigate. An example of HIDS
 > usage can be seen on mission critical machines, which are not expected
 > to change their configurations. \[[^6]\]
+
