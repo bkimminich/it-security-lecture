@@ -9,6 +9,8 @@ skip_commits:
     - LICENSE
     - README.md
     - slides/pdf/*.pdf
+    - eop_card-game/*.*
+    - malware-profiles/*.*
 environment:
   nodejs_version: 12
   access_token:
