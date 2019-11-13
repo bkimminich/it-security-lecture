@@ -64,7 +64,7 @@ OWASP Juice Shop is probably the most modern and sophisticated insecure web appl
 
 # Official Companion Guide
 
-> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is published under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is available **for free** as work-in-progress in [HTML, PDF, Kindle and ePub format on GitBook](https://www.gitbook.com/book/bkimminich/pwning-owasp-juice-shop). The latest officially released edition is [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
+> [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) \[...\] will give you a complete overview of the vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even find complete step-by-step solutions to every challenge. The ebook is continuously published under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is [online-readable **for free**](https://pwning.owasp-juice.shop). The latest officially released edition is [available **for free** on LeanPub in PDF, Kindle and ePub format](https://leanpub.com/juice-shop).
 
 ---
 
