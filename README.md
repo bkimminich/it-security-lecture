@@ -1,5 +1,8 @@
 # Hands-on Hacking Workshop
 
+[![AppVeyor](https://img.shields.io/appveyor/ci/bkimminich/it-security-lecture)](https://ci.appveyor.com/project/bkimminich/it-security-lecture)
+![GitHub repo size](https://img.shields.io/github/repo-size/bkimminich/it-security-lecture)
+
 Distilled slides from full lecture (on `master`) to set the stage for
 four hands-on hacking lessons with [OWASP Juice Shop](https://owasp-juice.shop):
 
