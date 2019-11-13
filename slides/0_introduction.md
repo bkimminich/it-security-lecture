@@ -3,15 +3,13 @@
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
 # Hands-on Hacking Workshop
 
-## with [OWASP Juice Shop](https://owasp-juice.shop)
+## with [OWASP Juice Shop](https://owasp-juice.shop) by Björn Kimminich
 
 ![Bjoern Kimminich Avatar](images/avatar.png)
 
-by [Bjoern Kimminich](https://kimminich.de)
-
 ---
 
-# Bjoern Kimminich
+# Björn Kimminich
 
 * Manager IT Architecture + AppSec at
   [Kuehne + Nagel](http://kuehne-nagel.com/)
