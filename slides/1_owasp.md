@@ -1,7 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-# ![OWASP Logo](images/02-01-owasp/owasp-logo.png)
+# ![OWASP Logo](images/owasp-logo.png)
 
 # OWASP
 
@@ -19,7 +19,7 @@
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+# ![Flagship](images/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/Owasp-builders-small.png) ![Defenders](images/Owasp-defenders-small.png)
 
 |   |                         |    |                                             |
 |:--|:------------------------|:---|:--------------------------------------------|
@@ -33,14 +33,14 @@
 
 ## Risk Rating Table
 
-[![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Table](images/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
 
 _:information_source: Based on the
 [OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+# ![Flagship](images/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/Owasp-builders-small.png) ![Breakers](images/Owasp-breakers-small.png) ![Defenders](images/Owasp-defenders-small.png)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
@@ -48,7 +48,7 @@ CTFs and as a guinea pig for security tools! Juice Shop encompasses
 vulnerabilities from the entire OWASP Top Ten along with many other
 security flaws found in real-world applications!
 
-![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
+![Juice Shop Logo](images/200px-JuiceShop_Logo.png)
 
 ---
 
@@ -72,7 +72,7 @@ security flaws found in real-world applications!
 * **Free and Open source**: Licensed under the MIT license with no
   hidden costs or caveats
 
-![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
+![Juice Shop Logo](images/200px-JuiceShopCTF_Logo.png)
 
 ---
 
@@ -92,9 +92,9 @@ security flaws found in real-world applications!
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Pwning OWASP Juice Shop front cover](images/02-01-owasp/ebook-cover.jpg)
+![Pwning OWASP Juice Shop front cover](images/ebook-cover.jpg)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Pwning OWASP Juice Shop back cover](images/02-01-owasp/ebook-back.jpg)
+![Pwning OWASP Juice Shop back cover](images/ebook-back.jpg)
 
 ---
 
