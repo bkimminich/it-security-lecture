@@ -4,6 +4,7 @@ init:
 branches:
   only:
     - master
+    - workshops
 skip_commits:
   files:
     - LICENSE
