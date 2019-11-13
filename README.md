@@ -1,6 +1,12 @@
-# Hands-on Hacking Workshop: Elbsides vs. Juice Shop
+# Hands-on Hacking Workshop
 
-Slides for the Elbsides 2019 workshop with Bjoern Kimminich
+Distilled slides from full lecture (on `master`) to set the stage for
+four hands-on hacking lessons with [OWASP Juice Shop](https://owasp-juice.shop):
+
+1. Cross-Site Scripting
+2. Injection
+3. Authentication Flaws
+4. Authorization Flaws
 
 ----
 

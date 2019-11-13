@@ -1,12 +1,9 @@
-<!-- $size: 16:9 -->
+<!-- theme: default -->
+<!-- paginate: true -->
+<!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+# Hands-on Hacking Workshop
 
-<!-- page_number: true -->
-
-<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
-
-## Hands-on Hacking Workshop
-
-# Elbsides vs. Juice Shop
+## with [OWASP Juice Shop](https://owasp-juice.shop)
 
 ### Bjoern Kimminich
 
@@ -29,12 +26,4 @@
 
 # Workshop Material
 
-#### <https://github.com/bkimminich/it-security-lecture/tree/elbsides2019>
-
----
-
-# Shameless plug: _We are hiring!_
-
-> My team at Kuehne + Nagel has an open position for an AppSec Architect in Hamburg, Germany! We value practical experience more than a collection of `CI?[A-Z]{1,4}` certifications! :wink:
-
-<https://jobs.kuehne-nagel.com/global/en/job/req53125/Application-Security-Architect-m-w-d>
+#### <https://github.com/bkimminich/it-security-lecture/tree/workshops>

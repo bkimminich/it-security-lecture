@@ -1,0 +1,8 @@
+pdf: true
+inputDir: ./slides
+output: ./slides/pdf
+allowLocalFiles: true
+html: true
+options:
+  markdown:
+    breaks: false

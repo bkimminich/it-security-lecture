@@ -1,9 +1,6 @@
-<!-- $size: 16:9 -->
-
-<!-- page_number: true -->
-
-<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
-
+<!-- theme: default -->
+<!-- paginate: true -->
+<!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
 # XSS
 
 ## (Cross-Site Scripting)
@@ -107,8 +104,6 @@ Search results for <b>blablubb</b>:
 
 ---
 
-<!-- *footer: -->
-
 # Exploit Example
 
 `
@@ -129,8 +124,6 @@ rendering as:
 Search results for <b></b><img src="https://placekitten.com/g/100/100"/><b></b>:
 
 ---
-
-<!-- *footer: -->
 
 # XSS Attack Payload Examples
 

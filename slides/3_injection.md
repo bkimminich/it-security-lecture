@@ -1,9 +1,6 @@
-<!-- $size: 16:9 -->
-
-<!-- page_number: true -->
-
-<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
-
+<!-- theme: default -->
+<!-- paginate: true -->
+<!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
 # Injection
 
 ---
@@ -107,8 +104,6 @@ String query = "SELECT id FROM users " +
 <small>_:information_source: Valid options for Query Result are only numbers, nothing or an error._</small>
 
 ---
-
-<!-- *footer: -->
 
 # :x: Root Cause of SQL Injection
 

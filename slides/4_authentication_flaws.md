@@ -1,14 +1,9 @@
-<!-- $size: 16:9 -->
-
-<!-- page_number: true -->
-
-<!-- footer: Copyright (c) by Bjoern Kimminich | Licensed under CC-BY-SA 4.0 -->
-
+<!-- theme: default -->
+<!-- paginate: true -->
+<!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
 # Authentication Flaws
 
 ---
-
-<!-- *footer: -->
 
 # :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
 
@@ -40,8 +35,6 @@
 2. Log in with MC SafeSearch's user account (:star::star:)
 
 ---
-
-<!-- *footer: -->
 
 #### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
