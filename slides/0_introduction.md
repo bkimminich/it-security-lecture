@@ -26,4 +26,4 @@
 
 # Workshop Material
 
-#### <https://github.com/bkimminich/it-security-lecture/tree/workshops>
+#### <https://github.com/bkimminich/it-security-lecture/tree/workshop>
