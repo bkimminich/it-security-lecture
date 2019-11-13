@@ -5,7 +5,9 @@
 
 ## with [OWASP Juice Shop](https://owasp-juice.shop)
 
-### Bjoern Kimminich
+![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
+
+#### by [Bjoern Kimminich](https://kimminich.de)
 
 ---
 
