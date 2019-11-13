@@ -9,7 +9,8 @@
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords
-* Uses weak or ineffective credential recovery and forgot-password processes (e.g. "knowledge-based answers")
+* Uses weak or ineffective credential recovery and forgot-password
+  processes (e.g. "knowledge-based answers")
 * Uses plain text, encrypted, or weakly hashed passwords
 * Has missing or ineffective multi-factor authentication
 * Exposes Session IDs in the URL
@@ -31,7 +32,9 @@
 
 # Exercise
 
-1. Watch [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/) :tv:
+1. Watch
+   [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)
+   :tv:
 2. Log in with MC SafeSearch's user account (:star::star:)
 
 ---
@@ -43,7 +46,9 @@
 * **No periodic password resets** as users rely on predictable patterns
 * Avoid password complexity rules as _all of them_ are predictable
 * Ban bad passwords or ones which have appeared in data breaches
-  * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords) or [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)  
+  * e.g. [Troy Hunt's 10GB+ list](https://haveibeenpwned.com/Passwords)
+    or
+    [Daniel Miesler's various lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
 * Allow convenience features on password fields
   * Offer _Show Password while typing_ option
   * Allow pasting from clipboard into password fields
@@ -67,6 +72,8 @@
 
 # Exercise
 
-1. Log in as admin exploiting its insufficient _Password Strength_ (:star::star:)
-2. _Reset Jim's Password_ by answering his secret question (:star::star::star:)
+1. Log in as admin exploiting its insufficient _Password Strength_
+   (:star::star:)
+2. _Reset Jim's Password_ by answering his secret question
+   (:star::star::star:)
 3. _Login Bjoern_ using his Gmail account (:star::star::star::star:)

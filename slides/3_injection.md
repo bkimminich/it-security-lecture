@@ -7,7 +7,8 @@
 
 # Injection
 
-1. Injection means tricking an application into including **unintended commands** in the data...
+1. Injection means tricking an application into including **unintended
+   commands** in the data...
 2. ...sent to an **Interpreter** which then executes these commands
 
 ##### Interpreter Examples
@@ -21,7 +22,9 @@
 
 # Easy Explanation
 
-> You go to court and write your name as "Michael, you are now free to go". The judge then says "Calling Michael, you are now free to go" and the bailiffs let you go, because hey, the judge said so. \[[^1]\]
+> You go to court and write your name as "Michael, you are now free to
+> go". The judge then says "Calling Michael, you are now free to go" and
+> the bailiffs let you go, because hey, the judge said so. \[[^1]\]
 
 [^1]: https://news.ycombinator.com/item?id=4951003
 
@@ -51,7 +54,9 @@
 * Manipulating data
 * Complete system takeover
 
-_:information_source: Attackers use error messages or codes to verify the success of an attack and gather information about type and structure of the database._
+_:information_source: Attackers use error messages or codes to verify
+the success of an attack and gather information about type and structure
+of the database._
 
 ---
 
@@ -71,7 +76,8 @@ For `username=bjoern` and `password=secret` this query would be created:
 SELECT id FROM users WHERE name = 'bjoern' AND password = 'secret'
 ```
 
-returning the `id` of a matching record or nothing if no such record exists.
+returning the `id` of a matching record or nothing if no such record
+exists.
 
 ---
 
@@ -86,22 +92,24 @@ String query = "SELECT id FROM users " +
 ```
 
 1. Fill out all the gaps in the table on the following page
-2. If there are multiple solutions, ~~do not pick an unncessary complicated one~~ pick a simple one
+2. If there are multiple solutions, <strike>do not pick an unnecessary
+   complicated one</strike> pick a simple one
 
 ---
 
 ###### Exercise
 
-| # | Username   | Password       | Created SQL Query                           | Query Result  |
-|:--|:-----------|:---------------|:--------------------------------------------|:--------------|
-| 1 | `horst`    | `3lBS1de5`     |                                             | `42`          |
-| 2 | `'`        | `qwertz`       |                                             |               |
-| 3 | `'--`      | `abc123`       |                                             | nothing       |
-| 4 | `horst'--` | `qwertz`       |                                             |               |
-| 5 |            |                | `SELECT id FROM users WHERE name = 'admin'` | `1`           |
-| 6 |            |                | `SELECT id FROM users`                      | `1`, `2`, ... |
+| # | Username   | Password     | Created SQL Query                           | Query Result  |
+|:--|:-----------|:-------------|:--------------------------------------------|:--------------|
+| 1 | `horst`    | `L0c4lhOr5t` |                                             | `42`          |
+| 2 | `'`        | `qwertz`     |                                             |               |
+| 3 | `'--`      | `abc123`     |                                             | nothing       |
+| 4 | `horst'--` | `qwertz`     |                                             |               |
+| 5 |            |              | `SELECT id FROM users WHERE name = 'admin'` | `1`           |
+| 6 |            |              | `SELECT id FROM users`                      | `1`, `2`, ... |
 
-<small>_:information_source: Valid options for Query Result are only numbers, nothing or an error._</small>
+<small>_:information_source: Valid options for Query Result are only
+numbers, nothing or an error._</small>
 
 ---
 
@@ -148,5 +156,7 @@ ResultSet results = pstmt.executeQuery();
 
 # Exercise
 
-1. Log in as any existing user using SQL Injection (:star::star: - :star::star::star:)
-2. Order the special :christmas_tree: offer that was only available in 2014 (:star::star::star::star:)
+1. Log in as any existing user using SQL Injection (:star::star: -
+   :star::star::star:)
+2. Order the special :christmas_tree: offer that was only available in
+   2014 (:star::star::star::star:)
