@@ -12,7 +12,7 @@ four hands-on hacking lessons with
 * Authentication Flaws
 * Authorization Flaws
 
-## Preparation (:man_teacher::woman_teacher:)
+## Preparation :man_teacher::woman_teacher:
 
 :bulb: _It is recommended to read the
 [Trainer's Guide](https://pwning.owasp-juice.shop/appendix/trainers.html)
@@ -27,19 +27,19 @@ before your first workshop with the OWASP Juice Shop._
    e.g. using the easy-to-deploy
    [JuicyCTF](https://github.com/iteratec/juicy-ctf) platform
 
-![JuicyCTF, Multi User Juice Shop Platform](https://raw.githubusercontent.com/iteratec/juicy-ctf/master/cover.svg)
+![JuicyCTF, Multi User Juice Shop Platform](https://raw.githubusercontent.com/iteratec/juicy-ctf/master/cover.svg?sanitize=true)
 
 ### Optional
 
 1. Print one
-   [Juice Shop workshop poster](https://github.com/wurstbrot/security-pins/tree/master/juice-shop-challenge-pins)
+   ["OWASP Juice Shop Challenges" poster](https://github.com/wurstbrot/security-pins/tree/master/juice-shop-challenge-pins)
    from the OWASP Security Pins project for each participant _(in DIN A3
    format)_
-2. Print one
-   [round sticker of each kind](https://github.com/wurstbrot/security-pins/tree/master/juice-shop-challenge-pins/Pins)
-   shown on the poster per participant _(with 25mm diameter)_
+2. Print one  _(25mm diameter)_
+   [achievement sticker of each kind](https://github.com/wurstbrot/security-pins/tree/master/juice-shop-challenge-pins/Pins)
+   shown on the poster per participant _(in total 12 stickers per poster)_
 
-![Achievement Poster](achievement-poster.jpg)
+![Challenges Poster](challenges-poster.jpg)
 
 :information_source: _Hand out the posters at at beginning of the workshop. After the
 exercises of each lesson, hand out the corresponding stickers to be put
