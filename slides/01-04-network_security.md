@@ -12,7 +12,9 @@
 ---
 
 <!-- _footer: Shqip: Zbatimi i Niveleve OSI, 2010 Rexhep-bunjaku, used under CC-BY-SA 3.0 -->
+
 ![OSI Network Layer Model](images/01-04-network_security/Wwww2.jpg)
+
 ---
 
 <!-- _footer: OSI User Layers, 2013 Gvseostud, used under CC-BY-SA 3.0 -->
@@ -68,7 +70,7 @@ installation of Wireshark._
 
 1. Open your previously saved `.pcapng` file
 2. Set `http` as a filter
-3. Use _Find a packet_ to search for potentially interesting _String_s
+3. Use _Find a packet_ to search for any potentially interesting _String_
    (such as `password`) within the _Packet details_ (see screenshot
    below)
 
