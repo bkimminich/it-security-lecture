@@ -214,7 +214,7 @@ _:moneybag: Bounties may range from recognition over swag up to
 
 ---
 
-# [Web Security Policies](https://tools.ietf.org/html/draft-foudil-securitytxt-04) <small>(`security.txt`)</small>
+# [Web Security Policies](https://tools.ietf.org/html/draft-foudil-securitytxt-08) <small>(`security.txt`)</small>
 
 > When security risks are discovered by independent security
 > researchers, they often lack the channels to disclose them properly.
