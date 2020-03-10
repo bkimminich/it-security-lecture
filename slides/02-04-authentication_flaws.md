@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Authentication Flaws
 
 ---
 
-# :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
+# :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords
@@ -45,14 +46,14 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 1. Identify all flaws in the generator of the following session IDs
 
-| # | Session ID      | #   | Session ID      |
-|:--|:----------------|:----|:----------------|
-| 1 | h5kek4z9ha1rtrf | 7   | po953ld7hg2awi9 |
-| 2 | gj75l3k7hb15rtr | 8   | t6zhj2n5hh27bn0 |
-| 3 | l8l65k45hc1rw7i | 9   | iu345r53hi2aw34 |
-| 4 | p05jrj53hd1i039 | 10  | o0z43411hj2njkl |
-| 5 | 5urltda1he1bn46 | 11  | 9por42o9hk3dfrz |
-| 6 | j5le97h9hf2yq3h | ... | ...             |
+| #  | Session ID      | #   | Session ID      |
+|:---|:----------------|:----|:----------------|
+| 1  | h5kek4z9ha1rtrf | 7   | po953ld7hg2awi9 |
+| 2  | gj75l3k7hb15rtr | 8   | t6zhj2n5hh27bn0 |
+| 3  | l8l65k45hc1rw7i | 9   | iu345r53hi2aw34 |
+| 4  | p05jrj53hd1i039 | 10  | o0z43411hj2njkl |
+| 5  | 5urltda1he1bn46 | 11  | 9por42o9hk3dfrz |
+| 6  | j5le97h9hf2yq3h | ... | ...             |
 
 ---
 
@@ -84,7 +85,7 @@ addresses!_
 
 ---
 
-#### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
+#### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
 * **Enforce minimum password length** of at least 10 characters
 * Maximum length should allow 64 characters or more
@@ -100,7 +101,7 @@ addresses!_
 
 ---
 
-#### [Secure Password Recovery Mechanism](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet)
+#### [Secure Password Recovery Mechanism](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet)
 
 1. Gather Identity Data or Security Questions
 2. Verify Security Questions
@@ -111,7 +112,7 @@ addresses!_
 
 ---
 
-#### [Secure Password Storage](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
+#### [Secure Password Storage](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
 
 * Do not limit character set and set long max lengths
 * Use cryptographically strong credential-specific salt
@@ -125,7 +126,7 @@ addresses!_
 
 ---
 
-##### [Design for Failure](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Design_password_storage_assuming_eventual_compromise)
+##### [Design for Failure](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Design_password_storage_assuming_eventual_compromise)
 
 Having detected theft, a credential storage scheme must support
 continued operation by marking credential data as compromised:
@@ -172,7 +173,7 @@ continued operation by marking credential data as compromised:
 
 ---
 
-# [2FA Method Comparison](https://www.expressvpn.com/blog/best-two-factor-authentication)
+# [2FA Method Comparison](https://www.expressvpn.com/blog/best-two-factor-authentication)
 
 | Method            | Security        | Privacy                              | Access             | Prevalence                                             |
 |:------------------|:----------------|:-------------------------------------|:-------------------|:-------------------------------------------------------|
@@ -222,20 +223,21 @@ continued operation by marking credential data as compromised:
 1. Log in with the admin's user account (:star::star:)
 2. Reset Jim's password by answering his secret question
    (:star::star::star:)
-3. Log in with Bjoern's user account (:star::star::star::star:)
+3. Log in with Bjoern's Google account (:star::star::star::star:)
 
-_:warning: Do **not** use SQL Injection for authentication bypass!_
+_:warning: Do **not** use SQL Injection for authentication bypass! Also,
+do **not** hack Bjoern's actual Google account!_
 
 ---
 
 # Exercise 4.5 (:house:)
 
-#### ![SQRL Logo](images/02-04-authentication_flaws/SQRL_Logo_80x80.png) Secure Quick Reliable Login (SQRL)
+#### ![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg) WebAuthn
 
-1. Read https://www.grc.com/sqrl/sqrl.htm and http://sqrl.pl/guide to
-   learn how SQRL works
+1. Read <https://webauthn.guide/> and play with <https://webauthn.io/>
+   to learn how WebAuthn works
 2. Prepare a convincing "sales pitch" (max. 5min) to convince your
-   classmates and co-workers to use SQRL for secure authentication
+   classmates and co-workers to use WebAuthn for secure authentication
 
 ---
 
