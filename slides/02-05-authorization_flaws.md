@@ -69,7 +69,7 @@ possible by tampering with the following URLs?
 # Exercise 5.2
 
 1. Access the administration section of the store (:star::star:)
-2. Access another user's basket (:star::star:)
+2. View another user's shopping basket (:star::star:)
 3. Get rid of all 5-star customer feedback (:star::star:)
 4. Post some feedback for another user but without previously logging in
    as that user (:star::star::star:)

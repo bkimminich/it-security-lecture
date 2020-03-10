@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Sensitive Data
 
 ---
@@ -25,7 +26,7 @@
 > the processing of personal data and on the free movement of such data,
 > and repealing Directive 95/46/EC (General Data Protection Regulation)
 
-## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
+## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
 
 > PCI DSS is the global data security standard adopted by the payment
 > card brands for all entities that process, store or transmit
@@ -33,7 +34,7 @@
 
 ---
 
-## [Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) as defined in GDPR
+## [Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) as defined in GDPR
 
 * Name and surname
 * Home address
@@ -48,7 +49,7 @@ and (30)_
 
 ---
 
-## [Sensitive Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en) as defined in GDPR
+## [Sensitive Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en) as defined in GDPR
 
 * Personal data revealing racial or ethnic origin, political opinions,
   religious or philosophical beliefs
@@ -63,7 +64,7 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 ---
 
-## [PCI DSS Requirements](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
+## [PCI DSS Requirements](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
 
 | <small>Goals</small>                      | <small>Requirements</small>                                                  |
 |:------------------------------------------|:-----------------------------------------------------------------------------|
@@ -76,7 +77,7 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 ---
 
-# [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure)
+# [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure)
 
 * **Failure to determine the protection needs of data**
 * Transmitting data in clear text (e.g. HTTP, SMTP, FTP)
@@ -156,7 +157,7 @@ recommendations (:o:) for the listed lifecycle phases.
 
 ---
 
-## [HTTP Strict Transport Security (HSTS)](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
+## [HTTP Strict Transport Security (HSTS)](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
 
 > HTTP Strict Transport Security (HSTS) is an opt-in security
 > enhancement that is specified by a web application through the use of
@@ -174,7 +175,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-## [Secure Cryptographic Storage Design](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet)
+## [Secure Cryptographic Storage Design](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet)
 
 * Only store sensitive data that you need
 * Use strong approved Authenticated Encryption
@@ -186,7 +187,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-### [Best Practices](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
+### [Best Practices](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
 
 | Scenario                | Practice                                      | :key: Length |
 |:------------------------|:----------------------------------------------|:-------------|
@@ -202,7 +203,8 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 # Exercise 6.3 (:house:)
 
 1. Access a confidential document (:star:)
-2. Retrieve as many clear text user passwords as you can (:interrobang:)
+2. Retrieve as many clear text user passwords as you can
+   (:star::star::star::star:)
 3. Visit the Token Sale page before it officially goes live
    (:star::star::star::star::star:)
 
@@ -212,3 +214,4 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 5. Solve the steganography challenge (:star::star::star::star:)
 6. Solve the non-existent challenge \#999
    (:star::star::star::star::star::star:)
+

@@ -307,7 +307,7 @@ The `node-serialize` module uses `eval()` internally for
 deserialization, allowing exploits like
 
 ```javascript
-var serialize = require('node-serialize');
+var serialize = require('node-serialize');                                                               
 var x = '{"rce":"_$$ND_FUNC$$_function (){console.log(\'exploited\')}()"}'
 serialize.unserialize(x);
 ```
@@ -324,7 +324,7 @@ latest version of this module!_
 <!-- -->
 
 2. Find the „NextGen“ successor to the half-heartedly deprecated
-   XML-based B2B API in the Juice Shop (:interrobang:)
+   XML-based B2B API in the Juice Shop (:star::star:)
 3. Exploit this API with at least one successful DoS-like Remote Code
    Exeution (:star::star::star::star::star: -
    :star::star::star::star::star::star:)
