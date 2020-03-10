@@ -232,7 +232,7 @@ do **not** hack Bjoern's actual Google account!_
 
 # Exercise 4.5 (:house:)
 
-#### ![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg) WebAuthn
+![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg)
 
 1. Read <https://webauthn.guide/> and play with <https://webauthn.io/>
    to learn how WebAuthn works
