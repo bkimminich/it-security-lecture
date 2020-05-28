@@ -26,14 +26,6 @@
 > the processing of personal data and on the free movement of such data,
 > and repealing Directive 95/46/EC (General Data Protection Regulation)
 
-## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
-
-> PCI DSS is the global data security standard adopted by the payment
-> card brands for all entities that process, store or transmit
-> cardholder data and/or sensitive authentication data.
-
----
-
 ## [Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) as defined in GDPR
 
 * Name and surname
@@ -61,6 +53,20 @@ and (30)_
 
 _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 (56)_
+
+---
+
+## [GDPR Enforcement Tracker](https://enforcementtracker.com)
+
+![GDPR Enforcement Tracker](images/02-06-sensitive_data/enforcementtracker.png)
+
+---
+
+## [PCI DSS](https://www.pcisecuritystandards.org/documents/PCIDSS_QRGv3_2.pdf)
+
+> PCI DSS is the global data security standard adopted by the payment
+> card brands for all entities that process, store or transmit
+> cardholder data and/or sensitive authentication data.
 
 ---
 
