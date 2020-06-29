@@ -56,7 +56,7 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 ---
 
-## [GDPR Enforcement Tracker](https://enforcementtracker.com)
+## [GDPR Enforcement Tracker](https://enforcementtracker.com)
 
 ![GDPR Enforcement Tracker](images/02-06-sensitive_data/enforcementtracker.png)
 
@@ -83,7 +83,7 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 ---
 
-# [Sensitive Data Exposure](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure)
+# [Sensitive Data Exposure](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure)
 
 * **Failure to determine the protection needs of data**
 * Transmitting data in clear text (e.g. HTTP, SMTP, FTP)
@@ -101,14 +101,14 @@ _:warning: External Internet traffic is especially dangerous!_
 
 ## Sensitive Data Exposure
 
-| Exploitability                 | Prevalence              | Detecability                   | Impact              | Risk                                                                         |
-|:-------------------------------|:------------------------|:-------------------------------|:--------------------|:-----------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :red_circle: Severe | [A3](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure) |
-| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **3**             | = **7.0**                                                                    |
+| Exploitability                 | Prevalence              | Detecability                   | Impact              | Risk                                                                                                  |
+|:-------------------------------|:------------------------|:-------------------------------|:--------------------|:------------------------------------------------------------------------------------------------------|
+| :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :red_circle: Severe | [A3](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure) |
+| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **3**             | = **7.0**                                                                                             |
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure)
+# [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure)
 
 * **Classify data in system** and determine sensitivity level
 * **Don't store sensitive data unnecessarily**
@@ -163,7 +163,7 @@ recommendations (:o:) for the listed lifecycle phases.
 
 ---
 
-## [HTTP Strict Transport Security (HSTS)](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
+## [HTTP Strict Transport Security (HSTS)](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
 
 > HTTP Strict Transport Security (HSTS) is an opt-in security
 > enhancement that is specified by a web application through the use of
@@ -181,7 +181,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-## [Secure Cryptographic Storage Design](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet)
+## [Secure Cryptographic Storage Design](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)
 
 * Only store sensitive data that you need
 * Use strong approved Authenticated Encryption
@@ -193,7 +193,7 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-### [Best Practices](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
+### [Best Practices](https://wiki.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
 
 | Scenario                | Practice                                      | :key: Length |
 |:------------------------|:----------------------------------------------|:-------------|

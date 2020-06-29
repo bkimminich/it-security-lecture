@@ -6,7 +6,7 @@
 
 ---
 
-# :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
+# :x: [Typical Flaws in Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords
@@ -24,10 +24,10 @@
 
 ## Broken Authentication
 
-| Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                       |
-|:------------------|:------------------------------|:-------------------------------|:--------------------|:---------------------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication) |
-| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                  |
+| Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
+|:------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
+| :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication) |
+| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                                           |
 
 ---
 
@@ -68,7 +68,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Authentication_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 
 #### User IDs
 
@@ -101,42 +101,35 @@ addresses!_
 
 ---
 
-#### [Secure Password Recovery Mechanism](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet)
+#### [Secure "Forgot Password" Mechanism](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
-1. Gather Identity Data or Security Questions
-2. Verify Security Questions
-3. Lock account immediately
-4. Send a Token Over a Side-Channel
-5. Allow user to change password in the existing session
-6. Logging
-
----
-
-#### [Secure Password Storage](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
-
-* Do not limit character set and set long max lengths
-* Use cryptographically strong credential-specific salt
-* [Impose infeasible verification on attacker](https://crackstation.net/hashing-security.htm)
-  * Aaptive one-way function
-    ([Argon2](https://github.com/p-h-c/phc-winner-argon2), PBKDF2,
-    bcrypt or scrypt)
-  * Keyed functions (e.g. HMAC)
-* Design password storage assuming eventual compromise
-* [Upgrading your existing password hashing solution](https://veggiespam.com/painless-password-hash-upgrades/)
+* Return a consistent message for both existent and non-existent
+  accounts
+* Ensure that the time taken for the user response message is uniform
+* Use a side-channel to communicate the method to reset their password
+* Use URL tokens for the simplest and fastest implementation
+* Ensure that generated tokens or codes are:
+  * Randomly generated using a cryptographically safe algorithm
+  * Sufficiently long to protect against brute-force attacks
+  * Stored securely
+  * Single use and expire after an appropriate period
 
 ---
 
-##### [Design for Failure](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Design_password_storage_assuming_eventual_compromise)
+#### [Secure Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
-Having detected theft, a credential storage scheme must support
-continued operation by marking credential data as compromised:
-
-1. Invalidate authentication shortcuts (e.g. login only with 2FA)
-2. Disallow changes to security settings of user accounts
-3. [Load a new, stronger credential protection scheme](https://veggiespam.com/painless-password-hash-upgrades/)
-4. Set `tainted`/`compromised` bit until user resets credentials
-5. Prompt for credential change & conduct out-of-band confirmation
-6. Convert stored credentials to new scheme as user successfully log in
+* Use
+  [Bcrypt](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#modern-algorithms)
+  unless you have a good reason not to
+* Set a reasonable
+  [work factor](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#work-factors)
+  for you system
+* Use a
+  [salt](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#salting)
+  (modern algorithms do this for you automatically)
+* Consider using a
+  [pepper](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#peppering)
+  to provide an additional layer of security
 
 ---
 
@@ -193,9 +186,10 @@ continued operation by marking credential data as compromised:
 # Password Managers
 
 > Password managers are programs, browser plugins or web services that
-> automate management of large number of different credentials,
-> including memorizing and filling-in, generating random passwords on
-> different sites etc. \[[^2]\]
+> automate management of large number of different credentials. Most
+> password managers have functionality to allow users to easily use them
+> on websites, either by pasting the passwords into the login form, or
+> by simulating the user typing them in. \[[^2]\]
 
 | [![KeePass Logo](images/02-04-authentication_flaws/keepass_322x132.png)](https://keepass.info/) | [![LastPass Logo](images/02-04-authentication_flaws/LastPass-Logo-Color.png)](https://www.lastpass.com) | [![1Password Logo](images/02-04-authentication_flaws/1password-logo-awesome%402x.png)](https://1password.com/) |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
@@ -214,7 +208,7 @@ continued operation by marking credential data as compromised:
 >   fields,
 > * avoid plugin-based login pages (Flash, Silverlight etc) \[[^1]\]
 
-[^2]: https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Password_Managers
+[^2]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html#password-managers
 
 ---
 
@@ -232,7 +226,7 @@ do **not** hack Bjoern's actual Google account!_
 
 # Exercise 4.5 (:house:)
 
-![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg)
+![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg)
 
 1. Read <https://webauthn.guide/> and play with <https://webauthn.io/>
    to learn how WebAuthn works

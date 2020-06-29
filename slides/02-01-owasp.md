@@ -49,7 +49,7 @@ roadmap and team members.
 
 ---
 
-# [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
+# [Project Lifecycle](https://wiki.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
 
 | Level     | Icon                                                          | Description                                                                                                                                                                 |
 |:----------|:--------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

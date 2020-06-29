@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Authorization Flaws
 
 ---
 
-# [Broken Access Control](https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control)
+# [Broken Access Control](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control)
 
 Access control is supposed to prevent that users can act outside of
 their intended permissions.
@@ -48,10 +49,10 @@ to another user's data is called **Horizontal** Privilege Escalation._
 
 ## Broken Access Control
 
-| Exploitability                 | Prevalence                    | Detecability                   | Impact              | Risk                                                                       |
-|:-------------------------------|:------------------------------|:-------------------------------|:--------------------|:---------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A5](https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control) |
-| ( **2**                        | + **2**                       | + **2** ) / 3                  | * **3**             | = **6.0**                                                                  |
+| Exploitability                 | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
+|:-------------------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
+| :large_orange_diamond: Average | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A5](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control) |
+| ( **2**                        | + **2**                       | + **2** ) / 3                  | * **3**             | = **6.0**                                                                                           |
 
 ---
 
@@ -76,7 +77,7 @@ possible by tampering with the following URLs?
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control)
+# [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control)
 
 * **Access control** is only effective if **enforced in trusted
   server-side code**
@@ -98,7 +99,7 @@ possible by tampering with the following URLs?
 
 ---
 
-## [Access Control Design Principles](https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf)
+## [Access Control Design Principles](https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf)
 
 1. Design Access Control thoroughly up front
 2. Force all Requests to go through Access Control checks

@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Injection
 
 ---
@@ -34,10 +35,10 @@
 
 ## Injection
 
-| Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                           |
-|:------------------|:------------------------------|:------------------|:--------------------|:---------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://www.owasp.org/index.php/Top_10-2017_A1-Injection) |
-| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                      |
+| Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                                                    |
+|:------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------|
+| :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection) |
+| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                                               |
 
 ---
 
@@ -45,7 +46,7 @@
 
 ---
 
-# [SQL Injection](https://www.owasp.org/index.php/SQL_Injection)
+# [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Typical Impact
 
@@ -99,14 +100,14 @@ String query = "SELECT id FROM users " +
 
 ###### Exercise 3.1
 
-| # | Username   | Password       | Created SQL Query                                          | Query Result  |
-|:--|:-----------|:---------------|:-----------------------------------------------------------|:--------------|
-| 1 | `horst`    | `n0Rd4kAD3m!E` |                                                            | `42`          |
-| 2 | `'`        | `qwertz`       |                                                            |               |
-| 3 | `'--`      | `abc123`       |                                                            | nothing       |
-| 4 | `horst'--` | `qwertz`       |                                                            |               |
-| 5 |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
-| 6 |            |                | `SELECT id FROM users`                                     | `1`, `2`, ... |
+| #  | Username   | Password       | Created SQL Query                                          | Query Result  |
+|:---|:-----------|:---------------|:-----------------------------------------------------------|:--------------|
+| 1  | `horst`    | `n0Rd4kAD3m!E` |                                                            | `42`          |
+| 2  | `'`        | `qwertz`       |                                                            |               |
+| 3  | `'--`      | `abc123`       |                                                            | nothing       |
+| 4  | `horst'--` | `qwertz`       |                                                            |               |
+| 5  |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
+| 6  |            |                | `SELECT id FROM users`                                     | `1`, `2`, ... |
 
 <small>_:information_source: Valid options for Query Result are only
 numbers, nothing or an error._</small>
@@ -126,7 +127,7 @@ numbers, nothing or an error._</small>
 
 ---
 
-# [Blind SQL Injection](https://www.owasp.org/index.php/Blind_SQL_Injection)
+# [Blind SQL Injection](https://owasp.org/www-community/attacks/Blind_SQL_Injection)
 
 * If error messages do not give away clues to the attacker he can still
   "take a stab in the dark"
@@ -231,7 +232,7 @@ ResultSet results = pstmt.executeQuery();
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html)
 
 * **Avoid the Interpreter** entirely if possible! :100:
   * e.g. use tech. stack API and library functions over OS commands
@@ -261,7 +262,7 @@ ResultSet results = pstmt.executeQuery();
 
 # Exercise 3.3 (:house:)
 
-#### [NoSQL Injection](https://www.owasp.org/index.php/Testing_for_NoSQL_injection)
+#### [NoSQL Injection](https://wiki.owasp.org/index.php/Testing_for_NoSQL_injection)
 
 Apply the concept of _Injection_ attacks to the NoSQL database being
 used for the _User Reviews_ of products in the Juice Shop.
@@ -270,3 +271,4 @@ used for the _User Reviews_ of products in the Juice Shop.
    (:star::star::star::star:)
 2. Update multiple product reviews at the same time
    (:star::star::star::star:)
+
