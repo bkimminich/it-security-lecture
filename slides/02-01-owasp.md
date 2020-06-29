@@ -1,46 +1,34 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-# ![OWASP Logo](images/02-01-owasp/owasp-logo.png)
+
+# ![OWASP Logo](images/02-01-owasp/owasp-logo.png)
 
 # OWASP
 
 ---
 
-# OWASP
+# [OWASP](https://owasp.org)
 
-* [**O**pen **W**eb **A**pplication **S**ecurity **P**roject](https://www.owasp.org)
-  * Free and open software security community
-  * 501(c)(3) Nonprofit organization
-
-* Core purpose
-  * Be the thriving global community that drives visibility and
-    evolution in the safety and security of the world's software
-
----
-
-# Core Values
-
-* **OPEN** Everything at OWASP is radically transparent from our
-  finances to our code.
-* **INNOVATION** OWASP encourages and supports innovation and
-  experiments for solutions to software security challenges.
-* **GLOBAL** Anyone around the world is encouraged to participate in the
-  OWASP community.
-* **INTEGRITY** OWASP is an honest and truthful, vendor neutral, global
-  community.
+> The Open Web Application Security Project (OWASP) is a nonprofit
+> foundation that works to improve the security of software. Through
+> community-led open source software projects, hundreds of local
+> chapters worldwide, tens of thousands of members, and leading
+> educational and training conferences, the OWASP Foundation is the
+> source for developers and technologists to secure the web.
 
 ---
 
-# Principles
+# [Core Values](https://owasp.org/about/#core-values)
 
-* Free & Open
-* Governed by rough consensus & running code
-* Abide by a
-  [code of ethics](https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project#Code_of_Ethics)
-* Not-for-profit
-* Not driven by commercial interests
-* Risk based approach
+> * **Open**: Everything at OWASP is radically transparent from our
+>   finances to our code.
+> * **Innovative**: We encourage and support innovation and experiments
+>   for solutions to software security challenges.
+> * **Global**: Anyone around the world is encouraged to participate in
+>   the OWASP community.
+> * **Integrity**: Our community is respectful, supportive, truthful,
+>   and vendor neutral
 
 ---
 
@@ -48,31 +36,20 @@
 
 ---
 
-# [OWASP Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
+# [OWASP Projects](https://owasp.org/projects/)
 
 An OWASP project is a collection of related tasks that have a defined
 roadmap and team members.
 
-| Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                    |
-|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check), [DefectDojo](https://www.owasp.org/index.php/OWASP_DefectDojo_Project), [Juice Shop](https://owasp-juice.shop)                                                                                              |
-| Code          | [ModSecurity Core Rule Set](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project), [Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer), [Security Logging Project](https://www.owasp.org/index.php/OWASP_Security_Logging_Project), [AppSensor](https://www.owasp.org/index.php/OWASP_AppSensor_Project)           |
-| Documentation | [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [Application Security Verification Standard (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project), [OWASP 24/7 Podcast](https://www.owasp.org/index.php/OWASP_Podcast), [Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia) |
+| Project Type  | Examples                                                                                                                                                                                                                                        |
+|:--------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tool          | [ZAP](https://owasp.org/www-project-zap/), [Dependency Check](https://owasp.org/www-project-dependency-check/), [DefectDojo](https://owasp.org/www-project-defectdojo/), [Juice Shop](https://owasp.org/www-project-juice-shop/)                |
+| Code          | [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/)                                                                                                                                                           |
+| Documentation | [OWASP Top 10](https://owasp.org/www-project-top-ten/), [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/), [Cornucopia](https://owasp.org/www-project-cornucopia/) |
 
 ---
 
-# OWASP Communities
-
-| Community                                                                                               | Advancing the state of security in the area of...                                                                              |
-|:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| [![Builders](images/02-01-owasp/Owasp-builders-small.png)](https://www.owasp.org/index.php/Builders)    | ...application development                                                                                                     |
-| [![Breakers](images/02-01-owasp/Owasp-breakers-small.png)](https://www.owasp.org/index.php/Breakers)    | ...security testing                                                                                                            |
-| [![Defenders](images/02-01-owasp/Owasp-defenders-small.png)](https://www.owasp.org/index.php/Defenders) | ...application defense, including the tools and techniques that enable the detection and response to application layer attacks |
-
-
----
-
-# [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
+# [Project Lifecycle](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
 
 | Level     | Icon                                                          | Description                                                                                                                                                                 |
 |:----------|:--------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -82,57 +59,42 @@ roadmap and team members.
 
 ---
 
-# ![Labs](images/02-01-owasp/Owasp-labs-trans-85.png) [Determining Lab Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_LAB_status)
-
-It is essential for an OWASP Labs project to have:
-* A version number with a clear release schedule
-* GitHub source control and a public issue tracking system
-* Stable build and release
-* Instructions on how to use and build the project properly
-
----
-
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [Determining Flagship Status](https://www.owasp.org/index.php/Project_Reviews_Guideline#tab=Determining_Flagship_status)
-
-It is essential for an OWASP Flagship project to have:
-* Considerable number of users and contributors
-* Considerable number of commits and improvements in a time span of at
-  least two years
-* A unique approach or proposition in application security
-* Exposure through security conferences
-* Use and acceptance by the community
-* Being used as reference in books and other resources
-
----
-
 # OWASP Chapters
 
 ---
 
-# [OWASP Chapters](https://www.owasp.org/index.php/OWASP_Chapter)
+# [OWASP Chapters](https://owasp.org/chapters/)
 
-OWASP Chapters exist to raise awareness of the OWASP mission, making
-application security visible, at the local level.
+> OWASP Local Chapters build community for application security
+> professionals around the world. Our Local Chapter Meetings are free
+> and open to anyone to attend so both members and non-members are
+> always welcomed. Local meetings include:
+>
+> * Training to improve your skills
+> * Talks relevant to your work
+> * Networking opportunities
 
-#### [OWASP German Chapter](https://www.owasp.org/index.php/Germany)
+---
+
+# [OWASP German Chapter](https://owasp.org/www-chapter-germany/)
 
 There is one Chapter for Germany in total which is complemented by a
 so-called
-[OWASP Stammtisch](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative)
-each in several metropolitan areas such as
-[Hamburg](https://www.owasp.org/index.php/OWASP_German_Chapter_Stammtisch_Initiative/Hamburg),
-Munich, Frankfurt, Stuttgart or Karlsruhe.
+[OWASP Stammtisch](https://owasp.org/www-chapter-germany/#div-treffen)
+each in several metropolitan areas such as München, Frankfurt,
+[Hamburg](https://owasp.org/www-chapter-germany/stammtische/hamburg/),
+Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Ruhrpott,
+Heilbronn-Franken.
 
 ![OWASP German Chapter Logo](images/02-01-owasp/OWASP_German_Chapter_WHITE_PNG.png)
 
 ---
 
-# [Mandatory Chapter Rules](https://www.owasp.org/index.php/Chapter_Handbook/Chapter_2:_Mandatory_Chapter_Rules)
+# [Mandatory Chapter Rules](https://owasp.org/www-policy/operational/chapter-handbook-existing)
 
 * Organize free and open meetings
 * Hold a minimum of 4 chapter meetings or events each year
-* Give official meeting notice through the wiki, chapter mailing list,
-  and OWASP Calendar
+* Give official notice on the website and chapter mailing list
 * Abide by OWASP principles and the code of ethics
 * Protect the privacy of the chapter's local contacts
 * Maintain vendor neutrality (act independently)
@@ -145,42 +107,42 @@ Munich, Frankfurt, Stuttgart or Karlsruhe.
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 
-|   |                         |    |                                             |
-|:--|:------------------------|:---|:--------------------------------------------|
-| 1 | Injection               | 6  | Security Misconfiguration                   |
-| 2 | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
-| 3 | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
-| 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
-| 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
+|    |                         |    |                                             |
+|:---|:------------------------|:---|:--------------------------------------------|
+| 1  | Injection               | 6  | Security Misconfiguration                   |
+| 2  | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
+| 3  | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
+| 4  | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
+| 5  | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
 
 ---
 
 # Application Security Risks
 
-[![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Application_Security_Risks.html)
 
 ---
 
 ## Risk Rating Table
 
-[![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Application_Security_Risks.html)
 
 _:information_source: Based on the
-[OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
+[OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)_
 
 ---
 
 # Risk Calculation Example
 
-[![Risk Calculation A6:2017-Security Misconfiguration](images/02-01-owasp/owasp-top10-risk-calculation.png)](https://www.owasp.org/index.php/Top_10-2017_Note_About_Risks)
+[![Risk Calculation A6:2017-Security Misconfiguration](images/02-01-owasp/owasp-top10-risk-calculation.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Note_About_Risks)
 
 ---
 
 # Top 10 Risk Factor Summary
 
-[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://www.owasp.org/index.php/Top_10-2017_Details_About_Risk_Factors)
+[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Details_About_Risk_Factors)
 
 ---
 
@@ -206,19 +168,19 @@ _:information_source: Based on the
 
 ---
 
-# ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
+# ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
 
 # OWASP Juice Shop
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://owasp-juice.shop) ![Builders](images/02-01-owasp/Owasp-builders-small.png) ![Breakers](images/02-01-owasp/Owasp-breakers-small.png) ![Defenders](images/02-01-owasp/Owasp-defenders-small.png)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://owasp-juice.shop)
 
-OWASP Juice Shop is probably the most modern and sophisticated insecure
-web application! It can be used in security trainings, awareness demos,
-CTFs and as a guinea pig for security tools! Juice Shop encompasses
-vulnerabilities from the entire OWASP Top Ten along with many other
-security flaws found in real-world applications!
+> OWASP Juice Shop is probably the most modern and sophisticated
+> insecure web application! It can be used in security trainings,
+> awareness demos, CTFs and as a guinea pig for security tools! Juice
+> Shop encompasses vulnerabilities from the entire OWASP Top Ten along
+> with many other security flaws found in real-world applications!
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
 
@@ -226,23 +188,31 @@ security flaws found in real-world applications!
 
 ## Main Selling Points
 
-* **Easy-to-install**: Choose between node.js, Docker and Vagrant to run
-  on Windows/Mac/Linux
+* **Free and Open source**: Licensed under the
+  [MIT license](https://github.com/bkimminich/juice-shop/blob/master/LICENSE)
+  with no hidden costs or caveats
+* **Easy-to-install**: Choose between [node.js](http://nodejs.org),
+  [Docker](https://www.docker.com) and
+  [Vagrant](https://www.vagrantup.com/downloads.html) to run on
+  Windows/Mac/Linux
 * **Self-contained**: Additional dependencies are pre-packaged or will
   be resolved and downloaded automatically
-* **Self-healing**: The simple SQLite database is wiped and regenerated
-  from scratch on every server startup
+* **Beginner-friendly**: Hacking Instructor tutorial scripts guide users
+  through several of the easier challenges while explaining the
+  underlying vulnerabilities
 * **Gamification**: The application notifies you on solved challenges
   and keeps track of successfully exploited vulnerabilities on a Score
   Board
 
 ---
 
-* **CTF-support**: Challenge notifications contain a customizable flag
-  code for your own Capture-The-Flag events
-* **Re-branding**: Fully customizable business context and look & feel
-* **Free and Open source**: Licensed under the MIT license with no
-  hidden costs or caveats
+* **Self-healing**: The simple SQLite and MarsDB databases are wiped and
+  repopulated from scratch on every server startup
+* **Re-branding**: Fully customizable in business context and look &
+  feel to your own corporate or customer requirements
+* **CTF-support**: Challenge notifications optionally contain a flag
+  code for your own
+  [Capture-The-Flag events](https://github.com/bkimminich/juice-shop-ctf)
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
 
@@ -286,7 +256,7 @@ security flaws found in real-world applications!
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v9.x`
+## Install the OWASP Juice Shop `v11.x`
 
 1. Open <https://github.com/bkimminich/juice-shop#setup>
 2. Follow the instructions for one method out of
@@ -327,3 +297,4 @@ security flaws found in real-world applications!
 4. `F12` into the developer tools and create the cookie `continueCode`
    with the value from your first computer
 5. Restart the Juice Shop server
+
