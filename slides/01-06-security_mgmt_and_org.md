@@ -429,7 +429,7 @@ an annual renewal fee._
 
 ---
 
-## [OWASP](https://www.owasp.org)
+## [OWASP](https://owasp.org)
 
 > <small>The **Open Web Application Security Project (OWASP)** is a
 > 501(c)(3) worldwide not-for-profit charitable organization focused on

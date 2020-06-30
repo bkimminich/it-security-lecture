@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Insecure Dependencies
 
 ---
 
-# [Common Mistakes](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+# [Common Mistakes](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
 
 * Not knowing used version of dependencies (client- and server-side)
   * Includes directly used components _and_ nested dependencies
@@ -41,14 +42,14 @@ on exploiting known vulnerabilities in components (e.g.
 
 ## Using Components with Known Vulnerabilities
 
-| Exploitability                 | Prevalence              | Detecability                   | Impact                          | Risk                                                                                             |
-|:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
-| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                                                        |
+| Exploitability                 | Prevalence              | Detecability                   | Impact                          | Risk                                                                                                                      |
+|:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
+| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                                                                                 |
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+# [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
 
 * **Remove unused dependencies**, unnecessary features, components,
   files, and documentation
@@ -80,7 +81,7 @@ on exploiting known vulnerabilities in components (e.g.
 
 ---
 
-# [OWASP Dependency-Check](https://jeremylong.github.io/DependencyCheck)
+# [OWASP Dependency-Check](https://jeremylong.github.io/DependencyCheck)
 
 > **Dependency-Check is a utility that identifies project dependencies
 > and checks if there are any known, publicly disclosed,
@@ -131,7 +132,7 @@ files..._
 
 ---
 
-# [Common Mistakes](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration)
+# [Common Mistakes](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration)
 
 * **Missing appropriate security hardening** across application stack
 * Improperly configured permissions on cloud services
@@ -164,10 +165,10 @@ Privilege Escalation._
 
 ## Security Misconfiguration
 
-| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                           |
-|:------------------|:------------------------|:------------------|:--------------------------------|:-------------------------------------------------------------------------------|
-| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A6](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration) |
-| ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                      |
+| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                                                    |
+|:------------------|:------------------------|:------------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------|
+| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A6](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration) |
+| ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                                               |
 
 ---
 
@@ -309,7 +310,7 @@ in the public results" checkbox before running the online scan!_
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration)
+# [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration)
 
 * **Repeatable hardening process**
 * Development, QA & Production environments configured identically

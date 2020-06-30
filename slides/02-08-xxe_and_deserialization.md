@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # XXE
 
 ## (XML External Entities)
@@ -32,7 +33,7 @@
 
 ---
 
-# [Attack Vector XXE](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
+# [Attack Vector XXE](https://wiki.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
 
 * Many older or poorly configured XML processors evaluate external
   entity references within XML documents
@@ -49,10 +50,10 @@
 
 ## XML External Entities (XXE)
 
-| Exploitability                 | Prevalence                    | Detecability      | Impact              | Risk                                                                             |
-|:-------------------------------|:------------------------------|:------------------|:--------------------|:---------------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A4](https://www.owasp.org/index.php/Top_10-2017_A4-XML_External_Entities_(XXE)) |
-| ( **2**                        | + **2**                       | + **3** ) / 3     | * **3**             | = **7.0**                                                                        |
+| Exploitability                 | Prevalence                    | Detecability      | Impact              | Risk                                                                                                      |
+|:-------------------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------------------------|
+| :large_orange_diamond: Average | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A4](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A4-XML_External_Entities_(XXE)) |
+| ( **2**                        | + **2**                       | + **3** ) / 3     | * **3**             | = **7.0**                                                                                                 |
 
 
 ---
@@ -103,7 +104,7 @@
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 
 * **Configure XML parser to**
   * **disable DTDs completely** (by disallowing `DOCTYPE` declarations)
@@ -115,7 +116,7 @@ sufficient, as the whole XML document is crafted by the attacker!
 
 ---
 
-# [XML Parser Hardening Examples](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet)
+# [XML Parser Hardening Examples](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 
 #### `libxml2` (C/C++)
 
@@ -156,6 +157,7 @@ default!_
 ---
 
 <!-- _footer: Български: Схема на сериализация и десериализация, 2016 WnbKrumov, used under CC-BY-SA 4.0 -->
+
 # Serialization
 
 > Object serialization transforms an object's data to a bytestream that
@@ -184,7 +186,7 @@ AcmeObject acme = (AcmeObject)ois.readObject();
 
 ---
 
-# [Insecure Deserialization](https://www.owasp.org/index.php/Deserialization_of_untrusted_data)
+# [Insecure Deserialization](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data)
 
 * Insecure deserialization often leads to **remote code execution**
   (RCE), one of the most serious attacks possible
@@ -200,14 +202,14 @@ AcmeObject acme = (AcmeObject)ois.readObject();
 
 ## Insecure Deserialization
 
-| Exploitability                   | Prevalence                    | Detecability                   | Impact              | Risk                                                                          |
-|:---------------------------------|:------------------------------|:-------------------------------|:--------------------|:------------------------------------------------------------------------------|
-| :small_orange_diamond: Difficult | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A8](https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization) |
-| ( **1**                          | + **2**                       | + **2** ) / 3                  | * **3**             | = **5.0**                                                                     |
+| Exploitability                   | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                   |
+|:---------------------------------|:------------------------------|:-------------------------------|:--------------------|:-------------------------------------------------------------------------------------------------------|
+| :small_orange_diamond: Difficult | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A8](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A8-Insecure_Deserialization) |
+| ( **1**                          | + **2**                       | + **2** ) / 3                  | * **3**             | = **5.0**                                                                                              |
 
 ---
 
-# [Attack Example (Adobe BlazeDS)](https://nvd.nist.gov/vuln/detail/CVE-2011-2092)
+# [Attack Example (Adobe BlazeDS)](https://nvd.nist.gov/vuln/detail/CVE-2011-2092)
 
 ```java
 [RemoteClass(alias="javax.swing.JFrame")]
@@ -257,7 +259,7 @@ for (int i = 0; i < 100; i++) {
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Deserialization_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)
 
 * **Avoid native deserialization formats** :100:
   * JSON/XML lessens (but not removes) the chance of custom
@@ -280,7 +282,7 @@ for (int i = 0; i < 100; i++) {
 
 ---
 
-# :heavy_check_mark: [SerialKiller (Java)](https://github.com/ikkisoft/SerialKiller)
+# :heavy_check_mark: [SerialKiller (Java)](https://github.com/ikkisoft/SerialKiller)
 
 Replacing every `java.io.ObjectInputStream` instanciation
 
@@ -301,7 +303,7 @@ classes can be black- or whitelisted.
 
 ---
 
-# :x: [node-serialize (JavaScript)](https://www.npmjs.com/package/node-serialize)
+# :x: [node-serialize (JavaScript)](https://www.npmjs.com/package/node-serialize)
 
 The `node-serialize` module uses `eval()` internally for
 deserialization, allowing exploits like

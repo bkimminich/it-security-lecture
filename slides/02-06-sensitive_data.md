@@ -15,7 +15,7 @@
 > rules such as PCI Data Security Standard (PCI DSS) or other
 > regulations. \[[^1]\]
 
-[^1]: https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf
+[^1]: https://wiki.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf
 
 ---
 

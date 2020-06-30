@@ -99,7 +99,7 @@ possible by tampering with the following URLs?
 
 ---
 
-## [Access Control Design Principles](https://www.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf)
+## [Access Control Design Principles](https://wiki.owasp.org/images/b/bc/OWASP_Top_10_Proactive_Controls_V3.pdf)
 
 1. Design Access Control thoroughly up front
 2. Force all Requests to go through Access Control checks
