@@ -258,13 +258,20 @@ _:information_source: Based on the
 
 ## Install the OWASP Juice Shop `v11.x`
 
-1. Open <https://github.com/bkimminich/juice-shop#setup>
-2. Follow the instructions for one method out of
+1. Install the latest
+   [Node.js 12.x (or 14.x) release](https://nodejs.org/) on your
+   computer
+2. On <https://github.com/bkimminich/juice-shop#setup> follow the
+   instructions for either
    * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
+     or
    * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--)
-     (:blue_heart: on university PCs)
-   * [Docker Container](https://github.com/bkimminich/juice-shop#docker-container-----)
-   * [Vagrant](https://github.com/bkimminich/juice-shop#vagrant)
+
+:whale: _If you want to use
+[Docker](https://github.com/bkimminich/juice-shop#docker-container-----)
+you need to run the container with `docker run -d -e "NODE_ENV=unsafe"
+-p 3000:3000 bkimminich/juice-shop` or you won't be able to solve
+several of the exercises._
 
 ---
 
@@ -283,6 +290,10 @@ _:information_source: Based on the
 ## Score Board
 
 1. Find the hidden Score Board in the Juice Shop (:star:)
+
+:information_source: _You can let the application's friendly Hacking
+Instructor guide you through this exercise by clicking "Help getting
+started" on the welcome banner or in the side bar._
 
 ---
 
