@@ -44,16 +44,11 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 # Exercise 4.2 (:pushpin:)
 
-1. Identify all flaws in the generator of the following session IDs
+1. What benefits and downsides (if any) would enforcing user passwords
+   with the advice below have?
+2. What password might the user currently have typed in?
 
-| #  | Session ID      | #   | Session ID      |
-|:---|:----------------|:----|:----------------|
-| 1  | h5kek4z9ha1rtrf | 7   | po953ld7hg2awi9 |
-| 2  | gj75l3k7hb15rtr | 8   | t6zhj2n5hh27bn0 |
-| 3  | l8l65k45hc1rw7i | 9   | iu345r53hi2aw34 |
-| 4  | p05jrj53hd1i039 | 10  | o0z43411hj2njkl |
-| 5  | 5urltda1he1bn46 | 11  | 9por42o9hk3dfrz |
-| 6  | j5le97h9hf2yq3h | ... | ...             |
+![Password Strength Checker](images/02-04-authentication_flaws/password_strength_checker.png)
 
 ---
 
@@ -69,21 +64,6 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 ---
 
 # [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-
-#### User IDs
-
-* Use case insensitive and unique usernames/userids
-* If using Email addresses as usernames, ensure
-  [RFC 5321](https://tools.ietf.org/html/rfc5321) validity
-  1. Check for presence of at least one `@` symbol in the address
-  2. Ensure the local-part is no longer than 64 octets
-  3. Ensure the domain is no longer than 255 octets
-  4. Ensure the address is deliverable
-
-_:x: Do **not** try to invent your own RegEx to validate email
-addresses!_
-
----
 
 #### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
