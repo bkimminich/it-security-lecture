@@ -301,11 +301,8 @@ started" on the welcome banner or in the side bar._
 
 ## Transfer your hacking progress
 
-1. Open your browser's developer tools (`F12` in Chrome/Firefox)
-2. Find the cookie `continueCode` and copy its value to your other
-   computer
-3. Install OWASP Juice Shop on your other computer and launch it
-4. `F12` into the developer tools and create the cookie `continueCode`
-   with the value from your first computer
-5. Restart the Juice Shop server
+1. If you keep using the same computer _and_ do not delete your cookies your browser will persist and restore your hacking progress.
+2. It is still recommended to make a backup of your progress regularly.
+3. You can also use this `JSON` backup to restore your progress and settings on any other computer.
 
+![Local Backup/Restore buttons on Score Board](images/02-01-owasp/juiceshop-local-backup.png)
