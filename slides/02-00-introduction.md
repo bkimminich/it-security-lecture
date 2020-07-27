@@ -42,9 +42,8 @@
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (10.x, **12.x** or 14.x)
+* _either_ [Node.js](https://nodejs.org) (14.x, 12.x or 10.x)
 * _or_ [Docker](https://www.docker.com/)
-* _or_ [Vagrant](https://www.vagrantup.com/)
 
 _:information_source: On the university computers Node.js should already
 be available. You can verify this by running `node -v` on the command

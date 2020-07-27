@@ -254,12 +254,12 @@ _:information_source: Based on the
 
 ---
 
-# Exercise 1.1
+# Exercise 1.1-a
 
 ## Install the OWASP Juice Shop `v11.x`
 
 1. Install the latest
-   [Node.js 12.x (or 14.x) release](https://nodejs.org/) on your
+   [Node.js 14.x (or 12.x) release](https://nodejs.org/) on your
    computer
 2. On <https://github.com/bkimminich/juice-shop#setup> follow the
    instructions for either
@@ -271,6 +271,26 @@ _:information_source: Based on the
 [Docker](https://github.com/bkimminich/juice-shop#docker-container-----)
 you need to run the container with `docker run -d -e "NODE_ENV=unsafe"
 -p 3000:3000 bkimminich/juice-shop` or you won't be able to solve
+several of the exercises._
+
+---
+
+# Exercise 1.1-b (:microscope:)
+
+## Install the OWASP Juice Shop `v12.0.0-SNAPSHOT`
+
+1. Install the latest
+   [Node.js 14.x (or 12.x) release](https://nodejs.org/) on your
+   computer
+2. On <https://github.com/bkimminich/juice-shop#setup> follow the
+   instructions for either
+   * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
+     but run `git checkout develop` immediately after cloning the repository
+
+:whale: _If you want to use
+[Docker](https://github.com/bkimminich/juice-shop#docker-container-----)
+you need to run the container with `docker run -d -e "NODE_ENV=unsafe"
+-p 3000:3000 bkimminich/juice-shop:snapshot` or you won't be able to solve
 several of the exercises._
 
 ---
