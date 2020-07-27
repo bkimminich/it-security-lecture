@@ -35,7 +35,7 @@
 * **t.b.d., ??.09.2020** (90min)
 * **??:?? - ??:??** / Audimax
 * :warning: Covers topics from both semesters
-* :brain: Skipping the exam is not recommended
+* :negative_squared_cross_mark: Adjourning the exam is discouraged
 
 ---
 
