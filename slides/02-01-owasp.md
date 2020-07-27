@@ -285,13 +285,14 @@ several of the exercises._
 2. On <https://github.com/bkimminich/juice-shop#setup> follow the
    instructions for either
    * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
-     but run `git checkout develop` immediately after cloning the repository
+     but run `git checkout develop` immediately after cloning the
+     repository
 
 :whale: _If you want to use
 [Docker](https://github.com/bkimminich/juice-shop#docker-container-----)
 you need to run the container with `docker run -d -e "NODE_ENV=unsafe"
--p 3000:3000 bkimminich/juice-shop:snapshot` or you won't be able to solve
-several of the exercises._
+-p 3000:3000 bkimminich/juice-shop:snapshot` or you won't be able to
+solve several of the exercises._
 
 ---
 
@@ -321,8 +322,10 @@ started" on the welcome banner or in the side bar._
 
 ## Transfer your hacking progress
 
-1. If you keep using the same computer _and_ do not delete your cookies your browser will persist and restore your hacking progress.
+1. If you keep using the same computer _and_ do not delete your cookies
+   your browser will persist and restore your hacking progress.
 2. It is still recommended to make a backup of your progress regularly.
-3. You can also use this `JSON` backup to restore your progress and settings on any other computer.
+3. You can also use this `JSON` backup to restore your progress and
+   settings on any other computer.
 
 ![Local Backup/Restore buttons on Score Board](images/02-01-owasp/juiceshop-local-backup.png)

@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # IT Security
 
 ## Application Security & SDLC
@@ -66,8 +67,10 @@ installation hurdles!_
 * Kimminich: [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop),
   2020
 * Stuttard, Pinto: The Web Application Hacker's Handbook 2, 2011
-* Zalewski: The Tangled Web: A Guide to Securing Modern Web Applications, 2011
-* Zalewski, Heiderich: Tangled Web - Der Security-Leitfaden für Webentwickler, 2012 (:de:)
+* Zalewski: The Tangled Web: A Guide to Securing Modern Web
+  Applications, 2011
+* Zalewski, Heiderich: Tangled Web - Der Security-Leitfaden für
+  Webentwickler, 2012 (:de:)
 
 ---
 
