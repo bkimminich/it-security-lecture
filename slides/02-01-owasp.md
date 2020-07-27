@@ -297,7 +297,7 @@ started" on the welcome banner or in the side bar._
 
 ---
 
-# Exercise 1.4 _(optional)_
+# Exercise 1.4 _(optional with `v12.0.0-SNAPSHOT`)_
 
 ## Transfer your hacking progress
 
