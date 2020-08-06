@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Authentication Flaws
 
 ---
 
-# :x: [Typical Flaws in Authentication](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
+# :x: [Typical Flaws in Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords
@@ -23,10 +24,10 @@
 
 ## Broken Authentication
 
-| Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                       |
-|:------------------|:------------------------------|:-------------------------------|:--------------------|:---------------------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication) |
-| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                  |
+| Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
+|:------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
+| :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication) |
+| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                                           |
 
 ---
 
@@ -39,7 +40,7 @@
 
 ---
 
-#### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
+#### [Password Strength Controls](https://pages.nist.gov/800-63-3/sp800-63-3.html)
 
 * **Enforce minimum password length** of at least 10 characters
 * Maximum length should allow 64 characters or more
@@ -77,3 +78,4 @@
 2. _Reset Jim's Password_ by answering his secret question
    (:star::star::star:)
 3. _Login Bjoern_ using his Gmail account (:star::star::star::star:)
+

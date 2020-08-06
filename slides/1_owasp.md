@@ -1,7 +1,8 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
-# ![OWASP Logo](images/owasp-logo.png)
+
+# ![OWASP Logo](images/owasp-logo.png)
 
 # OWASP
 
@@ -9,7 +10,7 @@
 
 # OWASP
 
-* [**O**pen **W**eb **A**pplication **S**ecurity **P**roject](https://www.owasp.org)
+* [**O**pen **W**eb **A**pplication **S**ecurity **P**roject](https://owasp.org)
   * Free and open software security community
   * 501(c)(3) Nonprofit organization
 
@@ -21,26 +22,26 @@
 
 # ![Flagship](images/Owasp-flagship-trans-85.png) OWASP Top 10 ![Builders](images/Owasp-builders-small.png) ![Defenders](images/Owasp-defenders-small.png)
 
-|   |                         |    |                                             |
-|:--|:------------------------|:---|:--------------------------------------------|
-| 1 | Injection               | 6  | Security Misconfiguration                   |
-| 2 | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
-| 3 | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
-| 4 | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
-| 5 | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
+|    |                         |    |                                             |
+|:---|:------------------------|:---|:--------------------------------------------|
+| 1  | Injection               | 6  | Security Misconfiguration                   |
+| 2  | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
+| 3  | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
+| 4  | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
+| 5  | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
 
 ---
 
 ## Risk Rating Table
 
-[![OWASP Risk Rating Table](images/owasp-risk-rating-table.png)](https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks)
+[![OWASP Risk Rating Table](images/owasp-risk-rating-table.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Application_Security_Risks)
 
 _:information_source: Based on the
-[OWASP Risk Rating Methodology](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)_
+[OWASP Risk Rating Methodology](https://owasp.org/www-project-risk-assessment-framework/)_
 
 ---
 
-# ![Flagship](images/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) ![Builders](images/Owasp-builders-small.png) ![Breakers](images/Owasp-breakers-small.png) ![Defenders](images/Owasp-defenders-small.png)
+# ![Flagship](images/Owasp-flagship-trans-85.png) [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) ![Builders](images/Owasp-builders-small.png) ![Breakers](images/Owasp-breakers-small.png) ![Defenders](images/Owasp-defenders-small.png)
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure
 web application! It can be used in security trainings, awareness demos,
@@ -54,25 +55,32 @@ security flaws found in real-world applications!
 
 ## Main Selling Points
 
-* **Easy-to-install**: Choose between node.js, Docker and Vagrant to run
-  on Windows/Mac/Linux
+* **Free and Open source**: Licensed under the
+  [MIT license](https://github.com/bkimminich/juice-shop/blob/master/LICENSE)
+  with no hidden costs or caveats
+* **Easy-to-install**: Choose between [node.js](http://nodejs.org),
+  [Docker](https://www.docker.com) and
+  [Vagrant](https://www.vagrantup.com/downloads.html) to run on
+  Windows/Mac/Linux
 * **Self-contained**: Additional dependencies are pre-packaged or will
   be resolved and downloaded automatically
-* **Self-healing**: The simple SQLite database is wiped and regenerated
-  from scratch on every server startup
+* **Beginner-friendly**: Hacking Instructor tutorial scripts guide users
+  through several of the easier challenges while explaining the
+  underlying vulnerabilities
 * **Gamification**: The application notifies you on solved challenges
   and keeps track of successfully exploited vulnerabilities on a Score
   Board
 
 ---
 
-* **CTF-support**: Challenge notifications contain a customizable flag
-  code for your own Capture-The-Flag events
-* **Re-branding**: Fully customizable business context and look & feel
-* **Free and Open source**: Licensed under the MIT license with no
-  hidden costs or caveats
-
-![Juice Shop Logo](images/200px-JuiceShopCTF_Logo.png)
+* **Self-healing**: The simple SQLite and MarsDB databases are wiped and
+  repopulated from scratch on every server startup
+* **Re-branding**: Fully customizable in business context and look &
+  feel to your own corporate or customer requirements
+* **CTF-support**: Challenge notifications optionally contain a flag
+  code for your own
+  [Capture-The-Flag events](https://github.com/bkimminich/juice-shop-ctf)
+* ![Juice Shop Logo](images/200px-JuiceShopCTF_Logo.png)
 
 ---
 
@@ -113,3 +121,4 @@ security flaws found in real-world applications!
 ## Score Board
 
 1. Find the hidden Score Board in the Juice Shop (:star:)
+

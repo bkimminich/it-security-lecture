@@ -1,13 +1,14 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # XSS
 
 ## (Cross-Site Scripting)
 
 ---
 
-# [Cross-Site Scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+# [Cross-Site Scripting](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A7-Cross-Site_Scripting_(XSS))
 
 1. An attacker can use XSS to send a malicious script to an unsuspecting
    user
@@ -61,10 +62,9 @@ Inc._</small></small></small>
 
 ## Cross-Site Scripting (XSS)
 
-| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                                |
-|:------------------|:------------------------|:------------------|:--------------------------------|:------------------------------------------------------------------------------------|
-| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A7](https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_%28XSS%29) |
-| ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                           |
+| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                                                     |
+|:------------------|:------------------------|:------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------|
+| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A7](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A7-Cross-Site_Scripting_(XSS)) |
 
 ---
 
@@ -167,7 +167,7 @@ _:information_source: The previous example vulnerability and exploit of
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
 * **Do not include user supplied input in your output!** :100:
 
@@ -187,7 +187,7 @@ _:information_source: The previous example vulnerability and exploit of
 # :heavy_check_mark: Fixed Code Example
 
 Using `Encoder` from
-[OWASP Java Encoder Project](https://www.owasp.org/index.php/OWASP_Java_Encoder_Project):
+[OWASP Java Encoder Project](https://owasp.org/www-project-java-encoder/):
 
 ```
 <%import org.owasp.encoder.Encoder;%>
@@ -207,7 +207,7 @@ Search results for <b><%=HtmlUtils.htmlEscape(searchCriteria)%></b>:
 
 ---
 
-# [OWASP Java HTML Sanitizer](https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project)
+# [OWASP Java HTML Sanitizer](https://wiki.owasp.org/index.php/OWASP_Java_HTML_Sanitizer_Project)
 
 Fast and easy to configure HTML Sanitizer written in Java which lets you
 include HTML authored by third-parties in your web application while
@@ -232,3 +232,4 @@ private String sanitizeHtml(String html) {
    (:star::star::star:)
 3. Give the shop feedback bypassing its _Server-side XSS Protection_
    (:star::star::star::star:)
+

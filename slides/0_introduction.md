@@ -1,9 +1,10 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Hands-on Hacking Workshop
 
-## with [OWASP Juice Shop](https://owasp-juice.shop) by Björn Kimminich
+## with [OWASP Juice Shop](https://owasp-juice.shop) by Björn Kimminich
 
 ![Bjoern Kimminich Avatar](images/avatar.png)
 
@@ -11,14 +12,14 @@
 
 # Björn Kimminich
 
-* Manager IT Architecture + AppSec at
+* Product Group Lead Architecture Governance + Application Security at
   [Kuehne + Nagel](http://kuehne-nagel.com/)
 * Lecturer for _IT Security_ at
   [Nordakademie](https://www.nordakademie.de/)
 * Board Member of the
-  [German OWASP Chapter](https://www.owasp.org/index.php/Germany)
+  [German OWASP Chapter](https://owasp.org/www-chapter-germany/)
 * Project Lead of the
-  [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+  [OWASP Juice Shop](https://owasp-juice.shop)
 
 <hr>
 

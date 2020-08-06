@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Injection
 
 ---
 
-# Injection
+# [Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection)
 
 1. Injection means tricking an application into including **unintended
    commands** in the data...
@@ -34,10 +35,10 @@
 
 ## Injection
 
-| Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                           |
-|:------------------|:------------------------------|:------------------|:--------------------|:---------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://www.owasp.org/index.php/Top_10-2017_A1-Injection) |
-| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                      |
+| Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                                                    |
+|:------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------|
+| :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection) |
+| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                                               |
 
 ---
 
@@ -45,7 +46,7 @@
 
 ---
 
-# [SQL Injection](https://www.owasp.org/index.php/SQL_Injection)
+# [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ## Typical Impact
 
@@ -99,14 +100,14 @@ String query = "SELECT id FROM users " +
 
 ###### Exercise
 
-| # | Username   | Password     | Created SQL Query                                          | Query Result  |
-|:--|:-----------|:-------------|:-----------------------------------------------------------|:--------------|
-| 1 | `horst`    | `L0c4lhOr5t` |                                                            | `42`          |
-| 2 | `'`        | `qwertz`     |                                                            |               |
-| 3 | `'--`      | `abc123`     |                                                            | nothing       |
-| 4 | `horst'--` | `qwertz`     |                                                            |               |
-| 5 |            |              | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
-| 6 |            |              | `SELECT id FROM users`                                     | `1`, `2`, ... |
+| #  | Username   | Password     | Created SQL Query                                          | Query Result  |
+|:---|:-----------|:-------------|:-----------------------------------------------------------|:--------------|
+| 1  | `horst`    | `L0c4lhOr5t` |                                                            | `42`          |
+| 2  | `'`        | `qwertz`     |                                                            |               |
+| 3  | `'--`      | `abc123`     |                                                            | nothing       |
+| 4  | `horst'--` | `qwertz`     |                                                            |               |
+| 5  |            |              | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
+| 6  |            |              | `SELECT id FROM users`                                     | `1`, `2`, ... |
 
 <small>_:information_source: Valid options for Query Result are only
 numbers, nothing or an error._</small>
@@ -137,7 +138,7 @@ ResultSet results = pstmt.executeQuery();
 
 ---
 
-# [Prevention](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet)
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html)
 
 * **Avoid the Interpreter** entirely if possible! :100:
   * e.g. use tech. stack API and library functions over OS commands
@@ -160,3 +161,4 @@ ResultSet results = pstmt.executeQuery();
    :star::star::star:)
 2. Order the special :christmas_tree: offer that was only available in
    2014 (:star::star::star::star:)
+
