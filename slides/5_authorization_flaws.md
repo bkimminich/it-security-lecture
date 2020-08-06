@@ -52,7 +52,6 @@ to another user's data is called **Horizontal** Privilege Escalation._
 | Exploitability                 | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
 |:-------------------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
 | :large_orange_diamond: Average | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A5](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control) |
-| ( **2**                        | + **2**                       | + **2** ) / 3                  | * **3**             | = **6.0**                                                                                           |
 
 ---
 

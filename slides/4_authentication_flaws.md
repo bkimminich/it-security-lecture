@@ -27,7 +27,6 @@
 | Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
 |:------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
 | :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication) |
-| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                                           |
 
 ---
 

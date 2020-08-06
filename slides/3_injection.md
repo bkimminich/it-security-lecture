@@ -38,7 +38,6 @@
 | Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                                                    |
 |:------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------|
 | :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection) |
-| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                                               |
 
 ---
 
