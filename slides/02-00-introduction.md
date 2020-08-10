@@ -32,8 +32,8 @@
 
 #### Test Exam
 
-* **t.b.d., ??.09.2020** (90min)
-* **??:?? - ??:??** / Audimax
+* **Monday, 28.09.2020** (90min)
+* **12:45 - 14:15** / Audimax
 * :warning: Covers topics from both semesters
 * :negative_squared_cross_mark: Adjourning the exam is discouraged
 
