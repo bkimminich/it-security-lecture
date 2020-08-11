@@ -72,9 +72,11 @@
 
 # Exercise
 
-1. Log in as admin exploiting its insufficient _Password Strength_
+1. (:mortar_board:) Log in as admin exploiting its insufficient _Password Strength_
    (:star::star:)
 2. _Reset Jim's Password_ by answering his secret question
+   (:star::star::star:)
+2. Find out the name of _Bjoern's Favorite Pet_ and use it to reset his password
    (:star::star::star:)
 3. _Login Bjoern_ using his Gmail account (:star::star::star::star:)
 

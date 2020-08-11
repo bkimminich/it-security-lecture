@@ -120,5 +120,5 @@ security flaws found in real-world applications!
 
 ## Score Board
 
-1. Find the hidden Score Board in the Juice Shop (:star:)
+1. (:mortar_board:) Find the hidden _Score Board_ in the Juice Shop (:star:)
 

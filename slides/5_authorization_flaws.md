@@ -91,9 +91,9 @@ possible by tampering with the following URLs?
 # Exercise
 
 1. Access the _Admin Section_ of the store (:star::star:)
-2. _View_ some other user's shopping _Basket_ (:star::star:)
+2. (:mortar_board:) _View_ some other user's shopping _Basket_ (:star::star:)
 3. Get rid of all submitted _Five-Star Feedback_ (:star::star:)
-4. Post some _Forged Feedback_ for another user (:star::star::star:)
+4. (:mortar_board:) Post some _Forged Feedback_ for another user (:star::star::star:)
 5. It's _Payback Time_: Place an order with a negative total
    (:star::star::star:)
 6. Access the _Forgotten Developer_ and/or _Sales Backup_

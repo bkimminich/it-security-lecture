@@ -156,8 +156,8 @@ ResultSet results = pstmt.executeQuery();
 
 # Exercise
 
-1. Log in as any existing user using SQL Injection (:star::star: -
-   :star::star::star:)
+1. (:mortar_board:) Log in as the admin using SQL Injection (:star::star:)
+1. (:mortar_board:) Log in as Jim and/or Bender user using SQL Injection (:star::star::star:)
 2. Order the special :christmas_tree: offer that was only available in
    2014 (:star::star::star::star:)
 

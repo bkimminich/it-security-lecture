@@ -227,10 +227,11 @@ private String sanitizeHtml(String html) {
 
 # Exercise
 
-1. Perform a _DOM XSS_ and/or _Reflected XSS_ attack (:star:)
-2. Use the _Bonus Payload_ to enjoy some nice music (:star:)
-3. Beat a weak _Client-side XSS Protection_ during user registration
+1. (:mortar_board:) Perform a _DOM XSS_ attack (:star:)
+2. (:mortar_board:) Use the _Bonus Payload_ to enjoy some nice music (:star:)
+3. Perform a _Reflected XSS_ attack (:star:)
+4. Beat a weak _Client-side XSS Protection_ during user registration
    (:star::star::star:)
-4. Give the shop feedback bypassing its _Server-side XSS Protection_
+5. Give the shop feedback bypassing its _Server-side XSS Protection_
    (:star::star::star::star:)
 
