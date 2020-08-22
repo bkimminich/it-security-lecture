@@ -80,7 +80,8 @@ security flaws found in real-world applications!
 * **CTF-support**: Challenge notifications optionally contain a flag
   code for your own
   [Capture-The-Flag events](https://github.com/bkimminich/juice-shop-ctf)
-* ![Juice Shop Logo](images/200px-JuiceShopCTF_Logo.png)
+
+![Juice Shop Logo](images/200px-JuiceShopCTF_Logo.png)
 
 ---
 
