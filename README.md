@@ -25,9 +25,9 @@ before your first workshop with the OWASP Juice Shop._
    [self-hosted on their own laptop](https://github.com/bkimminich/juice-shop#setup)...
 3. ...**or** provided centrally on a cluster or cloud infrastructure
    e.g. using the easy-to-deploy
-   [JuicyCTF](https://github.com/iteratec/juicy-ctf) platform
+   [MultiJuicer](https://github.com/iteratec/multi-juicer) platform
 
-![JuicyCTF, Multi User Juice Shop Platform](https://raw.githubusercontent.com/iteratec/juicy-ctf/master/cover.svg?sanitize=true)
+![MultiJuicer, Multi User Juice Shop Platform](https://raw.githubusercontent.com/iteratec/multi-juicer/master/cover.svg?sanitize=true)
 
 ### Optional
 
