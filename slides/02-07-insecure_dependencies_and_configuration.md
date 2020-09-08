@@ -343,7 +343,7 @@ possible._
 
 ---
 
-# `v12.0.0-SNAPSHOT`-exclusive Exercise 7.5 (:house:)
+# Exercise 7.5 (:house:, _`v12.0.0-SNAPSHOT`-exclusive_)
 
 1. Visit the _Support Chat_ page and talk to the friendly bot
 2. Try asking it for product prices, deluxe membership our coupons
