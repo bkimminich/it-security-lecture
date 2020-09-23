@@ -83,7 +83,7 @@
 
 ---
 
-# Exercise 1.1 (:ballot_box_with_check:)
+# Exercise 1.1 (:ballot_box:)
 
 1. Which of these attacker stereotypes are relevant threats for your
    organization?
