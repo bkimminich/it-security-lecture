@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Motivation
 
 ---
@@ -69,7 +70,7 @@
 
 ---
 
-# Attacker Types
+# Attacker Stereotypes
 
 | Name                | Characteristics / Motivation                                                 | Danger                  |
 |:--------------------|:-----------------------------------------------------------------------------|:------------------------|
@@ -79,6 +80,13 @@
 | **Organized Crime** | Monetization, e.g. extortion & fraud<br>(Providing Cyber-Crime-as-a-Service) | :skull::skull:(:skull:) |
 | **Evil Employees**  | Revenge & corruption<br>Dangerous insider knowledge                          | :skull::skull::skull:   |
 | **Nation States**   | Power! Unlimited resources & budget                                          | :skull:x100             |
+
+---
+
+# Exercise 1.1 (:ballot_box_with_check:)
+
+1. Which of these attacker stereotypes are relevant threats for your
+   organization?
 
 ---
 
@@ -241,22 +249,3 @@ _Impacted parents were never notified by CloudPets. :scream:_
 
 ![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png)
 ![Oh no - pwned!](images/01-01-motivation/haveibeenpwned-red.png)
-
----
-
-# Exercise 1.3 (:house:)
-
-1. Mark potentially malicious items in the Press Kit from the _Trump-Kim
-   Summit_ (2018) in the image on the next slide (:arrow_right:)
-2. Explain possible ways how these items might actually be malicious
-3. Reason about potential attackers behind this and explain their most
-   likely motivations
-4. Come up with a least two more additions to the Press Kit and explain
-   how they could be used maliciously
-
-:information_source: _Speculation is allowed, but still be as specific
-as possible!_
-
----
-
-![Press kit from Trump-Kim Summit in Singapore 2018](images/01-01-motivation/TrumpKimSummit_PressKit.png)
