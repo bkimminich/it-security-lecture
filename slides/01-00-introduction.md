@@ -59,7 +59,7 @@
   **Chat** function
 * You can virtually raise your hand (:hand:) if you would like to
   say/ask something in person
-* Surveys (:ballot_box_with_check:) and the :hand:-function are used
+* Surveys (:ballot_box:) and the :hand:-function are used
   throughout the training for voting
 * Gaps in the exercise numbering are a side-effect of reusing content
   and nothing to worry about

@@ -82,7 +82,7 @@ exists.
 
 ---
 
-# Exercise 3.1
+# Exercise 3.1 (:ballot_box:)
 
 ## Bypassing Authentication
 
@@ -93,8 +93,8 @@ String query = "SELECT id FROM users " +
 ```
 
 1. Fill out all the gaps in the table on the following page
-2. If there are multiple solutions, <strike>do not pick an unncessary
-   complicated one</strike> pick a simple one
+2. Use the corresponding voting options provided to you mark the
+   answer(s) you think are right
 
 ---
 
