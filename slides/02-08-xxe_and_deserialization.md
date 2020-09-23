@@ -325,9 +325,11 @@ latest version of this module!_
 
 <!-- -->
 
-2. Find the „NextGen“ successor to the half-heartedly deprecated
-   XML-based B2B API in the Juice Shop (:star::star:)
-3. Exploit this API with at least one successful DoS-like Remote Code
+1. Find the „NextGen“ successor to the half-heartedly deprecated
+   XML-based B2B API
+   * This new API uses a popular standard for REST API specification &
+     documentation
+2. Exploit this API with at least one successful DoS-like Remote Code
    Exeution (:star::star::star::star::star: -
    :star::star::star::star::star::star:)
 

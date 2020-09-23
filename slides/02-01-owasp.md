@@ -41,11 +41,11 @@
 An OWASP project is a collection of related tasks that have a defined
 roadmap and team members.
 
-| Project Type  | Examples                                                                                                                                                                                                                                        |
-|:--------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [ZAP](https://owasp.org/www-project-zap/), [Dependency Check](https://owasp.org/www-project-dependency-check/), [DefectDojo](https://owasp.org/www-project-defectdojo/), [Juice Shop](https://owasp.org/www-project-juice-shop/)                |
-| Code          | [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/)                                                                                                                                                           |
-| Documentation | [OWASP Top 10](https://owasp.org/www-project-top-ten/), [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/), [Cornucopia](https://owasp.org/www-project-cornucopia/) |
+| Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                                                        |
+|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tool          | [ZAP](https://owasp.org/www-project-zap/), [Dependency Check](https://owasp.org/www-project-dependency-check/), [DefectDojo](https://owasp.org/www-project-defectdojo/), [Dependency-Track](https://owasp.org/www-project-dependency-track/), [Juice Shop](https://owasp.org/www-project-juice-shop/)                                                                                                           |
+| Code          | [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/), [Java Encoder](https://owasp.org/www-project-java-encoder/)                                                                                                                                                                                                                                                              |
+| Documentation | [OWASP Top 10](https://owasp.org/www-project-top-ten/), [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/), [Cornucopia](https://owasp.org/www-project-cornucopia/), [Security Knowledge Framework](https://owasp.org/www-project-security-knowledge-framework/), [Cheat Sheet Series](https://owasp.org/www-project-cheat-sheets/) |
 
 ---
 
@@ -256,10 +256,10 @@ _:information_source: Based on the
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v11.x`
+## Install the OWASP Juice Shop `v12.x`
 
 1. Install the latest
-   [Node.js 12.x (or 14.x) release](https://nodejs.org/) on your
+   [Node.js 14.x (or 12.x) release](https://nodejs.org/) on your
    computer
 2. On <https://github.com/bkimminich/juice-shop#setup> follow the
    instructions for either
@@ -297,15 +297,14 @@ started" on the welcome banner or in the side bar._
 
 ---
 
-# Exercise 1.4 _(optional)_
+# Exercise 1.4
 
 ## Transfer your hacking progress
 
-1. Open your browser's developer tools (`F12` in Chrome/Firefox)
-2. Find the cookie `continueCode` and copy its value to your other
-   computer
-3. Install OWASP Juice Shop on your other computer and launch it
-4. `F12` into the developer tools and create the cookie `continueCode`
-   with the value from your first computer
-5. Restart the Juice Shop server
+1. If you keep using the same computer _and_ do not delete your cookies
+   your browser will persist and restore your hacking progress.
+2. It is still recommended to make a backup of your progress regularly.
+3. You can also use this `JSON` backup to restore your progress and
+   settings on any other computer.
 
+![Local Backup/Restore buttons on Score Board](images/02-01-owasp/juiceshop-local-backup.png)

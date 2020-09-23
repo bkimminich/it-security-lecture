@@ -193,16 +193,16 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
-### [Best Practices](https://wiki.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision) (as of 2018)
+### [Best Practices](https://wiki.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision)
 
-| Scenario                | Practice                                      | :key: Length |
-|:------------------------|:----------------------------------------------|:-------------|
-| Key exchange            | Diffie-Hellman                                | 2048+ bits   |
-| Message Integrity       | HMAC-SHA2                                     | -            |
-| Message Hash            | SHA2                                          | 256 bits     |
-| Asymetric encryption    | RSA                                           | 2048 bits    |
-| Symmetric-key algorithm | AES                                           | 128 bits     |
-| Password Hashing        | <small>Argon2, PBKDF2, Scrypt, Bcrypt</small> | -            |
+| Scenario                                                                                                         | Practice                                  | :key: Length     |
+|:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------|:-----------------|
+| Key exchange                                                                                                     | Diffie-Hellman                            | 2048+ bits       |
+| Message Integrity                                                                                                | HMAC-SHA2                                 | -                |
+| Message Hash                                                                                                     | SHA2                                      | 256 bits         |
+| [Asymetric encryption](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)    | **ECC** (Curve25519), RSA                 | 2048 bits (RSA)  |
+| [Symmetric-key algorithm](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html) | AES                                       | 128-**256** bits |
+| [Password Hashing](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)             | <small>**Bcrypt**, Argon2, PBKDF2</small> | -                |
 
 ---
 

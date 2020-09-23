@@ -343,7 +343,16 @@ possible._
 
 ---
 
-# Exercise 7.5 _(optional)_
+# Exercise 7.5 (:house:)
+
+1. Visit the _Support Chat_ page and talk to the friendly bot
+2. Try asking it for product prices, deluxe membership our coupons
+3. Bully the chatbot until it gives you a coupon code (:star:)
+4. Analyze the source code of the chatbot and kill it (:star::star::star::star::star:)
+
+---
+
+# Exercise 7.6 _(optional)_
 
 1. Read up on all vulnerabilities associated with JWT from the `npm
    audit` of the Juice Shop's leaked `/ftp/package.json.bak`
