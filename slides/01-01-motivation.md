@@ -69,17 +69,16 @@
 
 ---
 
-# Exercise 1.1 (:pushpin:)
+# Attacker Types
 
-## Brainstorming Attackers
-
-1. Identify and describe possible **Attackers** and their motivation
-2. Rate the danger posed by each attacker type (:skull: to
-   :skull::skull::skull:)
-3. Estimate the risk of your own employer being targeted by each
-   identified attacker type (in %)
-4. Which attacker types are likely to work together and how does this
-   impact their danger rating?
+| Name                | Characteristics / Motivation                                                 | Danger                  |
+|:--------------------|:-----------------------------------------------------------------------------|:------------------------|
+| **Script Kiddie**   | Bragging rights & wreaking havoc                                             | :skull:                 |
+| **Hacktivists**     | (Pseudo-)political & social goals                                            | :skull::skull:          |
+| **Competitors**     | Defamation & industrial espionage                                            | :skull::skull:          |
+| **Organized Crime** | Monetization, e.g. extortion & fraud<br>(Providing Cyber-Crime-as-a-Service) | :skull::skull:(:skull:) |
+| **Evil Employees**  | Revenge & corruption<br>Dangerous insider knowledge                          | :skull::skull::skull:   |
+| **Nation States**   | Power! Unlimited resources & budget                                          | :skull:x100             |
 
 ---
 
@@ -118,7 +117,7 @@
 > personal information: credit cards, addresses and sometimes passport
 > numbers. On Friday, consumers learned the risk. Marriott International
 > revealed that hackers had breached its Starwood reservation system and
-> had stolen the personal data of up to 500 million guests. [[^5]]
+> had stolen the personal data of up to 500 million guests. \[[^5]\]
 
 ![Marriot logo](images/01-01-motivation/200px-Marriot_Logo.svg.png)
 
@@ -149,7 +148,7 @@ _The intrusion went unnoticed for four years by Starwood._ :calendar:
 > If you have a credit report, there’s a good chance that you’re one of
 > the 143 million American consumers whose sensitive personal
 > information was exposed in a data breach at Equifax, one of the
-> nation’s three major credit reporting agencies. [[^6]]
+> nation’s three major credit reporting agencies. \[[^6]\]
 
 ![Equifax logo](images/01-01-motivation/281px-Equifax_Logo.svg.png)
 
@@ -177,7 +176,7 @@ freeze" :icecream: or "placing a fraud alert on your files"._
 > place, it’s just another day on the web. **Unless it’s our children’s
 > identities, that’s a whole new level.** When it’s hundreds of
 > thousands of children including their names, genders and birthdates,
-> that’s off the charts. [[^7]]
+> that’s off the charts. \[[^7]\]
 
 ![VTech logo](images/01-01-motivation/VTechLogo.png)
 
@@ -224,7 +223,7 @@ incident is over 6.3 million._
 > wouldn't realise that in CloudPets' case, that data was stored in a
 > MongoDB that was in a publicly facing network segment without any
 > authentication required and had been indexed by Shodan (a popular
-> search engine for finding connected things). [[^8]]
+> search engine for finding connected things). \[[^8]\]
 
 _Impacted parents were never notified by CloudPets. :scream:_
 
