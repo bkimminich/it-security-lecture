@@ -19,7 +19,7 @@
 
 | # | Username     | Password     | Created SQL Query                                                     | Query Result  |
 |:--|:-------------|:-------------|:----------------------------------------------------------------------|:--------------|
-| 4 | `horst'--`   | `qwertz`     | `SELECT id FROM users WHERE name = 'horst'-- AND password = 'abc123'` | `42`          |
+| 4 | `horst'--`   | `qwertz`     | `SELECT id FROM users WHERE name = 'horst'-- AND password = 'qwertz'` | `42`          |
 | 5 | `admin'--`   | `<anything>` | `SELECT id FROM users WHERE name = 'admin'`                           | `1`           |
 | 6 | `' OR 1=1--` | `<anything>` | `SELECT id FROM users`                                                | `1`, `2`, ... |
 
