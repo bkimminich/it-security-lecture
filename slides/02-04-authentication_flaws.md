@@ -36,7 +36,8 @@
 1. Watch
    [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)
    :tv:
-2. Log in with MC SafeSearch's user account (:star::star:)
+2. Cast a vote (:ballot_box:) on which password MC is probably using
+3. Log in with MC SafeSearch's user account (:star::star:)
 
 _:warning: Do **not** use SQL Injection for authentication bypass!_
 
@@ -44,22 +45,9 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 # Exercise 4.2 (:pushpin:)
 
-1. What benefits and downsides (if any) would enforcing user passwords
-   with the advice below have?
-2. What password might the user currently have typed in?
+1. What password might the user currently have typed in?
 
 ![Password Strength Checker](images/02-04-authentication_flaws/password_strength_checker.png)
-
----
-
-# Exercise 4.3 (:pushpin:)
-
-1. Pick one Security Question and explain how :muscle: it is against
-   attacks.
-2. What would you recommend to pick as an answer? Assume that the risk
-   of compromise is full takeover of your user account.
-
-![Security Questions](images/02-04-authentication_flaws/secret_questions.png)
 
 ---
 
@@ -210,8 +198,6 @@ do **not** hack Bjoern's actual Google account!_
 
 1. Read <https://webauthn.guide/> and play with <https://webauthn.io/>
    to learn how WebAuthn works
-2. Prepare a convincing "sales pitch" (max. 5min) to convince your
-   classmates and co-workers to use WebAuthn for secure authentication
 
 ---
 

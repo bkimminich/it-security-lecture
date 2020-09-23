@@ -56,10 +56,10 @@ to another user's data is called **Horizontal** Privilege Escalation._
 
 ---
 
-# Exercise 5.1
+# URL Tampering
 
-Assuming no access control is in place, which privilege escalations are
-possible by tampering with the following URLs?
+Assuming no access control is in place, various privilege escalations are
+thinkable by just tampering with the following URLs:
 
 1. `http://logistics-worldwi.de/showShipment?id=40643108`
 2. `http://my-universi.ty/api/students/6503/exams/view`

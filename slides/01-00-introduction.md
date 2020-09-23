@@ -61,4 +61,6 @@
   say/ask something in person
 * Surveys (:ballot_box_with_check:) and the :hand:-function are used
   throughout the training for voting
+* Gaps in the exercise numbering are a side-effect of reusing content
+  and nothing to worry about
 
