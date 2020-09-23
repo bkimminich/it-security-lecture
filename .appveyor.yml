@@ -5,6 +5,7 @@ branches:
   only:
     - master
     - workshop
+    - webinar
 skip_commits:
   files:
     - LICENSE
