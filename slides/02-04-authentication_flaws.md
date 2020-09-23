@@ -31,11 +31,10 @@
 
 ---
 
-# Exercise 4.1 (:pushpin:)
+# Exercise 4.1 (:tv:)
 
 1. Watch
    [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)
-   :tv:
 2. Cast a vote (:ballot_box:) on which password MC is probably using
 3. Log in with MC SafeSearch's user account (:star::star:)
 
@@ -43,7 +42,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 ---
 
-# Exercise 4.2 (:pushpin:)
+# Exercise 4.2 (:ballot_box:)
 
 1. What password might the user currently have typed in?
 
