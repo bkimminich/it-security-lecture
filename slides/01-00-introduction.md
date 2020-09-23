@@ -51,15 +51,14 @@
 
 ---
 
-# Recommended Resources
+# Webinar Rules
 
-* [Berkley Information Security and Policy - Best Practices & How-To Articles](https://security.berkeley.edu/education-awareness/cybersecurity-best-practices-how-tos)
+* Please use the **Q&A** function (if available) for questions related
+  to the content
+* If you need assistance please contact the moderator(s) via the
+  **Chat** function
+* You can virtually raise your hand (:hand:) if you would like to
+  say/ask something in person
+* Surveys and the :hand:-function are used throughout the training for
+  voting
 
-#### Optional Literature Recommendations
-
-* Andress: The Basics of Information Security (2nd Edition), 2014
-* Shostack: Threat Modeling: Designing for Security, 2014
-* Paar/Pelzl: Understanding Cryptography: A Textbook for Students and
-  Practitioners, 2010
-  * [Introduction to Cryptography by Christof Paar](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg)
-    <small>(24 recorded lectures)</small>
