@@ -90,19 +90,6 @@ Heilbronn-Franken.
 
 ---
 
-# [Mandatory Chapter Rules](https://owasp.org/www-policy/operational/chapter-handbook-existing)
-
-* Organize free and open meetings
-* Hold a minimum of 4 chapter meetings or events each year
-* Give official notice on the website and chapter mailing list
-* Abide by OWASP principles and the code of ethics
-* Protect the privacy of the chapter's local contacts
-* Maintain vendor neutrality (act independently)
-* Spend any chapter funds in accordance with the OWASP goals, code of
-  ethics, and principles
-
----
-
 # OWASP Top 10
 
 ---
@@ -131,18 +118,6 @@ Heilbronn-Franken.
 
 _:information_source: Based on the
 [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)_
-
----
-
-# Risk Calculation Example
-
-[![Risk Calculation A6:2017-Security Misconfiguration](images/02-01-owasp/owasp-top10-risk-calculation.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Note_About_Risks)
-
----
-
-# Top 10 Risk Factor Summary
-
-[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Details_About_Risk_Factors)
 
 ---
 
@@ -183,38 +158,6 @@ _:information_source: Based on the
 > with many other security flaws found in real-world applications!
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShop_Logo.png)
-
----
-
-## Main Selling Points
-
-* **Free and Open source**: Licensed under the
-  [MIT license](https://github.com/bkimminich/juice-shop/blob/master/LICENSE)
-  with no hidden costs or caveats
-* **Easy-to-install**: Choose between [node.js](http://nodejs.org),
-  [Docker](https://www.docker.com) and
-  [Vagrant](https://www.vagrantup.com/downloads.html) to run on
-  Windows/Mac/Linux
-* **Self-contained**: Additional dependencies are pre-packaged or will
-  be resolved and downloaded automatically
-* **Beginner-friendly**: Hacking Instructor tutorial scripts guide users
-  through several of the easier challenges while explaining the
-  underlying vulnerabilities
-* **Gamification**: The application notifies you on solved challenges
-  and keeps track of successfully exploited vulnerabilities on a Score
-  Board
-
----
-
-* **Self-healing**: The simple SQLite and MarsDB databases are wiped and
-  repopulated from scratch on every server startup
-* **Re-branding**: Fully customizable in business context and look &
-  feel to your own corporate or customer requirements
-* **CTF-support**: Challenge notifications optionally contain a flag
-  code for your own
-  [Capture-The-Flag events](https://github.com/bkimminich/juice-shop-ctf)
-
-![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
 
 ---
 
