@@ -293,7 +293,7 @@ see **https://developer.shodan.io/api**
 
 ---
 
-# Exercise 7.3
+# Exercise 7.3 (:house:)
 
 1. Get an idea of the available Shodan query filters on
    https://developer.shodan.io/api/banner-specification

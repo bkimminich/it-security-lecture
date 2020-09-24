@@ -117,8 +117,7 @@ _:warning: External Internet traffic is especially dangerous!_
   * Standard algorithms
   * Protocols
   * Keys
-* Encrypt data in transit (e.g. [TLS](01-05-encryption.md)) and enforce
-  encryption (e.g. HSTS)
+* Encrypt data in transit (e.g. TLS) and enforce encryption (e.g. HSTS)
 
 ---
 
@@ -133,33 +132,43 @@ _:warning: External Internet traffic is especially dangerous!_
 
 ---
 
-# Exercise 6.1
+## Practices :heavy_check_mark:/:x: for Information Classes
 
-For each classification level decide if the listed practices should be
-allowed (:heavy_check_mark:) or strictly forbidden (:x:). Use footnotes
-to describe preconditions (if necessary).
-
-| Practice                 | Public | Internal | Confidential | Secret |
-|:-------------------------|:-------|:---------|:-------------|:-------|
-| Publish on Internet      |        |          |              |        |
-| Publish on Intranet      |        |          |              |        |
-| Print on :printer:       |        |          |              |        |
-| Share with third parties |        |          |              |        |
-| Copy to USB key          |        |          |              |        |
+| Practice            | Public             | Internal           | Confidential                                | Secret                                                      |
+|:--------------------|:-------------------|:-------------------|:--------------------------------------------|:------------------------------------------------------------|
+| Publish on Internet | :heavy_check_mark: | :x:                | :x:                                         | :x:                                                         |
+| Publish on Intranet | :heavy_check_mark: | :heavy_check_mark: | :x:                                         | :x:                                                         |
+| Print on :printer:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: if picked up immediately | :heavy_check_mark: on personal or otherwise secured printer |
 
 ---
 
-# Exercise 6.2
+| Practice                 | Public             | Internal                    | Confidential                                    | Secret                                          |
+|:-------------------------|:-------------------|:----------------------------|:------------------------------------------------|:------------------------------------------------|
+| Share with third parties | :heavy_check_mark: | :heavy_check_mark: with NDA | :heavy_check_mark: with NDA + permission        | :heavy_check_mark: with NDA + permission        |
+| Copy to USB key          | :heavy_check_mark: | :heavy_check_mark:          | :heavy_check_mark: with encryption + permission | :heavy_check_mark: with encryption + permission |
 
-For each classification level define restrictions (:red_circle:) and/or
-recommendations (:o:) for the listed lifecycle phases.
+:warning: _Many organizations do not allow the use of USB keys **in
+general**. This kind of restriction would obviously **overrule** any of
+the above "Copy to USB" assessments with :x:._
 
-| Phase                           | Public | Internal | Confidential | Secret |
-|:--------------------------------|:-------|:---------|:-------------|:-------|
-| Permanent storage<br>           |        |          |              |        |
-| Transfer (internal network)<br> |        |          |              |        |
-| Transfer (public network)<br>   |        |          |              |        |
-| Disposal<br>                    |        |          |              |        |
+---
+
+## Data Lifecycle restrictions (:red_circle:) and recommendations (:o:)
+
+| Phase                       | Internal                                                             | Confidential                                                             | Secret                                                                                                         |
+|:----------------------------|:---------------------------------------------------------------------|:-------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| Permanent storage           | <small>:red_circle: Access Control (against external access)</small> | <small>:red_circle: Access Control<br>:o:Access logs, Encryption</small> | <small>:red_circle: Access Control, Access logs, Encryption</small>                                            |
+| Transfer (internal network) | <small>No restrictions</small>                                       | <small>:o: Encryption (e.g. TLS)</small>                                 | <small>:red_circle: Encryption (e.g. TLS)<br>:o:/:red_circle: End-to-end encryption (e.g. PGP, Signal)</small> |
+
+---
+
+| Phase                     | Internal                                 | Confidential                                                      | Secret                                                                                                                             |
+|:--------------------------|:-----------------------------------------|:------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
+| Transfer (public network) | <small>:o: Encryption (e.g. VPN)</small> | <small>:o: Encryption (e.g. VPN, TLS)</small>                     | <small>:red_circle: Encryption (e.g. VPN, TLS)<br>:o:/:red_circle: End-to-end encryption (e.g. PGP, Signal)</small>                |
+| Disposal                  | <small>No restrictions</small>           | <small>:red_circle: Shredding, secure deletion, data wipe</small> | <small>:red_circle: Shredding, secure deletion, data wipe<br>:o:/:red_circle: Destroy medium physically (:hammer:, :fire:)</small> |
+
+:information_source: _For "Public" data no restrictions for any
+lifecycle phases apply._
 
 ---
 

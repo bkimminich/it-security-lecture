@@ -226,7 +226,7 @@ public class JFrame {
 
 ---
 
-# Exercise 8.2
+# Exercise 8.2 (:ballot_box:)
 
 1. What happens when the `root` object would be deserialized?
 
@@ -236,7 +236,7 @@ ArrayList<Object> root = new ArrayList<>(Integer.MAX_VALUE);
 
 ---
 
-# Exercise 8.3
+# Exercise 8.3 (:ballot_box:)
 
 1. What happens when the `root` object would be deserialized?
 
