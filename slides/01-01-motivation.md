@@ -244,8 +244,9 @@ _Impacted parents were never notified by CloudPets. :scream:_
 ## Have I been pwned?
 
 1. Visit <https://haveibeenpwned.com/>
-2. Type in your email address
-3. Hit the `pwned?` button
+2. Type in your primary private email address and hit the `pwned?` button
+3. Repeat for your company email address
+4. For both addresses vote (:ballot_box:) on the number of breaches your addresses were a part of
 
 ![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png)
 ![Oh no - pwned!](images/01-01-motivation/haveibeenpwned-red.png)
