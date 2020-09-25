@@ -13,8 +13,8 @@
 # Bjoern Kimminich
 
 * [Nordakademie](https://www.nordakademie.de/) Graduate (I99a)
-* IT Architect / AppSec Officer at
-  [Kuehne + Nagel](http://kuehne-nagel.com/)
+* <small>Product Group Lead Architecture Governance + Application
+  Security</small> at [Kuehne + Nagel](http://kuehne-nagel.com/)
 * Lecturer at [Nordakademie](https://www.nordakademie.de/) since 2009
 * Volunteer in the
   [Open Web Application Security Project](https://owasp.org/)
