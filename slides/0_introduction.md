@@ -4,15 +4,15 @@
 
 # Hands-on Hacking Workshop
 
-## with [OWASP Juice Shop](https://owasp-juice.shop) by Björn Kimminich
+## with [OWASP Juice Shop](https://owasp-juice.shop) by Bjoern Kimminich
 
 ![Bjoern Kimminich Avatar](images/avatar.png)
 
 ---
 
-# Björn Kimminich
+# Bjoern Kimminich
 
-* Product Group Lead Architecture Governance + Application Security at
+* <small>Product Group Lead Architecture Governance + Application Security</small> at
   [Kuehne + Nagel](http://kuehne-nagel.com/)
 * Lecturer for _IT Security_ at
   [Nordakademie](https://www.nordakademie.de/)
