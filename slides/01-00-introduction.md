@@ -10,10 +10,10 @@
 
 ---
 
-# Björn Kimminich
+# Bjoern Kimminich
 
-* Product Group Lead Architecture Governance + Application Security at
-  [Kuehne + Nagel](http://kuehne-nagel.com/)
+* <small>Product Group Lead Architecture Governance + Application
+  Security</small> at [Kuehne + Nagel](http://kuehne-nagel.com/)
 * Lecturer for _IT Security_ at
   [Nordakademie](https://www.nordakademie.de/)
 * Board Member of the
