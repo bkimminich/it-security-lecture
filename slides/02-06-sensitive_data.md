@@ -26,6 +26,8 @@
 > the processing of personal data and on the free movement of such data,
 > and repealing Directive 95/46/EC (General Data Protection Regulation)
 
+---
+
 ## [Personal Data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) as defined in GDPR
 
 * Name and surname
