@@ -95,23 +95,6 @@ on exploiting known vulnerabilities in components (e.g.
 
 ---
 
-# Exercise 7.1 (:house:)
-
-1. Open the
-   [Sample Report](https://jeremylong.github.io/DependencyCheck/general/SampleReport.html)
-   of OWASP Dependency-Check
-2. Recommend an action plan for the assessed application
-   * Distinguish between _short term_ and _long term_ actions
-3. Collect potential risks for a corporate-wide rollout of OWASP
-   Dependency-Check in your company
-4. Collect possible mitigations for those risks
-
-_:bulb: If your company does not use any technology that could be
-assessed by OWASP Dependency-Check, simply perform the exercise
-pretending it actually could._
-
----
-
 # Exercise 7.2
 
 1. Download the `/ftp/package.json.bak` from your local Juice Shop
