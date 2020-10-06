@@ -195,6 +195,26 @@ Strict-Transport-Security: max-age=16070400; includeSubDomains
 
 ---
 
+## [Perfect Forward Secrecy (PFS)](https://www.wired.com/2016/11/what-is-perfect-forward-secrecy/)
+
+> Perfect forward secrecy means that a piece of an encryption system
+> automatically and frequently changes the keys it uses to encrypt and
+> decrypt information, such that if the latest key is compromised, it
+> exposes only a small portion of the user’s sensitive data. Encryption
+> tools with perfect forward secrecy switch their keys as frequently as
+> every message in text-based conversation, every phone call in the case
+> of encrypted calling apps, or every time a user loads or reloads an
+> encrypted web page in his or her browser.
+
+:information_source: Examples of crypto protocols (used for instant
+messaging conversations) providing PFS are
+[OTR (Off-the-record) Messaging](https://otr.cypherpunks.ca/index.php)
+and
+[Double Ratchet](https://signal.org/docs/specifications/doubleratchet/)
+(used within [Signal](https://signal.org/)).
+
+---
+
 ### [Best Practices](https://wiki.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet#Architectural_Decision)
 
 | Scenario                                                                                                         | Practice                                  | :key: Length     |
