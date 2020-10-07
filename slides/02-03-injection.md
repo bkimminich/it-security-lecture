@@ -244,7 +244,7 @@ ResultSet results = pstmt.executeQuery();
 
 <!-- -->
 
-* Perform White List Input Validation on all user supplied input
+* Perform Allow List Input Validation on all user supplied input
 * Enforce Least Privileges for the application's DB user
 
 ---
