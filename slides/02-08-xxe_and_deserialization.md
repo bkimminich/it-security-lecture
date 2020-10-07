@@ -299,7 +299,7 @@ String msg = (String) ois.readObject();
 ```
 
 secures the application from untrusted input. Via `serialkiller.conf`
-classes can be black- or whitelisted.
+classes can be block- or allow-listed.
 
 ---
 

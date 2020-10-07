@@ -451,15 +451,15 @@ To keep configuration effort and complexity low, Firewalls fall back to
 a default policy when no explicitly defined rule matches the traffic.
 
 * `FROM` _any_ `TO` _any_ `BLOCK` _any_ `PORT` _any_ = Block everything
-  by default ("White List")
+  by default ("Allow List")
 
 <!-- -->
 
 * `FROM` _any_ `TO` _any_ `ALLOW` _any_ `PORT` _any_ = Allow everything
-  by default ("Black List")
+  by default ("Block List")
 
-:information_source: For all incoming traffic a White List is
-recommended to maximize security. A Black List would suffice for
+:information_source: For all incoming traffic an Allow List is
+recommended to maximize security. A Block List would suffice for
 outgoing traffic adding blocks only for some sites, e.g. <small>`FROM`
 _194.94.98.\*_ `TO` _youtube.\*_ `BLOCK` _tcp_ `PORT` _80|443_</small>
 
