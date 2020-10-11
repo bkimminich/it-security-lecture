@@ -26,8 +26,8 @@
 |:----------------------------|:-------------------|:-------------------|:-------------------|
 | Network Sniffing            | :heavy_check_mark: |                    |                    |
 | DDoS Attack                 |                    |                    | :heavy_check_mark: |
-| Rogue WiFi Access Point     | :heavy_check_mark: | :heavy_check_mark: |                    |
-| Electromagnetic Pulse (EMP) |                    |                    | :heavy_check_mark: |
+| Rogue WiFi Access Point     | :heavy_check_mark: | :heavy_check_mark: |(:heavy_check_mark:)|
+| Electromagnetic Pulse (EMP) |                    |(:heavy_check_mark:)| :heavy_check_mark: |
 | Whistleblower               | :heavy_check_mark: |                    |                    |
 | Social Engineering          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
@@ -50,7 +50,7 @@
 
 ---
 
-### Exercise 3.2 (Javascript Trojan)
+### Exercise 3.1 (Javascript Trojan)
 
 1. Default Internet browser is opened (as it is probably bound to open
    `.html` files on most computers)
