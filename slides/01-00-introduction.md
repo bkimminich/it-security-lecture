@@ -66,11 +66,11 @@ the entire course in advance as content might change during the course!_
 
 # :tophat: Rules
 
-* Physical presence at lectures is mandatory and will be logged
+* Presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
 * Exercises marked with ":pushpin:" might be done in the plenum
-* Exercises marked with ":pencil:" must have a (digitally) written
-  result
+* Exercises marked with ":pencil:" have a (digitally) written
+  outcome
 * Active participation is encouraged. Otherwise at least be quiet
 * If you are done with the last exercise of the day, you may leave
 
@@ -105,14 +105,12 @@ the entire course in advance as content might change during the course!_
 
 # Schedule
 
-* **Thursdays, 9:15 - 11:45**
-* 9 lectures (17.10. - 19.12.19)
+* **Tuesdays, 9:15 - 11:45**
+* 10 lectures (13.10. - 15.12.20)
 
 <!-- -->
 
-* Lecture from :x: 24.10. has been moved to :heavy_check_mark: 05.11.
-* Lecture on :x: 31.10. is dropped due to :jack_o_lantern: public
-  holiday
+* :x: Tue, 13.10. has been moved to :heavy_check_mark: Wed, 21.10. (13:15 - 15:45)
 
 #### Test Exam
 
