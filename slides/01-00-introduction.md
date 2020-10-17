@@ -24,6 +24,8 @@
 
 ---
 
+![bg left:33%](https://pbs.twimg.com/profile_images/1269649524039004161/thpWClK9_400x400.jpg)
+
 # Contact Information
 
 #### Email
