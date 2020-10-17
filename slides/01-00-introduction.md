@@ -31,7 +31,8 @@
 #### Email
 
 * <bjoern.kimminich@nordakademie.de>
-  * PGP: [062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda)
+  * PGP:
+    [062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda)
 
 #### Miscellaneous
 
@@ -40,14 +41,14 @@
 
 ---
 
-![bg left:40%](../oer_logo.png "OER Global Logo, 2012 J. Mello, used under
-CC-BY 3.0 License")
 
 # Course Material
 
 #### <https://github.com/bkimminich/it-security-lecture>
 
-![CC BY SA 4.0](../cc_by-sa_4.0.png)
+[![height:200px](../oer_logo.png)](https://www.oercommons.org/courses/university-lecture-on-it-security
+"OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
+![height:200px](../cc_by-sa_4.0.png)
 
 ---
 
