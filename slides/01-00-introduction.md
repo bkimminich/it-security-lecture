@@ -40,14 +40,14 @@
 
 ---
 
-![bg left:40%](/oer_logo.png "OER Global Logo, 2012 J. Mello, used under
+![bg left:40%](../oer_logo.png "OER Global Logo, 2012 J. Mello, used under
 CC-BY 3.0 License")
 
 # Course Material
 
 #### <https://github.com/bkimminich/it-security-lecture>
 
-![CC BY SA 4.0](/cc_by-sa_4.0.png)
+![CC BY SA 4.0](../cc_by-sa_4.0.png)
 
 ---
 
