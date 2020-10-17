@@ -24,14 +24,14 @@
 
 ---
 
-![bg left:40%](https://pbs.twimg.com/profile_images/1269649524039004161/thpWClK9_400x400.jpg)
+![bg left:45%](https://pbs.twimg.com/profile_images/1269649524039004161/thpWClK9_400x400.jpg)
 
 # Contact Information
 
 #### Email
 
 * <bjoern.kimminich@nordakademie.de>
-  <small>([062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda))</small>
+  * PGP: [062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda)
 
 #### Miscellaneous
 
