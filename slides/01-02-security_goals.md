@@ -160,7 +160,7 @@
 * Accountability (:new:)
 * Assurance (:new:)
 
-![bg left](images/01-02-security_goals/CIA-cubed-logo.png "CIA³ Logo, http://www.cia-cubed.org, used under CC-BY-SA 4.0")
+![CIA³ Logo, http://www.cia-cubed.org, used under CC-BY-SA 4.0](images/01-02-security_goals/CIA-cubed-logo.png)
 
 ---
 
