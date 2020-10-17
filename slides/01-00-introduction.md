@@ -40,9 +40,14 @@
 
 ---
 
+![bg left:40%](/oer_logo.png "OER Global Logo, 2012 J. Mello, used under
+CC-BY 3.0 License")
+
 # Course Material
 
 #### <https://github.com/bkimminich/it-security-lecture>
+
+![CC BY SA 4.0](/cc_by-sa_4.0.png)
 
 ---
 
@@ -71,8 +76,7 @@ the entire course in advance as content might change during the course!_
 * Presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
 * Exercises marked with ":pushpin:" might be done in the plenum
-* Exercises marked with ":pencil:" have a (digitally) written
-  outcome
+* Exercises marked with ":pencil:" have a (digitally) written outcome
 * Active participation is encouraged. Otherwise at least be quiet
 * If you are done with the last exercise of the day, you may leave
 
@@ -112,7 +116,8 @@ the entire course in advance as content might change during the course!_
 
 <!-- -->
 
-* :x: Tue, 13.10. has been moved to :heavy_check_mark: Wed, 21.10. (13:15 - 15:45)
+* :x: Tue, 13.10. has been moved to :heavy_check_mark: Wed, 21.10.
+  (13:15 - 15:45)
 
 #### Test Exam
 
