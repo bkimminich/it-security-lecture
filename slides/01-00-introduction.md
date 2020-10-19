@@ -41,14 +41,26 @@
 
 ---
 
+# Exercise 0.1 (:pushpin:)
+
+1. Write the industry you work in on a post-it and place it on the
+   board. Cluster identical industries.
+2. In the following table self-assess your own **IT security awareness**
+   by ticking one of the columns
+
+| :1st_place_medal: | :2nd_place_medal: | :3rd_place_medal: | :wood: |
+|:------------------|:------------------|:------------------|:-------|
+|                   |                   |                   |        |
+
+---
 
 # Course Material
 
 #### <https://github.com/bkimminich/it-security-lecture>
 
-[![height:200px](../oer_logo.png)](https://www.oercommons.org/courses/university-lecture-on-it-security
+[![height:100px](../oer_logo.png)](https://www.oercommons.org/courses/university-lecture-on-it-security
 "OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
-![height:200px](../cc_by-sa_4.0.png)
+![height:100px](../cc_by-sa_4.0.png)
 
 ---
 
@@ -76,7 +88,10 @@ the entire course in advance as content might change during the course!_
 
 * Presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
-* Exercises marked with ":pushpin:" might be done in the plenum
+* Exercises marked with ":pushpin:" are usually done as a group using
+  * whiteboard, flipcharts or brown-paper
+  * _or_ a dedicated [Spitfire](https://spitfire.peewee.space/) virtual
+    whiteboard
 * Exercises marked with ":pencil:" have a (digitally) written outcome
 * Active participation is encouraged. Otherwise at least be quiet
 * If you are done with the last exercise of the day, you may leave
