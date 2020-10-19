@@ -1,11 +1,12 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Security Goals
 
 ---
 
-# Information Security <small>([44 U.S. Code § 3542](https://www.law.cornell.edu/uscode/text/44/3542))</small>
+# Information Security <small>([44 U.S. Code § 3542](https://www.law.cornell.edu/uscode/text/44/3542))</small>
 
 > <small>(1) The term “information security” means protecting
 > information and information systems from unauthorized access, use,
@@ -26,6 +27,7 @@
 ---
 
 <!-- _footer: The Information Security triad: CIA. Second version, 2009 John M. Kennedy T., used under CC-BY-SA 3.0 -->
+
 # Information Security Triad: CIA
 
 ![The Information Security triad: CIA. Second version, 2009 John M. Kennedy T., used under CC-BY-SA 3.0](images/01-02-security_goals/CIAJMK1209.png)
@@ -75,14 +77,14 @@
 
 1. Which security goals are at risk by the following threats?
 
-| Threat                      | C | I | A |
-|:----------------------------|:--|:--|:--|
-| Network Sniffing            |   |   |   |
-| DDoS Attack                 |   |   |   |
-| Rogue WiFi Access Point     |   |   |   |
-| Electromagnetic Pulse (EMP) |   |   |   |
-| Whistleblower               |   |   |   |
-| Social Engineering          |   |   |   |
+| Threat                      | C  | I  | A  |
+|:----------------------------|:---|:---|:---|
+| Network Sniffing            |    |    |    |
+| DDoS Attack                 |    |    |    |
+| Rogue WiFi Access Point     |    |    |    |
+| Electromagnetic Pulse (EMP) |    |    |    |
+| Whistleblower               |    |    |    |
+| Social Engineering          |    |    |    |
 
 ---
 
@@ -99,7 +101,7 @@
 
 ---
 
-# [Parkerian Hexad](https://en.wikipedia.org/wiki/Parkerian_Hexad) (1998)
+# [Parkerian Hexad](https://en.wikipedia.org/wiki/Parkerian_Hexad) (1998)
 
 * Confidentiality
 * Possession / Control (:new:)
@@ -131,6 +133,11 @@
 #### Supporting Principles (:memo:)
 
 * Identification, Digital Certificates
+
+:information_source: _Despite its close relation to Integrity you can
+find Authenticity also used as part of an extended
+[CIAA quartet](https://www.eosgmbh.de/en/protection-goals-cia-and-ciaa)
+occasionally._
 
 ---
 
@@ -192,6 +199,7 @@
 ---
 
 <!-- _footer: CIA3 model (anno 2016), http://www.cia-cubed.org, used under CC-BY-SA 4.0 -->
+
 # Dependency Model of CIA³
 
 ![CIA³ Model 2016, http://www.cia-cubed.org, used under CC-BY-SA 4.0](images/01-02-security_goals/CIA-cubed-relation.png)
@@ -220,9 +228,10 @@
    [Motivation: Case Studies](01-01-motivation.md#case-studies)?
 2. Explain each :heavy_check_mark: briefly
 
-| Case Study                                               | C | I | A |
-|:---------------------------------------------------------|:--|:--|:--|
-| [Marriot](01-01-motivation.md#marriot-november-2018)     |   |   |   |
-| [Equifax](01-01-motivation.md#equifax-september-2017)    |   |   |   |
-| [VTech](01-01-motivation.md#vtech-november-2015)         |   |   |   |
-| [CloudPets](01-01-motivation.md#cloudpets-february-2017) |   |   |   |
+| Case Study                                               | C  | I  | A  |
+|:---------------------------------------------------------|:---|:---|:---|
+| [Marriot](01-01-motivation.md#marriot-november-2018)     |    |    |    |
+| [Equifax](01-01-motivation.md#equifax-september-2017)    |    |    |    |
+| [VTech](01-01-motivation.md#vtech-november-2015)         |    |    |    |
+| [CloudPets](01-01-motivation.md#cloudpets-february-2017) |    |    |    |
+
