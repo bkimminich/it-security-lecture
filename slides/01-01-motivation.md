@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Motivation
 
 ---
@@ -239,6 +240,8 @@ _Impacted parents were never notified by CloudPets. :scream:_
 1. Visit <https://haveibeenpwned.com/>
 2. Type in your email address
 3. Hit the `pwned?` button
+4. How many pwnages do you get for your private and/or business email?
+   (:pushpin:)
 
 ![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png)
 ![Oh no - pwned!](images/01-01-motivation/haveibeenpwned-red.png)
