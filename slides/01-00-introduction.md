@@ -48,9 +48,9 @@
 2. In the following table self-assess your own **IT security awareness**
    by ticking one of the columns
 
-| :1st_place_medal: | :2nd_place_medal: | :3rd_place_medal: | :wood: |
-|:------------------|:------------------|:------------------|:-------|
-|                   |                   |                   |        |
+| :1st_place_medal: Gold | :2nd_place_medal: Silver | :3rd_place_medal: Bronze | :chair: Wood |
+|:-----------------------|:-------------------------|:-------------------------|:-------------|
+|                        |                          |                          |              |
 
 ---
 
