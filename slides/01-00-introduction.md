@@ -88,6 +88,7 @@ the entire course in advance as content might change during the course!_
 
 * Presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
+* Exercises marked with ":handshake:" are done in small work groups
 * Exercises marked with ":pushpin:" are usually done as a group using
   * whiteboard, flipcharts or brown-paper
   * _or_ a dedicated [Spitfire](https://spitfire.peewee.space/) virtual
