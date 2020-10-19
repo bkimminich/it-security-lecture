@@ -48,7 +48,7 @@
 2. In the following table self-assess your own **IT security awareness**
    by ticking one of the columns
 
-| :1st_place_medal: Gold | :2nd_place_medal: Silver | :3rd_place_medal: Bronze | :chair: Wood |
+| :1st_place_medal: Gold | :2nd_place_medal: Silver | :3rd_place_medal: Bronze | :deciduous_tree: Wood |
 |:-----------------------|:-------------------------|:-------------------------|:-------------|
 |                        |                          |                          |              |
 
@@ -157,7 +157,7 @@ the entire course in advance as content might change during the course!_
 
 ---
 
-### Prerequisites @ [Angewandte Informatik (B.Sc.)](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/profil-des-studiengangs/)
+### Prerequisites @ [AngewandteÂ InformatikÂ (B.Sc.)](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/profil-des-studiengangs/)
 
 | <small>Information & Network Security</small>                                                                                                                                                                                                                                                                                                                                       | <small>S5</small>   | <small>Application Security & SDLC</small>                                                                                                                                                                                                                                                                                                                                    | <small>S6</small>   |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
