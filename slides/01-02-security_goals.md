@@ -211,17 +211,17 @@ occasionally._
 1. Which of the extended CIAA security goals could have been compromised
    in each of the
    [Motivation: Case Studies](01-01-motivation.md#case-studies)?
-2. In your work group, research the assigned case study and mark all
-   compromised goals
+2. In your work group, research the assigned case and :heavy_check_mark:
+   all compromised goals
 3. Reason or prove each :heavy_check_mark: briefly during the
    presentation to the plenum
 
-| Case Study                                               | Con. | Int. | Ava. | Auth. |
-|:---------------------------------------------------------|:-----|:-----|:-----|:------|
-| [Marriot](01-01-motivation.md#marriot-november-2018)     |      |      |      |       |
-| [Equifax](01-01-motivation.md#equifax-september-2017)    |      |      |      |       |
-| [VTech](01-01-motivation.md#vtech-november-2015)         |      |      |      |       |
-| [CloudPets](01-01-motivation.md#cloudpets-february-2017) |      |      |      |       |
+| Case Study                                               | Confidentiality | Integrity | Availability | Authenticity |
+|:---------------------------------------------------------|:----------------|:----------|:-------------|:-------------|
+| [Marriot](01-01-motivation.md#marriot-november-2018)     |                 |           |              |              |
+| [Equifax](01-01-motivation.md#equifax-september-2017)    |                 |           |              |              |
+| [VTech](01-01-motivation.md#vtech-november-2015)         |                 |           |              |              |
+| [CloudPets](01-01-motivation.md#cloudpets-february-2017) |                 |           |              |              |
 
 ---
 
