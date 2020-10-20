@@ -263,4 +263,4 @@ as possible!_
 
 ---
 
-![Press kit from Trump-Kim Summit in Singapore 2018](images/01-01-motivation/TrumpKimSummit_PressKit.png)
+![Press kit from Trump-Kim Summit in Singapore 2018](images/01-01-motivation/press_kit.jpg)
