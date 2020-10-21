@@ -50,7 +50,7 @@
 
 ---
 
-### Exercise 3.1 (Javascript Trojan)
+### Exercise 3.1 (JavaScript Payload)
 
 1. Default Internet browser is opened (as it is probably bound to open
    `.html` files on most computers)

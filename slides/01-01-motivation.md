@@ -233,7 +233,7 @@ _Impacted parents were never notified by CloudPets. :scream:_
 
 ---
 
-# Exercise 1.2 _(optional)_
+# Exercise 1.2 (_optional_ :pushpin:)
 
 ## Have I been pwned?
 
@@ -248,7 +248,7 @@ _Impacted parents were never notified by CloudPets. :scream:_
 
 ---
 
-# Exercise 1.3 (:house:)
+# Exercise 1.3 (:pencil::house:)
 
 1. Mark potentially malicious items in the Press Kit from the _Trump-Kim
    Summit_ (2018) in the image on the next slide (:arrow_right:)

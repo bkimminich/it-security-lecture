@@ -73,7 +73,7 @@
 
 ---
 
-# Exercise 2.1 (:pencil:)
+# Exercise 2.1 (:pushpin:)
 
 1. Which security goals are at risk by the following threats?
 
@@ -225,7 +225,7 @@ occasionally._
 
 ---
 
-# Exercise 2.3 (:house:)
+# Exercise 2.3 (:pencil::house:)
 
 1. Define at least three supporting measures for each CIA³ security
    goal, distinguishing between technical and organizational measures
