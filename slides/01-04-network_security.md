@@ -52,7 +52,7 @@
 
 ---
 
-# Exercise 4.1
+# Exercise 4.1 (:house:)
 
 1. Install Wireshark from <https://www.wireshark.org/#download>
 2. Click _Start capturing packets_
@@ -66,7 +66,7 @@ installation of Wireshark._
 
 ---
 
-# Exercise 4.2
+# Exercise 4.2 (:house:)
 
 1. Open your previously saved `.pcapng` file
 2. Set `http` as a filter
@@ -262,11 +262,11 @@ _:bookmark_tabs: Details on each protocol will be covered in the
 
 ---
 
-# Exercise 4.4 (:pushpin:)
+# Exercise 4.4 (:handshake:)
 
 1. Read the BSides Perth 2018 presentation
    [What Your RF Signature Says About You](https://obvi.us/presentation/rf-sig/)
-2. Identify devices you own that could become a privacy risk
+2. Identify devices you own that could become a privacy risk (:pushpin:)
 3. Consider changing some habits to reduce this risk, e.g. by following
    the [All Privacy Suggestions](#all-privacy-suggestions)
 
