@@ -1,0 +1,28 @@
+_id,fatherId,top,left,width,height,color,vote,text
+Ttk8qDQATK9HGmToY,,136,13,200,20,#003399,,Network Sniffing
+nFF9QazkJjwzBZRed,,135,250,200,20,#99ccff,0,C
+bgNczrERq6QshtzSt,,134,502,200,20,#ccff99,,I
+sSn6rhxJXtPuMWmiP,,132,751,200,20,,,A
+bejbbGCdfc8JQ3FZn,,209,13,200,20,#003399,,DDoS Attack
+fjCRaYxHR8Xxi5tq7,,208,250,200,20,#99ccff,,C
+MpQJzsyTxK2tnitu4,,207,502,200,20,#ccff99,,I
+F7y8FGQN62dFkQRWS,,205,751,200,20,,,A
+uXdrLQqymWwFxCeMK,,286,13,200,20,#003399,,Rogue WiFi Access Point
+EMEePeHXs7RFuGGdx,,284,250,200,20,#99ccff,,C
+639Qn8MfZLWG89Aks,,284,502,200,20,#ccff99,,I
+cwrFALG9v63hSgAc5,,281,751,200,20,,,A
+2Dx2b2RW4CeNQEMuu,,370,13,200,20,#003399,,Electromagnetic Pulse (EMP)
+RmekNHBF7sHaZKJPs,,369,250,200,20,#99ccff,,C
+Gv9ckKF8aWdLiiTPX,,368,502,200,20,#ccff99,,I
+WhLQ9gtg5AcKi2Jv7,,366,751,200,20,,,A
+Zga7XFH3otMPgquvj,,463,15,200,20,#003399,,Whistleblower
+NqDuYG9e6vaiMjS2d,,462,252,200,20,#99ccff,,C
+9hLhuLbNZpccpScpw,,457,504,200,20,#ccff99,,I
+uZbsTxCEMjGpSf9jc,,455,753,200,20,,,A
+yw5ft3bwLHuw5skHY,,548,15,200,20,#003399,,Social Engineering
+6TyvCApK6xMFRcZpH,,547,252,200,20,#99ccff,,C
+Ho6HvoK4htsQJYTdN,,546,504,200,20,#ccff99,,I
+DhDLDidhjApD4YouZ,,544,753,200,20,,,A
+ZGJehET6TBYT94Fcd,,78,246,200,22,#0066cc,,**Confidentiality**
+a5JMRYGCTGFNM6C8K,,77,497,200,22,#66cc00,,**Integrity**
+hM9wrSLGkZahEmtus,,76,747,200,22,#eeee00,,**Availability**

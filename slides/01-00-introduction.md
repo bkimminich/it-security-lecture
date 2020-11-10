@@ -24,12 +24,15 @@
 
 ---
 
+![bg left:45%](https://pbs.twimg.com/profile_images/1269649524039004161/thpWClK9_400x400.jpg)
+
 # Contact Information
 
 #### Email
 
 * <bjoern.kimminich@nordakademie.de>
-  <small>([062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda))</small>
+  * PGP:
+    [062A 85A8 CBFB DCDA](https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda)
 
 #### Miscellaneous
 
@@ -38,9 +41,26 @@
 
 ---
 
+# Exercise 0.1 (:pushpin:)
+
+1. Write the industry you work in on a post-it and place it on the
+   board. Cluster identical industries.
+2. In the following table self-assess your own **IT security awareness**
+   by ticking one of the columns
+
+| :1st_place_medal: Gold | :2nd_place_medal: Silver | :3rd_place_medal: Bronze | :deciduous_tree: Wood |
+|:-----------------------|:-------------------------|:-------------------------|:----------------------|
+| &nbsp;<br>&nbsp;       |                          |                          |                       |
+
+---
+
 # Course Material
 
 #### <https://github.com/bkimminich/it-security-lecture>
+
+[![height:100px](../oer_logo.png)](https://www.oercommons.org/courses/university-lecture-on-it-security
+"OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
+![height:100px](../cc_by-sa_4.0.png)
 
 ---
 
@@ -66,13 +86,18 @@ the entire course in advance as content might change during the course!_
 
 # :tophat: Rules
 
-* Physical presence at lectures is mandatory and will be logged
+* Presence at lectures is mandatory and will be logged
 * Exercises are mandatory (unless explicitly marked as _optional_)
-* Exercises marked with ":pushpin:" might be done in the plenum
-* Exercises marked with ":pencil:" must have a (digitally) written
-  result
-* Active participation is encouraged. Otherwise at least be quiet
-* If you are done with the last exercise of the day, you may leave
+* Exercises marked with
+  * ":handshake:" are done in small work groups
+  * ":pushpin:" are usually done as a group using whiteboard, flipcharts
+    or brown-paper _or_ a dedicated
+    [Spitfire](https://spitfire.peewee.space/) virtual whiteboard
+  * ":pencil:" have a (digitally) written outcome per student or work
+    group
+  * ":house:" are homework and must be completed until the next lecture
+* Active participation and questions are encouraged at all times
+* If you are done early with the last exercise of the day, you may leave
 
 ---
 
@@ -105,14 +130,13 @@ the entire course in advance as content might change during the course!_
 
 # Schedule
 
-* **Thursdays, 9:15 - 11:45**
-* 9 lectures (17.10. - 19.12.19)
+* **Tuesdays, 9:15 - 11:45**
+* 10 lectures (13.10. - 15.12.20)
 
 <!-- -->
 
-* Lecture from :x: 24.10. has been moved to :heavy_check_mark: 05.11.
-* Lecture on :x: 31.10. is dropped due to :jack_o_lantern: public
-  holiday
+* :x: Tue, 13.10. has been moved to :heavy_check_mark: Wed, 21.10.
+  (13:15 - 15:45)
 
 #### Test Exam
 

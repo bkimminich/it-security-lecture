@@ -431,16 +431,12 @@ an annual renewal fee._
 
 ## [OWASP](https://owasp.org)
 
-> <small>The **Open Web Application Security Project (OWASP)** is a
-> 501(c)(3) worldwide not-for-profit charitable organization focused on
-> improving the security of software. Our mission is to make software
-> security visible, so that individuals and organizations are able to
-> make informed decisions. OWASP is in a unique position to provide
-> impartial, practical information about AppSec to individuals,
-> corporations, universities, government agencies and other
-> organizations worldwide. Operating as a community of like-minded
-> professionals, OWASP issues software tools and knowledge-based
-> documentation on application security.</small>
+> The Open Web Application Security Project® (OWASP) is a nonprofit
+> foundation that works to improve the security of software. Through
+> community-led open source software projects, hundreds of local
+> chapters worldwide, tens of thousands of members, and leading
+> educational and training conferences, the OWASP Foundation is the
+> source for developers and technologists to secure the web.
 
 _:telescope: OWASP will be covered in detail
 [next semester](02-01-owasp.md). The
