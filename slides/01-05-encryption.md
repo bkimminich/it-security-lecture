@@ -13,7 +13,7 @@
    randomization) described on the following slides
 3. Every group prepares a digital presentation of 15-20min on their
    topic
-4. At least _4 days before_ the presentation a PDF export of their
+4. At least _2 days before_ the presentation a PDF export of their
    slides is sent to <bjoern.kimminich@nordakademie.de>
 5. All groups present their topic to all their classmates who can ask
    questions afterwards
