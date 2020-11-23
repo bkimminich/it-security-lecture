@@ -441,6 +441,8 @@ an annual renewal fee._
 > educational and training conferences, the OWASP Foundation is the
 > source for developers and technologists to secure the web.
 
+![height:100px](images/02-01-owasp/owasp-logo.png)
+
 _:telescope: OWASP will be covered in detail
 [next semester](02-01-owasp.md). The
 [AppSec lectures of this course](02-00-introduction.md#curriculum-2nd-semester)
@@ -456,7 +458,7 @@ will be largely based on OWASP resources._
 > Security Coalition, and will include new working groups that address
 > vulnerability disclosures, security tooling and more.
 
-![OpenSSF Logo](images/01-06-security_mgmt_and_org/openssf-color.svg)
+![height:200px](images/01-06-security_mgmt_and_org/openssf-color.svg)
 
 ---
 
