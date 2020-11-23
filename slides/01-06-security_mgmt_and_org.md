@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Security Management & Organization
 
 ---
@@ -9,15 +10,16 @@
 
 ---
 
-# Exercise 6.1 (:pushpin:)
+# Exercise 6.1 (:handshake:/:pushpin:)
 
-1. Brainstorm security roles and teams in the company you work for.
+1. Brainstorm security roles and teams in the organizations you work
+   for.
 2. Associate tasks and responsibilities with these roles.
-3. Where are these roles located within your company's org chart?
+3. Where are these roles/teams located within your organization?
 
 ---
 
-## [Job Titles/Description Summaries](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
+## [Job Titles/Description Summaries](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 * **Security Analyst**: <small>analyzes and assesses vulnerabilities in
   the infrastructure (software, hardware, networks), investigates
@@ -68,7 +70,7 @@
 
 ---
 
-## [Very Specialized Roles](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
+## [Very Specialized Roles](https://www.cs.seas.gwu.edu/cybersecurity-roles-and-job-titles)
 
 * **Intrusion Detection Specialist**: <small>Monitors networks,
   computers, and applications in large organizations, looking for events
@@ -118,7 +120,7 @@
 
 ---
 
-### [Six steps for effective Incident Response](https://digitalguardian.com/blog/what-incident-response)
+### [Six steps for effective Incident Response](https://digitalguardian.com/blog/what-incident-response)
 
 1. <small>**Preparation**: helps organizations determine how well their
    CIRT will be able to respond to an incident and should involve
@@ -198,16 +200,16 @@
 
 ---
 
-# Exercise 6.2 (:pushpin:)
+# Exercise 6.2
 
-1. Does you employer and/or university have a Security Awareness
-   program?
+1. Does your organization have a Security Awareness program?
 2. What kinds of activities or trainings are employed?
 3. How are these trainings conducted with the employees?
 4. Are there dedicated employee groups who receive any special
    trainings?
-5. Read take a stand Bruce Schneier's article
+5. Read and make up your own opinion on Bruce Schneier's article
    [On Security Awareness Training](https://www.darkreading.com/risk/on-security-awareness-training/d/d-id/1139381)
+   (:house:)
 
 ---
 
@@ -302,7 +304,7 @@ required to secure the information._ \[[^5]\]
 
 ---
 
-## [CIS Controls](https://www.cisecurity.org/controls/)
+## [CIS Controls](https://www.cisecurity.org/controls/)
 
 * Maintained by the
   [Center for Internet Security](https://www.cisecurity.org)
@@ -319,7 +321,7 @@ in its 41st edition (Winter 2016)._
 ---
 
 <!-- _footer: Copyright © 2017 CIS® (Center for Internet Security) -->
-![CIS Controls](images/01-06-security_mgmt_and_org/cis_controls_v7.png)
+![CIS Controls](images/01-06-security_mgmt_and_org/cis_controls_v7.p-->
 
 ---
 
@@ -379,7 +381,7 @@ in its 41st edition (Winter 2016)._
 
 ---
 
-# [Computer Security Certifications](https://en.wikipedia.org/wiki/List_of_computer_security_certifications)
+# [Computer Security Certifications](https://en.wikipedia.org/wiki/List_of_computer_security_certifications)
 
 | Abbr. | Title                                                              | Issuer             |
 |:------|:-------------------------------------------------------------------|:-------------------|
@@ -394,7 +396,7 @@ an annual renewal fee._
 
 ---
 
-## [SANS Institute](https://www.sans.org)
+## [SANS Institute](https://www.sans.org)
 
 > <small>The **SANS Institute** was established in 1989 as a cooperative
 > research and education organization. Its programs now reach more than
@@ -445,6 +447,18 @@ will be largely based on OWASP resources._
 
 ---
 
+## [OSSF](https://openssf.org/)
+
+> The OpenSSF brings together open source security initiatives under one
+> foundation to accelerate work through cross-industry support. This is
+> beginning with the Core Infrastructure Initiative and the Open Source
+> Security Coalition, and will include new working groups that address
+> vulnerability disclosures, security tooling and more.
+
+![OpenSSF Logo](images/01-06-security_mgmt_and_org/openssf-color.svg)
+
+---
+
 # Exercise 6.3 (:house:)
 
 1. Download the
@@ -452,3 +466,4 @@ will be largely based on OWASP resources._
 2. Check if your employer's industry is affected by BSI-Kritis at all
 3. Calculate (or estimate) if your employer is above or below the
    defined threshold for BSI-Kritis for your industry
+
