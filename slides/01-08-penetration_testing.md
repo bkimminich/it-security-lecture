@@ -280,8 +280,8 @@ Acknowledgements: https://hackerone.com/ed/thanks
 
 #### Exercise 8.1 (:house:)
 
-1. In a fight between pirates and ninjas, who would win?
-   (:thought_balloon:)
+1. What do you think: In a fight between pirates and ninjas, who would
+   win?
 2. Read
    [Penetration Test vs. Red Team Assessment](https://blog.rapid7.com/2016/06/23/penetration-testing-vs-red-teaming-the-age-old-debate-of-pirates-vs-ninja-continues/)
 
