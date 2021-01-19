@@ -1,0 +1,10 @@
+_id,fatherId,top,left,width,height,color,vote,text
+8tjYvsF92mnfjTQhx,,68,51,1321,28,#ff9900,,"String query = ""SELECT id FROM users "" +
+           ""WHERE name = '"" + req.getParameter(""username"") + ""'"" +
+           ""AND password = '"" + req.getParameter(""password"") + ""'"";"
+rk8n6YJnYtxigyqhq,,296,630,380,25,,,SELECT id FROM users WHERE name = 'admin'
+r7Tof23bF7Bac5ye3,,143,52,200,22,#eeee00,,# Username
+ymhfLqk3odgaXD9JZ,,145,276,200,22,#eeee00,,# Password
+jKmrJuEy9yM2voRwG,,146,498,653,92,#eeee00,,# Query
+zTzsAFCcFyvNMMewK,,148,1174,200,22,#eeee00,,# Result
+hj5nWRECixSkrDkkC,,290,1174,200,22,#ffffbb,,1
