@@ -1,18 +1,19 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Encryption
 
 ---
 
-# Exercise 5.1 (:pencil:/:house:)
+# Exercise 5.1 (:handshake:/:pencil:/:house:)
 
 1. Split into working groups of 3 or 4 students
 2. Each group is assigned one of the topics (by consensus or
    randomization) described on the following slides
 3. Every group prepares a digital presentation of 15-20min on their
    topic
-4. At least _4 days before_ the presentation a PDF export of their
+4. At least _2 days before_ the presentation a PDF export of their
    slides is sent to <bjoern.kimminich@nordakademie.de>
 5. All groups present their topic to all their classmates who can ask
    questions afterwards
@@ -47,6 +48,11 @@ fine._
 5. [BitLocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
    :zap:
    [TCG Opal](https://www.ru.nl/publish/pages/909282/draft-paper.pdf)
+6. [PDF](https://www.adobe.com/content/dam/acom/en/devnet/flashplayer/pdfs/adobe_supplement_iso32000.pdf)
+   :zap:
+   [Breaking Encryption](https://www.pdf-insecurity.org/download/paper-pdf_encryption-ccs2019.pdf)
+   &
+   [Signatures](https://www.pdf-insecurity.org/download/paper-pdf-signatures-ccs2019.pdf)
 
 _:bulb: The links provided are some documentation/specification (if
 publicly available) as well as vulnerability research papers. Each group
@@ -68,11 +74,11 @@ the presentation as the final slide._
 
 # Timeline
 
-* Thu, 17.10.2019 _(today)_
+* Tue, 17.11.2020 _(today)_
   * Group building & topic assignment
-* Sun, 24.11.2019 _(+5 weeks)_
+* Sun, 06.12.2020 _(+3 weeks)_
   * All PDF-exported presentations delivered to
     <bjoern.kimminich@nordakademie.de>
-* **Thu, 28.11.2019** _(+4 days)_
+* **Tue, 08.12.2020** _(+2 days)_
   * **All groups present their topics** between 09:15 and 11:45
 

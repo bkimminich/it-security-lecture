@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Penetration Testing
 
 ---
@@ -23,7 +24,8 @@
 ---
 
 <!-- footer: The Penetration Testing Execution Standard, used under GNU Free Documentation License 1.2 -->
-# [Penetration Test Phases](http://www.pentest-standard.org/index.php/Main_Page)
+
+# [Penetration Test Phases](http://www.pentest-standard.org/index.php/Main_Page)
 
 1. Pre-engagement Interactions
 2. Intelligence Gathering
@@ -35,7 +37,7 @@
 
 ---
 
-# [1. Pre-engagement Interactions](http://www.pentest-standard.org/index.php/Pre-engagement)
+# [1. Pre-engagement Interactions](http://www.pentest-standard.org/index.php/Pre-engagement)
 
 * [Scoping Meeting](http://www.pentest-standard.org/index.php/Pre-engagement#Scoping_Meeting)
 * [Questionaires](http://www.pentest-standard.org/index.php/Pre-engagement#Questionnaires)
@@ -53,7 +55,7 @@
 
 ---
 
-# [2. Intelligence Gathering](http://www.pentest-standard.org/index.php/Intelligence_Gathering)
+# [2. Intelligence Gathering](http://www.pentest-standard.org/index.php/Intelligence_Gathering)
 
 * Choose appropriate level of Intelligence Gathering
   * Level 1: Compliance Driven <small>(base minimum, mostly automated
@@ -76,7 +78,7 @@
 
 ---
 
-# [3. Threat Modeling](http://www.pentest-standard.org/index.php/Threat_Modeling)
+# [3. Threat Modeling](http://www.pentest-standard.org/index.php/Threat_Modeling)
 
 * [Business Asset Analysis](http://www.pentest-standard.org/index.php/Threat_Modeling#Business_Asset_Analysis)
   (e.g. policies, product or financial data, technical information,
@@ -92,7 +94,7 @@
 
 ---
 
-# [4. Vulnerability Analysis](http://www.pentest-standard.org/index.php/Vulnerability_Analysis)
+# [4. Vulnerability Analysis](http://www.pentest-standard.org/index.php/Vulnerability_Analysis)
 
 > Vulnerability testing is the process of discovering flaws in systems
 > and applications which can be leveraged by an attacker. These flaws
@@ -122,7 +124,7 @@
 
 ---
 
-# [5. Exploitation](http://www.pentest-standard.org/index.php/Exploitation)
+# [5. Exploitation](http://www.pentest-standard.org/index.php/Exploitation)
 
 > <small>The exploitation phase of a penetration test focuses solely on
 > establishing access to a system or resource by bypassing security
@@ -139,7 +141,7 @@
 
 ---
 
-# [6. Post Exploitation](http://www.pentest-standard.org/index.php/Post_Exploitation)
+# [6. Post Exploitation](http://www.pentest-standard.org/index.php/Post_Exploitation)
 
 > <small>The purpose of the Post-Exploitation phase is to determine the
 > value of the machine compromised and to maintain control of the
@@ -157,7 +159,7 @@
 
 ---
 
-# [7. Reporting](http://www.pentest-standard.org/index.php/Reporting)
+# [7. Reporting](http://www.pentest-standard.org/index.php/Reporting)
 
 <small>A typical pentest reports consists of two major sections in order
 to communicate the objectives, methods, and results of the testing
@@ -184,6 +186,7 @@ conducted to various audiences.</small>
 ---
 
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Awesome Penetration Testing
 
 > A collection of awesome penetration testing resources.
@@ -214,14 +217,13 @@ _:moneybag: Bounties may range from recognition over swag up to
 
 ---
 
-# [Web Security Policies](https://tools.ietf.org/html/draft-foudil-securitytxt-08) <small>(`security.txt`)</small>
+# [Web Security Policies](https://tools.ietf.org/html/draft-foudil-securitytxt-10) <small>(`security.txt`)</small>
 
-> When security risks are discovered by independent security
-> researchers, they often lack the channels to disclose them properly.
-> As a result, security issues may be left unreported. This document
-> defines a standard ("security.txt") to help organizations describe the
-> process for security researchers to follow in order to disclose
-> security vulnerabilities securely.
+> When security vulnerabilities are discovered by researchers, proper
+> reporting channels are often lacking. As a result, vulnerabilities may
+> be left unreported. This document defines a format ("security.txt") to
+> help organizations describe their vulnerability disclosure practices
+> to make it easier for researchers to report vulnerabilities.
 
 ---
 
@@ -260,13 +262,14 @@ Acknowledgements: https://hackerone.com/ed/thanks
 ---
 
 <!-- _footer: red vs blue, 2014 Robert Couse-Baker, used under CC-BY 2.0 -->
+
 # Red vs. Blue
 
 ![Red vs. Blue](images/01-06-security_mgmt_and_org/red-vs-blue.jpg)
 
 ---
 
-# :triangular_flag_on_post: [Red Team](https://danielmiessler.com/study/red-blue-purple-teams/)
+# :triangular_flag_on_post: [Red Team](https://danielmiessler.com/study/red-blue-purple-teams/)
 
 > **Red Teams** are external entities brought in to test the
 > effectiveness of a security program. This is accomplished by emulating
@@ -277,14 +280,14 @@ Acknowledgements: https://hackerone.com/ed/thanks
 
 #### Exercise 8.1 (:house:)
 
-1. In a fight between pirates and ninjas, who would win?
-   (:thought_balloon:)
+1. What do you think: In a fight between pirates and ninjas, who would
+   win?
 2. Read
    [Penetration Test vs. Red Team Assessment](https://blog.rapid7.com/2016/06/23/penetration-testing-vs-red-teaming-the-age-old-debate-of-pirates-vs-ninja-continues/)
 
 ---
 
-# :cop: [Blue Team](https://danielmiessler.com/study/red-blue-purple-teams/)
+# :cop: [Blue Team](https://danielmiessler.com/study/red-blue-purple-teams/)
 
 > **Blue Teams** refer to the internal security team that defends
 > against both real attackers and Red Teams. Blue Teams should be
@@ -292,7 +295,7 @@ Acknowledgements: https://hackerone.com/ed/thanks
 > most security operations teams do not have a mentality of constant
 > vigilance against attack, which is the mission and perspective of a
 > true Blue Team.
-
+>
 > <small>A team of highly skilled individuals who conduct systematic
 > examinations of IS or products to determine adequacy of security
 > measures, to identify security deficiencies, to predict effectiveness
@@ -320,3 +323,4 @@ Acknowledgements: https://hackerone.com/ed/thanks
 #### https://googleprojectzero.blogspot.com/
 
 [^4]: https://en.wikipedia.org/wiki/Project_Zero
+

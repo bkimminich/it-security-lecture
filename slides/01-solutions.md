@@ -69,7 +69,7 @@ software!_
 
 ---
 
-### Exercise 7.1 (Attack Tree: Access Building)
+### Exercise 7.1 (Attack Tree: Access Office Building)
 
 ```md
 1. Go through a door
@@ -113,4 +113,4 @@ software!_
 
 ### Exercise 7.2 (Threat Boundaries)
 
-![Sample Web Application Threat Boundaries](images/01-solutions/sample_webapp_threat-boundaries.png)
+![Sample Web Application Threat Boundaries](images/01-solutions/sample_dataflow_threat-boundaries.png)

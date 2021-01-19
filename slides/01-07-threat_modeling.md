@@ -1,6 +1,7 @@
 <!-- theme: default -->
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Threat Modeling
 
 ---
@@ -25,6 +26,7 @@
 ---
 
 <!-- footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+
 # Reasons to Threat Model
 
 ### Find Security Bugs Early
@@ -70,7 +72,8 @@
 ---
 
 <!-- footer: "Attack Trees", Dr. Dobb's Journal, December 1999, (c) Bruce Schneier -->
-# [Attack Trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
+
+# [Attack Trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
 > Attack trees provide a formal, methodical way of describing the
 > security of systems, based on varying attacks. Basically, you
@@ -144,13 +147,15 @@
 ---
 
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
+
 # Exercise 7.1 (:pushpin:)
 
-1. Create an attack tree for the goal **"Access Building"** (obviously
-   assuming that you are not authorized to do so in the first place)
+1. Create an attack tree for the goal **"Access Office Building"**
+   (obviously assuming that you are not authorized to do so in the first
+   place)
 2. Assign values **H** (human interaction needed) or **N** (no human
    interaction needed) to each leaf node
-3. Assign costs to each leaf node (based on _realistic_ price research!)
+3. Assign costs to each leaf node (based on realistic price assumptions)
 4. Calculate cost and **H**/**N** values of each node and the goal
 5. Make some statements about the building's security based on querying
    the attack tree in different ways
@@ -158,6 +163,7 @@
 ---
 
 <!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+
 # Four-Step <small>Threat Modeling</small> Framework
 
 > 1. What are you building?
@@ -169,31 +175,22 @@
 
 # _What are you building?_
 
-* _"We are going live with our facelifted next-gen online shop next
-  month and we will gain market share like
-  :stuck_out_tongue_winking_eye:!"_ <small>(SVP Sales &
-  Marketing)</small>
-* _"We will offer a dedicated next-gen B2B API to our customers using a
-  RESTful endpoint supporting standard and custom data formats. We will
-  :soon: migrate our legacy-XML-integrated customers to this new
-  interface."_ <small>(Team Lead EDI Services)</small>
-* _"Our new solution is no longer running natively on a classic VM but
-  inside a single :whale: container on any :cloud: platform!"_
-  <small>(Datacenter Manager)</small>
-* _"We added secure authentication via Google OAuth 2.0!"_
-  <small>(CISO)</small>
-* _"In a future release we will of course add a Blockchain!"_
-  <small>(CIO)</small>
+* Document your system in a practical and easy-to-grasp way, e.g. using
+  a
+  * Data Flow Diagram
+  * System Context Diagram
+  * High Level Architecture Diagram
 
 ---
 
-# Data Flows in the sample application
+# Example Data Flow
 
-![Sample Web Application Data Flows](images/01-07-threat_modeling/sample_webapp_architecture.png)
+![Sample Web Application Data Flows](images/01-07-threat_modeling/sample_dataflow.png)
 
 ---
 
 <!-- _footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
+
 # Trust Boundaries
 
 > * Boundaries to show who controls what
@@ -206,18 +203,10 @@
 
 ---
 
-# Exercise 7.2 (:pencil:)
+# Exercise 7.2 (:handshake:)
 
 1. Mark all trust boundaries in the given
-   [sample application's data flow diagram](#data-flows-in-the-sample-application)
-2. Check the statements from
-   [_What are you building?_](#what-are-you-building) and amend the
-   diagram where necessary
-3. If statements are unclear or sound ambiguous to you, ask your
-   lecturer to impersonate the stakeholder and clarify!
-   :performing_arts:
-4. Are any new trust boundaries appearing? Do existing move or become
-   obsolete?
+   [Example Data Flow](#example-data-flow)
 
 ---
 
@@ -247,14 +236,25 @@
 
 ---
 
+# [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+
+> OWASP Threat Dragon is a tool used to create threat model diagrams and to record possible threats and decide on their mitigations.
+>
+> TD is both an online threat modelling web application and a desktop application. It includes system diagramming as well as a rule engine to auto-generate threats and their mitigations. The focus of TD is on great UX, a powerful rule engine and alignment with other development lifecycle tools.
+
+![Cupcake](images/01-07-threat_modeling/cupcake-256x256.png)
+
+---
+
 <!-- footer: Shostack, A. (2014) Threat Modeling: Designing for Security, Wiley -->
-# [Elevation of Privilege (EoP)](../eop_card-game)
+
+# [Elevation of Privilege (EoP)](../eop_card-game)
 
 ## Threat Modeling Card Game
 
 ---
 
-# [Elevation of Privilege](../eop_card-game)
+# [Elevation of Privilege](../eop_card-game)
 
 1. Deal the deck (Shuffling is optional)
 2. The person with the 3 of Tampering leads the first round
@@ -283,7 +283,7 @@
 
 ---
 
-# Exercise 7.3 (:flower_playing_cards:)
+# Exercise 7.3 (:handshake:)
 
 1. Split into groups of 3-6 students
 2. If not provided to you, :printer: a
@@ -292,6 +292,11 @@
 3. :scissors: out the EoP playing cards
 4. Play a complete game of EoP for the sample application
 5. Keep your _Score Card_ in a safe place for Exercise 7.4 (:pencil:)
+
+_You can alternatively play EoP remotely in your groups via
+<https://github.com/dehydr8/elevation-of-privilege>. Use the
+[Example Data Flow `JSON` model](../threat-dragon/02-sample-model-with-boundaries.json)
+with threat boundaries when setting up the game._
 
 ---
 
@@ -346,15 +351,17 @@
 
 ---
 
-# Exercise 7.4 (:pencil::house:)
+# Exercise 7.4 (:handshake:/:pencil:/:house:)
 
-1. Meet with your original EoP-group and have the _Score Card_ ready
+1. Meet with your original EoP-group and have the _Score Card_ (or
+   `JSON` model) ready
 2. Address each threat identified from Exercise 7.2 and outline your
    choice of _Mitigate_, _Eliminate_, _Transfer_, or _Accept_ with some
    corresponding measures
 3. Go through the [_Did you do a decent job?_](#did-you-do-a-decent-job)
    list to verify your result is sufficiently detailed and up-to-date
-4. Scan or take a photo of your Score Card and send it to
-   bjoern.kimminich@nordakademie.de
+4. Scan or take a photo of your Score Card and send it (or your `JSON`
+   model) to bjoern.kimminich@nordakademie.de
 5. _(Optional)_ Use a PGP encrypted (:closed_lock_with_key:) and signed
    (:lock_with_ink_pen:) email in step 4!
+
