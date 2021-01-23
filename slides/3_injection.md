@@ -81,7 +81,7 @@ exists.
 
 ---
 
-# Exercise
+# Exercise (:pushpin:)
 
 ## Bypassing Authentication
 
@@ -92,21 +92,21 @@ String query = "SELECT id FROM users " +
 ```
 
 1. Fill out all the gaps in the table on the following page
-2. If there are multiple solutions, <strike>do not pick an unnecessary
-   complicated one</strike> pick a simple one
+2. _or_ use the corresponding voting options provided to you mark the
+   answer(s) you think are right
 
 ---
 
-###### Exercise
+###### Exercise 3.1
 
-| #  | Username   | Password     | Created SQL Query                                          | Query Result  |
-|:---|:-----------|:-------------|:-----------------------------------------------------------|:--------------|
-| 1  | `horst`    | `L0c4lhOr5t` |                                                            | `42`          |
-| 2  | `'`        | `qwertz`     |                                                            |               |
-| 3  | `'--`      | `abc123`     |                                                            | nothing       |
-| 4  | `horst'--` | `qwertz`     |                                                            |               |
-| 5  |            |              | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
-| 6  |            |              | `SELECT id FROM users`                                     | `1`, `2`, ... |
+| #  | Username   | Password       | Created SQL Query                                          | Query Result  |
+|:---|:-----------|:---------------|:-----------------------------------------------------------|:--------------|
+| 1  | `horst`    | `n0Rd4kAD3m!E` |                                                            | `42`          |
+| 2  | `'`        | `qwertz`       |                                                            |               |
+| 3  | `'--`      | `abc123`       |                                                            | nothing       |
+| 4  | `horst'--` | `qwertz`       |                                                            |               |
+| 5  |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
+| 6  |            |                | `SELECT id FROM users`                                     | `1`, `2`, ... |
 
 <small>_:information_source: Valid options for Query Result are only
 numbers, nothing or an error._</small>
@@ -156,8 +156,10 @@ ResultSet results = pstmt.executeQuery();
 
 # Exercise
 
-1. (:mortar_board:) Log in as the admin using SQL Injection (:star::star:)
-1. (:mortar_board:) Log in as Jim and/or Bender user using SQL Injection (:star::star::star:)
-2. Order the special :christmas_tree: offer that was only available in
+1. (:mortar_board:) Log in as the admin using SQL Injection
+   (:star::star:)
+2. (:mortar_board:) Log in as Jim and/or Bender user using SQL Injection
+   (:star::star::star:)
+3. Order the special :christmas_tree: offer that was only available in
    2014 (:star::star::star::star:)
 

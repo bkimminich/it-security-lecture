@@ -55,14 +55,14 @@ to another user's data is called **Horizontal** Privilege Escalation._
 
 ---
 
-# Exercise
+# Exercise (:pushpin:)
 
 Assuming no access control is in place, which privilege escalations are
 possible by tampering with the following URLs?
 
-1. `http://logistics-worldwi.de/showShipment?id=40643108`
-2. `http://my-universi.ty/api/students/6503/exams/view`
-3. `http://document-warehou.se/landingpage?content=index.html`
+1. `https://logistics-worldwi.de/showShipment?id=40643108`
+2. `https://my-universi.ty/api/students/6503/exams/view`
+3. `https://document-warehou.se/landingpage?content=index.html`
 
 ---
 

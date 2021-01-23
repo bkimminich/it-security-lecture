@@ -30,7 +30,7 @@
 
 ---
 
-# Exercise
+# Exercise (:pushpin:)
 
 1. Watch
    [How To Keep Your Passwords Safe](https://www.facebook.com/CollegeHumor/videos/10155483807197807/)
