@@ -107,15 +107,9 @@
 
 ---
 
-# Data Breaches (by no. of records)
+# Data Breaches
 
 [![Data Breaches by no. of records](images/01-01-motivation/worlds_biggest_data_breaches-by_no_records.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
-
----
-
-# Data Breaches (by data sensitivity)
-
-[![Data Breaches by data sensitivity](images/01-01-motivation/worlds_biggest_data_breaches-by_sensitivity.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
 
 ---
 

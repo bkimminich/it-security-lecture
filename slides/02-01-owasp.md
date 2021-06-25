@@ -10,9 +10,9 @@
 
 # [OWASP](https://owasp.org)
 
-> The Open Web Application Security Project (OWASP) is a nonprofit
+> The Open Web Application Security Project® (OWASP) is a nonprofit
 > foundation that works to improve the security of software. Through
-> community-led open source software projects, hundreds of local
+> community-led open-source software projects, hundreds of local
 > chapters worldwide, tens of thousands of members, and leading
 > educational and training conferences, the OWASP Foundation is the
 > source for developers and technologists to secure the web.
@@ -163,7 +163,7 @@ _:information_source: Based on the
 
 # Installation
 
-* Individual local instance per student
+* Individual (local or hosted) instance per student
 * Runs on node.js, Docker, Vagrant and in the :cloud:
 
 ## :warning: Hacking Rules

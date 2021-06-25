@@ -1,7 +1,10 @@
-_id,fatherId,top,left,width,height,color,vote,text
-sfKcLWGYiki7YrSEj,,84,1501,200,110,#eeee00,,![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)
-CGHrt9ppnDDaBoHDu,,241,1505,271,128,#ff9900,,![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)
-jQdtg56cLuX8qoGyC,,402,1502,367,198,#ff3300,,![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)
-SWzX3TLmLaxMzMigP,,1483,4339,200,110,#000000,,![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)**x100**
-qAtTdQ33if5czFdF5,,98,57,200,22,#999999,,# Attackers
-ppjpk7Kp2nTiAAWsv,,96,306,981,94,#999999,,#Motivations
+_id,fatherId,top,left,width,height,color,vote,text,zIndex,locked
+SWzX3TLmLaxMzMigP-bulkjsdx,,1483,4339,200,110,#000000,,![](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/263/skull_1f480.png)**x100**,1,
+qAtTdQ33if5czFdF5-bulkjsdx,,69,62,200,66,#999999,,"# Attackers
+Please upvote all you deem relevant for your organization",1,
+uSSonb4HZc8oAEANR,,79,303,200,22,,,# Script Kiddie :skull:,2,
+S4ak52Pe98dxK2XY4,,82,527,200,22,,,# Hacktivists :skull::skull:,3,
+ZNw3bnMQgovZ8bFS6,,88,762,200,22,,,# Competitors :skull::skull:,4,
+u8tk5BBKX5nYdFM4y,,214,309,200,44,,0,# Organized Crime :skull::skull:(:skull:),5,
+zyE36JchELp6ZHMxG,,215,535,200,44,,,# Evil Employees :skull::skull::skull:,6,
+DzHcKmQbn5WNvgTFd,,217,772,200,22,,,# Nation States :skull:x100,7,
