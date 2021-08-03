@@ -27,13 +27,13 @@
 # Schedule
 
 * **Tuesdays, 09:15 - 11:45**
-* 9 lectures (28.07. - 22.09.20)
+* 9 lectures (03.08. - 28.09.20)
 * :mask: 100% via ZOOM (invite distributed via email/calendar)
 
 #### Test Exam
 
-* **Monday, 28.09.2020** (90min)
-* **12:45 - 14:15** / Audimax
+* **CW40** (90min)
+* **??:?? - ??:??** / Audimax
 * :warning: Covers topics from both semesters
 * :negative_squared_cross_mark: Adjourning the exam is discouraged
 
