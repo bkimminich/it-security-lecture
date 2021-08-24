@@ -106,7 +106,7 @@ on exploiting known vulnerabilities in components (e.g.
    Dependency-Check in your company
 4. Collect possible mitigations for those risks
 
-_:bulb: If your company does not use any technology that could be
+_:bulb: If your organization does not use any technology that could be
 assessed by OWASP Dependency-Check, simply perform the exercise
 pretending it actually could._
 
