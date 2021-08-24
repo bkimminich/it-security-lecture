@@ -103,7 +103,7 @@ on exploiting known vulnerabilities in components (e.g.
 2. Recommend an action plan for the assessed application
    * Distinguish between _short term_ and _long term_ actions
 3. Collect potential risks for a corporate-wide rollout of OWASP
-   Dependency-Check in your company
+   Dependency-Check in your organization
 4. Collect possible mitigations for those risks
 
 _:bulb: If your organization does not use any technology that could be
@@ -235,7 +235,7 @@ Privilege Escalation._
 
 ## Areas of application for Shodan services
 
-> * **Network Security**: keep an eye on all devices at your company
+> * **Network Security**: keep an eye on all devices at your organization
 >   that are facing the Internet
 > * **Market Research**: find out which products people are using in the
 >   real-world
