@@ -220,7 +220,7 @@ do **not** hack Bjoern's actual Google account!_
 1. Install a 2FA app on your phone (e.g.
    [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator)
    or [Authy](https://authy.com/))
-2. Visit <https://twofactorauth.org> and find out what services you use
+2. Visit <https://2fa.directory/> and find out what services you use
    offer 2FA
 3. Turn 2FA on wherever possible
 4. Do not forget to print (=:printer:!) the backup codes and keep them
