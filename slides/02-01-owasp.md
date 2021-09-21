@@ -189,7 +189,7 @@ _:information_source: Based on the
 ## Main Selling Points
 
 * **Free and Open source**: Licensed under the
-  [MIT license](https://github.com/bkimminich/juice-shop/blob/master/LICENSE)
+  [MIT license](https://github.com/juice-shop/juice-shop/blob/master/LICENSE)
   with no hidden costs or caveats
 * **Easy-to-install**: Choose between [node.js](http://nodejs.org),
   [Docker](https://www.docker.com) and
@@ -212,7 +212,7 @@ _:information_source: Based on the
   feel to your own corporate or customer requirements
 * **CTF-support**: Challenge notifications optionally contain a flag
   code for your own
-  [Capture-The-Flag events](https://github.com/bkimminich/juice-shop-ctf)
+  [Capture-The-Flag events](https://github.com/juice-shop/juice-shop-ctf)
 
 ![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
 
@@ -261,14 +261,14 @@ _:information_source: Based on the
 1. Install the latest
    [Node.js 14.x (or 12.x) release](https://nodejs.org/) on your
    computer
-2. On <https://github.com/bkimminich/juice-shop#setup> follow the
+2. On <https://github.com/juice-shop/juice-shop#setup> follow the
    instructions for either
-   * [From Sources](https://github.com/bkimminich/juice-shop#from-sources)
+   * [From Sources](https://github.com/juice-shop/juice-shop#from-sources)
      or
-   * [Packaged Distributions](https://github.com/bkimminich/juice-shop#packaged-distributions--)
+   * [Packaged Distributions](https://github.com/juice-shop/juice-shop#packaged-distributions--)
 
 :whale: _If you want to use
-[Docker](https://github.com/bkimminich/juice-shop#docker-container-----)
+[Docker](https://github.com/juice-shop/juice-shop#docker-container-----)
 you need to run the container with `docker run -d -e "NODE_ENV=unsafe"
 -p 3000:3000 bkimminich/juice-shop` or you won't be able to solve
 several of the exercises._

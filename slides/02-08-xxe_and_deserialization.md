@@ -24,9 +24,9 @@
 
 * DTD changed to use External Entities...
   * `<!ENTITY author SYSTEM
-    "https://raw.githubusercontent.com/bkimminich/juice-shop/gh-pages/entities.dtd">`
+    "https://raw.githubusercontent.com/juice-shop/juice-shop/gh-pages/entities.dtd">`
   * `<!ENTITY copyright	SYSTEM
-    "https://raw.githubusercontent.com/bkimminich/juice-shop/gh-pages/entities.dtd">`
+    "https://raw.githubusercontent.com/juice-shop/juice-shop/gh-pages/entities.dtd">`
 
 * ...whereas the XML stays the same
   * `<author>&author; &copyright;</author>`
