@@ -218,9 +218,9 @@ occasionally._
 
 | Case Study                                               | Confidentiality | Integrity | Availability | Authenticity |
 |:---------------------------------------------------------|:----------------|:----------|:-------------|:-------------|
+| [Peloton](01-01-motivation.md#peloton-may-2021)         |                 |           |              |              |
 | [Marriot](01-01-motivation.md#marriot-november-2018)     |                 |           |              |              |
 | [Equifax](01-01-motivation.md#equifax-september-2017)    |                 |           |              |              |
-| [VTech](01-01-motivation.md#vtech-november-2015)         |                 |           |              |              |
 | [CloudPets](01-01-motivation.md#cloudpets-february-2017) |                 |           |              |              |
 
 ---

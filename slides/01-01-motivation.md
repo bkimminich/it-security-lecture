@@ -77,8 +77,8 @@
 1. Identify and describe possible **Attackers** and their motivation
 2. Rate the danger posed by each attacker type (:skull: to
    :skull::skull::skull:)
-3. Estimate the risk of your own employer being targeted by each
-   identified attacker type (in %)
+3. Estimate the risk (high/medium/low) of your own organization being targeted by each
+   identified attacker type 
 4. Which attacker types are likely to work together and how does this
    impact their danger rating?
 
@@ -104,6 +104,33 @@
 # Data Breaches
 
 [![Data Breaches by no. of records](images/01-01-motivation/worlds_biggest_data_breaches-by_no_records.png)](http://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)
+
+---
+
+# Peloton (May 2021)
+
+> Peloton provides a line of network-connected stationary bikes and treadmills. The company also offers an online service that allows users to join classes, work with trainers, or do workouts with other users. In October \[2020\], Peloton told investors it had a community of 3 million members. Members can set accounts to be public so friends can view details such as classes attended and workout stats, or users can choose for profiles to be private. \[[^7]\]
+
+![Peleton logo](images/01-01-motivation/pelotonLogo.png)
+
+---
+
+> Researchers \[...\] reported that a flaw in Peloton’s online service was making data for all of its users available to anyone anywhere in the world, even when a profile was set to private. All that was required was a little knowledge of the faulty programming interfaces that Peloton uses to transmit data between devices and the company’s servers.
+>
+> Data exposed included:
+> * User IDs
+> * Instructor IDs
+> * Group Membership
+> * Workout stats
+> * Gender and age
+> * Weight
+> * If they are in the studio or not
+>
+> \[[^7]\]
+
+_The initial fix let anyone who subscribed to the online service still obtain the private details of any other subscriber._ :detective:
+
+[^7]: https://arstechnica.com/gadgets/2021/05/peloton-takes-3-months-to-fix-flaw-that-exposed-users-private-information/#p3
 
 ---
 
@@ -166,33 +193,6 @@ freeze" :icecream: or "placing a fraud alert on your files"._
 
 ---
 
-# VTech (November 2015)
-
-> \[...\] When it comes to our identities being leaked all over the
-> place, it’s just another day on the web. **Unless it’s our children’s
-> identities, that’s a whole new level.** When it’s hundreds of
-> thousands of children including their names, genders and birthdates,
-> that’s off the charts. \[[^7]\]
-
-![VTech logo](images/01-01-motivation/VTechLogo.png)
-
----
-
-> When it includes their parents as well – along with their home address
-> – and you can link the two and emphatically say “Here is 9 year old
-> Mary, I know where she lives and I have other personally identifiable
-> information about her parents (including their password and security
-> question)”, I start to run out of superlatives to even describe how
-> bad that is. \[[^7]\]
-
-_It later came out that head shots :camera: of kids and private chat
-messages were also exposed. The total number of children exposed in the
-incident is over 6.3 million._
-
-[^7]: https://www.troyhunt.com/when-children-are-breached-inside
-
----
-
 # CloudPets (February 2017)
 
 > \[...\] There were a lot of news headlines about
@@ -234,7 +234,7 @@ _Impacted parents were never notified by CloudPets. :scream:_
 1. Visit <https://haveibeenpwned.com/>
 2. Type in your email address
 3. Hit the `pwned?` button
-4. How many pwnages do you get for your private and/or business email?
+4. How many pwnages do you get for your private and/or organization email?
    (:pushpin:)
 
 ![Good news - No pwnage found!](images/01-01-motivation/haveibeenpwned-green.png)
