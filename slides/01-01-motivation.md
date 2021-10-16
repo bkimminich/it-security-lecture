@@ -117,16 +117,7 @@
 
 > Researchers \[...\] reported that a flaw in Peloton’s online service was making data for all of its users available to anyone anywhere in the world, even when a profile was set to private. All that was required was a little knowledge of the faulty programming interfaces that Peloton uses to transmit data between devices and the company’s servers.
 >
-> Data exposed included:
-> * User IDs
-> * Instructor IDs
-> * Group Membership
-> * Workout stats
-> * Gender and age
-> * Weight
-> * If they are in the studio or not
->
-> \[[^7]\]
+> Data exposed included: User IDs, Instructor IDs, Group Membership, Workout stats, Gender and age, Weight and if they are in the studio or not. \[[^7]\]
 
 _The initial fix let anyone who subscribed to the online service still obtain the private details of any other subscriber._ :detective:
 
