@@ -222,6 +222,7 @@ occasionally._
 | [Marriot](01-01-motivation.md#marriot-november-2018)     |                 |           |              |              |
 | [Equifax](01-01-motivation.md#equifax-september-2017)    |                 |           |              |              |
 | [CloudPets](01-01-motivation.md#cloudpets-february-2017) |                 |           |              |              |
+| [Misouri DESE](01-01-motivation.md#missouri-dept-of-elementary-and-secondary-education-october-2021) |                 |           |              |              |
 
 ---
 

@@ -218,6 +218,28 @@ _Impacted parents were never notified by CloudPets. :scream:_
 
 ---
 
+# Missouri Dept. of Elementary and Secondary Education (October 2021)
+
+> Through a multi-step process, an individual took the records of at least three educators, decoded the HTML source code, and viewed the SSN of those specific educators.
+>
+> We notified the Cole County prosecutor and the Highway Patrol’s Digital Forensic Unit will investigate. \[[^9]\]
+
+[^9]: https://twitter.com/GovParsonMO/status/1448697768311132160
+
+---
+
+> \[...\] the St. Louis Post-Dispatch ran a story about how its staff discovered and reported a security vulnerability in a Missouri state education website that exposed the Social Security numbers of 100,000 elementary and secondary teachers.
+> 
+> \[...\]
+> 
+> The newspaper said it found that teachers’ Social Security numbers were contained in the HTML source code of the pages involved. In other words, the information was available to anyone with a web browser who happened to also examine the site’s public code using Developer Tools or simply right-clicking on the page and viewing the source code.
+
+[^10]: https://krebsonsecurity.com/2021/10/missouri-governor-vows-to-prosecute-st-louis-post-dispatch-for-reporting-security-vulnerability/
+
+_..._ :facepalm: :man_facepalming: :woman_facepalming:
+
+---
+
 # Exercise 1.2 (_optional_ :pushpin:)
 
 ## Have I been pwned?
