@@ -224,6 +224,8 @@ _Impacted parents were never notified by CloudPets. :scream:_
 >
 > We notified the Cole County prosecutor and the Highway Patrol’s Digital Forensic Unit will investigate. \[[^9]\]
 
+![Missouri DESE](images/01-01-motivation/DESE-color-1024x396.jpg)
+
 [^9]: https://twitter.com/GovParsonMO/status/1448697768311132160
 
 ---
