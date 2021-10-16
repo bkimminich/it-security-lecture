@@ -13,7 +13,7 @@ skip_commits:
     - eop_card-game/*.*
     - malware-profiles/*.*
 environment:
-  nodejs_version: 12
+  nodejs_version: 14
   access_token:
     secure: 6kYK07ag0dhNGpCU7GWttnCFqHvt6cM7UMntTQxdAu2lqhTeAoezC7AUJ1AIrx5+
 platform:
