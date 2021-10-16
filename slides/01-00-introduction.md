@@ -21,6 +21,7 @@
 * Board Member of the
   [German OWASP Chapter](https://owasp.org/www-chapter-germany/)
 * Project Lead of the [OWASP Juice Shop](https://owasp-juice.shop)
+* [OWASP Project Committee](https://owasp.org/www-committee-project/) Chair
 
 ---
 
@@ -109,8 +110,9 @@ the entire course in advance as content might change during the course!_
 4. [Network Security](01-04-network_security.md)
 5. [Encryption](01-05-encryption.md)
 6. [Security Management & Organization](01-06-security_mgmt_and_org.md)
-7. [Threat Modeling](01-07-threat_modeling.md)
-8. [Penetration Testing](01-08-penetration_testing.md)
+7. Presentations of all [Encryption](01-05-encryption.md) work groups
+8. [Threat Modeling](01-07-threat_modeling.md)
+9. [Penetration Testing](01-08-penetration_testing.md)
 
 ---
 
@@ -130,13 +132,9 @@ the entire course in advance as content might change during the course!_
 
 # Schedule
 
-* **Tuesdays, 9:15 - 11:45**
-* 10 lectures (13.10. - 15.12.20)
-
-<!-- -->
-
-* :x: Tue, 13.10. has been moved to :heavy_check_mark: Wed, 21.10.
-  (13:15 - 15:45)
+* **Fridays, 14:30 - 17:15**
+* 9 lectures (22.10. - 17.12.21)
+* 100% online lecture
 
 #### Test Exam
 
