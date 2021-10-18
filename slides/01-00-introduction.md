@@ -61,7 +61,7 @@
 
 [![height:100px](../oer_logo.png)](https://www.oercommons.org/courses/university-lecture-on-it-security
 "OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
-![height:100px](../cc_by-sa_4.0.png)
+![height:100px](../cc_by-sa_4.0.svg)
 
 ---
 
@@ -167,4 +167,3 @@ the entire course in advance as content might change during the course!_
 | <small>[Gestaltung von Informationssystemen](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=687&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=4fdfc7d45f77fbab6762fc9b21d25113)</small>    | <small>S3+4</small> | <small>[Softwarequalitaet](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=686&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=f0a18932b5c53b961d5ffd82ec93a828)</small>                | <small>S4</small>   |
 | <small>[IT-Organisation und Projektmanagement](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=365&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=0972188cffd7c1f82712f2a3bcf1402d)</small>  | <small>S3+4</small> | <small>[Software Engineering](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=896&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=a9814d05a115dad8d83d1c6460c8bc7f)</small>             | <small>S5+6</small> |
 | <small>[Informatik und Gesellschaft](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=691&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=51eac57861fcb436d696b15cfb5365a3)</small>            | <small>S1</small>   | <small>[Internet Anwendungsarchitekturen](https://www.nordakademie.de/bewerber/studienangebote/angewandte-informatik-bsc/studienplan/?tx_nacurriculum_nacurriculum%5Bid%5D=363&tx_nacurriculum_nacurriculum%5Bdate%5D=&tx_nacurriculum_nacurriculum%5Baction%5D=show&tx_nacurriculum_nacurriculum%5Bcontroller%5D=Studienplan&cHash=6b8564b01760a85bd3946ebec3a1cae1)</small> | <small>S5+6</small> |
-
