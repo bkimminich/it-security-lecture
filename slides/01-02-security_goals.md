@@ -216,7 +216,7 @@ occasionally._
 3. Reason or prove each :heavy_check_mark: briefly during the
    presentation to the plenum
 
-| Case Study                                               | Confidentiality | Integrity | Availability | Authenticity |
+| <small>Case Study</small>                                               | <small>Confidentiality</small> | <small>Integrity</small> | <small>Availability</small> | <small>Authenticity</small> |
 |:---------------------------------------------------------|:----------------|:----------|:-------------|:-------------|
 | <small>[Peloton](01-01-motivation.md#peloton-may-2021)</small>         |                 |           |              |              |
 | <small>[Marriot](01-01-motivation.md#marriot-november-2018)</small>     |                 |           |              |              |
