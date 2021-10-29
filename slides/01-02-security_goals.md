@@ -208,9 +208,9 @@ occasionally._
 
 # Exercise 2.2 (:handshake:)
 
-1. Which of the extended CIAA security goals could have been compromised
+1. <small>Which of the extended CIAA security goals could have been compromised
    in each of the
-   [Motivation: Case Studies](01-01-motivation.md#case-studies)?
+   [Motivation: Case Studies](01-01-motivation.md#case-studies)?</small>
 2. In your work group, research the assigned case and :heavy_check_mark:
    all compromised goals
 3. Reason or prove each :heavy_check_mark: briefly during the
