@@ -1,4 +1,4 @@
-# FrontOnLake
+# FontOnLake
 
 _Malware profile by **Jorge Casper ** and **Michelle Kaminski **_
 
