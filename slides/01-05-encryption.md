@@ -74,11 +74,11 @@ the presentation as the final slide._
 
 # Timeline
 
-* Tue, 17.11.2020 _(today)_
+* Fri, 19.11.2021 _(today)_
   * Group building & topic assignment
-* Sun, 06.12.2020 _(+3 weeks)_
+* Tue, 07.12.2021 _(+2.5 weeks)_
   * All PDF-exported presentations delivered to
     <bjoern.kimminich@nordakademie.de>
-* **Tue, 08.12.2020** _(+2 days)_
-  * **All groups present their topics** between 09:15 and 11:45
+* **Fri, 10.12.2021** _(+3 days)_
+  * **All groups present their topics** between 14:30 and 17:15
 
