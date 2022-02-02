@@ -38,18 +38,17 @@
 
 # [OWASP Projects](https://owasp.org/projects/)
 
-An OWASP project is a collection of related tasks that have a defined
-roadmap and team members.
-
-| Project Type  | Examples                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tool          | [ZAP](https://owasp.org/www-project-zap/), [Dependency Check](https://owasp.org/www-project-dependency-check/), [DefectDojo](https://owasp.org/www-project-defectdojo/), [Dependency-Track](https://owasp.org/www-project-dependency-track/), [Juice Shop](https://owasp.org/www-project-juice-shop/)                                                                                                           |
-| Code          | [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/), [Java Encoder](https://owasp.org/www-project-java-encoder/)                                                                                                                                                                                                                                                              |
-| Documentation | [OWASP Top 10](https://owasp.org/www-project-top-ten/), [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/), [Cornucopia](https://owasp.org/www-project-cornucopia/), [Security Knowledge Framework](https://owasp.org/www-project-security-knowledge-framework/), [Cheat Sheet Series](https://owasp.org/www-project-cheat-sheets/) |
+> OWASP Projects are a collection of related tasks that have a defined roadmap and team members. Our projects are open source and are built by our community of volunteers - people just like you! OWASP project leaders are responsible for defining the vision, roadmap, and tasks for the project. The project leader also promotes the project and builds the team. OWASP currently has over 100 active projects, and new project applications are submitted every week.
 
 ---
 
-# [Project Lifecycle](https://wiki.owasp.org/index.php/Category:OWASP_Project#tab=Project_Assessments)
+# [Application Security Wayfinder]()
+
+![Application Security Wayfinder](images/02-01-owasp/appsec-wayfinder.png)
+
+---
+
+# [Project Lifecycle](https://owasp.org/projects/)
 
 | Level     | Icon                                                          | Description                                                                                                                                                                 |
 |:----------|:--------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -83,8 +82,7 @@ so-called
 [OWASP Stammtisch](https://owasp.org/www-chapter-germany/#div-treffen)
 each in several metropolitan areas such as München, Frankfurt,
 [Hamburg](https://owasp.org/www-chapter-germany/stammtische/hamburg/),
-Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Ruhrpott,
-Heilbronn-Franken.
+Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Berlin, Leipzig, Heilbronn-Franken.
 
 ![OWASP German Chapter Logo](images/02-01-owasp/OWASP_German_Chapter_WHITE_PNG.png)
 
@@ -107,53 +105,31 @@ Heilbronn-Franken.
 
 ---
 
-# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+# ![Flagship](images/02-01-owasp/Owasp-flagship-trans-85.png) [OWASP Top 10](https://owasp.org/Top10/)
 
-|    |                         |    |                                             |
-|:---|:------------------------|:---|:--------------------------------------------|
-| 1  | Injection               | 6  | Security Misconfiguration                   |
-| 2  | Broken Authentication   | 7  | Cross-Site-Scripting (XSS)                  |
-| 3  | Sensitive Data Exposure | 8  | Insecure Deserialization                    |
-| 4  | XML External Entities   | 9  | Using Components with Known Vulnerabilities |
-| 5  | Broken Access Control   | 10 | Insufficient Logging & Monitoring           |
-
----
-
-# Application Security Risks
-
-[![OWASP Risk Rating Methodology](images/02-01-owasp/owasp-risk-rating-methodology.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Application_Security_Risks.html)
+|     |                           |     |                                            |
+|:----|:--------------------------|:----|:-------------------------------------------|
+| 1   | Broken Access Control     | 6   | Vulnerable and Outdated Components         |
+| 2   | Cryptographic Failures    | 7   | Identification and Authentication Failures |
+| 3   | Injection                 | 8   | Software and Data Integrity Failures       |
+| 4   | Insecure Design           | 9   | Security Logging and Monitoring Failures   |
+| 5   | Security Misconfiguration | 10  | Server-Side Request Forgery                |
 
 ---
 
-## Risk Rating Table
+# [Methodology](https://owasp.org/Top10/#methodology)
 
-[![OWASP Risk Rating Table](images/02-01-owasp/owasp-risk-rating-table.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Application_Security_Risks.html)
-
-_:information_source: Based on the
-[OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)_
+> This installment of the Top 10 is more data-driven than ever but not blindly data-driven. We selected eight of the ten categories from contributed data and two categories from the Top 10 community survey at a high level. We do this for a fundamental reason, looking at the contributed data is looking into the past. AppSec researchers take time to find new vulnerabilities and new ways to test for them. It takes time to integrate these tests into tools and processes. By the time we can reliably test a weakness at scale, years have likely passed. To balance that view, we use an community survey to ask application security and development experts on the front lines what they see as essential weaknesses that the data may not show yet.
 
 ---
 
-# Risk Calculation Example
+# [Awareness Document vs. Standard](https://owasp.org/Top10/A00_2021_How_to_use_the_OWASP_Top_10_as_a_standard/)
 
-[![Risk Calculation A6:2017-Security Misconfiguration](images/02-01-owasp/owasp-top10-risk-calculation.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Note_About_Risks)
+> The OWASP Top 10 is primarily an awareness document. However, this has not stopped organizations using it as a de facto industry AppSec standard since its inception in 2003. If you want to use the OWASP Top 10 as a coding or testing standard, know that it is the bare minimum and just a starting point.
+>
+> One of the difficulties of using the OWASP Top 10 as a standard is that we document appsec risks, and not necessarily easily testable issues.
 
----
-
-# Top 10 Risk Factor Summary
-
-[![Top 10 Risk Factor Summary](images/02-01-owasp/owasp-top10-risk-factor-summary.png)](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_Details_About_Risk_Factors)
-
----
-
-# Some(!) Additional Risks to Consider
-
-|                                                                                   |                                                                              |
-|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| Cross-Site Request Forgery (CSRF)                                                 | Unvalidated Forward and Redirects                                            |
-| Uncontrolled Resource Consumption ('Resource Exhaustion', 'AppDoS')               | Improper Control of Interaction Frequency (Anti-Automation)                  |
-| Unrestricted Upload of File with Dangerous Type                                   | Inclusion of Functionality from Untrusted Control Sphere (3rd Party Content) |
-| User Interface (UI) Misrepresentation of Critical Information (Clickjacking etc.) | Server-Side Request Forgery (SSRF)                                           |
+> Tools cannot comprehensively detect, test, or protect against the OWASP Top 10 due to the nature of several of the OWASP Top 10 risks, with reference to A04:2021-Insecure Design. OWASP discourages any claims of full coverage of the OWASP Top 10, because it’s simply untrue. 
 
 ---
 
@@ -191,30 +167,51 @@ _:information_source: Based on the
 * **Free and Open source**: Licensed under the
   [MIT license](https://github.com/juice-shop/juice-shop/blob/master/LICENSE)
   with no hidden costs or caveats
-* **Easy-to-install**: Choose between [node.js](http://nodejs.org),
+* **Easy-to-install**: Choose between
+  [node.js](http://nodejs.org),
   [Docker](https://www.docker.com) and
   [Vagrant](https://www.vagrantup.com/downloads.html) to run on
-  Windows/Mac/Linux
-* **Self-contained**: Additional dependencies are pre-packaged or will
-  be resolved and downloaded automatically
-* **Beginner-friendly**: Hacking Instructor tutorial scripts guide users
-  through several of the easier challenges while explaining the
+  Windows/Mac/Linux as well as all major cloud providers
+* **Self-contained**: Additional dependencies are
+  [pre-packaged](https://github.com/juice-shop/juice-shop/releases/latest)
+  or will be resolved and downloaded automatically
+* **Beginner-friendly**:
+  [Hacking Instructor](https://pwning.owasp-juice.shop/part1/challenges.html#hacking-instructor)
+  scripts with optional
+  [tutorial mode](https://pwning.owasp-juice.shop/part1/challenges.html#tutorial-mode)
+  guide newcomers through several challenges while explaining the
   underlying vulnerabilities
-* **Gamification**: The application notifies you on solved challenges
-  and keeps track of successfully exploited vulnerabilities on a Score
-  Board
+* **Gamification**: The application
+  [notifies you on solved challenges](https://pwning.owasp-juice.shop/part1/challenges.html#success-notifications)
+  and keeps track of successfully exploited vulnerabilities on a
+  [Score
+  Board](https://pwning.owasp-juice.shop/part1/challenges.html#the-score-board)
 
 ---
 
-* **Self-healing**: The simple SQLite and MarsDB databases are wiped and
-  repopulated from scratch on every server startup
-* **Re-branding**: Fully customizable in business context and look &
-  feel to your own corporate or customer requirements
+* **Self-healing**:
+  [Wiped clean and
+  repopulated from scratch](https://pwning.owasp-juice.shop/part1/running.html#self-healing-feature)
+  on every server startup while
+  [automatically persisting progress in your browser](https://pwning.owasp-juice.shop/part1/challenges.html#automatic-saving-and-restoring-hacking-progress)
+  or via
+  [manual local backup](https://pwning.owasp-juice.shop/part1/challenges.html#manual-progress-and-settings-backup)
+* **Re-branding**:
+  [Fully customizable](https://pwning.owasp-juice.shop/part1/customization.html)
+  in business context and look & feel to your own corporate or customer
+  requirements
 * **CTF-support**: Challenge notifications optionally contain a flag
   code for your own
-  [Capture-The-Flag events](https://github.com/juice-shop/juice-shop-ctf)
-
-![Juice Shop Logo](images/02-01-owasp/200px-JuiceShopCTF_Logo.png)
+  [Capture-The-Flag events](https://pwning.owasp-juice.shop/part1/ctf.html)
+* **Coding Challenges**: Over 20 hacking challenges come with an additional [Coding Challenge](https://pwning.owasp-juice.shop/part1/challenges.html#coding-challenges) where finding and fixing the responsible code flaw can be trained
+* **Interoperability**: Integrate with your own training systems via
+  [WebHook](https://pwning.owasp-juice.shop/appendix/integration.html#challenge-solution-webhook),
+  monitor the
+  [extensive metrics](https://pwning.owasp-juice.shop/appendix/monitoring.html)
+  or consume challenge information directly via
+  [API](https://pwning.owasp-juice.shop/appendix/integration.html#challenges-api)
+  or
+  [file import](https://pwning.owasp-juice.shop/appendix/integration.html#challenge-declaration-file)
 
 ---
 
@@ -256,10 +253,10 @@ _:information_source: Based on the
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v12.x`
+## Install the OWASP Juice Shop `v13.x`
 
 1. Install the latest
-   [Node.js 14.x (or 12.x) release](https://nodejs.org/) on your
+   [Node.js 12.x, 14.x or 16.x release](https://nodejs.org/) on your
    computer
 2. On <https://github.com/juice-shop/juice-shop#setup> follow the
    instructions for either
