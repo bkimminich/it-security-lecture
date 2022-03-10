@@ -123,6 +123,30 @@ Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Berlin, Leipzig, Heilbronn-Frank
 
 ---
 
+# [CWE](https://cwe.mitre.org/) vs. [CVE](https://cve.mitre.org/)
+
+**CWE** = **C**ommon **W**eakness **E**numeration
+
+> **CWE™** is a community-developed list of software and hardware weakness types. It serves as a common language, a measuring stick for security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
+
+**CVE** = **C**ommon **V**ulnerabilities and **E**xposures
+
+> The mission of the **CVE®** Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
+
+---
+
+# [Data Factors](https://owasp.org/Top10/A00_2021_Introduction/#data-factors)
+
+> * CWEs Mapped: The number of CWEs mapped to a category by the Top 10 team.
+> * Incidence Rate: Incidence rate is the percentage of applications vulnerable to that CWE from the population tested by that org for that year.
+> * Weighted Exploit: The Exploit sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.
+> * Weighted Impact: The Impact sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.
+> * (Testing) Coverage: The percentage of applications tested by all organizations for a given CWE.
+> * Total Occurrences: Total number of applications found to have the CWEs mapped to a category.
+> * Total CVEs: Total number of CVEs in the NVD DB that were mapped to the CWEs mapped to a category.
+
+---
+
 # [Awareness Document vs. Standard](https://owasp.org/Top10/A00_2021_How_to_use_the_OWASP_Top_10_as_a_standard/)
 
 > The OWASP Top 10 is primarily an awareness document. However, this has not stopped organizations using it as a de facto industry AppSec standard since its inception in 2003. If you want to use the OWASP Top 10 as a coding or testing standard, know that it is the bare minimum and just a starting point.
@@ -130,17 +154,6 @@ Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Berlin, Leipzig, Heilbronn-Frank
 > One of the difficulties of using the OWASP Top 10 as a standard is that we document appsec risks, and not necessarily easily testable issues.
 
 > Tools cannot comprehensively detect, test, or protect against the OWASP Top 10 due to the nature of several of the OWASP Top 10 risks, with reference to A04:2021-Insecure Design. OWASP discourages any claims of full coverage of the OWASP Top 10, because it’s simply untrue. 
-
----
-
-# Other Resources on AppSec
-
-* [**SANS** Software Security Community](https://software-security.sans.org/)
-  * [CWE/SANS TOP 25 Most Dangerous Software Errors](http://www.sans.org/top25-software-errors)
-  * [Securing Web Application Technologies \[SWAT\] Checklist](https://software-security.sans.org/resources/swat)
-
-* [**CWE** Common Weakness Enumeration](http://cwe.mitre.org)
-  * Community-developed list of common software security weaknesses
 
 ---
 

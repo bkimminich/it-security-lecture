@@ -119,8 +119,8 @@ the entire course in advance as content might change during the course!_
 # Curriculum 2nd Semester
 
 1. [Open Web Application Security Project](02-01-owasp.md) (OWASP)
-2. [XSS](02-02-xss.md)
-3. [Injection](02-03-injection.md)
+2. [Injection](02-02-injection.md)
+3. [XSS](02-03-xss.md)
 4. [Authentication Flaws](02-04-authentication_flaws.md)
 5. [Authorization Flaws](02-05-authorization_flaws.md)
 6. [Sensitive Data](02-06-sensitive_data.md)

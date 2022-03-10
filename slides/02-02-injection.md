@@ -31,14 +31,13 @@
 
 ---
 
-# Risk Rating
+# Data Factors
 
 ## Injection
 
-| Exploitability    | Prevalence                    | Detecability      | Impact              | Risk                                                                                    |
-|:------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A1](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection) |
-| ( **3**           | + **2**                       | + **3** ) / 3     | * **3**             | = **8.0**                                                                               |
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
+|     33      |       19.09%       |       3.37%        |         7.25         |        7.15         |    94.04%    |    47.90%    |      274,228      |   32,078   |
 
 ---
 
