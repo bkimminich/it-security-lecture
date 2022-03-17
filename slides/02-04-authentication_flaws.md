@@ -20,14 +20,13 @@
 
 ---
 
-# Risk Rating
+# Data Factors
 
-## Broken Authentication
+## A07:2021 – Identification and Authentication Failures
 
-| Exploitability    | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                |
-|:------------------|:------------------------------|:-------------------------------|:--------------------|:----------------------------------------------------------------------------------------------------|
-| :red_circle: Easy | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A2](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication) |
-| ( **3**           | + **2**                       | + **2** ) / 3                  | * **3**             | = **7.0**                                                                                           |
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
+|     22      |       14.84%       |       2.55%        |         7.40         |        6.50         |    79.51%    |    45.72%    |      132,195      |   3,897    |
 
 ---
 
@@ -204,18 +203,7 @@ do **not** hack Bjoern's actual Google account!_
 
 ---
 
-# Exercise 4.5 (:house:)
-
-![WebAuthn Logo](images/02-04-authentication_flaws/webauthn.svg)
-
-1. Read <https://webauthn.guide/> and play with <https://webauthn.io/>
-   to learn how WebAuthn works
-2. Prepare a convincing "sales pitch" (max. 5min) to convince your
-   classmates and co-workers to use WebAuthn for secure authentication
-
----
-
-# Exercise 4.6 (_optional_)
+# Exercise 4.5 (_optional_)
 
 1. Install a 2FA app on your phone (e.g.
    [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator)
