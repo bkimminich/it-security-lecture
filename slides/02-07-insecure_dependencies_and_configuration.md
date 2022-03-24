@@ -6,12 +6,12 @@
 
 ---
 
-# [Common Mistakes](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+# [Common Mistakes](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/#description)
 
 * Not knowing used version of dependencies (client- and server-side)
   * Includes directly used components _and_ nested dependencies
 * **Used software is vulnerable, unsupported, or out of date**
-  * Includes OS, Web/Application server, DBMS, Applications, APIs,
+  * Includes OS, Web/Application server, DBMS, Applications, APIs, components,
     runtime environments and libraries
 * Lack of regular scans and bulletin subscriptions for vulnerabilities
 * **Patch Management Process insufficient** or missing
@@ -38,42 +38,43 @@ on exploiting known vulnerabilities in components (e.g.
 
 ---
 
-# Risk Rating
+# Data Factors
 
-## Using Components with Known Vulnerabilities
+## A06:2021 – Vulnerable and Outdated Components
 
-| Exploitability                 | Prevalence              | Detecability                   | Impact                          | Risk                                                                                                                      |
-|:-------------------------------|:------------------------|:-------------------------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :red_circle: Widespread | :large_orange_diamond: Average | :large_orange_diamond: Moderate | [A9](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities) |
-| ( **2**                        | + **3**                 | + **2** ) / 3                  | * **2**                         | = **4.7**                                                                                                                 |
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Max Coverage | Avg Coverage | Avg Weighted Exploit | Avg Weighted Impact | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:------------:|:------------:|:--------------------:|:-------------------:|:-----------------:|:----------:|
+|      3      |       27.96%       |       8.77%        |    51.78%    |    22.47%    |         5.00         |        5.00         |      30,457       |     0      |
+---
+
+# [Prevention](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/#how-to-prevent)
+
+- Remove unused dependencies, unnecessary features, components, files,
+    and documentation.
+
+- Continuously inventory the versions of both client-side and
+    server-side components (e.g., frameworks, libraries) and their
+    dependencies using tools like versions, OWASP Dependency Check,
+    retire.js, etc. Continuously monitor sources like Common Vulnerability and
+    Exposures (CVE) and National Vulnerability Database (NVD) for
+    vulnerabilities in the components. Use software composition analysis
+    tools to automate the process. Subscribe to email alerts for
+    security vulnerabilities related to components you use.
 
 ---
 
-# [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)
+- Only obtain components from official sources over secure links.
+    Prefer signed packages to reduce the chance of including a modified,
+    malicious component (see [Software and Data Integrity Failures](02-08-xxe_and_deserialization.md)).
 
-* **Remove unused dependencies**, unnecessary features, components,
-  files, and documentation
-* Continuously inventory component versions and sub-dependencies
-* **Continuously monitor**
-  [CVE](https://cve.mitre.org/)/[NVD](http://web.nvd.nist.gov/view/vuln/search)
-  etc. **for vulnerabilities**
-  * e.g. with OWASP Dependency-Check,
-    [Retire.js](https://retirejs.github.io/retire.js/) or
-    [`npm audit`](https://docs.npmjs.com/getting-started/running-a-security-audit)
-* Subscribe to email alerts for security vulnerabilities related to
-  components you use (especially when using commercial products)
-* **Only obtain components from official sources** over secure links
+- Monitor for libraries and components that are unmaintained or do not
+    create security patches for older versions. If patching is not
+    possible, consider deploying a virtual patch to monitor, detect, or
+    protect against the discovered issue.
 
----
-
-* Prefer signed packages to avoid including a modified, malicious
-  component
-* Monitor for unmaintained libraries and components
-* Monitor for components that do not create security patches for older
-  versions
-* If patching is not possible, consider deploying a virtual patch
-* **Ensure ongoing** monitoring, triaging, and applying **updates for
-  the lifetime of the application** or portfolio
+- Every organization must ensure an ongoing plan for monitoring, triaging,
+and applying updates or configuration changes for the lifetime of the
+application or portfolio.
 
 <!-- -->
 
@@ -132,7 +133,7 @@ files..._
 
 ---
 
-# [Common Mistakes](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration)
+# [Common Mistakes](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/#description)
 
 * **Missing appropriate security hardening** across application stack
 * Improperly configured permissions on cloud services
@@ -161,14 +162,13 @@ Privilege Escalation._
 
 ---
 
-# Risk Rating
+# Data Factors
 
-## Security Misconfiguration
+## A05:2021 – Security Misconfiguration
 
-| Exploitability    | Prevalence              | Detecability      | Impact                          | Risk                                                                                                    |
-|:------------------|:------------------------|:------------------|:--------------------------------|:--------------------------------------------------------------------------------------------------------|
-| :red_circle: Easy | :red_circle: Widespread | :red_circle: Easy | :large_orange_diamond: Moderate | [A6](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration) |
-| ( **3**           | + **3**                 | + **3** ) / 3     | * **2**                         | = **6.0**                                                                                               |
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
+|     20      |       19.84%       |       4.51%        |         8.12         |        6.56         |    89.58%    |    44.84%    |      208,387      |    789     |
 
 ---
 
@@ -312,15 +312,32 @@ in the public results" checkbox before running the online scan!_
 
 # [Prevention](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A6-Security_Misconfiguration)
 
-* **Repeatable hardening process**
-* Development, QA & Production environments configured identically
-  * but with different credentials used in each environment
-* No unnecessary features, components, documentation, and samples
-* Segmented application architecture
-* Sending security directives to clients, e.g. Security Headers
-* **Regularly review and update configurations as part of the Patch
-  Management Process** (see
-  [Insecure Dependencies](#insecure-dependencies))
+-   A repeatable hardening process makes it fast and easy to deploy
+    another environment that is appropriately locked down. Development,
+    QA, and production environments should all be configured
+    identically, with different credentials used in each environment.
+    This process should be automated to minimize the effort required to
+    set up a new secure environment.
+
+-   A minimal platform without any unnecessary features, components,
+    documentation, and samples. Remove or do not install unused features
+    and frameworks.
+
+-   A task to review and update the configurations appropriate to all
+    security notes, updates, and patches as part of the patch management
+    process (see [Insecure Dependencies](#insecure-dependencies)). Review
+    cloud storage permissions (e.g., S3 bucket permissions).
+
+---
+
+-   A segmented application architecture provides effective and secure
+    separation between components or tenants, with segmentation,
+    containerization, or cloud security groups (ACLs).
+
+-   Sending security directives to clients, e.g., Security Headers.
+
+-   An automated process to verify the effectiveness of the
+    configurations and settings in all environments.
 
 ---
 
