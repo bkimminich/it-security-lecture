@@ -87,50 +87,27 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 # [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures)
 
--   Is any data transmitted in clear text? This concerns protocols such
-    as HTTP, SMTP, FTP also using TLS upgrades like STARTTLS. External
-    internet traffic is hazardous. Verify all internal traffic, e.g.,
-    between load balancers, web servers, or back-end systems.
+- **Clear text data transmission** (e.g. HTTP, SMTP, FTP) 
+- **Using old or weak cryptographic algorithms or protocols**
+- **Using default crypto keys or generate/re-use weak ones**
+- Lack of proper key management or rotation
+- Crypto keys are checked into source code repositories
+- No enforcement of encryption, e.g. missing security directives or headers
 
--   Are any old or weak cryptographic algorithms or protocols used either
-    by default or in older code?
-
--   Are default crypto keys in use, weak crypto keys generated or
-    re-used, or is proper key management or rotation missing?
-    Are crypto keys checked into source code repositories?
-
--   Is encryption not enforced, e.g., are any HTTP headers (browser)
-    security directives or headers missing?
+_:information_source: External internet traffic is hazardous. Verify all internal traffic, e.g.,
+between load balancers, web servers, or back-end systems._
 
 ---
 
--   Is the received server certificate and the trust chain properly validated?
-
--   Are initialization vectors ignored, reused, or not generated
-    sufficiently secure for the cryptographic mode of operation?
-    Is an insecure mode of operation such as ECB in use? Is encryption
-    used when authenticated encryption is more appropriate?
-
--   Are passwords being used as cryptographic keys in absence of a
-    password base key derivation function?
-
--   Is randomness used for cryptographic purposes that was not designed
-    to meet cryptographic requirements? Even if the correct function is
-    chosen, does it need to be seeded by the developer, and if not, has
-    the developer over-written the strong seeding functionality built into
-    it with a seed that lacks sufficient entropy/unpredictability?
-
----
-
--   Are deprecated hash functions such as MD5 or SHA1 in use, or are
-    non-cryptographic hash functions used when cryptographic hash functions
-    are needed?
-
--   Are deprecated cryptographic padding methods such as PKCS number 1 v1.5
-    in use?
-
--   Are cryptographic error messages or side channel information
-    exploitable, for example in the form of padding oracle attacks?
+- Insufficient certificate and trust chain validation
+- Ignoring, reusing or generating insecure initialization vectors for the cryptographic mode of operation
+- Using an insecure mode of operation such as ECB
+- Not using authenticated encryption when appropriate
+- Use passwords as cryptographic keys in absence of a password base key derivation function
+- Using insecure randomness functions or seed them weakly
+- Using deprecated (e.g. MD5 or SHA1) or [non-cryptographic hash functions](https://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions) or deprecated cryptographic padding methods (e.g. PKCS number 1 v1.5)  
+- Allow cryptographic error messages or side channel information to become
+    exploitable, for example in the form of padding oracle attacks
 
 ---
 
@@ -146,63 +123,29 @@ _**§** Article 4(13), (14) and (15) and Article 9 and Recitals (51) to
 
 # [Prevention](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/#how-to-prevent)
 
--   Classify data processed, stored, or transmitted by an application.
-    Identify which data is sensitive according to privacy laws,
-    regulatory requirements, or business needs.
-
--   Don't store sensitive data unnecessarily. Discard it as soon as
-    possible or use PCI DSS compliant tokenization or even truncation.
-    Data that is not retained cannot be stolen.
-
--   Make sure to encrypt all sensitive data at rest.
-
--   Ensure up-to-date and strong standard algorithms, protocols, and
-    keys are in place; use proper key management.
+- Classifying data processed, stored, or transmitted by an application
+- Identify sensitive data according to privacy laws,
+    regulatory requirements, or business needs
+- Not storing sensitive data unnecessarily and discarding it as soon as possible
+- Encrypting all sensitive data at rest
+- Ensuring up-to-date and strong standard algorithms, protocols, and
+    keys are in place while using proper key management
 
 ---
 
--   Encrypt all data in transit with secure protocols such as TLS with
-    forward secrecy (FS) ciphers, cipher prioritization by the
-    server, and secure parameters. Enforce encryption using directives
-    like HTTP Strict Transport Security (HSTS).
-
--   Disable caching for response that contain sensitive data.
-
--   Apply required security controls as per the data classification.
-
--   Do not use legacy protocols such as FTP and SMTP for transporting
-    sensitive data.
-
--   Store passwords using strong adaptive and salted hashing functions
-    with a work factor (delay factor), such as Argon2, scrypt, bcrypt or
-    PBKDF2.
-
----
-
--   Initialization vectors must be chosen appropriate for the mode of
-    operation.  For many modes, this means using a CSPRNG (cryptographically
-    secure pseudo random number generator).  For modes that require a
-    nonce, then the initialization vector (IV) does not need a CSPRNG.  In all cases, the IV
-    should never be used twice for a fixed key.
-
--   Always use authenticated encryption instead of just encryption.
-
--   Keys should be generated cryptographically randomly and stored in
-    memory as byte arrays. If a password is used, then it must be converted
-    to a key via an appropriate password base key derivation function.
-
----
-
--   Ensure that cryptographic randomness is used where appropriate, and
-    that it has not been seeded in a predictable way or with low entropy.
-    Most modern APIs do not require the developer to seed the CSPRNG to
-    get security.
-
--   Avoid deprecated cryptographic functions and padding schemes, such as
-    MD5, SHA1, PKCS number 1 v1.5 .
-
--   Verify independently the effectiveness of configuration and
-    settings.
+- Encrypting all data in transit with secure protocols (e.g. TLS with
+    [forward secrecy (FS)](#perfectforwardsecrecypfshttpswwwwiredcom201611what-is-perfect-forward-secrecy) ciphers), cipher prioritization by the
+    server, and secure parameters
+-  Enforcing encryption with directives
+    like [HTTP Strict Transport Security (HSTS)](#httpstricttransportsecurityhstshttpscheatsheetseriesowasporgcheatsheetshttp_strict_transport_security_cheat_sheethtml)
+- No caching of responses that contain sensitive data
+- Applying required security controls as per the data classification
+- Not using legacy protocols (e.g. FTP and SMTP) for transporting
+    sensitive data
+- Storing passwords using strong adaptive and salted hashing functions
+    with a work factor (delay factor)
+-   Verifying independently the effectiveness of configuration and
+    settings
 
 ---
 
