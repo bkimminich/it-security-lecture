@@ -67,7 +67,7 @@ on exploiting known vulnerabilities in components (e.g.
 
 - Obtain components from official sources over secure links only
 - Preferring signed packages to reduce the chance of including a modified,
-    malicious component (see [Software and Data Integrity Failures](02-08-xxe_and_deserialization.md)).
+    malicious component (see [Software and Data Integrity Failures](02-08-integrity_failures.md)).
 - Monitor for libraries and components that are unmaintained or do not
     create security patches for older versions
 - If patching is not
@@ -337,12 +337,6 @@ in the public results" checkbox before running the online scan!_
 2. Report the vulnerability which makes this XSS possible
    (:star::star::star::star:)
 
-<!-- -->
-
-3. Report another vulnerability that could be exploited in a
-   [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf)
-   (:star::star::star::star::star:)
-
 _:information_source: To report anything to the shop, you can use the
 "Customer Feedback" page. You have to supply as detailed information as
 possible._
@@ -366,11 +360,3 @@ possible._
    (:star::star::star::star::star:)
 3. Forge an almost properly RSA-signed JWT token
    (:star::star::star::star::star::star:)
-
-<!-- -->
-
-4. Report at least one of two
-   [typosquatting](https://en.wikipedia.org/wiki/Typosquatting)
-   dependencies that the Juice Shop fell for (:star::star::star::star: -
-   :star::star::star::star::star:)
-

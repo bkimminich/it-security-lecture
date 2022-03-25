@@ -19,7 +19,7 @@
 5. [Authorization Flaws](02-05-authorization_flaws.md)
 6. [Cryptographic Failures](02-06-cryptographic_failures.md)
 7. [Insecure Dependencies & Configuration](02-07-insecure_dependencies_and_configuration.md)
-8. [XXE & Deserialization](02-08-xxe_and_deserialization.md)
+8. [Software & Data Integrity Failures](02-08-integrity_failures.md)
 9. [Secure Development Lifecycle](02-09-sdlc.md)
 
 ---

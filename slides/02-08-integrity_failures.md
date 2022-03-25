@@ -2,6 +2,44 @@
 <!-- paginate: true -->
 <!-- footer: Copyright (c) by **Bjoern Kimminich** | Licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) -->
 
+# Software & Data Integrity Failures
+
+---
+
+# Software & Data Integrity Failures
+
+* Code and infrastructure not protected against integrity violations, e.g.
+  * application relies upon plugins, libraries, or modules from untrusted sources, repositories, and content
+  delivery networks (CDNs)
+  * insecure CI/CD pipeline introduces the potential for unauthorized access, malicious code, or system compromise
+  * auto-update functionality downloading and applying updates without sufficient integrity verification
+* Objects or data encoded or serialized into a structure that an attacker can see and modify is vulnerable to insecure deserialization, e.g.
+  * XML parsers allowing XML External Entities (XXE)
+  * insecure native serialization formats and libraries being used
+
+---
+
+# Data Factors
+
+## A08:2021 – Software and Data Integrity Failures
+
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
+|     10      |       16.67%       |       2.05%        |         6.94         |        7.94         |    75.04%    |    45.35%    |      47,972       |   1,152    |
+
+---
+
+# [Prevention](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#how-to-prevent)
+
+- Using digital signatures to verify the software or data is unaltered and from the expected source
+- Ensuring libraries and dependencies (e.g. `npm` or Maven) consume trusted repositories
+- Hosting an internal known-good and vetted repository as a proxy
+- Using a software supply chain security tool (e.g. [OWASP Dependency Check](02-07-insecure_dependencies_and_configuration.md#owaspdependency-checkhttpsjeremylonggithubiodependencycheck) or OWASP CycloneDX) to verify that components do not contain known vulnerabilities
+- Establishing a review process for code and configuration changes to minimize the chance that malicious code or configuration could be introduced into the software pipeline
+- Establishing a CI/CD pipeline with proper segregation, configuration, and access control to ensure the integrity of the code flowing through the build and deploy processes
+
+---
+
 # XXE
 
 ## (XML External Entities)
@@ -43,18 +81,6 @@
   * internal port scanning
   * remote code execution
   * denial of service attacks
-
----
-
-# Risk Rating
-
-## XML External Entities (XXE)
-
-| Exploitability                 | Prevalence                    | Detecability      | Impact              | Risk                                                                                                      |
-|:-------------------------------|:------------------------------|:------------------|:--------------------|:----------------------------------------------------------------------------------------------------------|
-| :large_orange_diamond: Average | :large_orange_diamond: Common | :red_circle: Easy | :red_circle: Severe | [A4](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A4-XML_External_Entities_(XXE)) |
-| ( **2**                        | + **2**                       | + **3** ) / 3     | * **3**             | = **7.0**                                                                                                 |
-
 
 ---
 
@@ -198,34 +224,6 @@ AcmeObject acme = (AcmeObject)ois.readObject();
 
 ---
 
-# Risk Rating
-
-## Insecure Deserialization
-
-| Exploitability                   | Prevalence                    | Detecability                   | Impact              | Risk                                                                                                   |
-|:---------------------------------|:------------------------------|:-------------------------------|:--------------------|:-------------------------------------------------------------------------------------------------------|
-| :small_orange_diamond: Difficult | :large_orange_diamond: Common | :large_orange_diamond: Average | :red_circle: Severe | [A8](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A8-Insecure_Deserialization) |
-| ( **1**                          | + **2**                       | + **2** ) / 3                  | * **3**             | = **5.0**                                                                                              |
-
----
-
-# [Attack Example (Adobe BlazeDS)](https://nvd.nist.gov/vuln/detail/CVE-2011-2092)
-
-```java
-[RemoteClass(alias="javax.swing.JFrame")]
-public class JFrame {
-   public var title:String = "Gotcha!";
-   public var defaultCloseOperation:int = 3;
-   public var visible:Boolean = true;
-}
-```
-
-* Above payload creates a `JFrame` instance on the target server
-* The `JFrame` object will have a `defaultCloseOperation` of value `3`
-* This indicates that **the JVM should exit** when this window is closed
-
----
-
 # Exercise 8.2
 
 1. What happens when the `root` object would be deserialized?
@@ -321,15 +319,22 @@ latest version of this module!_
 
 # Exercise 8.4 (:house:)
 
+1. Report at least one of two [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) dependencies that the Juice Shop fell for (:star::star::star::star: - :star::star::star::star::star:)
+2. Report another vulnerability that could be exploited in a
+   [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf)
+   (:star::star::star::star::star:)
+
+# Exercise 8.5 (:house:)
+
 1. Perform a DoS-like Attack using XXE (:star::star::star::star::star:)
 
 <!-- -->
 
-1. Find the „NextGen“ successor to the half-heartedly deprecated
+2. Find the „NextGen“ successor to the half-heartedly deprecated
    XML-based B2B API
    * This new API uses a popular standard for REST API specification &
      documentation
-2. Exploit this API with at least one successful DoS-like Remote Code
+3. Exploit this API with at least one successful DoS-like Remote Code
    Exeution (:star::star::star::star::star: -
    :star::star::star::star::star::star:)
 

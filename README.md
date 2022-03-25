@@ -39,7 +39,7 @@ material by [Björn Kimminich](http://kimminich.de)
 5. [Authorization Flaws](slides/02-05-authorization_flaws.md)
 6. [Cryptographic Failures](slides/02-06-cryptographic_failures.md)
 7. [Insecure Dependencies & Configuration](slides/02-07-insecure_dependencies_and_configuration.md)
-8. [XXE & Deserialization](slides/02-08-xxe_and_deserialization.md)
+8. [Software & Data Integrity Failures](slides/02-08-integrity_failures.md)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
 
 ## Slide Edition Matrix
