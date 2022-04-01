@@ -6,7 +6,7 @@
 
 ---
 
-# :x: [Typical Flaws in Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
+# :x: [Typical Flaws in Authentication](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 
 * Permits brute force or other automated attacks
 * Permits default, weak, or well-known passwords

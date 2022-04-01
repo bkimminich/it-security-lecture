@@ -6,7 +6,7 @@
 
 ---
 
-# [Broken Access Control](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A5-Broken_Access_Control)
+# [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
 Access control is supposed to prevent that users can act outside of
 their intended permissions.
@@ -115,3 +115,75 @@ possible by tampering with the following URLs?
 2. Access one or more misplaced files (:star::star::star::star: -
    :star::star::star::star::star::star:)
 
+---
+
+# SSRF
+
+## Server-Side Request Forgery
+
+---
+
+# Server-Side Request Forgery
+
+> SSRF flaws occur whenever a web application is fetching a remote resource without validating the user-supplied URL. It allows an attacker to coerce the application to send a crafted request to an unexpected destination, even when protected by a firewall, VPN, or another type of network access control list (ACL).
+>
+> As modern web applications provide end-users with convenient features, fetching a URL becomes a common scenario. As a result, the incidence of SSRF is increasing. Also, the severity of SSRF is becoming higher due to cloud services and the complexity of architectures. \[[^1]\]
+
+[^1]: https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/#description
+
+---
+
+# Attack Vector Examples
+
+> * Image on an external server (e.g. user enters image URL of their avatar for the application to download and use).
+> * Custom WebHook (users have to specify Webhook handlers or Callback URLs).
+> * Internal requests to interact with another service to serve a specific functionality. Most of the times, user data is sent along to be processed, and if poorly handled, can perform specific injection attacks. \[[^2]\]
+
+[^2]: https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html#context
+
+---
+
+# SSRF Common Flow
+
+![Overview of a SSRF common flow](images/02-05-authorization_flaws/Server_Side_Request_Forgery_Prevention_Cheat_Sheet_SSRF_Common_Flow.png)
+
+---
+
+# Data Factors
+
+## A10:2021 – Server-Side Request Forgery (SSRF)
+
+| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
+|      1      |       2.72%        |       2.72%        |         8.28         |        6.72         |    67.72%    |    67.72%    |       9,503       |    385     |
+
+---
+
+# [Prevention](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/#how-to-prevent)
+
+## Network Level
+
+- Segmenting remote resource access functionality in separate networks
+- Enforcing “deny by default” firewall policies or network access
+    control rules to block all but essential intranet traffic
+  - Establishing ownership/lifecycle for firewall rules based on applications
+  ~ Logging all accepted *and* blocked network flows on firewalls
+    (see [Security Logging and Monitoring Failures](02-09-sdlc.md#security-logging-and-monitoring-failures))
+
+---
+
+## Application Level
+
+-   Sanitizing and validating all client-supplied input data
+-   Enforcing the URL schema, port, and destination with a positive allow list
+-   Not sending raw responses to clients
+-   Disabling HTTP redirections
+-   Awareness of URL consistency to avoid attacks such as DNS
+    rebinding and “time of check, time of use” (TOCTOU) race conditions
+
+# Exercise 5.4 (_optional_ :house:)
+
+1. Reverse engineer a [juicy malware](https://github.com/juice-shop/juicy-malware) and use what you learn from it...
+2. ...to request a hidden resource on server through server (:star::star::star::star::star::star:)
+
+_:information_source: For this to count as an SSRF attack you need to make the Juice Shop server attacks itself._  

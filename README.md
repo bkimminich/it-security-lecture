@@ -42,14 +42,6 @@ material by [Björn Kimminich](http://kimminich.de)
 8. [Software & Data Integrity Failures](slides/02-08-integrity_failures.md)
 9. [Secure Development Lifecycle](slides/02-09-sdlc.md)
 
-## Slide Edition Matrix
-
-| Branch                                                                        | Edition                          | Lessons | Duration (per lesson) | Interactivity                                    | Exercises                      | Homework              |
-|:------------------------------------------------------------------------------|:---------------------------------|:--------|:----------------------|:-------------------------------------------------|:-------------------------------|:----------------------|
-| [`master`](https://github.com/bkimminich/it-security-lecture)                 | IT Security Lecture              | 17      | ~150min               | :speech_balloon::speech_balloon::speech_balloon: | :computer::computer:           | :house::house:        |
-| [`webinar`](https://github.com/bkimminich/it-security-lecture/tree/webinar)   | Web Application Security Webinar | 9       | ~120min               | :speech_balloon:                                 | :computer:                     | :house::house::house: |
-| [`workshop`](https://github.com/bkimminich/it-security-lecture/tree/workshop) | Hands-on Hacking Workshop        | 4       | ~90min                | :speech_balloon::speech_balloon:                 | :computer::computer::computer: | :house:               |
-
 ----
 
 [![CC BY SA 4.0](cc_by-sa_4.0.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
