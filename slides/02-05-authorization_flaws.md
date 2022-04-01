@@ -167,7 +167,7 @@ possible by tampering with the following URLs?
 - Enforcing “deny by default” firewall policies or network access
     control rules to block all but essential intranet traffic
   - Establishing ownership/lifecycle for firewall rules based on applications
-  ~ Logging all accepted *and* blocked network flows on firewalls
+  - Logging all accepted *and* blocked network flows on firewalls
     (see [Security Logging and Monitoring Failures](02-09-sdlc.md#security-logging-and-monitoring-failures))
 
 ---
