@@ -145,7 +145,9 @@ possible by tampering with the following URLs?
 
 # SSRF Common Flow
 
-![Overview of a SSRF common flow](images/02-05-authorization_flaws/Server_Side_Request_Forgery_Prevention_Cheat_Sheet_SSRF_Common_Flow.png)
+<!-- _footer: ©Copyright 2021 - CheatSheets Series Team, used under CC-BY 3.0 -->
+
+![©Copyright 2021 - CheatSheets Series Team, used under CC-BY 3.0](images/02-05-authorization_flaws/Server_Side_Request_Forgery_Prevention_Cheat_Sheet_SSRF_Common_Flow.png)
 
 ---
 
