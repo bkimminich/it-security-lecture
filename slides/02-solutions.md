@@ -108,21 +108,6 @@ file to actually be able to read something._
 
 ---
 
-# Exercise 9.1 (Protection Req. Calc.)
-
-| Aspect / Application       | Website                  | VCS                      | Webshop                   | B2B API                   |
-|:---------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------------|
-| Business criticality       | 2 :large_orange_diamond: | 1 :yellow_heart:         | 5 :red_circle:            | 2 :large_orange_diamond:  |
-| Information classification | 0 :green_heart:          | 2 :large_orange_diamond: | 2 :large_orange_diamond:  | 2 :large_orange_diamond:  |
-| Compliance requirements    | 0 :green_heart:          | 0 :green_heart:          | 2 :large_orange_diamond:  | 1 :yellow_heart:          |
-| Exposure to threats        | 5 :red_circle:           | 1 :yellow_heart:         | 5 :red_circle:            | 5 :red_circle:            |
-| Authentication mechanism   | 0 :large_blue_circle:    | -2 :yellow_heart:        | -1 :large_orange_diamond: | -1 :large_orange_diamond: |
-|                            |                          |                          |                           |                           |
-| **Total Score**            | 7 :large_orange_diamond: | 2 :green_heart:          | 13 :red_circle:           | 9 :large_orange_diamond:  |
-| **Rating**                 | Medium                   | Low                      | High                      | Medium                    |
-
----
-
-##### Exercise 9.2 (OWASP Benchmark)
+##### Exercise 9.1 (OWASP Benchmark)
 
 [![OWASP Benchmark Guide](images/02-09-sdlc/benchmark_guide.png)](https://rawgit.com/OWASP/Benchmark/master/scorecard/OWASP_Benchmark_Guide.html)
