@@ -183,6 +183,8 @@ possible by tampering with the following URLs?
 -   Awareness of URL consistency to avoid attacks such as DNS
     rebinding and “time of check, time of use” (TOCTOU) race conditions
 
+---
+
 # Exercise 5.4 (_optional_ :house:)
 
 1. Reverse engineer a [juicy malware](https://github.com/juice-shop/juicy-malware) and use what you learn from it...

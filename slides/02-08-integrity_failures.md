@@ -35,6 +35,9 @@
 - Ensuring libraries and dependencies (e.g. `npm` or Maven) consume trusted repositories
 - Hosting an internal known-good and vetted repository as a proxy
 - Using a software supply chain security tool (e.g. [OWASP Dependency Check](02-07-insecure_dependencies_and_configuration.md#owaspdependency-checkhttpsjeremylonggithubiodependencycheck) or OWASP CycloneDX) to verify that components do not contain known vulnerabilities
+
+---
+ 
 - Establishing a review process for code and configuration changes to minimize the chance that malicious code or configuration could be introduced into the software pipeline
 - Establishing a CI/CD pipeline with proper segregation, configuration, and access control to ensure the integrity of the code flowing through the build and deploy processes
 
@@ -323,6 +326,8 @@ latest version of this module!_
 2. Report another vulnerability that could be exploited in a
    [Software Supply Chain Attack](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/ssca/2017-winter/NCSC_Placemat.pdf)
    (:star::star::star::star::star:)
+
+---
 
 # Exercise 8.5 (:house:)
 
