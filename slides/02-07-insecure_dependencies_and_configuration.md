@@ -41,10 +41,9 @@ on exploiting known vulnerabilities in components (e.g.
 # Data Factors
 
 ## A06:2021 – Vulnerable and Outdated Components
-
-| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Max Coverage | Avg Coverage | Avg Weighted Exploit | Avg Weighted Impact | Total Occurrences | Total CVEs |
-|:-----------:|:------------------:|:------------------:|:------------:|:------------:|:--------------------:|:-------------------:|:-----------------:|:----------:|
-|      3      |       27.96%       |       8.77%        |    51.78%    |    22.47%    |         5.00         |        5.00         |      30,457       |     0      |
+| <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
+|:--------------------------:|:---------------------------------:|:---------------------------------:|:-----------------------------------:|:----------------------------------:|:---------------------------:|:---------------------------:|:--------------------------------:|:-------------------------:|
+|             3              |              27.96%               |               8.77%               |               51.78%                |               22.47%               |            5.00             |            5.00             |              30,457              |             0             |
 ---
 
 # [Prevention](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/#how-to-prevent)
@@ -164,7 +163,7 @@ Privilege Escalation._
 
 ## A05:2021 – Security Misconfiguration
 
-| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+| <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
 |:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
 |     20      |       19.84%       |       4.51%        |         8.12         |        6.56         |    89.58%    |    44.84%    |      208,387      |    789     |
 

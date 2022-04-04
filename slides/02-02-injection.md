@@ -35,9 +35,9 @@
 
 ## A03:2021 – Injection
 
-| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
-|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
-|     33      |       19.09%       |       3.37%        |         7.25         |        7.15         |    94.04%    |    47.90%    |      274,228      |   32,078   |
+| <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
+|:--------------------------:|:---------------------------------:|:---------------------------------:|:-----------------------------------:|:----------------------------------:|:---------------------------:|:---------------------------:|:--------------------------------:|:-------------------------:|
+|             33             |              19.09%               |               3.37%               |                7.25                 |                7.15                |           94.04%            |           47.90%            |             274,228              |          32,078           |
 
 ---
 
@@ -99,14 +99,14 @@ String query = "SELECT id FROM users " +
 
 ###### Exercise 3.1
 
-| #  | Username   | Password       | Created SQL Query                                          | Query Result  |
-|:---|:-----------|:---------------|:-----------------------------------------------------------|:--------------|
-| 1  | `horst`    | `n0Rd4kAD3m!E` |                                                            | `42`          |
-| 2  | `'`        | `qwertz`       |                                                            |               |
-| 3  | `'--`      | `abc123`       |                                                            | nothing       |
-| 4  | `horst'--` | `qwertz`       |                                                            |               |
-| 5  |            |                | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
-| 6  |            |                | `SELECT id FROM users`                                     | `1`, `2`, ... |
+| #   | Username   | Password                      | Created SQL Query                                          | Query Result  |
+|:----|:-----------|:------------------------------|:-----------------------------------------------------------|:--------------|
+| 1   | `horst`    | <small>`n0Rd4kAD3m!E`</small> |                                                            | `42`          |
+| 2   | `'`        | `qwertz`                      |                                                            |               |
+| 3   | `'--`      | `abc123`                      |                                                            | nothing       |
+| 4   | `horst'--` | `qwertz`                      |                                                            |               |
+| 5   |            |                               | <small>`SELECT id FROM users WHERE name = 'admin'`</small> | `1`           |
+| 6   |            |                               | `SELECT id FROM users`                                     | `1`, `2`, ... |
 
 <small>_:information_source: Valid options for Query Result are only
 numbers, nothing or an error._</small>

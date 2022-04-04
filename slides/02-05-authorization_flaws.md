@@ -49,9 +49,9 @@ to another user's data is called **Horizontal** Privilege Escalation._
 
 ## A01:2021 – Broken Access Control
 
-| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
-|:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
-|     34      |       55.97%       |       3.81%        |         6.92         |        5.93         |    94.55%    |    47.72%    |      318,487      |   19,013   |
+| <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
+|:--------------------------:|:---------------------------------:|:---------------------------------:|:-----------------------------------:|:----------------------------------:|:---------------------------:|:---------------------------:|:--------------------------------:|:-------------------------:|
+|             34             |              55.97%               |               3.81%               |                6.92                 |                5.93                |           94.55%            |           47.72%            |             318,487              |          19,013           |
 
 ---
 
@@ -155,7 +155,7 @@ possible by tampering with the following URLs?
 
 ## A10:2021 – Server-Side Request Forgery (SSRF)
 
-| CWEs Mapped | Max Incidence Rate | Avg Incidence Rate | Avg Weighted Exploit | Avg Weighted Impact | Max Coverage | Avg Coverage | Total Occurrences | Total CVEs |
+| <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
 |:-----------:|:------------------:|:------------------:|:--------------------:|:-------------------:|:------------:|:------------:|:-----------------:|:----------:|
 |      1      |       2.72%        |       2.72%        |         8.28         |        6.72         |    67.72%    |    67.72%    |       9,503       |    385     |
 
