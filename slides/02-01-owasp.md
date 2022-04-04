@@ -137,13 +137,16 @@ Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Berlin, Leipzig, Heilbronn-Frank
 
 # [Data Factors](https://owasp.org/Top10/A00_2021_Introduction/#data-factors)
 
-> * <small>CWEs Mapped: The number of CWEs mapped to a category by the Top 10 team.</small>
-> * <small>Incidence Rate: Incidence rate is the percentage of applications vulnerable to that CWE from the population tested by that org for that year.</small>
-> * <small>Weighted Exploit: The Exploit sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.</small>
-> * <small>Weighted Impact: The Impact sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.</small>
-> * <small>(Testing) Coverage: The percentage of applications tested by all organizations for a given CWE.</small>
-> * <small>Total Occurrences: Total number of applications found to have the CWEs mapped to a category.</small>
-> * <small>Total CVEs: Total number of CVEs in the NVD DB that were mapped to the CWEs mapped to a category.</small>
+> * CWEs Mapped: The number of CWEs mapped to a category by the Top 10 team.
+> * Incidence Rate: Incidence rate is the percentage of applications vulnerable to that CWE from the population tested by that org for that year.
+> * Weighted Exploit: The Exploit sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.
+> * Weighted Impact: The Impact sub-score from CVSSv2 and CVSSv3 scores assigned to CVEs mapped to CWEs, normalized, and placed on a 10pt scale.
+
+---
+ 
+> * (Testing) Coverage: The percentage of applications tested by all organizations for a given CWE.
+> * Total Occurrences: Total number of applications found to have the CWEs mapped to a category.
+> * Total CVEs: Total number of CVEs in the NVD DB that were mapped to the CWEs mapped to a category.
 
 ---
 
