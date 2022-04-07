@@ -306,18 +306,34 @@ several of the exercises._
 
 :information_source: _You can let the application's friendly Hacking
 Instructor guide you through this exercise by clicking "Help getting
-started" on the welcome banner or in the side bar._
+started" on the welcome banner or in the sidebar._
 
 ---
 
 # Exercise 1.4
 
+## Coding Challenges
+
+1. On the Score Board, scroll to the challenge named "Score Board"
+2. Click the button with the graduation cap and the `<>` symbol (or the `<>` button) to perform the _Score Board_-Coding Challenge with (or without) assistance
+
+_:information_source: In all future exercises, consider doing the associated
+Coding Challenge (where available) after solving the hacking part. The `<>`-button will indicate if a Coding Challenge is available._
+
+---
+
+# Exercise 1.5 (_optional_)
+
 ## Transfer your hacking progress
 
 1. If you keep using the same computer _and_ do not delete your cookies
    your browser will persist and restore your hacking progress.
-2. It is still recommended to make a backup of your progress regularly.
+2. It is still recommended making a backup of your progress regularly.
 3. You can also use this `JSON` backup to restore your progress and
    settings on any other computer.
 
 ![Local Backup/Restore buttons on Score Board](images/02-01-owasp/juiceshop-local-backup.png)
+
+# Exercise feedback
+
+:folded_hands: Please consider providing feedback on individual exercises either in person or via the :thumbs_up:/:thumbs_down: buttons displayed for each solved hacking & coding challenge in the Juice Shop 
