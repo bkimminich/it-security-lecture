@@ -115,9 +115,13 @@ between load balancers, web servers, or back-end systems._
 
 ## A02:2021 – Cryptographic Failures
 
+<small><small>
+
 | <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
 |:--------------------------:|:---------------------------------:|:---------------------------------:|:-----------------------------------:|:----------------------------------:|:---------------------------:|:---------------------------:|:--------------------------------:|:-------------------------:|
 |             29             |              46.44%               |               4.49%               |                7.29                 |                6.81                |           79.33%            |           34.85%            |             233,788              |           3,075           |
+
+</small></small>
 
 ---
 

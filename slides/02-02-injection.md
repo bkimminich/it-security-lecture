@@ -34,10 +34,13 @@
 # Data Factors
 
 ## A03:2021 – Injection
+<small><small>
 
 | <small>CWEs Mapped</small> | <small>Max Incidence Rate</small> | <small>Avg Incidence Rate</small> | <small>Avg Weighted Exploit</small> | <small>Avg Weighted Impact</small> | <small>Max Coverage</small> | <small>Avg Coverage</small> | <small>Total Occurrences</small> | <small>Total CVEs</small> |
 |:--------------------------:|:---------------------------------:|:---------------------------------:|:-----------------------------------:|:----------------------------------:|:---------------------------:|:---------------------------:|:--------------------------------:|:-------------------------:|
 |             33             |              19.09%               |               3.37%               |                7.25                 |                7.15                |           94.04%            |           47.90%            |             274,228              |          32,078           |
+
+</small></small>
 
 ---
 
