@@ -127,20 +127,20 @@ between load balancers, web servers, or back-end systems._
 
 # [Prevention](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/#how-to-prevent)
 
-- Classifying data processed, stored, or transmitted by an application
-- Identify sensitive data according to privacy laws,
+- **Classifying data** processed, stored, or transmitted by an application
+- **Identify sensitive data** according to privacy laws,
     regulatory requirements, or business needs
-- Not storing sensitive data unnecessarily and discarding it as soon as possible
-- Encrypting all sensitive data at rest
+- **Not storing sensitive data unnecessarily and discarding it as soon as possible** :100:
+- **Encrypting all sensitive data** at rest
 - Ensuring up-to-date and strong standard algorithms, protocols, and
     keys are in place while using proper key management
 
 ---
 
-- Encrypting all data in transit with secure protocols (e.g. TLS with
+- **Encrypting all data in transit** with secure protocols (e.g. TLS with
     [forward secrecy (FS)](#perfectforwardsecrecypfshttpswwwwiredcom201611what-is-perfect-forward-secrecy) ciphers), cipher prioritization by the
     server, and secure parameters
--  Enforcing encryption with directives
+- Enforcing encryption with directives
     like [HTTP Strict Transport Security (HSTS)](#httpstricttransportsecurityhstshttpscheatsheetseriesowasporgcheatsheetshttp_strict_transport_security_cheat_sheethtml)
 - No caching of responses that contain sensitive data
 - Applying required security controls as per the data classification
@@ -148,7 +148,7 @@ between load balancers, web servers, or back-end systems._
     sensitive data
 - Storing passwords using strong adaptive and salted hashing functions
     with a work factor (delay factor)
--   Verifying independently the effectiveness of configuration and
+- Verifying independently the effectiveness of configuration and
     settings
 
 ---

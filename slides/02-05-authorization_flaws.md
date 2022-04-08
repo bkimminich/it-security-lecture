@@ -174,7 +174,7 @@ possible by tampering with the following URLs?
 ## Network Level
 
 - Segmenting remote resource access functionality in separate networks
-- Enforcing “deny by default” firewall policies or network access
+- **Enforcing “deny by default”** firewall policies or network access
     control rules to block all but essential intranet traffic
   - Establishing ownership/lifecycle for firewall rules based on applications
   - Logging all accepted *and* blocked network flows on firewalls
@@ -184,7 +184,7 @@ possible by tampering with the following URLs?
 
 ## Application Level
 
--   Sanitizing and validating all client-supplied input data
+-   **Sanitizing and validating all client-supplied input data**
 -   Enforcing the URL schema, port, and destination with a positive allow list
 -   Not sending raw responses to clients
 -   Disabling HTTP redirections

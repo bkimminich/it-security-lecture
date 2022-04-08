@@ -54,11 +54,11 @@ on exploiting known vulnerabilities in components (e.g.
 
 # [Prevention](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/#how-to-prevent)
 
-- Removing unused dependencies, unnecessary features, components, files,
-    and documentation
-- Continuously inventorying the versions of both client-side and
-    server-side components (e.g., frameworks, libraries) and their
-    dependencies using tools like [OWASP Dependency Check](#owaspdependency-checkhttpsjeremylonggithubiodependencycheck),
+- **Removing unused dependencies, unnecessary features, components, files,
+    and documentation** :100:
+- **Continuously inventorying the versions of** both client-side and
+    server-side **components** (e.g., frameworks, libraries) **and their
+    dependencies** using tools like [OWASP Dependency Check](#owaspdependency-checkhttpsjeremylonggithubiodependencycheck),
     [retire.js](https://retirejs.github.io/retire.js/), etc.
 - Continuously monitoring sources like Common Vulnerability and
     Exposures (CVE) and National Vulnerability Database (NVD) for
@@ -319,8 +319,8 @@ in the public results" checkbox before running the online scan!_
 
 # [Prevention](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/#how-to-prevent)
 
-- Establishing a repeatable hardening process
-- Configuring development, QA, and production environments identically (but with different credentials!)
+- **Establishing a repeatable hardening process**
+- **Configuring development, QA, and production environments identically** (but with different credentials!)
 - Operating a minimal platform without any unnecessary features, components,
     documentation, and samples
 - Removing or not installing unused features and frameworks

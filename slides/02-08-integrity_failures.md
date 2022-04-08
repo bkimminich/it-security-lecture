@@ -33,8 +33,8 @@
 
 # [Prevention](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#how-to-prevent)
 
-- Using digital signatures to verify the software or data is unaltered and from the expected source
-- Ensuring libraries and dependencies (e.g. `npm` or Maven) consume trusted repositories
+- **Using digital signatures** to verify the software or data is unaltered and from the expected source
+- Ensuring libraries and dependencies (e.g. `npm` or Maven) **consume trusted repositories**
 - Hosting an internal known-good and vetted repository as a proxy
 - Using a software supply chain security tool (e.g. [OWASP Dependency Check](02-07-insecure_dependencies_and_configuration.md#owaspdependency-checkhttpsjeremylonggithubiodependencycheck) or OWASP CycloneDX) to verify that components do not contain known vulnerabilities
 
