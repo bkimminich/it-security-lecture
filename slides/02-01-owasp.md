@@ -334,6 +334,8 @@ Coding Challenge (where available) after solving the hacking part. The `<>`-butt
 
 ![Local Backup/Restore buttons on Score Board](images/02-01-owasp/juiceshop-local-backup.png)
 
+---
+
 # Exercise feedback
 
-:folded_hands: Please consider providing feedback on individual exercises either in person or via the :thumbs_up:/:thumbs_down: buttons displayed for each solved hacking & coding challenge in the Juice Shop 
+:pray: Please consider providing feedback on individual exercises either in person or via the :thumbs_up:/:thumbs_down: buttons displayed for each solved hacking & coding challenge in the Juice Shop 
