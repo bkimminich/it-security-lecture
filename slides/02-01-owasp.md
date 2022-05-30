@@ -269,10 +269,10 @@ Stuttgart, Köln, Hannover, Karlsruhe, Dresden, Berlin, Leipzig, Heilbronn-Frank
 
 # Exercise 1.1
 
-## Install the OWASP Juice Shop `v13.x`
+## Install the OWASP Juice Shop `v14.x`
 
 1. Install the latest
-   [Node.js 12.x, 14.x or 16.x release](https://nodejs.org/) on your
+   [Node.js 14.x, 16.x or 18.x release](https://nodejs.org/) on your
    computer
 2. On <https://github.com/juice-shop/juice-shop#setup> follow the
    instructions for either
