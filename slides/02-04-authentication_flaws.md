@@ -102,14 +102,14 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 #### [Secure Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 * Use
-  [Bcrypt](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#modern-algorithms)
+  [Argon2id](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#argon2id)
   unless you have a good reason not to
 * Set a reasonable
   [work factor](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#work-factors)
-  for you system
+  for your system
 * Use a
   [salt](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#salting)
-  (modern algorithms do this for you automatically)
+  (modern algorithms like Argon2id, bcrypt and PBKDF2 do this for you automatically)
 * Consider using a
   [pepper](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#peppering)
   to provide an additional layer of security
