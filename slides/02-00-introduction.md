@@ -26,14 +26,14 @@
 
 # Schedule
 
-* **Tuesdays, 09:15 - 11:45**
-* 9 lectures (03.08. - 28.09.20)
-* :mask: 100% via ZOOM (invite distributed via email/calendar)
+* **Fridays, 12:30 - 15:00**
+* 9 lectures (05.08. - 30.09.22)
+* 100% via ZOOM (invite distributed via email/calendar)
 
 #### Test Exam
 
-* **CW40** (90min)
-* **??:?? - ??:??** / Audimax
+* **04.10.2022** (90min)
+* **09:15 - 10:45** / Audimax
 * :warning: Covers topics from both semesters
 * :negative_squared_cross_mark: Adjourning the exam is discouraged
 
@@ -43,12 +43,12 @@
 
 To perform the exercises on your private computer you need
 
-* _either_ [Node.js](https://nodejs.org) (16.x, 14.x or 12.x)
+* _either_ [Node.js](https://nodejs.org) (18.x, 16.x or 14.x)
 * _or_ [Docker](https://www.docker.com/)
 
 _:information_source: On the university computers Node.js should already
 be available. You can verify this by running `node -v` on the command
-line. It should display a 12.x (or higher) version._
+line. It should display a 14.x (or higher) version._
 
 _:computer: You can always fall back to your personal laptop for the
 exercises as it should be free from virtualization, proxying or
