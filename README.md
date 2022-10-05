@@ -5,10 +5,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/bkimminich/it-security-lecture)
 
 University lecture on "IT Security" as
-[Open Educational Resources](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/)
+[Open Educational Resources](https://www.unesco.org/en/communication-information/open-solutions/open-educational-resources)
 material by [Björn Kimminich](http://kimminich.de)
 
-[![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/open-educational-resources/
+[![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](https://www.unesco.org/en/communication-information/open-solutions/open-educational-resources
 "OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
 
 ## Covered Topics
