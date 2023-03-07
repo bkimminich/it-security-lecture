@@ -255,9 +255,7 @@ ResultSet results = pstmt.executeQuery();
 
 1. Log in as any existing user using SQL Injection (:star::star: -
    :star::star::star:)
-2. Order the :christmas_tree: offer that was only available in 2014
-   (:star::star::star::star:)
-3. Spy out all user account credentials from the database
+2. Spy out all user account credentials from the database
    (:star::star::star::star:)
 
 ---

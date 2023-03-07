@@ -115,8 +115,10 @@ possible by tampering with the following URLs?
 
 # Exercise 5.3 (:house:)
 
-1. Place an order with a negative total (:star::star::star:)
-2. Access one or more misplaced files (:star::star::star::star: -
+1. Place an order with a negative total (:star::star::star:
+2. Order the :christmas_tree: offer that was only available in 2014
+      (:star::star::star::star:)
+3. Access one or more misplaced files (:star::star::star::star: -
    :star::star::star::star::star::star:)
 
 ---
