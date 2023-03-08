@@ -127,7 +127,7 @@ _:warning: Do **not** use SQL Injection for authentication bypass!_
 
 #### Enterprise Controls
 
-* Use centralized corporate authentication system (if in place)
+* Use centralized corporate authentication system (if in place) :100:
 
 ---
 
