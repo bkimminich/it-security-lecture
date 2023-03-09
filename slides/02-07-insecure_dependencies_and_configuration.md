@@ -341,7 +341,7 @@ in the public results" checkbox before running the online scan!_
 
 # Exercise 7.4 (:house:)
 
-1. Persist a Stored XSS attack via the _Contact Us_ page
+1. Persist a Stored XSS attack via the _Customer Feedback_ page
    (:star::star::star::star:)
 2. Report the vulnerability which makes this XSS possible
    (:star::star::star::star:)
