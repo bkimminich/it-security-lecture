@@ -11,6 +11,8 @@ material by [Björn Kimminich](http://kimminich.de)
 [![OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License](oer_logo.png)](https://www.unesco.org/en/communication-information/open-solutions/open-educational-resources
 "OER Global Logo, 2012 J. Mello, used under CC-BY 3.0 License")
 
+> 🚨 This repository is archived! There are no more updates planned at this point in time! 🚨
+
 ## Covered Topics
 
 ### Semester 1 - Information & Network Security
